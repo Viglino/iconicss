@@ -1,0 +1,29 @@
+i.icss-gear {
+    width: 4em;
+    height: 4em;
+    position: relative;
+    border-radius: 100%;
+    background-color: transparent;
+    border-width:0.63em;
+    border-style: solid;
+    border-color: transparent;
+    margin: 1.35em;
+    box-shadow: 0 0 0 0.63em, inset 0 0 0 0.8em;
+}
+i.icss-gear:before {
+    width: 1.3em;
+    height: 1.3em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2.7em 0, -2.7em 0, 0 2.7em, 0 -2.7em;
+}
+
+i.icss-gear:after {
+    width: 1.3em;
+    height: 1.3em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    box-shadow: 2.7em 0, -2.7em 0, 0 2.7em, 0 -2.7em;
+}

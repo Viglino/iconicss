@@ -1,0 +1,21 @@
+i.icss-credit-card {
+  width: 10em;
+  height: 8em;
+  border-radius: 1em;
+  border: solid 0.65em currentColor;
+  background-color: transparent;
+}
+i.icss-credit-card:before {
+  width: 9.5em;
+  height: 1.7em;
+  left: -0.5em;
+  top: 1em;
+  background-color: currentColor;
+}
+i.icss-credit-card:after {
+  right: 1em;
+  bottom: 1em;
+  width: 3.5em;
+  height: 0.63em;
+  background-color: currentColor;
+}

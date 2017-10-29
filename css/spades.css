@@ -1,0 +1,19 @@
+i.icss-spades {
+    border-style: solid;
+    border-width:0 1.8em 2.5em;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    background-color: transparent;
+    margin: 5em 2.2em 0;
+}
+i.icss-spades:before {
+    width: 5em;
+    height: 5em;
+    background-color: currentcolor; 
+    border-radius: 100% 100% 100% 0.65em;
+    box-shadow: 2em 0, 0 -2em;
+    transform: rotate(135deg);
+    left:-2.5em;
+    top:-5.5em;
+
+}

@@ -99,7 +99,9 @@
 			$(".icon i").removeClass().addClass(i);
 			$(".icon .title").text(i);
 		};
-
+		$(window).on('beforeunload', function(e) {
+			return "ATTENZIONE!!";
+		});
 		$.ajax("config.json",{
 			dataType: "json",
 			cache: false,

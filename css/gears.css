@@ -1,0 +1,34 @@
+i.icss-gears {
+    width: 4em;
+    height: 4em;
+    position: relative;
+    border-radius: 100%;
+    border-width:0.63em;
+    border-style: solid;
+    border-color: transparent;
+    margin: 2.5em 3.9em 0.8em 0.8em;
+    box-shadow: 3.85em -2.35em 0 -0.6em;
+}
+i.icss-gears:before {
+    width: 5.5em;
+    height: 5.5em;
+    border-radius: 100%;
+    background: linear-gradient(0deg,transparent 39%,currentcolor 39%,currentcolor 61%, transparent 61%),
+        linear-gradient(60deg,transparent 42%, currentcolor 42%,currentcolor 58%, transparent 58%),
+        linear-gradient(120deg,transparent 42%, currentcolor 42%,currentcolor 58%, transparent 58%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+i.icss-gears:after {
+    width: 4em;
+    height: 4em;
+    border-radius: 100%;
+    background: linear-gradient(0deg,transparent 37%,currentcolor 37%,currentcolor 63%, transparent 63%),
+        linear-gradient(60deg,transparent 40%, currentcolor 40%,currentcolor 60%, transparent 60%),
+        linear-gradient(120deg,transparent 40%, currentcolor 40%,currentcolor 60%, transparent 60%);
+    top: -1em;
+    left: 5.2em;
+    transform: translate(-50%, -50%) rotate(25deg);
+}

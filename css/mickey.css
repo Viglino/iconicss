@@ -1,0 +1,31 @@
+i.icss-mickey {
+    width: 6em;
+    height: 6em;
+    background-color: transparent;
+    border-radius: 100%;
+    box-shadow: inset 0 0.5em 0 0.68em, 
+        2.5em -3.5em 0 -1.1em, 
+        -2.5em -3.5em 0 -1.1em;
+    margin: 2.5em 1.5em 0;
+}
+i.icss-mickey:before {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 100% 100% 100% 1em;
+    top: 2.6em;
+    left: 50%;
+    transform: translateX(-50%) rotate(-45deg);
+    box-shadow: inset 1em -1em 0 -0.8em,
+        1.9em -1.9em 0 -0.4em;
+}
+
+i.icss-mickey:after {
+    width: 0.8em;
+    height: 0.9em;
+    background-color: currentColor;
+    border-radius: 100%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%);
+    box-shadow: 1em -1em 0 -0.1em, -1em -1em 0 -0.1em;
+}

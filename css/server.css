@@ -5,7 +5,7 @@ i.icss-server {
     border-width: 0.4em;
     border-radius: 0.3em;
     margin: 0.2em 0 8em 0em;
-    background-color: transparent;
+    background-color: currentColor;
     box-shadow: 0 2em, 0 3em, 0 5em, 0 6em, 0 8em;
 }
 i.icss-server:before {
@@ -14,6 +14,7 @@ i.icss-server:before {
     border-style: solid;
     border-width: 1.2em;
     border-radius: 0.3em;
+    background-color: currentColor;
     left: 4em;
     top: -0.3em;
     box-shadow: 0 3em, 0 6em;

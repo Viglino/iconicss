@@ -5,7 +5,7 @@ i.icss-thermometer-3 {
     border-width: 0.65em 0.65em 8em;
     border-style: solid;
     border-radius: 1em;
-    margin: 0 1em 1em;
+    margin: 0 2em 1em 1em;
 }
 i.icss-thermometer-3:before {
     border-width: 1.9em;
