@@ -1,0 +1,30 @@
+i.icss-books {
+    width: 3em;
+    height: 10em;
+    background-color: transparent;
+    border-width: 1.8em 0.65em 7em;
+    border-style: solid;
+    border-radius: 0.3em;
+    margin-right: 8.5em;
+}
+i.icss-books:before {
+    width: 3em;
+    height: 10em;
+    background-color: transparent;
+    border-width: 1.8em 0.65em 7em;
+    border-style: solid;
+    border-radius: 0.3em;
+    top: -1.8em;
+    left: 3em;
+}
+i.icss-books:after {
+    width: 3em;
+    height: 10em;
+    background-color: transparent;
+    border-width: 1.8em 0.65em 7em;
+    border-style: solid;
+    border-radius: 0.3em;
+    top: -1.9em;
+    left: 7em;
+    transform: rotate(-10deg)
+}

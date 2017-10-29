@@ -1,0 +1,25 @@
+i.icss-battery-3 {
+    width: 9em;
+    height: 4.5em;
+    background-color: transparent;
+    border-width: 0.65em;
+    border-style: solid;
+    border-radius: 0.5em;
+    margin-right: 1.25em;
+}
+i.icss-battery-3:before {
+    border-style: solid;
+    border-width: 1em 0.7em;
+    top: 50%;
+    left: 8.2em;
+    border-radius: 0.3em;
+    transform: translateY(-50%);
+}
+i.icss-battery-3:after {
+    border-width: 1.35em 3em;
+    border-style: solid;
+    left: 0.4em;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 0.3em;
+}

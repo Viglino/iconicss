@@ -1,0 +1,43 @@
+i.icss-earth {
+    width: 10em;
+    height: 10em;
+    border-width: 0.65em;
+    border-style: solid;
+    border-radius: 100%;
+    background-color: transparent;
+    overflow: hidden;
+}
+i.icss-earth:before {
+    border-width: 1em 0 3.8em 2.8em;
+    border-style: solid;
+    border-radius: 0.5em;
+    border-color: transparent;
+    border-left-color: inherit;
+    top: 3.5em;
+    left: 6em;
+    box-shadow: 
+        -0.5em -0.2em,
+        0.9em -2em, 
+        -5.8em 0.7em 0 -0.7em,
+        -7.3em -3em 0 -0.5em,
+        -6.5em -5em 0 -0.2em
+;
+
+}
+i.icss-earth:after {
+    border-width: 1.5em;
+    border-style: solid;
+    border-radius: 100%;
+    top: 2.8em;
+    left: 4.2em;
+    box-shadow: 
+        -5em -1.8em 0 -0.2em, 
+        -4.7em 0.7em 0 -0.7em, 
+        -3.5em 1.6em 0 -0.7em, 
+        -3.5em 2.6em 0 -0.9em, 
+        2em -0.6em 0 -0.6em, 
+        -3em -5.3em 0 0.5em, 
+        0.5em 1em 0 -0.3em, 
+        -0.3em -2.5em 0 -0.6em, 
+        1.9em -3.3em 0 0.5em;
+}

@@ -1,0 +1,27 @@
+i.icss-trash {
+    width: 6.8em;
+    height: 9em;
+    background-color: transparent;
+    border-width: 1em 1em;
+    border-style: solid;
+    border-radius: 0.5em;
+    margin: 1em 1em 0;
+}
+i.icss-trash:before {
+    border-style: solid;
+    border-width: 1em;
+    top: -2.3em;
+    left: 50%;
+    border-radius: 1em;
+    width: 2.75em;
+    height: 10.3em;
+    transform: translateX(-50%);
+}
+i.icss-trash:after {
+    border-width: 1em 4.3em;
+    border-style: solid;
+    left: 50%;
+    top: -0.5em;
+    border-radius: 0.7em;
+    transform: translateX(-50%);
+}

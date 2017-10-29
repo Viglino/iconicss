@@ -1,0 +1,30 @@
+﻿i.icss-timer {
+    background-color: transparent;
+    width: 8em;
+    height: 8em;
+    border-style: solid;
+    border-width: 0.8em;
+    border-radius: 50%;
+}
+i.icss-timer:before {
+    width: 1.4em;
+    height: 1.4em;
+    border-style: solid;
+    border-width: 0.7em;
+    border-radius: 0.5em;
+    top: -1.5em;
+    left: 3em;
+    box-shadow: -0.7em 0, -1.4em 0, -3.4em 1.3em;
+}
+i.icss-timer:after {
+    width: 5.5em;
+    height: 5.5em;
+    border-style: solid;
+    border-width: 2.75em;
+    transform: rotate(111deg);
+    border-radius: 100%;
+    top: 0.55em;
+    left: 0.55em;
+    border-color: transparent;
+    border-left-color: inherit;
+}

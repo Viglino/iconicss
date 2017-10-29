@@ -1,0 +1,21 @@
+i.icss-user {
+    width: 9em;
+    height: 5em;
+    border-width: 2.5em 4.5em;
+    border-style: solid;
+    border-radius: 5em 5em 2em 2em;
+    margin-top: 4.5em;
+}
+i.icss-user:before {
+    border-style: solid;
+    border-width: 2.5em;
+    border-radius: 100%;
+    top: -7em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+i.icss-user:after {
+    border-width: 0.5em;
+    border-style: solid;
+
+}

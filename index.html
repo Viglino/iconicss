@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>iConicss</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+	<meta name="description" content="pure CSS3 icons." />
+	<meta name="keywords" content="css,css3,html,icon" />
+<style>
+	body
+	{	font-family: 'Lucida Grande',Verdana,Geneva,Lucida,Arial,Helvetica,sans-serif;
+		font-size: 16px;
+		margin: 0;
+		padding:0;
+	}
+	a 
+	{	color: #337ab7;
+		text-decoration: none;
+	}
+	h1
+	{	color: #369;
+		padding:1em;
+		margin:0;
+	}
+	.icon
+	{	background: #ccc;
+		padding: 2em 2em 1em;
+	}
+	.icon div
+	{	display:inline-block;
+		line-height: 1em;
+	}
+	.icon p
+	{	font-size: 2em;
+		color: #369;
+		margin:0;
+		font-weight: bold;
+	}
+	.icons > div {
+		background: #eee;
+		font-size: 2em;
+		display: inline-block;
+		padding:0em;
+		margin:0.2em;
+		border:0.2em solid #ddd;
+		line-height:1em;
+		height: 1em;
+		cursor: pointer;
+	}
+	.icons > div > i
+	{	vertical-align:bottom;
+
+	}
+	i.icss.x2 {
+		font-size: 0.2em;
+	}
+	i.icss.x3 {
+		font-size: 0.3em;
+	}
+
+	i.icss {
+		display:inline-block;
+		font-style: normal;
+		color:#369;
+		background-color:#369;
+		box-sizing: border-box;
+		font-size: 0.1em;
+		position: relative;
+		transition: all 1s;
+	}
+	i.icss:before, i.icss:after {
+		content: "";
+		position: absolute;
+		box-sizing: border-box;
+	}
+
+</style>
+
+</head>
+
+<body>
+	<h1>Pure CSS3 icons.</h1>
+	<div class="icon">
+		<div style="font-size:20em;"><i></i></div>
+		<div style="font-size:12em;"><i></i></div>
+		<div style="font-size:4em;"><i></i></div>
+		<div style="font-size:2em;"><i></i></div>
+		<div style="font-size:1em;"><i></i></div>
+		<p class="title"></p>
+	</div>
+	<div class="icons"></div>
+
+	<!-- jQuery -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	
+	<script type="text/javascript">
+		function setICSS()
+		{	var i = $("i",this).attr("class");
+			$(".icon i").removeClass().addClass(i);
+			$(".icon .title").text(i);
+		};
+
+		$.ajax("config.json",{
+			dataType: "json",
+			cache: false,
+			success:function(r) {
+				for(i in r.icons)
+				{	console.log(i);
+					$('<link/>', { rel: 'stylesheet', href: "css/"+i+".css" }).appendTo('head');
+					var div = $("<div>").click(setICSS).appendTo(".icons");
+					$("<i>").attr('title',i)
+						.data("icss",i)
+						.addClass('icss icss-'+i)
+						.appendTo(div);
+				}
+				$(".icons div").first().click()
+			},
+			error:function(){
+
+			}
+		});
+	</script>
+</body>
+</html>

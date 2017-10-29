@@ -1,0 +1,21 @@
+i.icss-pipette {
+    width: 10em;
+    height: 3.5em;
+    border-width: 0.75em;
+    border-style: solid;
+    border-right: none;
+    border-color: transparent;
+    box-shadow: -2.25em 0 0 0.5em inset,0 0 0 0.63em inset;
+    border-radius: 50% 1.5em 1.5em 50%;
+    transform: rotate(-45deg);
+    margin: -2em -1em 2em -2em;
+    background-color: transparent;
+}
+i.icss-pipette:before {
+    height: 3.5em;
+    right: 2.5em;
+    top: -0.7em;
+    border-width: 0.6em;
+    border-style: solid;
+    border-radius: 1em;
+}

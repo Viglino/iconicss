@@ -1,0 +1,31 @@
+i.icss-address-book {
+    width: 8em;
+    height: 10em;
+    background-color: transparent;
+    border-width: 0.65em;
+    border-style: solid;
+    border-radius: 0.5em;
+    margin-left: 0.5em;
+}
+i.icss-address-book:before {
+    width: 4.7em;
+    height: 3.9em;
+    border-style: solid;
+    border-width: 0.65em;
+    border-radius: 0.3em;
+    top: 0.5em;
+    left: 50%;
+    box-shadow: -3.8em -0.2em 0 -1.6em, -3.8em 4.3em 0 -1.6em;
+    transform: translateX(-50%);
+        
+}
+i.icss-address-book:after {
+    width: 4.7em;
+    height: 0.65em;
+    border-style: solid;
+    border-width: 0;
+    top: 3.8em;
+    left: 50%;
+    box-shadow: 0 1.2em, 0 2.4em, 0 3.6em;
+    transform: translateX(-50%);
+}

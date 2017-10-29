@@ -1,0 +1,24 @@
+i.icss-thermometer-3 {
+    height:9em;
+    width:1.8em;
+    background: transparent;
+    border-width: 0.65em 0.65em 8em;
+    border-style: solid;
+    border-radius: 1em;
+    margin: 0 1em 1em;
+}
+i.icss-thermometer-3:before {
+    border-width: 1.9em;
+    border-style: solid;
+    border-radius: 100%;
+    top: 5.6em;
+    left: 50%;
+    transform: translateX(-50%)
+}
+i.icss-thermometer-3:after {
+    border-width: 0.4em 0.7em;
+    border-style: solid;
+    top: 0.5em;
+    left: 1.55em;
+    box-shadow: 0 1.3em, 0 2.6em, 0 3.9em;
+}
