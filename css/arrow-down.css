@@ -1,0 +1,26 @@
+i.icss-arrow-down {
+    width: 10em;
+    height: 1.8em;
+    border-radius: 1em;
+    background-color: currentColor;
+    margin: 4.1em  0;
+    transform: rotate(90deg);
+}
+i.icss-arrow-down:before {
+    width: 6em;
+    height: 1.8em;
+    border-radius:1em;
+    background-color: currentColor;
+    top: -1.5em;
+    left: 4.6em;
+    transform: rotate(45deg);
+}
+i.icss-arrow-down:after {
+    width: 6em;
+    height: 1.8em;
+    border-radius:1em;
+    background-color: currentColor;
+    top: 1.5em;
+    left: 4.6em;
+    transform: rotate(-45deg);
+}

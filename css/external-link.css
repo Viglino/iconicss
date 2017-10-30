@@ -5,7 +5,10 @@ i.icss-home {
     border-width: 0;
     border-style: solid;
     border-radius: 0 0 0.5em 0.5em;
-    box-shadow: 5.75em 0, 2.85em -2.8em 0 -0.6em, 6em -5.5em 0 -1.2em;
+    box-shadow: 5.75em 0, 2.85em -2.8em 0 -0.6em, 
+        5.5em -6.2em 0 -1.4em,
+        6em -5.4em 0 -1.4em,
+        6em -6.2em 0 -1.4em;
 }
 i.icss-home:before {
     border-width: 0 4.7em 4.5em;
@@ -22,5 +25,5 @@ i.icss-home:after {
     border-style: solid;
     transform: rotate(45deg);
     top:-4.3em;
-    left:0.45em
+    left:0.45em;
 }

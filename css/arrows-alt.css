@@ -1,0 +1,13 @@
+i.icss-arrows-alt {
+    width: 10em;
+    height: 10em;
+    background-color: transparent;
+    background: 
+        linear-gradient(45deg,transparent 45%, currentcolor 45%, currentcolor 55%, transparent 55%),
+        linear-gradient(45deg,transparent 0%, currentcolor 0%, currentcolor 18%, transparent 18%),
+        linear-gradient(45deg,transparent 82%, currentcolor 82%, currentcolor 100%, transparent 100%),
+        linear-gradient(-45deg,transparent 45%, currentcolor 45%, currentcolor 55%, transparent 55%),
+        linear-gradient(-45deg,transparent 0%, currentcolor 0%, currentcolor 18%, transparent 18%),
+        linear-gradient(-45deg,transparent 82%, currentcolor 82%, currentcolor 100%, transparent 100%)
+        ;
+}

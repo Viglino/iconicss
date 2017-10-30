@@ -1,0 +1,30 @@
+i.icss-woman {
+    width: 2.2em;
+    height: 3em;
+    border-radius: 100%;
+    margin: 3em 1.3em 3.5em;
+    box-shadow: -0.5em 4em 0 -0.7em, 0.5em 4em 0 -0.7em
+}
+i.icss-woman:before {
+    width: 4.6em;
+    height: 4.6em;
+    border-width: 1em 1em 0 0;
+    border-style: solid;
+    border-radius: 0.6em 1em 0.6em 0;
+    border-color: currentColor currentColor transparent transparent;
+    top: 0.2em;
+    left: 50%;
+    transform: translateX(-50%) rotate(-45deg);
+}
+i.icss-woman:after {
+    width: 2.5em;
+    height: 2.5em;
+    border-style: solid;
+    border-width: 1.3em;
+    border-radius: 1.3em  1.3em 0.2em 0.3em;
+    background-color: currentColor;
+    box-shadow: 0 5.2em, 0 5.5em;
+    top: -3em;
+    left: 50%;
+    transform: translateX(-50%);
+}

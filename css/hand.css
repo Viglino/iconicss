@@ -1,0 +1,27 @@
+i.icss-hand{
+    width: 6em;
+    height: 5em;
+    border-radius: 3em 3.5em 5em 5em;
+    margin: 5em 1.1em 0 0;
+}
+i.icss-hand:before{
+    width: 1em;
+    height: 5.5em;
+    background:currentColor;
+    bottom: 3em;
+    border-radius: 80% / 20%;
+    box-shadow:
+        1.3em -1em 0,
+        2.65em -1.5em 0,
+        4em -1.1em 0;
+}
+i.icss-hand:after{
+    width: 1.2em;
+    height: 4.3em;
+    background: currentColor;
+    bottom: 2.5em;
+    right: -0.6em;
+    border-radius: 0.4em;
+    transform: rotate(16deg);
+    border-radius: 70% 0.4em 0.4em / 30% 0.4em 0.4em;
+}
