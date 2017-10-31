@@ -15,3 +15,11 @@ i.icss-battery-0:before {
     border-radius: 0.3em;
     transform: translateY(-50%);
 }
+i.icss-battery-0:after {
+    border-width: 1.35em 0em;
+    border-style: solid;
+    left: 0.4em;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 0.3em;
+}

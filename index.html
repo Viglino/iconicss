@@ -33,7 +33,17 @@
 	}
 	.icon div
 	{	display:inline-block;
+	position: relative;
 		line-height: 1em;
+	}
+	.debug .icon > div:before {
+		content: "";
+		width:100%;
+		height:1em;
+		top:0;
+		left:0;
+		position: absolute;
+		border: 1px solid #369;
 	}
 	.icon p
 	{	font-size: 2em;
@@ -101,13 +111,15 @@
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 	
 	<script type="text/javascript">
+		var debug = /debug/.test(window.location.search);
+		if (debug) $("body").addClass("debug");
 		function setICSS()
 		{	var i = $("i",this).attr("class");
 			$(".icon i").removeClass().addClass(i);
 			$(".icon .title").text(i);
 		};
 		$(window).on('beforeunload', function(e) {
-			return "ATTENZIONE!!";
+			if (debug) return "ATTENZIONE!!";
 		});
 		$.ajax("config.json",{
 			dataType: "json",
