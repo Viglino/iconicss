@@ -1,32 +1,32 @@
 i.icss-print {
-	width: 6em;
+	width: 6.8em;
 	height: 10em;
 	border-style: solid;
 	border-color: currentcolor;
 	background-color: transparent;
-	border-width: 0.65em;
+	border-width: 0.7em;
 	border-radius: 0.5em;
 	background-color: transparent;
-	margin: 0 2em;
+	margin: 0 1.7em;
 }
 i.icss-print:before {
 	width: 10em;
 	height: 4em;
-	border-width: 1em 1.5em 0;
+	border-width: 0.7em 2.1em 0;
 	border-style: solid;
-	border-color: currentcolor currentcolor transparent;
+	border-color: currentColor currentcolor transparent;
 	border-radius: 0.5em 0.5em 0 0;
-	top: 4em;
+	top: 2.5em;
 	left: 50%;
 	transform: translateX(-50%);
-
+	background-image: linear-gradient(transparent 20%, currentcolor 20%, currentcolor 60%, transparent 60% );
 }
 i.icss-print:after {
-	width: 8em;
-	height: 8em;
-	border-width: 1em;
-	border-style: solid;
-	border-color: transparent;
-	border-radius: 2em;
-
+	width: 4.5em;
+	height: 0.65em;
+	background-color: currentColor;
+	left: 50%;
+	transform: translateX(-50%);
+	top: 6em;
+	box-shadow: 0 1.2em, -1em -2.8em 0 0.5em;
 }
