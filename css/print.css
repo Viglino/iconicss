@@ -1,0 +1,32 @@
+i.icss-print {
+	width: 6em;
+	height: 10em;
+	border-style: solid;
+	border-color: currentcolor;
+	background-color: transparent;
+	border-width: 0.65em;
+	border-radius: 0.5em;
+	background-color: transparent;
+	margin: 0 2em;
+}
+i.icss-print:before {
+	width: 10em;
+	height: 4em;
+	border-width: 1em 1.5em 0;
+	border-style: solid;
+	border-color: currentcolor currentcolor transparent;
+	border-radius: 0.5em 0.5em 0 0;
+	top: 4em;
+	left: 50%;
+	transform: translateX(-50%);
+
+}
+i.icss-print:after {
+	width: 8em;
+	height: 8em;
+	border-width: 1em;
+	border-style: solid;
+	border-color: transparent;
+	border-radius: 2em;
+
+}

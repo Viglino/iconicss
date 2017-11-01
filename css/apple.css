@@ -1,7 +1,18 @@
 i.icss-apple {
     width: 5.5em;
     height: 5.5em;
-    border-radius: 100% 100% 100% 0.65em;
-    transform: rotate(-45deg);
+    border-radius: 100% 4em 100% 2.5em;
     margin: 0 2em 1.5em;
+    box-shadow: 1.5em 1.5em;
+    transform: rotate(-45deg);
+    margin: 0 3em 0.5em 0;
+}
+i.icss-apple:after {
+    width: 2.4em;
+    height: 1.2em;
+    border-radius: 100% 0.2em;
+    background-color: currentColor;
+    top: 0.5em;
+    left: 6em; 
+    transform: rotate(20deg);
 }

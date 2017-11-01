@@ -10,5 +10,5 @@ i.icss-arrows {
         linear-gradient(-45deg,transparent 0%, currentcolor 0%, currentcolor 18%, transparent 18%),
         linear-gradient(-45deg,transparent 82%, currentcolor 82%, currentcolor 100%, transparent 100%);
     transform: rotate(45deg);
-    margin: 1.6em 1.6em;
+    margin: 1.3em 1.6em;
 }
