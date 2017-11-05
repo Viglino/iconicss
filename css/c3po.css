@@ -1,0 +1,78 @@
+i.icss-c3po {
+  width: .75em;
+  height: .95em;
+  border-radius: 50% / 40% 40% 60% 60%;
+  background: transparent;
+  box-shadow: .04em -.06em, -.04em -.06em, 0 -.08em;
+  margin: .1em .2em 0;
+}
+
+i.icss-c3po:before {
+  width: .65em;
+  height: .8em;
+  border-radius: 50% / 40% 40% 60% 60%;
+  background: transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-image: 
+    radial-gradient(circle at .47em 45%, currentcolor 0, 
+      currentcolor .035em, transparent .036em,
+      transparent .12em, currentcolor .121em,
+      currentcolor .175em, transparent .176em
+    ),
+    radial-gradient(circle at .18em 45%, currentcolor 0, 
+      currentcolor .035em, transparent .036em,
+      transparent .12em, currentcolor .121em,
+      currentcolor .175em, transparent .176em
+    ),
+    radial-gradient(circle at 50% .67em, transparent 0, 
+      transparent .08em, currentcolor .081em,
+      currentcolor .15em, transparent .151em
+    ),
+    radial-gradient(circle at 50% .02em, transparent 0, 
+      transparent .08em, currentcolor .001em,
+      currentcolor .2em, transparent .201em
+    ),
+    linear-gradient( 0deg, 
+      transparent .16em, currentcolor .16em, 
+      currentcolor .285em, transparent .261em,
+      
+      transparent .56em, currentcolor .561em, 
+      currentcolor .74em, transparent .741em
+    ),
+    linear-gradient( 90deg, 
+      transparent .10em, currentcolor .101em, 
+      currentcolor .12em, transparent .121em,
+      transparent .17em, currentcolor .171em, 
+      currentcolor .19em, transparent .191em,
+      transparent .24em, currentcolor .241em, 
+      currentcolor .26em, transparent .261em,
+      
+      transparent .39em, currentcolor .391em, 
+      currentcolor .41em, transparent .411em,
+      transparent .46em, currentcolor .461em, 
+      currentcolor .48em, transparent .481em,
+      transparent .54em, currentcolor .541em, 
+      currentcolor .56em, transparent .561em
+    );
+  box-shadow: inset .055em -.04em, inset -.055em -.04em, 
+    .405em -.01em 0 -.28em, -.405em -.01em 0 -.28em,
+    0em .51em 0 .01em;
+  clip: rect(0em .755em .69em -.1em);
+}
+i.icss-c3po:after {
+  border: .2em solid transparent;
+  border-width: .1em .2em .3em;
+  border-top-color: currentColor;
+  top: .83em;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 -1.08em 0 -.14em,
+    0 -.74em 0 -.14em,
+    -.41em -.47em 0 -.15em,
+    -.41em -.63em 0 -.15em,
+    .41em -.47em 0 -.15em,
+    .41em -.63em 0 -.15em
+    ;
+}

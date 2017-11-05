@@ -1,0 +1,17 @@
+i.icss-envelope-o {
+    width: 1em;
+    height: .72em;
+    background-color: transparent;
+    border-width: 0 .065em 0.065em;
+    border-style: solid;
+    border-radius: .05em;
+}
+i.icss-envelope-o:before {
+    width: .6em;
+    height: .6em;
+    border: .063em solid currentColor;
+    border-radius: .03em;
+    top: -.275em;
+    left: .137em;
+    transform: rotate(36.5deg) skew(-20deg);
+}

@@ -1,0 +1,26 @@
+i.icss-rss {
+	width: 1em; 
+	height: 1em; 
+	background-color: transparent;
+	border: 0.065em solid currentColor;
+	border-radius: 0.05em;
+  background-image: 
+		radial-gradient(circle at 0.2em 0.685em,
+			currentcolor 0, currentcolor 0.1em, transparent 0.1em
+      );
+}
+i.icss-rss:before {
+	width: 0.6em; 
+	height: 0.6em; 
+	background-color: transparent;
+	top: 0.12em;
+	left: 0.18em;
+  background-image: 
+		radial-gradient(circle at 0 100%,
+			transparent 0, 
+			transparent 28%, currentcolor 28%, 
+			currentcolor 42%, transparent 42%, 
+			transparent 55%, currentcolor 55%, 
+			currentcolor 70%, transparent 70%
+      );
+}

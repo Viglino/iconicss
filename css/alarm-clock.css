@@ -1,0 +1,31 @@
+i.icss-alarm-clock {
+  border-style: solid;
+  border-width: .03em;
+  border-radius: 100%;
+  box-shadow: -.2em 0, .2em 0, 0 -.2em, 0 .2em;
+  margin: .56em .32em .37em;
+}
+i.icss-alarm-clock:before {
+  width: .7em;
+  height: .7em;
+  border: .05em solid transparent;
+  background-color: transparent;
+  border-radius: 100%;
+  box-shadow: inset 0 0 0 .065em, 0 .5em 0 -.04em, 
+    -.18em -.25em 0 -.2em, .18em -.25em 0 -.2em,
+    0 -.36em 0 -.31em;  
+  left:50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+  clip: rect(-.1em 1em .75em 0);
+}
+i.icss-alarm-clock:after {
+  width: .18em;
+  height: .22em;
+  left: -.05em;
+  bottom: 0;
+  border-width: 0 0 .063em .063em;
+  border-style: solid;
+  transform: rotate(45deg);
+  transform-origin: 0 100%;
+}

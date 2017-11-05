@@ -1,0 +1,14 @@
+i.icss-easter-egg {
+	width: 0.7em; 
+	height: 1em;
+	border: 0.065em solid currentcolor;
+	border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+	background-color: transparent; 
+	background-image: 
+		linear-gradient(135deg, currentcolor 25%, transparent 25%), 
+		linear-gradient(225deg, currentcolor 25%, transparent 25%), 
+		linear-gradient(315deg, currentcolor 25%, transparent 25%), 
+		linear-gradient(45deg, currentcolor 25%, transparent 25%);
+	background-size: 0.2em 0.3em;
+	background-position: -0.1em 0, -0.1em 0, 0 0, 0 0;
+}

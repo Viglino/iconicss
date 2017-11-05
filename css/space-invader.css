@@ -1,0 +1,35 @@
+i.icss-space-invader {
+	width: .1em; 
+	height: .1em; 
+	margin: 0.3em 0.5em 0.7em;
+	box-shadow: 
+		.2em -.1em, -.2em -.1em,
+		.3em -.2em, -.3em -.2em,
+
+		.1em .0em, -.1em .0em, 
+		.2em .0em, -.2em .0em,
+		.3em .0em, -.3em .0em,
+		.0em .1em,
+		.1em .1em, -.1em .1em, 
+		.3em .1em, -.3em .1em,
+		.4em .1em, -.4em .1em,
+		.0em .2em,
+		.1em .2em, -.1em .2em, 
+		.2em .2em, -.2em .2em,
+		.3em .2em, -.3em .2em,
+		.4em .2em, -.4em .2em,
+		.5em .2em, -.5em .2em,
+		.0em .3em,
+		.1em .3em, -.1em .3em, 
+		.2em .3em, -.2em .3em,
+		.3em .3em, -.3em .3em,
+		.5em .3em, -.5em .3em,
+
+		.3em .4em, -.3em .4em,
+		.5em .4em, -.5em .4em,
+
+		.1em .5em, -.1em .5em, 
+		.2em .5em, -.2em .5em,
+
+		0 0;
+}

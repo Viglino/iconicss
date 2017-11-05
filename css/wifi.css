@@ -1,0 +1,24 @@
+i.icss-wifi {
+	width: 1em; 
+	height: 1em; 
+	background-color: transparent;
+}
+i.icss-wifi:before {
+	width: .7em; 
+	height: .7em; 
+	background-color: transparent;
+	top: 40%;
+	left: 50%;
+  background-image: 
+		radial-gradient(circle at 0 100%,
+			currentcolor 0, 
+			currentcolor 17%, transparent 17%, 
+			transparent 28%, currentcolor 28%, 
+			currentcolor 36%, transparent 36%, 
+			transparent 46%, currentcolor 46%, 
+			currentcolor 54%, transparent 54%, 
+			transparent 63%, currentcolor 63%, 
+			currentcolor 70%, transparent 70%
+      );
+	transform: translate(-50%,-50%) rotate(-45deg);
+}

@@ -1,0 +1,9 @@
+i.icss-ban {
+  width: 1em;
+  height: 1em;
+  border: 0.13em solid currentColor;
+  background-color: transparent;
+  border-radius: 100%;
+  background: linear-gradient(45deg, transparent 43%, currentcolor 43%, currentcolor 57%, transparent 57%);
+
+}

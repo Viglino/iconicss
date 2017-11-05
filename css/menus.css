@@ -1,0 +1,18 @@
+i.icss-menus{
+    margin: .41em  .2em;
+}
+i.icss-menus,
+i.icss-menus:before,
+i.icss-menus:after {
+    width: .18em;
+    height: .18em;
+    border-radius: .06em;
+    background-color: currentColor;
+}
+
+i.icss-menus:before {
+    top: -0.36em;
+}
+i.icss-menus:after{
+    top: 0.36em;
+}

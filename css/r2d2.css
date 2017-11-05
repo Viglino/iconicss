@@ -1,0 +1,44 @@
+i.icss-r2d2 {
+  width: .6em;
+  height: .8em;
+  border: .1em solid transparent;
+  border-width: .25em .05em 0 .05em;
+  border-radius: 50% 50% 0 0 / 30%;
+  background: transparent;
+  box-shadow: inset 0 0 0 .065em, .23em .13em 0 -.13em, -.23em .13em 0 -.13em;
+  margin: .1em .2em 0.1em;
+  background-image: 
+    radial-gradient(circle at .18em .13em, currentcolor 0, currentcolor .05em, transparent .051em),
+    radial-gradient(circle at .22em .13em, currentcolor 0, currentcolor .05em, transparent .051em),
+    radial-gradient(circle at .35em .13em, currentcolor 0, currentcolor .05em, transparent .051em);
+
+}
+i.icss-r2d2:before {
+  width: .5em;
+  height: .5em;
+  background-color: transparent;
+  border-radius: 100% 100% 0 0;
+  top: -.32em;
+  box-shadow: inset 0 0 0 0.063em;
+  clip: rect(0em .6em .29em 0);
+ 
+  background-image: 
+    radial-gradient(circle at .24em .14em, currentcolor 0, currentcolor .07em, transparent .071em),
+    radial-gradient(circle at .35em .16em, currentcolor 0, currentcolor .035em, transparent .036em),
+    linear-gradient(transparent .21em, currentcolor .21em, 
+      currentcolor .23em, transparent .23em,
+      transparent .24em, currentcolor .24em),
+    linear-gradient( 90deg, transparent .1em, currentcolor .1em, currentcolor .14em, transparent .14em);
+}
+i.icss-r2d2:after {
+  width: .25em;
+  height: .35em;
+  border-width: .063em;
+  border-style: solid;
+  border-radius: 100% 100% 0 0 / 70%;
+  left: 50%;
+  top: .1em;
+  transform: translateX(-50%);
+  box-shadow: -.36em .42em, .35em .42em;
+  clip: rect(.11em .6em .55em -.4em)
+}
