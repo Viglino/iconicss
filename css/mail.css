@@ -1,18 +1,17 @@
 i.icss-mail {
-    width: 10em;
-    height: 0em;
+    width: 1em;
     background-color: transparent;
-    border-width: 4em;
+    border-width: .4em;
     border-style: solid;
     border-top-color: transparent;
     border-bottom-color: transparent;
-    margin-top: 0.6em;
+    margin-top: .06em;
 }
 i.icss-mail:before {
     border-style: solid;
-    border-width: 5em 5em 0;
-    border-radius: 0.3em;
-    bottom: -0.5em;
+    border-width: .5em .5em 0;
+    border-radius: .03em;
+    bottom: -.05em;
     left: 50%;
     transform: translateX(-50%);
     border-left-color: transparent;
@@ -21,12 +20,12 @@ i.icss-mail:before {
 
 i.icss-mail:after {
     border-style: solid;
-    border-width: 0 3.5em 3.5em;
-    border-radius: 0.3em;
-    bottom: -4em;
+    border-width: 0 .35em .35em;
+    border-radius: .03em;
+    bottom: -.4em;
     left: 50%;
     transform: translateX(-50%);
     border-left-color: transparent;
     border-right-color: transparent;
-    width: 9em;
+    width: .9em;
 }

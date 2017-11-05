@@ -1,24 +1,21 @@
-﻿i.icss-search {
-    margin: 0 3em 3em 0;
-    width: 7em;
-    height: 7em;
+i.icss-search {
+    margin: 0 .3em .37em 0;
+    width: .73em;
+    height: .73em;
     background-color: transparent;
-    border-width: 0.8em;
+    border-width: .12em;
     border-style: solid;
     border-radius: 100%;
 }
 i.icss-search:before {
-    border-width: 0.5em 1em;
+    top: .635em;
+    left: .485em;
+    border-width: .08em .23em;
     border-style: solid;
+    border-radius: .03em;
     transform: rotate(45deg);
-    left: 4.8em;
-    top: 5.3em;
+    box-shadow: -.18em 0 0 -.03em
 }
 i.icss-search:after {
-    border-width: 0.8em 2.3em;
-    border-style: solid;
-    border-radius: 0.3em;
-    transform: rotate(45deg);
-    top: 6.4em;
-    left: 4.9em;
+
 }

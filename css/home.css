@@ -1,29 +1,29 @@
 i.icss-home {
-    width: 3.6em;
-    height: 4.3em;
-    margin: 5.7em 7.1em 0 1.3em;
+    width: .36em;
+    height: .43em;
+    margin: .57em .71em 0 .13em;
     border-width: 0;
     border-style: solid;
-    border-radius: 0 0 0.5em 0.5em;
-    box-shadow: 5.75em 0, 2.85em -2.8em 0 -0.6em, 
-        5.5em -6.2em 0 -1.4em,
-        6em -5.4em 0 -1.4em,
-        6em -6.2em 0 -1.4em;
+    border-radius: 0 0 .05em .05em;
+    box-shadow: 0.575em 0, 0.285em -0.28em 0 -0.06em, 
+        0.55em -0.62em 0 -0.14em,
+        0.6em -0.54em 0 -0.14em,
+        0.6em -0.62em 0 -0.14em;
 }
 i.icss-home:before {
-    border-width: 0 4.7em 4.5em;
+    border-width: 0 .47em .45em;
     border-style: solid;
-    bottom: 4.25em;
+    bottom: .425em;
     left: 0em;
     border-left-color: transparent;
     border-right-color: transparent;
 }
 i.icss-home:after {
-    width:8.5em;
-    height:8.5em;
-    border-width: 0.65em 0 0 0.65em;
+    width:.85em;
+    height: .85em;
+    border-width: 0.065em 0 0 0.065em;
     border-style: solid;
     transform: rotate(45deg);
-    top:-4.3em;
-    left:0.45em;
+    top: -0.43em;
+    left: 0.045em;
 }

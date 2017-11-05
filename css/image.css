@@ -1,24 +1,24 @@
 i.icss-image {
-    width: 10em;
-    height: 7.5em;
+    width: 1em;
+    height: .75em;
     background-color: transparent;
-    border-width: 0.65em;
+    border-width: .065em;
     border-style: solid;
     overflow: hidden;
-    border-radius: 0.5em;
+    border-radius: .05em;
 }
 i.icss-image:before {
     border-style: solid;
-    border-width: 3em;
+    border-width: .3em;
     transform: rotate(45deg);
-    box-shadow: 2.5em -4.5em;
-    top: 4em;
-    left: -1em;
+    box-shadow: .25em -.45em;
+    top: .4em;
+    left: -.1em;
 }
 i.icss-image:after {
-    border-width: 0.8em;
+    border-width: .08em;
     border-style: solid;
-    left: 2em;
-    top: 0.5em;
+    left: .2em;
+    top: .05em;
     border-radius: 100%;
 }

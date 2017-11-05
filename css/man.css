@@ -1,30 +1,30 @@
 i.icss-man {
-    width: 2.5em;
-    height: 2.5em;
+    width: .25em;
+    height: .25em;
     border-style: solid;
-    border-width: 1.3em;
-    border-radius: 1.3em;
-    margin: 0 1.3em 7em;
+    border-width: .13em;
+    border-radius: .13em;
+    margin: 0 .13em .7em;
 }
 i.icss-man:before {
-    width: 5.4em;
-    height: 4em;
-    border-width: 1.5em 1em 0;
+    width: .54em;
+    height: .4em;
+    border-width: .15em .1em 0;
     border-style: solid;
     border-radius: 60% 60% 10% 10% / 100%;
     border-bottom-color: transparent;
-    top: 1.3em;
+    top: .13em;
     left: 50%;
     transform: translateX(-50%);
 }
 i.icss-man:after {
-    width: 2.7em;
-    height: 7em;
-    border-width: 3.8em 1.2em 0;
+    width: .27em;
+    height: .7em;
+    border-width: .38em .12em 0;
     border-style: solid;
-    border-radius: 1em 1em 0 0;
+    border-radius: .1em .1em 0 0;
     border-bottom-color: transparent;
-    top: 1.5em;
+    top: .15em;
     left: 50%;
     transform: translateX(-50%);
 }

@@ -1,30 +1,30 @@
-﻿i.icss-timer {
+i.icss-timer {
     background-color: transparent;
-    width: 8em;
-    height: 8em;
+    width: .8em;
+    height: .8em;
     border-style: solid;
-    border-width: 0.8em;
+    border-width: .08em;
     border-radius: 50%;
 }
 i.icss-timer:before {
-    width: 1.4em;
-    height: 1.4em;
+    width: .14em;
+    height: .14em;
     border-style: solid;
-    border-width: 0.7em;
-    border-radius: 0.5em;
-    top: -1.5em;
-    left: 3em;
-    box-shadow: -0.7em 0, -1.4em 0, -3.4em 1.3em;
+    border-width: .07em;
+    border-radius: .05em;
+    top: -.15em;
+    left: .3em;
+    box-shadow: -.07em 0, -.14em 0, -.34em .13em;
 }
 i.icss-timer:after {
-    width: 5.5em;
-    height: 5.5em;
+    width: .55em;
+    height: .55em;
     border-style: solid;
-    border-width: 2.75em;
+    border-width: .275em;
     transform: rotate(111deg);
     border-radius: 100%;
-    top: 0.55em;
-    left: 0.55em;
+    top: .055em;
+    left: .055em;
     border-color: transparent;
     border-left-color: inherit;
 }

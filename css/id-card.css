@@ -1,25 +1,25 @@
 i.icss-id-card {
-    width: 10em;
-    height: 7.5em;
+    width: 1em;
+    height: .75em;
     background-color: transparent;
-    border-width: 1.3em 0.65em 0.65em;
+    border-width: .13em .065em .065em;
     border-style: solid;
     overflow: hidden;
-    border-radius: 0.8em;
+    border-radius: .08em;
 }
 i.icss-id-card:before {
     border-style: solid;
-    border-width: 1.3em;
+    border-width: .13em;
     border-radius: 100%;
-    top: 0.7em;
-    left: 0.8em;
-    box-shadow: 0 3.4em 0 1.1em;
-    clip:rect(0em 2.9em 4.1em -0.4em);
+    top: .07em;
+    left: .08em;
+    box-shadow: 0 .34em 0 .11em;
+    clip:rect(0em .29em .41em -.04em);
 }
 i.icss-id-card:after {
-    width: 2em;
-    height: 0.6em;
-    top: 0.5em;
-    left: 4.8em;
-    box-shadow: 1.5em 1.25em, 0 1.25em, 0.7em 2.5em, 1.5em 2.5em, 0 3.75em, 1.5em 3.75em;
+    width: .2em;
+    height: .06em;
+    top: .05em;
+    left: .48em;
+    box-shadow: .15em .125em, 0 .125em, .07em .25em, .15em .25em, 0 .375em, .15em .375em;
 }

@@ -1,26 +1,26 @@
 i.icss-mobile {
     background-color: transparent;
-    width: 6em;
-    height: 10em;
+    width: .6em;
+    height: 1em;
     border-style: solid;
-    border-width: 0.65em;
-    border-radius: 0.5em;
+    border-width: .065em;
+    border-radius: .05em;
 }
 i.icss-mobile:before {
-    width: 6em;
-    height: 2em;
+    width: .6em;
+    height: .2em;
     border-style: solid;
-    border-width: 0.8em 2em;
-    border-radius: 0.5em;
-    top: -0.5em;
-    left: -0.6em;
+    border-width: .08em .2em;
+    border-radius: .05em;
+    top: -.05em;
+    left: -.06em;
 }
 i.icss-mobile:after {
-    width: 6em;
-    height: 1.5em;
+    width: .6em;
+    height: .15em;
     border-style: solid;
-    border-width: 0.5em 2.7em;
-    border-radius: 0.5em;
-    top: 8em;
-    left: -0.6em;
+    border-width: .05em .27em;
+    border-radius: .05em;
+    top: .8em;
+    left: -.06em;
 }

@@ -1,31 +1,32 @@
 i.icss-mickey {
-    width: 6em;
-    height: 6em;
+    width: .6em;
+    height: .6em;
     background-color: transparent;
     border-radius: 100%;
-    box-shadow: inset 0 0.5em 0 0.68em, 
-        2.5em -3.5em 0 -1.1em, 
-        -2.5em -3.5em 0 -1.1em;
-    margin: 2.5em 1.5em 0;
+    box-shadow: inset 0 .04em 0 .065em,
+        0 .16em 0 -.135em,
+        .25em -.35em 0 -.11em, 
+        -.25em -.35em 0 -.11em;
+    margin: .25em .15em 0;
 }
 i.icss-mickey:before {
-    width: 2.5em;
-    height: 2.5em;
-    border-radius: 100% 100% 100% 1em;
-    top: 2.6em;
+    width: .25em;
+    height: .25em;
+    border-radius: 100% 100% 100% .1em;
+    top: .26em;
     left: 50%;
     transform: translateX(-50%) rotate(-45deg);
-    box-shadow: inset 1em -1em 0 -0.8em,
-        1.9em -1.9em 0 -0.4em;
+    box-shadow: inset .1em -.1em 0 -.08em,
+        .19em -.19em 0 -.04em;
 }
 
 i.icss-mickey:after {
-    width: 0.8em;
-    height: 0.9em;
+    width: 0.08em;
+    height: 0.09em;
     background-color: currentColor;
     border-radius: 100%;
     top: 55%;
     left: 50%;
     transform: translate(-50%);
-    box-shadow: 1em -1em 0 -0.1em, -1em -1em 0 -0.1em;
+    box-shadow: .1em -.1em 0 -.01em, -.1em -.1em 0 -.01em;
 }

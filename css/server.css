@@ -1,31 +1,31 @@
 i.icss-server {
-    width: 10em;
-    height: 0.4em;
+    width: 1em;
+    height: .04em;
     border-style: solid;
-    border-width: 0.4em;
-    border-radius: 0.3em;
-    margin: 0.2em 0 8em 0em;
+    border-width: .04em;
+    border-radius: .03em;
+    margin: .02em 0 .8em 0em;
     background-color: currentColor;
-    box-shadow: 0 2em, 0 3em, 0 5em, 0 6em, 0 8em;
+    box-shadow: 0 .2em, 0 .3em, 0 .5em, 0 .6em, 0 .8em;
 }
 i.icss-server:before {
-    width: 3.5em;
-    height: 2em;
+    width: .35em;
+    height: .2em;
     border-style: solid;
-    border-width: 1.2em;
-    border-radius: 0.3em;
+    border-width: .12em;
+    border-radius: .03em;
     background-color: currentColor;
-    left: 4em;
-    top: -0.3em;
-    box-shadow: 0 3em, 0 6em;
+    left: .4em;
+    top: -.03em;
+    box-shadow: 0 .3em, 0 .6em;
 }
 i.icss-server:after {
-    width: 1em;
-    height: 2.6em;
+    width: .1em;
+    height: .26em;
     border-style: solid;
-    border-width: 1.3em 0.5em;
-    border-radius: 0.3em;
-    left: -0.4em;
-    top: -0.3em;
-    box-shadow: 9.1em 0, 9.1em 3em, 9.1em 6em, 0 3em, 0 6em
+    border-width: .13em .05em;
+    border-radius: .03em;
+    left: -.04em;
+    top: -.03em;
+    box-shadow: .91em 0, .91em .3em, .91em .6em, 0 .3em, 0 .6em;
 }

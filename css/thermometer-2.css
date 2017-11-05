@@ -1,24 +1,24 @@
 i.icss-thermometer-2 {
-    height:9em;
-    width:1.8em;
+    height: .9em;
+    width: .18em;
     background: transparent;
-    border-width: 0.65em 0.65em 7em;
+    border-width:  .065em .065em .7em;
     border-style: solid;
-    border-radius: 1em;
-    margin: 0 2em 1em 1em;
+    border-radius: .1em;
+    margin: 0 .2em .1em .1em;
 }
-i.icss-thermometer-2:before {
-    border-width: 1.9em;
+i.icss-thermometer-2.icss-thermometer-2:before {
+    border-width: .19em;
     border-style: solid;
     border-radius: 100%;
-    top: 5.6em;
+    top: .56em;
     left: 50%;
     transform: translateX(-50%)
 }
 i.icss-thermometer-2:after {
-    border-width: 0.4em 0.7em;
+    border-width: .04em .07em;
     border-style: solid;
-    top: 0.5em;
-    left: 1.55em;
-    box-shadow: 0 1.3em, 0 2.6em, 0 3.9em;
+    top: .05em;
+    left: .155em;
+    box-shadow: 0 .13em, 0 .26em, 0 .39em;
 }

@@ -1,26 +1,26 @@
 i.icss-file-pdf {
-    width: 8em;
-    height: 10em;
+    width: .8em;
+    height: 1em;
     background-color: transparent;
-    border-width: 0.65em;
+    border-width: .065em;
     border-style: solid;
-    border-radius: 0.5em 3.5em 0.5em 0.5em;
+    border-radius: .05em .34em .05em .05em;
 }
 i.icss-file-pdf:before {
     border-style: solid;
-    border-width: 2em;
-    left: 2.75em;
-    border-radius: 1em;
+    border-width: .2em;
+    left: .275em;
+    border-radius: .1em;
     border-color: transparent;
     border-right-color: inherit;
     transform: rotate(-45deg);
-    top: 0.2em;
+    top: .02em;
 }
 i.icss-file-pdf:after {
     top: 50%;
     left: 50%;
     content: "PDF";
-    font-size: 3.5em;
+    font-size: .35em;
     font-weight: bold;
     transform: translate(-50%,-40%) scale(0.8,1.5);
     font-family: sans-serif;

@@ -6,143 +6,50 @@
 	
 	<meta name="description" content="pure CSS3 icons." />
 	<meta name="keywords" content="css,css3,html,icon" />
-<style>
-	body
-	{	font-family: 'Lucida Grande',Verdana,Geneva,Lucida,Arial,Helvetica,sans-serif;
-		font-size: 16px;
-		margin: 0;
-		padding:0;
-		color: #369;
-	}
-	a 
-	{	color: #337ab7;
-		text-decoration: none;
-	}
-	p 
-	{	margin: 0; 
-		padding: 0.5em 1em;
-	}
-	h1
-	{	color: #369;
-		padding:1em;
-		margin:0;
-	}
-	.icon
-	{	background: #ccc;
-		padding: 2em 2em 1em;
-	}
-	.icon div
-	{	display:inline-block;
-	position: relative;
-		line-height: 1em;
-	}
-	.debug .icon > div:before {
-		content: "";
-		width:100%;
-		height:1em;
-		top:0;
-		left:0;
-		position: absolute;
-		border: 1px solid #369;
-	}
-	.icon p
-	{	font-size: 2em;
-		color: #369;
-		margin:0;
-		font-weight: bold;
-	}
-	.icons > div {
-		background: #eee;
-		font-size: 2em;
-		display: inline-block;
-		padding:0em;
-		margin:0.2em;
-		border:0.2em solid #ddd;
-		line-height:1em;
-		height: 1em;
-		cursor: pointer;
-	}
-	.icons > div > i
-	{	vertical-align:bottom;
 
-	}
-	i.icss.x2 {
-		font-size: 0.2em;
-	}
-	i.icss.x3 {
-		font-size: 0.3em;
-	}
-
-	i.icss {
-		display:inline-block;
-		font-style: normal;
-		color:#369;
-		background-color:#369;
-		box-sizing: border-box;
-		font-size: 0.1em;
-		position: relative;
-		transition: all 1s;
-	}
-	i.icss:before, i.icss:after {
-		content: "";
-		position: absolute;
-		box-sizing: border-box;
-		transition: all 1s;
-	}
-
-</style>
-
+	<link rel="stylesheet" type="text/css" href="wapp/wapp.css" />
+	
+	<link rel="stylesheet" type="text/css" href="icss.css" />
 </head>
 
 <body>
-	<h1>Pure CSS3 icons.</h1>
-	<p><span class="nb"></span> pure CSS3 icons.</p>
+	<div class="header">
+		<h1>iconicss</h1>
+		<p><span class="nb"></span> pure CSS3 icons.</p>
+	</div>
 	<div class="icon">
-		<div style="font-size:20em;"><i></i></div>
-		<div style="font-size:12em;"><i></i></div>
-		<div style="font-size:4em;"><i></i></div>
-		<div style="font-size:2em;"><i></i></div>
-		<div style="font-size:1em;"><i></i></div>
+		<div style="font-size:20em;"><i class="icss"></i></div>
+		<div style="font-size:12em;"><i class="icss"></i></div>
+		<div style="font-size:4em;"><i class="icss"></i></div>
+		<div style="font-size:2em;"><i class="icss"></i></div>
+		<div style="font-size:1em;"><i class="icss"></i></div>
 		<p class="title"></p>
 	</div>
+
+	<div class="search">
+		<div>
+			<i class="icss-search"></i>
+			<input type="search" placeholder="search..." />
+			<span class="nb"></span> icons
+		</div>
+	</div>
+	<!-- icon list -->
 	<div class="icons"></div>
+
+	<!-- footer -->
+	<div class="footer">
+		<div>
+			<a href="https://github.com/Viglino/iconicss">
+				<i class="icss-github-o x3 middle"></i>
+				<span class="stretch">Fork me on Github</span>
+			</a>
+		</div>
+	</div>
 
 	<!-- jQuery -->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-	
-	<script type="text/javascript">
-		var debug = /debug/.test(window.location.search);
-		if (debug) $("body").addClass("debug");
-		function setICSS()
-		{	var i = $("i",this).attr("class");
-			$(".icon i").removeClass().addClass(i);
-			$(".icon .title").text(i);
-		};
-		$(window).on('beforeunload', function(e) {
-			if (debug) return "ATTENZIONE!!";
-		});
-		$.ajax("config.json",{
-			dataType: "json",
-			cache: false,
-			success:function(r) {
-				var n=0;
-				for(i in r.icons)
-				{	console.log(i);
-					n++;
-					$('<link/>', { rel: 'stylesheet', href: "css/"+i+".css" }).appendTo('head');
-					var div = $("<div>").click(setICSS).appendTo(".icons");
-					$("<i>").attr('title',i)
-						.data("icss",i)
-						.addClass('icss icss-'+i)
-						.appendTo(div);
-				}
-				$(".icons div").first().click();
-				$(".nb").text(n);
-			},
-			error:function(){
+	<!-- Web app -->
+	<script src="wapp/wapp.js"></script>
 
-			}
-		});
-	</script>
 </body>
 </html>

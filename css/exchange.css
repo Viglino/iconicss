@@ -1,24 +1,24 @@
 i.icss-exchange {
-    width: 7.5em;
-    height: 7.5em;
+    width: .75em;
+    height: .75em;
     background-color: transparent;
     border-radius: 0 100% 0 0;
     background: 
         linear-gradient(45deg,transparent 0%, currentcolor 0%, currentcolor 18%, transparent 18%),
         linear-gradient(-45deg,transparent 45%, currentcolor 45%, currentcolor 55%, transparent 55%);
     transform: rotate(45deg);
-    margin: 1.6em 1.6em;
-    margin: 0em 1.3em 2.5em 1.5em;
+    margin: .16em .16em;
+    margin: 0em .13em .25em .15em;
 }
 i.icss-exchange:before {
-    width: 7.5em;
-    height: 7.5em;
+    width: .75em;
+    height: .75em;
     background-color: transparent;
     border-radius: 0 100% 0 0;
     background: 
         linear-gradient(45deg,transparent 0%, currentcolor 0%, currentcolor 18%, transparent 18%),
         linear-gradient(-45deg,transparent 45%, currentcolor 45%, currentcolor 55%, transparent 55%);
     transform: rotate(180deg);
-    top: 2em;
-    left: 1.6em;
+    top: .2em;
+    left: .16em;
 }

@@ -1,18 +1,18 @@
 i.icss-apple {
-    width: 5.5em;
-    height: 5.5em;
-    border-radius: 100% 4em 100% 2.5em;
-    margin: 0 2em 1.5em;
-    box-shadow: 1.5em 1.5em;
+    width: .7em;
+    height: .7em;
+    border-radius: 100% .4em 100% .25em;
+    margin: 0 .2em .15em;
+    box-shadow: .18em .18em;
     transform: rotate(-45deg);
-    margin: 0 3em 0.5em 0;
+    margin: 0 .2em .08em -0.03em;
 }
 i.icss-apple:after {
-    width: 2.4em;
-    height: 1.2em;
-    border-radius: 100% 0.2em;
+    width: .26em;
+    height: .13em;
+    border-radius: 100% .02em;
     background-color: currentColor;
-    top: 0.5em;
-    left: 6em; 
+    top: 0.07em;
+    left: 0.75em; 
     transform: rotate(20deg);
 }

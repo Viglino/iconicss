@@ -1,32 +1,32 @@
 i.icss-watch {
   border-style: solid;
-  border-width: 0.3em;
+  border-width: .03em;
   border-radius: 100%;
-  margin: 4.2em 3.2em;
-  box-shadow: -2.5em 0, 2.5em 0, 0 -2.5em,0 2.5em;
+  margin: .42em .32em;
+  box-shadow: -.25em 0, .25em 0, 0 -.25em,0 .25em;
 }
 i.icss-watch:before {
-  width: 7em;
-  height: 7em;
-  border: 0.65em solid currentColor;
+  width: .7em;
+  height: .7em;
+  border: .065em solid currentColor;
   background-color: transparent;
   border-radius: 100%;
-  box-shadow: 0 3em 0 -1.8em, 0 3.5em 0 -1.8em, 0 4em 0 -1.8em,
-    0 -3em 0 -1.8em, 0 -3.5em 0 -1.8em, 0 -4em 0 -1.8em;  
-  clip: rect(-1em 7em 8em 0);
-  left:50%;
-  top:50%;
+  box-shadow: 0 .3em 0 -.18em, 0 .35em 0 -.18em, 0 .4em 0 -.18em,
+    0 -.3em 0 -.18em, 0 -.35em 0 -.18em, 0 -.4em 0 -.18em;  
+  clip: rect(-.1em .7em .8em 0);
+  left: 50%;
+  top: 50%;
   transform: translate(-50%,-50%);
 
 }
 i.icss-watch:after {
   content: '';
   position: absolute;
-  width: 2em;
-  height: 2.5em;
-  left: -0.5em;
+  width: .2em;
+  height: .25em;
+  left: -.05em;
   bottom: 0;
-  border-width: 0 0 0.63em 0.63em;
+  border-width: 0 0 .063em .063em;
   border-style: solid;
   transform: rotate(45deg);
   transform-origin: 0 100%;

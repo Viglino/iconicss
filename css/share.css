@@ -2,18 +2,18 @@ i.icss-share {
 	position: relative;
 	border-style: solid;
 	border-color:  transparent currentcolor;
-	border-width: 4em 0 4em 4.5em;
+	border-width: .4em 0 .4em .45em;
 	background-color: transparent;
-	margin: 0 0 1.5em 8.5em;
+	margin: 0 0 .15em .85em;
 }
 i.icss-share:before {
-	width: 9em;
-	height: 8em;
-	border-width: 2.6em 0 0 0.3em;
+	width: .9em;
+	height: .8em;
+	border-width: .26em 0 0 0.03em;
 	border-style: solid;
 	border-color: currentcolor;
 	border-radius: 90% 0 0 / 100% 0 0;
-	top: -1.5em;
-	left: -13em;
+	top: -.15em;
+	left: -1.3em;
 }
 	

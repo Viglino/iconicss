@@ -1,28 +1,27 @@
-﻿i.icss-microchip {
-    width: 0;
-    height: 10em;
-    border-width: 3em;
+i.icss-microchip {
+    height: 1em;
+    border-width: .3em;
     border-style: solid;
-    border-radius: 0.5em;
-    margin: 0 2em;
+    border-radius: .05em;
+    margin: 0 .2em;
 }
 i.icss-microchip:before {
     border-style: solid;
-    border-width: 0.3em;
-    border-radius: 0.3em;
-    top: -1em;
-    width: 9em;
+    border-width: .03em;
+    border-radius: .03em;
+    top: -.1em;
+    width: .9em;
     left: 50%;
     transform: translateX(-50%);
-    box-shadow: 0 2em, 0 4em, 0 6em;
+    box-shadow: 0 .2em, 0 .4em, 0 .6em;
 }
 i.icss-microchip:after {
     border-style: solid;
-    border-width: 0.6em;
-    border-radius: 0.3em;
-    top: -1.2em;
-    width: 7.5em;
+    border-width: .06em;
+    border-radius: .03em;
+    top: -.12em;
+    width: .75em;
     left: 50%;
     transform: translateX(-50%);
-    box-shadow: 0 2em, 0 4em, 0 6em;
+    box-shadow: 0 .2em, 0 .4em, 0 .6em;
 }

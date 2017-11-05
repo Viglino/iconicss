@@ -1,25 +1,25 @@
 i.icss-battery-0 {
-    width: 9em;
-    height: 4.5em;
+    width: .9em;
+    height: .45em;
     background-color: transparent;
-    border-width: 0.65em;
+    border-width: .065em;
     border-style: solid;
-    border-radius: 0.5em;
-    margin-right: 1.25em;
+    border-radius: .05em;
+    margin-right: .125em;
 }
 i.icss-battery-0:before {
     border-style: solid;
-    border-width: 1em 0.7em;
+    border-width: .1em .07em;
     top: 50%;
-    left: 8.2em;
-    border-radius: 0.3em;
+    left: .82em;
+    border-radius: .03em;
     transform: translateY(-50%);
 }
 i.icss-battery-0:after {
-    border-width: 1.35em 0em;
+    border-width: .135em 0em;
     border-style: solid;
-    left: 0.4em;
+    left: .04em;
     top: 50%;
     transform: translateY(-50%);
-    border-radius: 0.3em;
+    border-radius: .03em;
 }
