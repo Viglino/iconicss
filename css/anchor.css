@@ -1,0 +1,28 @@
+i.icss-anchor {
+    width: 0.12em;
+    height: 0.8em;
+    border-radius: 0.3em;
+    margin: 0.2em 0.45em 0;
+}
+i.icss-anchor:before {
+    width: 1.1em;
+    height: 1em;
+    border: .1em solid currentColor;
+    border-radius: 100%;
+    top: -0.2em;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: inset 0 0.5em, .85em 0, -0.85em 0;
+    clip: rect(0.68em 1.04em 1em 0.05em)
+}
+i.icss-anchor:after {
+    width: 0.28em;
+    height: 0.28em;
+    border: .085em solid currentColor;
+    border-radius: 100%;
+    top: -0.2em;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0.8em 0 0.51em;
+    clip: rect(0 0.325em 0.4em -0.05em);
+}

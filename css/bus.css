@@ -1,0 +1,45 @@
+i.icss-bus {
+    width: 0.88em;
+    height: 0.36em;
+    border-radius: 0.03em;
+    background-color: transparent;
+    border: 0.065em solid currentColor;
+    background-image: 
+        radial-gradient(circle at .15em .1em, 
+            transparent 0, 
+            transparent .1em, currentColor .1em, 
+            currentColor .34em, transparent .3em),
+        radial-gradient(circle at .6em .1em, 
+            transparent 0, 
+            transparent .1em, currentColor .1em, 
+            currentColor .3em, transparent .3em)
+        ;    
+    margin: 0.51em 0 0.16em;
+}
+i.icss-bus:before {
+    width: 0.88em;
+    height: 1.1em;
+    border-radius: 0.3em 0.3em 0 0 / 100%;
+    background-color: transparent;
+    border: 0.065em solid currentColor;
+    top: -0.56em;
+    left: 50%;
+    transform: translateX(-50%);
+    background-image: 
+        linear-gradient(transparent 0, 
+            transparent .07em, currentColor .07em, 
+            currentColor .14em, transparent .14em),
+        radial-gradient(circle at .52em .5em, 
+            transparent 0, 
+            transparent .09em, currentColor .09em, 
+            currentColor .16em, transparent .16em);
+    clip: rect(0 1em 0.56em 0);
+}
+i.icss-bus:after {
+    height: 0.2em;
+    border: .11em solid currentColor;
+    border-radius: 0.03em;
+    top: 0.24em;
+    left: 0em;
+    box-shadow: 0.54em 0;
+}

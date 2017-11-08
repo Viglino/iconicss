@@ -19,8 +19,11 @@ i.icss-users:before {
     width: .45em;
     height: .45em;
     box-shadow: .45em .1em 0 -.05em;
-    background-image: radial-gradient(cirlce at -.1em -01em, currentcolor 0, currentcolor .28em, transparent .28em),
-        radial-gradient(cirlce at .35em -.2em, currentcolor 0, currentcolor .35em, transparent .35em);
+    background-image: 
+        radial-gradient(circle at -.1em -.1em, 
+            currentcolor 0, currentcolor .28em, transparent .28em),
+        radial-gradient(circle at .35em -.2em, 
+            currentcolor 0, currentcolor .35em, transparent .35em);
 }
 i.icss-users:after {
     border-style: solid;

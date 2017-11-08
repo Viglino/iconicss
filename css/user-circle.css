@@ -1,0 +1,21 @@
+i.icss-user-circle {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0.068em solid currentColor;
+    overflow: hidden;
+}
+i.icss-user-circle:before {
+    width: .55em;
+    height: .55em;
+    border-style: solid;
+    border: .065em solid transparent;
+    border-radius: 100%;
+    top:0.05em;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: inset 0 0 0 .5em, 0em .67em 0 .2em;
+}
+i.icss-user:after {
+}
