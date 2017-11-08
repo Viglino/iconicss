@@ -1,0 +1,26 @@
+i.icss-paint-roll {
+  width: .8em;
+  height: .25em;
+  border-radius: 0.05em;
+  margin: 0 .08em .68em .02em;
+  transform: rotate(20deg);
+}
+i.icss-paint-roll:before {
+  width: .55em;
+  height: .3em;
+  border: 0.068em solid currentColor;
+  left: 0.35em;
+  top: 0.085em;
+  border-radius: 0.03em;
+  border-left-color: transparent;
+}
+i.icss-paint-roll:after {
+  width: .2em;
+  height: .55em;
+  border-radius: 0.03em;
+  background-color: currentColor;
+  left: 50%;
+  top: 0.46em;
+  transform: translateX(-50%);
+  box-shadow: 0 -0.19em 0 -0.05em;
+}

@@ -13,8 +13,13 @@
 </head>
 
 <body>
+<!--
+BUG IE
+		https://connect.microsoft.com/IE/feedback/details/1040120/ie-11-the-color-keyword-currentcolor-doesnt-work-in-the-css-linear-gradient-function
+		https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/1328019/
+-->		
 	<div class="header">
-		<h1>iconicss</h1>
+		<h1 class="stretch">iConicss</h1>
 		<p><span class="nb"></span> pure CSS3 icons.</p>
 	</div>
 	<div class="icon">
@@ -27,6 +32,16 @@
 	</div>
 
 	<div class="search">
+		<div class="color">
+			<i class="icss-paint-roll"></i>
+			<ul class="menuColor">
+				<li class="black">
+				</li><li class="red">
+				</li>
+				<li class="green"></li>
+				<li class="blue"></li>
+			</ul>
+		</div>
 		<div>
 			<i class="icss-search"></i>
 			<input type="search" placeholder="search..." />

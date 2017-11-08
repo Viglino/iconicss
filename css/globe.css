@@ -5,9 +5,10 @@ i.icss-globe {
     border-radius: 100%;
     transform: rotate(-35deg);
     background-color:transparent;
-    background-image: linear-gradient(currentcolor .04em, transparent .04em),
-    linear-gradient(90deg, currentcolor .04em, transparent .04em);
-    background-size: .15em, .6em;
+    background-image: 
+        linear-gradient(currentcolor .04em, transparent .041em),
+        linear-gradient(90deg, currentcolor .04em, transparent .041em);
+    background-size: .6em .18em, .6em .6em;
     background-position:0 .32em, .28em 0;
 }
 i.icss-globe:before {

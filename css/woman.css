@@ -19,7 +19,7 @@ i.icss-woman:before {
 i.icss-woman:after {
     width: .42em;
     height: .55em;
-    border-width: .15em .12em .29em;
+    border-width: .15em .13em .35em;
     border-style: solid;
     border-color: transparent;
     border-top-color: currentColor;

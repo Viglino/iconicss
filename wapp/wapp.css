@@ -18,6 +18,15 @@ h1
     padding:1em;
     margin:0;
 }
+input:focus {
+    border-color: orange;
+}
+
+.stretch {
+    display: inline-block;
+    transform: scaleY(2);
+}
+
 .icon
 {	background: #ccc;
     padding: 2em 2em 1em;
@@ -46,7 +55,6 @@ h1
 }
 .icon p
 {	font-size: 2em;
-    color: #369;
     margin:0;
     font-weight: bold;
 }
@@ -103,7 +111,6 @@ h1
     background-color: #eee;
     padding: 0.5em 1em;
 }
-
 .search input {
     font-size: 1em;
     border: 3px solid #ccc;
@@ -111,17 +118,57 @@ h1
     color: #666;
     padding: 0.1em 0.5em 0.1em 2em;
 }
-input:focus {
-    border-color: orange;
-}
 .search .icss-search {
     position: absolute;
     margin: 0.2em 0.4em;
     color: #666;
     font-size: 1.2em
 }
-
-.stretch {
-    display: inline-block;
-    transform: scaleY(2);
+.color {
+    float: right;
+    font-size: 1.5em;
+    position: relative;
+    cursor: pointer;
+    padding: 0 0 0 1em;
 }
+.color ul {
+    display: none;
+    position: absolute;
+    background:  #fff;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    box-shadow: 0.1em 0.1em 0.1em rgba(0,0,0,0.5);
+    list-style: none;
+    right: 0em;
+    white-space: nowrap;
+    width: 4em;
+}
+.color li {
+    float: left;
+    width: 1em;
+    height: 1em;
+    background-color: #ccc;
+    margin: 0;
+    box-sizing: border-box;
+    border: 3px solid #fff;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.color li:hover {
+    border-color: currentColor;   
+}
+.color li.blue {
+    background-color: #369;
+}
+.color li.green {
+    background-color: #396;
+}
+.color li.red {
+    background-color: #963;
+}
+.color li.black {
+    background-color: #666;
+}
+
+

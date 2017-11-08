@@ -11,6 +11,15 @@ $(".search input").on("keyup", function()
     });
 });
 
+// Color
+$(".color").click(function(){ $("ul",this).show(); })
+    .on('mouseleave', function(){ $("ul", this).hide(); });
+$(".color li").click(function(e) { 
+    $("body").css('color', $(this).css('background-color'));
+    //$(this).parent().hide();
+    e.stopPropagation();
+});
+
 // Change icon
 function showICSS()
 {	$(".icons > div").removeClass("selected");

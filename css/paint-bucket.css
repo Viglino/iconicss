@@ -1,0 +1,35 @@
+i.icss-paint-bucket {
+  width: .65em;
+  height: .77em;
+  border-radius: 0 0.05em 0.12em 0.12em;
+  border: 0.065em solid currentColor;
+  background-color: transparent;
+  transform: rotate(40deg);
+  margin: 0 .23em .06em;
+}
+i.icss-paint-bucket:before {
+  width: .3em;
+  height: .58em;
+  border-radius: 10% 100%;
+  border: 0.065em solid currentColor;
+  border-color: transparent currentColor currentColor transparent;
+  transform: rotate(75deg);
+  top: -0.10em;
+  left: -0.045em;
+}
+i.icss-paint-bucket:after {
+  width: .12em;
+  height: .12em;
+  border-radius: 100%;
+  background-color: currentColor;
+  top: 0.08em;
+  left: 0.2em;
+  box-shadow: 
+    -0.305em .06em 0 -.025em,
+    0.255em -.18em 0 0.05em,
+    0.14em -.17em 0 0.02em,
+    0.44em -.03em 0 -.03em,
+    0.47em .01em 0 -.015em,
+    0.5em .044em
+    ;
+}

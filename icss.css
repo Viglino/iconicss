@@ -5,7 +5,6 @@ i[class*="icss-"] {
     font-style: normal;
     background-color:currentColor;
     box-sizing: border-box;
-    font-size: 1em;
     vertical-align: text-bottom;
 }
 i[class*="icss-"]:before, 
