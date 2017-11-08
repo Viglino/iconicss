@@ -5,14 +5,14 @@ i.icss-github-o {
     border: 0.068em solid currentcolor;
     background-color: transparent;
     background-image: 
-        radial-gradient(ellipse 38% 28% at 50% 0.48em , 
-            currentcolor 0%, currentcolor 100%, transparent 100%),
+        radial-gradient(ellipse 100% 73% at 50% 0.48em , 
+            currentColor 0%, currentColor 38%, transparent 38%),
         radial-gradient(circle at 35.5% 0.5em , 
-            currentcolor 0%, currentcolor 27%, transparent 27%),
+            currentColor 0%, currentColor 27%, transparent 27%),
         radial-gradient(circle at 64.5% 0.5em , 
-            currentcolor 0%, currentcolor 27%, transparent 27%),
-        radial-gradient(ellipse 18% 40% at 50% 0.88em , 
-            currentcolor 0%, currentcolor 100%, transparent 100%)
+            currentColor 0%, currentColor 27%, transparent 27%),
+        radial-gradient(ellipse 45% 100% at 50% 0.88em , 
+            currentColor 0%, currentColor 40%, transparent 40%)
         ;
 }
 i.icss-github-o:before {
