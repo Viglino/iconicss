@@ -1,0 +1,28 @@
+i.icss-cloud-download {
+    background: transparent;
+    border: 0.23em solid currentColor;
+    border-bottom-color: transparent;
+    box-shadow: 
+        -0.25em 0.25em 0 -0.1em, 
+        0.25em 0.25em 0 -0.1em;
+    margin: 0 0.4em 0.3em;
+}
+i.icss-cloud-download:before {
+    border-radius: 50%;
+    border: 0.27em solid currentColor;
+    border-left-color: transparent;
+    left: 0.1em;
+    top: -0.158em;
+    box-shadow: 
+        -0.5em -0.35em 0 0.01em,
+        -0.65em -0.15em 0 -0.06em; 
+}
+i.icss-cloud-download:after {
+    border-radius: 50%;
+    border: 0.27em solid currentColor;
+    border-right-color: transparent;
+    left: -0.63em;
+    top: -0.158em;
+    box-shadow: 
+        0.62em -0.17em 0 -0.05em;
+}
