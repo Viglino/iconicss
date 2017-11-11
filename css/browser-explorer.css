@@ -1,40 +1,29 @@
 i.icss-browser-explorer {
-    width: 0.4em;
-    height: 0.14em;
-    margin: 0.29em 0.12em 0.3em 0.2em;
+    width: 0.53em;
+    height: 0.186em;
+    margin: 0.37em 0.18em 0.41em 0.17em;
 }
 i.icss-browser-explorer:before {
-    width: 0.6em;
-    height: 0.6em;
+    width: 0.8em;
+    height: 0.8em;
     border-radius: 100%;
     border: 0 solid transparent;
     border-left-width: 0.06em;
-    box-shadow: 0.06em -0.04em 0 0.045em,
-        inset -0.05em 0em 0 0em
+    box-shadow: 0.08em -0.04em 0 0.053em,
+        inset -0.066em 0em 0 0em
         ;
-    left: -0.2em;
-    top: -0.2em;
-    clip: rect(-.2em 1em 0.34em 0);
+    left: -.22em;
+    top: -0.266em;
+    clip: rect(-.266em 1.33em 0.451em 0);
 }
 i.icss-browser-explorer:after {
-    width: 0.6em;
-    height: 0.55em;
+    width: 0.8em;
+    height: 0.73em;
     border-radius: 100%;
     box-shadow: 
-        0.025em 0.04em 0 0.045em,
-       inset 0.1em -0.09em;
+        0.033em 0.053em 0 0.06em,
+       inset 0.13em -0.12em;
     left: -0.1em;
-    top: -.2em;
-    clip: rect(-.2em 0.55em 0.8em -0.2em);
+    top: -.25em;
+    clip: rect(-.266em 0.73em 1.1em -0.266em);
 }
-/*
-i.icss-browser-explorer:before {
-    width: 1em;
-    height: 0.6em;
-    border-radius: 100%;
-    box-shadow:inset 0 0.042em 0 0.042em currentColor;
-    transform: rotate(-40deg);
-    top: -0.01em;
-    left: -0.22em;
-}
-*/

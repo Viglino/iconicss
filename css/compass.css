@@ -1,0 +1,26 @@
+i.icss-compass {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0.075em solid currentColor;
+    margin: 0;
+    box-shadow: -0.38em -0.38em 0 -0.41em
+}
+i.icss-compass:before {
+    border: 0.15em solid currentColor;
+    border-color: currentColor transparent transparent currentColor;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(30deg) scaleX(0.25) rotate(45deg);
+    box-shadow: 0 0 0 0.2em;
+}
+i.icss-compass:after {
+    width: 0.13em;
+    height: 0.13em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    box-shadow: .289em .289em, -.289em .289em, 
+        -.289em -.289em 0, .289em -.289em;
+}

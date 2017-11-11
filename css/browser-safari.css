@@ -1,0 +1,25 @@
+i.icss-browser-safari {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0.075em solid currentColor;
+    margin: 0;
+}
+i.icss-browser-safari:before {
+    border: 0.2em solid currentColor;
+    border-color: currentColor transparent transparent currentColor;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg) scaleX(0.25) rotate(45deg);
+    box-shadow: 0 0 0 0.15em;
+}
+i.icss-browser-safari:after {
+    width: 0.05em;
+    height: 0.05em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-10deg);
+    box-shadow: .39em 0, -.39em 0, 0 .39em 0, 0 -.39em,
+        .275em .275em, -.275em .275em, -.275em -.275em 0, .275em -.275em;
+}

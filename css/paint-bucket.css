@@ -4,7 +4,7 @@ i.icss-paint-bucket {
   border-radius: 0 0.05em 0.12em 0.12em;
   border: 0.065em solid currentColor;
   background-color: transparent;
-  transform: rotate(40deg);
+  transform: rotate(40deg)perspective(1em) rotateX(-12deg) ;
   margin: 0 .23em .06em;
 }
 i.icss-paint-bucket:before {

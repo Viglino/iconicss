@@ -1,0 +1,31 @@
+i.icss-browser-chrome {
+    width: 1em;
+    height: 1em;
+    border: .065em solid currentColor;
+    border-radius: 50%;
+    background-color: transparent;
+    margin: 0;
+    background-image: radial-gradient(circle at 50% 50%, 
+        currentColor 0, currentColor .15em, transparent .15em,
+        transparent .2em, currentColor .2em, 
+        currentColor .25em, transparent .25em);
+    overflow: hidden;
+}
+i.icss-browser-chrome:before {
+    width: 1.3em;
+    border-width: .24em 0 .29em .25em;
+    border-style: solid;
+    border-color:  currentColor transparent transparent currentColor;
+    background-color: transparent;
+    top: .00em;
+    left: 0.05em;
+    transform: skewX(30deg);
+}
+i.icss-browser-chrome:after {
+    width: 0.05em;
+    height: .5em;
+    background-color: currentColor;
+    top: 0.5em;
+    left: 0.475em;
+    transform: rotate(33deg)
+}
