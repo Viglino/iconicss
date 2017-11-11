@@ -20,14 +20,12 @@ i.icss-external-link:before {
     left: -.1em;
 }
 i.icss-external-link:after {
-    width: .75em;
-    height: .75em;
     background-color: transparent;
-    border-radius: 0 0 0 100%;
-    background: 
-        linear-gradient(45deg,transparent 82%, currentcolor 82%, currentcolor 100%, transparent 100%),
-        linear-gradient(-45deg,transparent 44%, currentcolor 44%, currentcolor 56%, transparent 56%);
-    transform: rotate(0deg);
-    top:-.23em;
-    left: .135em;
+    border:0.2em solid transparent;
+    border-left-color: currentColor;
+    border-right-width: 0.8em;
+    box-shadow: -0.7em 0 0 -0.12em;
+    transform: rotate(-45deg);
+    top:-.65em;
+    left: .6em;
 }

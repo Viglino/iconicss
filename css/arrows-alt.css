@@ -2,12 +2,25 @@ i.icss-arrows-alt {
     width: 1em;
     height: 1em;
     background-color: transparent;
-    background: 
-        linear-gradient(45deg,transparent 45%, currentcolor 45%, currentcolor 55%, transparent 55%),
-        linear-gradient(45deg,transparent 0%, currentcolor 0%, currentcolor 18%, transparent 18%),
-        linear-gradient(45deg,transparent 82%, currentcolor 82%, currentcolor 100%, transparent 100%),
-        linear-gradient(-45deg,transparent 45%, currentcolor 45%, currentcolor 55%, transparent 55%),
-        linear-gradient(-45deg,transparent 0%, currentcolor 0%, currentcolor 18%, transparent 18%),
-        linear-gradient(-45deg,transparent 82%, currentcolor 82%, currentcolor 100%, transparent 100%)
-        ;
+    overflow: hidden;
+}
+i.icss-arrows-alt:before {
+    height: 1.5em;
+    border: .075em solid currentColor;
+    border-radius: 0.5em;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    box-shadow: 0.57em 0, -0.57em 0,
+        0.53em 0, -0.53em 0;
+}
+i.icss-arrows-alt:after {
+    height: 1.5em;
+    border: .075em solid currentColor;
+    border-radius: 0.5em;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    box-shadow: 0.57em 0, -0.57em 0,
+        0.53em 0, -0.53em 0;
 }
