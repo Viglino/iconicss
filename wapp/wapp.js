@@ -12,11 +12,11 @@ $(".search input").on("keyup", function()
 });
 
 // Color
-$(".color").click(function(){ $("ul",this).show(); })
+$(".color").on('mouseover', function(){ $("ul",this).show(); })
     .on('mouseleave', function(){ $("ul", this).hide(); });
 $(".color li").click(function(e) { 
     $("body").css('color', $(this).css('background-color'));
-    //$(this).parent().hide();
+    $(this).parent().hide();
     e.stopPropagation();
 });
 

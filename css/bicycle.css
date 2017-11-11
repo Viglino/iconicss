@@ -1,0 +1,26 @@
+i.icss-bicycle {
+  width: 0.4em;
+  height: 0.4em;
+  border-radius: 50%; 
+  box-shadow: 0.55em 0, 
+    0.435em -0.286em 0 -0.156em,
+    0.33em -0.57em 0 -0.118em;
+  margin: 0.45em .55em 0 0;
+}
+i.icss-bicycle:before {
+  width: 0.33em;
+  height: .3em;
+  background-color: transparent;
+  box-shadow: inset 0.091em 0 0 0.09em;
+  border-radius: 0.08em 0 0 .08em;
+  top: -0.27em;
+  left: 0.265em;
+  transform: rotate(40deg)
+}
+i.icss-bicycle:after {
+  height: 0.265em;
+  border: 0.046em solid currentColor;
+  border-radius: 0.05em;
+  left: 0.435em;
+  top: 0.015em;
+}

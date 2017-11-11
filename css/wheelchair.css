@@ -1,0 +1,32 @@
+i.icss-wheelchair {
+    width: 0.32em;
+    height: .45em;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-width: 0 0 0.2em 0;
+    box-shadow: inset 0.06em 0 0 0.065em, -.1em -0.15em 0 -0.1em;
+    border-radius: 0.1em 0 0 .05em;
+    margin: 0.3em 0.15em 0.14em 0.33em;
+    transform: rotate(-5deg);
+}
+i.icss-wheelchair:before {
+    width: .55em;
+    height: .55em;
+    border: .063em solid currentColor;
+    border-color: transparent currentColor currentColor;
+    border-radius: 100%;
+    top: 0.03em;
+    left: -.33em;
+    box-shadow: -0.245em -.455em 0 -0.18em, -0.175em -.34em 0 -0.215em ;
+    transform: rotate(45deg);
+}
+i.icss-wheelchair:after {
+    width: 0.15em;
+    height: .32em;
+    border: 0.065em solid currentColor;
+    border-color: transparent transparent currentColor currentColor;
+    border-width: 0 0 0.07em 0.07em;
+    top: 0.188em;
+    left: 0.28em;
+    transform: rotate(-10deg);
+}

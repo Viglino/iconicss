@@ -1,0 +1,27 @@
+i.icss-briefcase {
+  width: 1em;
+  height: .45em;
+  border-radius: 0 0 .08em .08em;
+  border: .065em solid currentColor;
+  border-width: 0 0.34em 0.24em;
+  background-color: transparent;
+}
+i.icss-briefcase:before {
+  width: 1em;
+  height: .25em;
+  border-radius: .08em .08em 0 0;
+  background-color: currentColor;
+  top: -0.33em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+i.icss-briefcase:after {
+  width: .32em;
+  height: .27em;
+  border-radius: .05em;
+  border: .07em solid currentColor;
+  top: -0.45em;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 0.39em 0 -0.06em;
+}

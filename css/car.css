@@ -30,7 +30,7 @@ i.icss-car:before {
             transparent 0, 
             transparent .09em, currentColor .09em, 
             currentColor .16em, transparent .16em);
-    clip: rect(0 1em 0.36em 0);
+    clip: rect(0 1em 0.31em 0);
 }
 i.icss-car:after {
     height: 0.2em;

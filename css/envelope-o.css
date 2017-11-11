@@ -15,3 +15,5 @@ i.icss-envelope-o:before {
     left: .137em;
     transform: rotate(36.5deg) skew(-20deg);
 }
+i.icss-envelope-o:after {
+}

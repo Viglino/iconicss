@@ -1,0 +1,30 @@
+i.icss-orangeade {
+  width: 0.3em;
+  height: 0.3em;
+  border-radius: 50%; 
+  background-color: transparent; 
+  box-shadow: inset 0 0 0 1em, 0 0 0 .05em;
+  border: 0.05em solid transparent;
+  margin: .07em .62em 0.62em 0.06em;
+}
+i.icss-orangeade:before {
+  width: 0.47em;
+  height: 0.8em;
+  border: 0.065em solid transparent;
+  box-shadow: .065em .065em, -.065em .065em, inset 0 -.5em;
+  border-radius: 0 0 0.05em 0.05em;
+  transform: perspective(1em) rotateX(-15deg);
+  top: .06em;
+  left: 0.17em;
+}
+i.icss-orangeade:after {
+  height: .5em;
+  width: .3em;
+  border-style: solid;
+  border-width: .075em 0 0 .075em ;
+  border-color: currentColor transparent transparent currentColor;
+  border-radius: .03em 0;
+  transform: rotate(15deg);
+  top: -.08em;
+  left: .5em;
+}

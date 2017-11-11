@@ -1,0 +1,21 @@
+i.icss-eye {
+  width: .4em;
+  height: .4em;
+  border-radius: 100%;
+  background-color: transparent;
+  box-shadow: inset -.026em -.026em 0 0.08em, .005em .005em 0 0.055em;
+  border: 0.08em solid transparent;
+  margin: 0.3em 0.38em;
+}
+i.icss-eye:before {
+  width: 0.75em;
+  height: 0.75em;
+  border: 0.07em solid currentColor;
+  border-radius: 0.08em 75% / 0.08em 75%;
+  background-color: transparent;
+  top: -.24em;
+  left: 50%;
+  transform: translateX(-50%) rotate(-45deg);
+}
+i.icss-eye:after {
+}
