@@ -1,0 +1,27 @@
+i.icss-pen {
+  width: .9em;
+  height: 0.2em;
+  background-color: currentColor;
+  margin: 0 0 .5em .1em;
+  transform: rotate(-45deg);
+  border-radius: 0 .05em .05em 0;
+}
+i.icss-pen:before {
+  width: .28em;
+  height: .28em;
+  top: -.045em;
+  left: -.3em;
+  border-radius: 0 50% 50% 50%;
+  border: .1em solid currentColor;
+  transform: rotate(-45deg);
+}
+i.icss-pen:after {
+  width: .5em;
+  height: .3em;
+  top: -.12em;
+  left: .35em;
+  border: .07em solid currentColor;
+  border-left: 0;
+  border-radius: 0 .05em .05em 0;
+}
+

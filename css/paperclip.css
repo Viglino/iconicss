@@ -1,0 +1,29 @@
+i.icss-paperclip {
+  width: .21em;
+  height: 0.6em;
+  background-color: transparent;
+  border-radius: .2em .2em 0 0;
+  border:.07em solid currentColor;
+  border-bottom: 0;
+  transform: rotate(45deg);
+  margin: 0 .3em .25em .55em;
+}
+i.icss-paperclip:before {
+  width: .35em;
+  height: .7em;
+  top: .3em;
+  left: -.21em;
+  border-radius: 0 0 .2em .2em;
+  border:.07em solid currentColor;
+  border-top: 0;
+}
+i.icss-paperclip:after {
+  width: .5em;
+  height: .73em;
+  left: -.21em;
+  top: -.2em;
+  border-radius: .2em .2em 0 0;
+  border: solid .07em currentColor;
+  border-bottom: 0;
+}
+

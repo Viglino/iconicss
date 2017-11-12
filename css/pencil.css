@@ -1,0 +1,24 @@
+i.icss-pencil {
+  width: .8em;
+  height: 0.25em;
+  background-color: currentColor;
+  margin: 0 .05em .35em;
+  transform: rotate(-45deg);
+}
+i.icss-pencil:before {
+  width: .2em;
+  height: .25em;
+  top: 0;
+  left: -.38em;
+  border: .125em solid transparent;
+  border-right: .2em solid currentColor;
+}
+i.icss-pencil:after {
+  width: .1em;
+  height: .25em;
+  top: 0;
+  left: .85em;
+  border: .07em solid currentColor;
+  border-radius: 0 .05em .05em 0
+}
+
