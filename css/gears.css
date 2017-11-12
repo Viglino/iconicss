@@ -1,17 +1,17 @@
 i.icss-gears {
-    width: .4em;
-    height: .4em;
+    width: .5em;
+    height: .5em;
     position: relative;
     border-radius: 100%;
     border-width: .063em;
     border-style: solid;
     border-color: transparent;
-    margin: .25em .39em .08em .08em;
-    box-shadow: .385em -.235em 0 -.06em;
+    margin: .36em .532em .08em .1em;
+    box-shadow: .51em -.32em 0 -.06em;
 }
 i.icss-gears:before {
-    width: .55em;
-    height: .55em;
+    width: .7em;
+    height: .7em;
     border-radius: 100%;
     background: linear-gradient(0deg,transparent 39%,currentcolor 39%,currentcolor 61%, transparent 61%),
         linear-gradient(60deg,transparent 42%, currentcolor 42%,currentcolor 58%, transparent 58%),
@@ -22,13 +22,13 @@ i.icss-gears:before {
 }
 
 i.icss-gears:after {
-    width: .4em;
-    height: .4em;
+    width: .55em;
+    height: .55em;
     border-radius: 100%;
     background: linear-gradient(0deg,transparent 37%,currentcolor 37%,currentcolor 63%, transparent 63%),
         linear-gradient(60deg,transparent 40%, currentcolor 40%,currentcolor 60%, transparent 60%),
         linear-gradient(120deg,transparent 40%, currentcolor 40%,currentcolor 60%, transparent 60%);
-    top: -.1em;
-    left: .52em;
+    top: -.135em;
+    left: .695em;
     transform: translate(-50%, -50%) rotate(25deg);
 }

@@ -1,29 +1,29 @@
 i.icss-gear {
-    width: .4em;
-    height: .4em;
+    width: .5em;
+    height: .5em;
     position: relative;
     border-radius: 100%;
     background-color: transparent;
-    border-width: .063em;
+    border-width: .07em;
     border-style: solid;
     border-color: transparent;
-    margin: .135em;
-    box-shadow: 0 0 0 .063em, inset 0 0 0 .08em;
+    margin: .25em;
+    box-shadow: 0 0 0 .1em, inset 0 0 0 .3em;
 }
 i.icss-gear:before {
-    width: .13em;
-    height: .13em;
+    width: .18em;
+    height: .18em;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    box-shadow: .27em 0, -.27em 0, 0 .27em, 0 -.27em;
+    box-shadow: .41em 0, -.41em 0, 0 .41em, 0 -.41em;
 }
 
 i.icss-gear:after {
-    width: .13em;
-    height: .13em;
+    width: .18em;
+    height: .18em;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) rotate(45deg);
-    box-shadow: .27em 0, -.27em 0, 0 .27em, 0 -.27em;
+    box-shadow: .42em 0, -.42em 0, 0 .42em, 0 -.42em;
 }

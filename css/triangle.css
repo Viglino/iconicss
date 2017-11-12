@@ -1,12 +1,14 @@
 i.icss-triangle {
     width: 1em;
-    height: .88em;
-    background-color: transparent;
-    border-radius: 80% 80% .1em .1em / 100% 100% .1em .1em ;
-    background-image: 
-        linear-gradient(60deg,transparent 63%, currentcolor 63%, currentcolor 71%, transparent 71%),
-        linear-gradient(-60deg,transparent 63%, currentcolor 63%, currentcolor 71%, transparent 71%),
-        linear-gradient(0deg,transparent 0%, currentcolor 0%, currentcolor 10%, transparent 10%)
-        ;
-    margin: .06em 0 .06em 0;
+    height: .1em;
+    border-radius: 0.05em;
+    margin: .82em 0 .06em 0;
+}
+i.icss-triangle:before {
+    width: 1.2em;
+    height: 1.2em;
+    border: 0.15em solid currentColor;
+    border-color: currentColor currentColor transparent transparent;
+    border-radius: 0.05em;
+    transform: translate(-.1em, -0.56em) scaleX(0.6) rotate(-45deg);
 }

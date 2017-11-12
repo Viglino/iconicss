@@ -1,30 +1,29 @@
 i.icss-lamp {
-    width: .6em;
+    width: .65em;
     border-style: solid;
     border-color: transparent transparent currentColor;
     background-color: transparent;
-    border-width: 0 .1em .45em;
+    border-width: 0 .1em .5em;
     border-radius: .15em .15em .03em .03em;
-    margin: 0em 0em .36em;
+    margin: 0em 0em .41em;
 }
 i.icss-lamp:before {
-    width: .3em;
-    height: .3em;
+    width: .35em;
+    height: .35em;
     border-width: 0;
     background-color: currentColor;
     border-radius: 100%;
-    top: .46em;
+    top: .54em;
     left: 50%;
     transform: translateX(-50%);
-    box-shadow: 0 .35em 0 .08em, .2em -.05em 0 -.115em;
-    clip: rect(-.1em .5em .33em -.1em)
+    box-shadow: 0 .37em 0 .08em, .2em -.13em 0 -.13em;
+    clip: rect(-.1em .5em .37em -.1em);
 }
-
 i.icss-lamp:after {
     width: .065em;
     height: .15em;
     background-color: currentColor;
-    top: .4em;
+    top: .45em;
     left: 50%;
     transform: translateX(-50%);
     box-shadow: .2em 0em 0 -.015em;
