@@ -1,0 +1,33 @@
+i.icss-unlock {
+    width: .75em;
+    height: .6em;
+    background-color: transparent;
+    border-color: currentColor transparent;
+    border-radius: .06em;
+    margin: 0.4em 0 0;
+    box-shadow: inset 0.27em 0.15em, 
+        inset -0.27em 0.15em,
+        inset 0 -.1em;
+}
+i.icss-unlock:before {
+    width: .5em;
+    height: .26em;
+    border: 0.12em solid currentColor;
+    border-bottom: 0;
+    border-radius: .17em .17em 0 0;
+    top: -.4em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+i.icss-unlock:after {
+    width: .25em;
+    height: .3em;
+    border: 0.08em solid currentColor;
+    border-top-color: transparent;
+    border-radius: 0 0 .15em .15em;
+    top: .26em;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: .19em -0.5em 0 -.0665em,
+        .19em -0.4em 0 -.0665em;
+}

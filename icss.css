@@ -30,3 +30,18 @@ i.icss-anim:before,
 i.icss-anim:after
 {   transition: all 1s;
 }
+
+.icss-spin {
+  animation: fa-spin 2s infinite linear;
+}
+.icss-pulse {
+  animation: fa-spin 1s infinite steps(8);
+}
+@keyframes fa-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
