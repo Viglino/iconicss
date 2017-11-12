@@ -7,6 +7,7 @@ i.icss-arrows-alt {
 i.icss-arrows-alt:before {
     height: 1.5em;
     border: .075em solid currentColor;
+    background-color: currentColor;
     border-radius: 0.5em;
     top:50%;
     left:50%;
@@ -17,6 +18,7 @@ i.icss-arrows-alt:before {
 i.icss-arrows-alt:after {
     height: 1.5em;
     border: .075em solid currentColor;
+    background-color: currentColor;
     border-radius: 0.5em;
     top:50%;
     left:50%;

@@ -9,6 +9,7 @@ i.icss-arrows-v {
 i.icss-arrows-v:before {
     height: 1.5em;
     border: .075em solid currentColor;
+    background-color: currentColor;
     border-radius: 0.5em;
     top:50%;
     left: 50%;
