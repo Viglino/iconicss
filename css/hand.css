@@ -1,27 +1,28 @@
 i.icss-hand{
     width: .6em;
     height: .5em;
-    border-radius: .3em .35em .5em .5em;
-    margin: .5em .11em 0 0;
+    border-radius: .35em .3em .5em .5em;
+    margin: .5em 0 0 .11em;
 }
 i.icss-hand:before{
     width: .1em;
     height: .55em;
-    background:currentColor;
+    background: currentColor;
+    left: .5em;
     bottom: .3em;
     border-radius: 80% / 20%;
     box-shadow:
-        .13em -.1em 0,
-        .265em -.15em 0,
-        .4em -.11em 0;
+        -.13em -.1em 0,
+        -.265em -.15em 0,
+        -.4em -.11em 0;
 }
 i.icss-hand:after{
     width: .12em;
     height: .43em;
     background: currentColor;
     bottom: .25em;
-    right: -.06em;
+    left: -.06em;
     border-radius: .04em;
-    transform: rotate(16deg);
-    border-radius: 70% .04em .04em / 30% .04em .04em;
+    transform: rotate(-16deg);
+    border-radius: .04em 70% .04em .04em / .04em 70% .04em .04em;
 }
