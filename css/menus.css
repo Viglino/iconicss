@@ -11,8 +11,10 @@ i.icss-menus:after {
 }
 
 i.icss-menus:before {
+    left: 0;
     top: -0.36em;
 }
 i.icss-menus:after{
+    left: 0;
     top: 0.36em;
 }

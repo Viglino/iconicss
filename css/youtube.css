@@ -17,4 +17,6 @@ i.icss-youtube:after {
     width: 0.4em;
     height: 1em;
     background-color: currentColor;
+    top: 0;
+    left: 0;
 }

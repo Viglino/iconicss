@@ -1,12 +1,12 @@
 i.icss-paperclip {
   width: .21em;
-  height: 0.6em;
+  height: 0.7em;
   background-color: transparent;
   border-radius: .2em .2em 0 0;
   border:.07em solid currentColor;
   border-bottom: 0;
   transform: rotate(45deg);
-  margin: 0 .3em .25em .55em;
+  margin: 0 .35em .15em .5em;
 }
 i.icss-paperclip:before {
   width: .35em;
@@ -19,7 +19,7 @@ i.icss-paperclip:before {
 }
 i.icss-paperclip:after {
   width: .5em;
-  height: .73em;
+  height: .83em;
   left: -.21em;
   top: -.2em;
   border-radius: .2em .2em 0 0;

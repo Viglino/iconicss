@@ -10,5 +10,7 @@ i.icss-triangle:before {
     border: 0.15em solid currentColor;
     border-color: currentColor currentColor transparent transparent;
     border-radius: 0.05em;
-    transform: translate(-.1em, -0.56em) scaleX(0.6) rotate(-45deg);
+    transform: scaleX(0.6) rotate(-45deg);
+    top: -.55em;
+    left: -.1em;
 }

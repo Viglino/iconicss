@@ -4,6 +4,13 @@ i.icss-ban {
   border: 0.13em solid currentColor;
   background-color: transparent;
   border-radius: 100%;
-  background: linear-gradient(45deg, transparent 43%, currentcolor 43%, currentcolor 57%, transparent 57%);
-
+  background0: linear-gradient(45deg, transparent 43%, currentcolor 43%, currentcolor 57%, transparent 57%);
+}
+i.icss-ban:before {
+  width: .9em;
+  height: .15em;
+  background-color: currentColor;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
 }

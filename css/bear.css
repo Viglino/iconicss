@@ -1,17 +1,17 @@
 i.icss-bear {
-    width: .75em;
+    width: .76em;
     height: .8em;
     background-color: transparent;
     border-style: solid;
-    border-width: 0.08em 0.09em 0.12em;
+    border-width: 0.08em 0.095em 0.12em;
     border-color: currentColor transparent;
-    margin: 0 .2em .1em 0;
+    margin: 0 .19em .1em 0;
     box-shadow: inset 0 0 0 0.5em, 0 0.1em, 0 -0.08em;
 }
 i.icss-bear:before {
     width: .4em;
-    height: .5em;
-    border: 0.09em solid currentColor;
+    height: .55em;
+    border: 0.1em solid currentColor;
     border-radius: .03em .03em .15em .03em;
     top: -.08em;
     left: .45em;
