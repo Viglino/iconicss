@@ -43,6 +43,38 @@ input:focus {
 .icon div i{
     vertical-align: bottom;
 }
+.icon textarea{
+    height: 1px;
+    opacity: 0;
+    width: 1px;
+}
+.icon button {
+    padding: 0.5em 1em;
+    background-color: currentColor;
+    color: inherit;
+    border: 0;
+    font-size: 1em;
+    border-radius: 0.3em;
+    border:3px solid #fff;
+    cursor: pointer;
+}
+.icon button:hover {
+    box-shadow: 0 0 10px 2px #fff;
+}
+.icon button > * {
+    color: #fff;
+    vertical-align: middle;
+    margin: 0.2em;
+}
+.icon button i {
+    font-size: 2em;
+    vertical-align: middle;
+    transition: none;
+}
+.icon button i:before,
+.icon button i:after {
+    transition: none;
+}
 
 .debug .icon > div:before {
     content: "";
@@ -81,6 +113,25 @@ input:focus {
     background: #369;
     color: #fff;
 }
+.header a {
+    position: absolute;
+    right: 0.5em;
+    top: 0.5em;
+    background: #369;
+    color: #fff;
+    padding: .1em .5em;
+    border: 2px solid #fff;
+    border-radius: 0.1em;
+    cursor: pointer;
+}
+.header a i {
+    vertical-align: middle;
+    margin-right: .5em
+}
+.debug .header a {
+    background: #ccc;
+}
+
 .footer {
     background: #369;
     color: #fff;
@@ -100,7 +151,9 @@ input:focus {
     color: #444;
 }
 
-.header > *, .footer > *, .search > *, .icons {
+
+
+h2, .header > *, .footer > *, .search > *, .icons {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
@@ -125,14 +178,14 @@ input:focus {
     color: #666;
     font-size: 1.2em
 }
-.color {
+.search .color {
     float: right;
     font-size: 1.5em;
     position: relative;
     cursor: pointer;
     padding: 0 0 0 1em;
 }
-.color ul {
+.search .color ul {
     display: none;
     position: absolute;
     background:  #fff;
@@ -145,7 +198,7 @@ input:focus {
     white-space: nowrap;
     width: 4em;
 }
-.color li {
+.search .color li {
     float: left;
     width: 1em;
     height: 1em;
@@ -156,19 +209,19 @@ input:focus {
     cursor: pointer;
     transition: all 0.2s;
 }
-.color li:hover {
+.search .color li:hover {
     border-color: currentColor;   
 }
-.color li.blue {
+.search .color li.blue {
     background-color: #369;
 }
-.color li.green {
+.search .color li.green {
     background-color: #396;
 }
-.color li.red {
+.search .color li.red {
     background-color: #963;
 }
-.color li.black {
+.search .color li.black {
     background-color: #666;
 }
 

@@ -4,11 +4,18 @@ if (debug) $("body").addClass("debug");
 
 // Search function
 $(".search input").on("keyup", function()
-{    var rex = new RegExp($(this).val(),"gi");
+{   var n = 0;
+    var rex = new RegExp($(this).val(),"gi");
     $(".icons i").each(function(){
-        if (rex.test($(this).attr('class'))) $(this).parent().show();
-        else $(this).parent().hide();
+        if (rex.test($(this).attr('class'))) 
+        {   $(this).parent().show();
+            n++;
+        }
+        else 
+        {   $(this).parent().hide();
+        }
     });
+    $(".search .nb").text(n);
 });
 
 // Color
@@ -20,33 +27,89 @@ $(".color li").click(function(e) {
     e.stopPropagation();
 });
 
-// Change icon
-function showICSS()
-{	$(".icons > div").removeClass("selected");
-    var i = $("i",this).attr("class");
-    $(".icon i").removeClass().addClass("icss-anim "+i);
-    $(".icon .title").text(i.replace(/icss[\ |-]/g, ""));
-    $(this).addClass("selected");
+/** Change icon
+ */
+function showICSS(icon)
+{	// Get icon in url
+    if (!icon)
+    {   icon = "home";
+        var hash = document.location.search;
+        if (hash)
+        {	hash = hash.replace(/(^#|^\?)/,"").split("&");
+            for (var i=0; i<hash.length;  i++)
+            {	var t = hash[i].split("=");
+                if(t[0]=='icon') icon = t[1];
+            }
+        }
+    }
+
+    $(".icons > div").removeClass("selected");
+    $(".icss-"+icon,".icons div").parent().addClass("selected");
+    
+    $(".icon i").removeClass().addClass("icss-anim icss-"+icon);
+    $(".icon .title").text(icon);
+    // Set icon in permalink
+    var s = "?" + (debug?"debug&":"") + "icon=" + icon;
+    window.history.replaceState (null, null, document.location.href.split("?")[0] + s);
 };
+
+function setDebug(b) 
+{   debug = (b!==false);
+    var icon = $(".icon i").first().attr("class").replace(/icss-anim|icss-|\ /g,"");
+    var s = "?" + (debug?"debug&":"") + "icon=" + icon;
+    document.location = document.location.href.split("?")[0] + s;
+};
+
+function copy2clipboard()
+{   var icon = $(".icon i").first().attr("class").replace(/icss-anim|icss-|\ /g,"");
+    if (icons[icon])
+    {   $(".icon textarea").val(icons[icon]).select();
+        try {
+            var successful = document.execCommand('copy');
+            var msg = successful ? 'successful' : 'unsuccessful';
+            console.log('Copying text command was ' + msg);
+        } catch (err) {
+            console.log('Oops, unable to copy');
+        }
+    }
+    else console.log('Oops, unable to copy');
+}
+
+var icons={};
+function loadIcon(i)
+{   $.ajax("css/"+i+".css",
+    {   success:function(r)
+        {   icons[i] = r;
+        }
+    });
+}
 
 // Load config
 $.ajax("config.json",{
     dataType: "json",
     cache: false,
     success:function(r) {
+        if (!debug) $('<link/>', { rel: 'stylesheet', href: "dist/iconicss.css" }).appendTo('head');
         var n=0;
         for(i in r.icons)
         {	console.log(i);
             n++;
-            $('<link/>', { rel: 'stylesheet', href: "css/"+i+".css" }).appendTo('head');
-            var div = $("<div>").click(showICSS).appendTo(".icons");
+            if (debug) $('<link/>', { rel: 'stylesheet', href: "css/"+i+".css" }).appendTo('head');
+            loadIcon(i);                
+            var div = $("<div>").click(function()
+                        {   showICSS($("i", this).attr('class').replace("icss-","")) 
+                        });
+            if (r.icons[i].color) div.appendTo(".icons.color");
+            else div.appendTo(".icons.standard");
             $("<i>").attr('title',i)
                 .data("icss",i)
                 .addClass('icss-'+i)
                 .appendTo(div);
         }
-        $(".icons div").first().click();
+        // Nb icons
         $(".nb").text(n);
+        // Select current icon
+        showICSS();
     },
     error:function(){
 
