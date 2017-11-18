@@ -1,0 +1,31 @@
+i.icss-nuclear {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    border: 0.06em solid currentColor;
+    background-color: transparent;
+    overflow: hidden;
+    background-image: radial-gradient(circle at 50% 50%, 
+        currentColor 0, currentColor .13em, transparent .1em)
+}
+i.icss-nuclear:before {
+    width: 1.5em;
+    height: 1.2em;
+    border-radius: 50%;
+    border:0.63em solid currentColor;
+    border-color: transparent currentColor;
+    top:33%;
+    left: 50%;
+    transform: translate(-50%, -50%) scaleX(0.7);
+    clip: rect(0 2em .78em 0);
+}
+i.icss-nuclear:after {
+    width: 1.5em;
+    height: 1.2em;
+    border-radius: 50%;
+    border:0.63em solid currentColor;
+    border-color: transparent transparent currentColor transparent;
+    top:67%;
+    left: 50%;
+    transform: translate(-50%, -50%) scaleX(0.7);
+}

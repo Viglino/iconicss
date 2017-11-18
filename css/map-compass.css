@@ -1,0 +1,35 @@
+i.icss-map-compass {
+    width: .75em;
+    height: .75em;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0.18em solid transparent;
+    margin: 0;
+    box-shadow: 0 0 0 0.05em, inset 0 0 0 0.14em;
+    margin: 0.125em;
+        
+}
+i.icss-map-compass:before {
+    width: .75em;
+    height: .75em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(10deg) scaleX(0.28) rotate(45deg);
+    box-shadow: inset -.12em .12em,
+        inset .12em -.12em,
+        .55em -.55em 0 -0.21em,
+        -.55em .55em 0 -0.21em
+        ;
+}
+i.icss-map-compass:after {
+    width: .75em;
+    height: .75em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(100deg) scaleX(0.28) rotate(45deg);
+    box-shadow: inset -.12em .12em,
+        inset .12em -.12em,
+        .55em -.55em 0 -0.21em,
+        -.55em .55em 0 -0.21em
+        ;
+}

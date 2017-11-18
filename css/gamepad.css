@@ -1,0 +1,29 @@
+i.icss-gamepad {
+    width: 1em;
+    height: .55em;
+    background-color: transparent;
+    border-radius: .3em ;
+    margin: 0;
+    box-shadow: 
+        inset 0 0 0 0.07em, 
+        -.25em 0.5em 0 -0.28em;
+    overflow: hidden;
+}
+i.icss-gamepad:before {
+    width: .1em;
+    height: .1em;
+    top: 0.23em;
+    left: 0.23em;
+    border-radius: .02em;
+    box-shadow: inset 0 0 0 .1em, 0 0 0 .011em, 0 .1em, .1em 0, 0 -.1em, -.1em 0;
+}
+i.icss-gamepad:after {
+    width: 1em;
+    height: 1em;
+    top: 0.44em;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background-color: currentColor;
+    box-shadow: .13em -.62em 0 -.44em, .3em -.72em 0 -.44em;
+}

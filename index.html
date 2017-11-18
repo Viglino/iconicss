@@ -17,10 +17,16 @@
 BUG IE
 		https://connect.microsoft.com/IE/feedback/details/1040120/ie-11-the-color-keyword-currentcolor-doesnt-work-in-the-css-linear-gradient-function
 		https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/1328019/
+Brand colors:
+		https://brandcolors.net/
 -->		
 	<div class="header">
 		<h1 class="stretch">iConicss</h1>
 		<p><span class="nb"></span> pure CSS3 icons.</p>
+		<a onclick="setDebug();">
+			<i class="icss-bug x2" ></i>
+			debug...
+		</a>
 	</div>
 	<div class="icon">
 		<div style="font-size:20em;"><i class="icss"></i></div>
@@ -29,6 +35,11 @@ BUG IE
 		<div style="font-size:2em;"><i class="icss"></i></div>
 		<div style="font-size:1em;"><i class="icss"></i></div>
 		<p class="title"></p>
+		<textarea></textarea>
+		<button onclick="copy2clipboard();">
+			<span>Copy...</span>
+			<i class="icss-share x2"></i> 
+		</button>
 	</div>
 
 	<div class="search">
@@ -49,13 +60,16 @@ BUG IE
 		</div>
 	</div>
 	<!-- icon list -->
-	<div class="icons"></div>
-
+	<h2>Standard icons</h2>
+	<div class="icons standard"></div>
+	<h2>Colored icons</h2>
+	<div class="icons color"></div>
+	
 	<!-- footer -->
 	<div class="footer">
 		<div>
 			<a href="https://github.com/Viglino/iconicss">
-				<i class="icss-github-o x3 middle"></i>
+				<i class="icss-github-o-c x3 middle"></i>
 				<span class="stretch">Fork me on Github</span>
 			</a>
 		</div>

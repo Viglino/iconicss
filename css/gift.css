@@ -1,0 +1,30 @@
+i.icss-gift {
+  width: .8em;
+  height: 0.6em;
+  background-color: transparent;
+  border-radius: .02em;
+  border:.07em solid currentColor;
+  border-width: 0 0.3em ;
+  box-shadow: .25em -.15em 0 -.15em, -.25em -.15em 0 -.15em,
+    0 0.08em;
+  margin: .25em .1em .08em;
+}
+i.icss-gift:before {
+  width: .28em;
+  height: .25em;
+  border: 0.065em solid currentColor;
+  border-radius: 50% 50% 50% 0;
+  left: .15em;
+  top: -.25em;
+  transform: skewX(-20deg);
+}
+i.icss-gift:after {
+  width: .28em;
+  height: .25em;
+  border: 0.065em solid currentColor;
+  border-radius: 50% 50% 0 50%;
+  left: -.22em;
+  top: -.25em;
+  transform: skewX(20deg);
+}
+
