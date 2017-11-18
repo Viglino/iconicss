@@ -1,0 +1,30 @@
+{
+  "name": "iconicss",
+  "version": "0.0.1",
+  "description": "Pure css3 icons",
+  "main": "./build/iconicss.css",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {},
+  "repository": {},
+  "keywords": [
+    "css3",
+    "icon",
+    "icon-set",
+    "purecss"
+  ],
+  "author": "Jean-Marc Viglino (https://github.com/Viglino)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Viglino/iconicss/issues"
+  },
+  "homepage": "https://github.com/Viglino/iconicss",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0"
+  }
+}
