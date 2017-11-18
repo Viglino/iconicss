@@ -1,0 +1,30 @@
+i.icss-browser-explorer-c {
+    width: 0.53em;
+    height: 0.186em;
+    background-color: #1EBBEE;
+    margin: 0.37em 0.18em 0.41em 0.17em;
+}
+i.icss-browser-explorer-c:before {
+    width: 0.8em;
+    height: 0.8em;
+    border-radius: 100%;
+    border: 0 solid transparent;
+    border-left-width: 0.06em;
+    box-shadow: 0.08em -0.04em 0 0.053em #1EBBEE,
+        inset -0.066em 0em 0 0em #1EBBEE
+        ;
+    left: -.22em;
+    top: -0.266em;
+    clip: rect(-.266em 1.33em 0.451em 0);
+}
+i.icss-browser-explorer-c:after {
+    width: 0.8em;
+    height: 0.73em;
+    border-radius: 100%;
+    box-shadow: 
+        0.033em 0.053em 0 0.06em #1EBBEE,
+       inset 0.13em -0.12em #1EBBEE;
+    left: -0.1em;
+    top: -.25em;
+    clip: rect(-.266em 0.73em 1.1em -0.266em);
+}

@@ -1,0 +1,23 @@
+i.icss-google-drive-c {
+    width: .65em;
+    height: .3em;
+    box-shadow: inset .065em 0 0 1em #0057e7;
+    transform: skewX(-30deg);
+    margin: .57em .1em 0 0.26em;
+}
+i.icss-google-drive-c:before {
+    width: .65em;
+    height: .3em;
+    box-shadow: inset .065em 0 0 1em #ffa700;
+    transform: skewX(30deg) rotate(60deg) skewX(-30deg);
+    top: -.43em;
+    left: -.17em;
+}
+i.icss-google-drive-c:after {
+    width: .65em;
+    height: .3em;
+    box-shadow: inset .065em 0 0 1em #008744;
+    transform: skewX(30deg) rotate(-60deg) skewX(-30deg) ;
+    top: -0.28em;
+    left:-0.49em;
+}

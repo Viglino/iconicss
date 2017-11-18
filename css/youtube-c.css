@@ -1,0 +1,23 @@
+i.icss-youtube-c {
+    background: transparent;
+    border-radius: .14em / .21em;
+    background-color: #fff;
+    width: 1em;
+    height: .7em;
+    overflow: hidden;
+}
+i.icss-youtube-c:before {
+    width: 0.5em;
+    height: 0.5em;
+    box-shadow: 0 0 0 1em  	#d62d20;
+    left: 0.1em;
+    top: 50%;
+    transform: translateY(-50%) scaleY(0.75) rotate(45deg);
+}
+i.icss-youtube-c:after {
+    width: 0.4em;
+    height: 1em;
+    background-color: #d62d20;
+    top: 0;
+    left: 0;
+}

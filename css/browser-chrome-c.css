@@ -1,0 +1,34 @@
+i.icss-browser-chrome-c {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: transparent;
+    margin: 0;
+    background-image: radial-gradient(circle at 50% 50%, 
+        #0057e7 0, #0057e7 .2em, #fff .2em,
+        #fff .25em, #ffa700 .25em, 
+        #ffa700 1em);
+    overflow: hidden;
+}
+i.icss-browser-chrome-c:before {
+    height: .45em;
+    width: 1.3em;
+    border-radius: 2.75em 0em / 2.3em 0 0 .1em;
+    background-color: transparent;
+    top: .25em;
+    left: 0.18em;
+    box-shadow: -.2em -.2em 0 .1em #d62d20;
+    transform: skewX(30deg);
+    clip: rect(-1em 1em 1em 0);
+}
+i.icss-browser-chrome-c:after {
+    height: .45em;
+    width: 1.3em;
+    border-radius: 2.75em 0em / 2.3em 0 0 .1em;
+    background-color: transparent;
+    top: -.0em;
+    left: -.35em;
+    box-shadow: -.2em -.2em 0 .1em #008744;
+    transform: rotate(-120deg) skewX(30deg) ;
+    clip: rect(-1em 1em 1em 0);
+}

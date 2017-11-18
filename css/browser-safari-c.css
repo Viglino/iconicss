@@ -1,0 +1,26 @@
+i.icss-browser-safari-c {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 0.075em solid #dedee3;
+    background-image: radial-gradient(circle at 60% 60%, #5fc9f8 0, #147efb 100%);
+    margin: 0;
+}
+i.icss-browser-safari-c:after {
+    border: 0.3em solid #fc3d39;
+    border-color: #fc3d39 transparent transparent #fc3d39;
+    background-color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg) scaleX(0.25) rotate(45deg);
+}
+i.icss-browser-safari-c:before {
+    width: 0.05em;
+    height: 0.05em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-10deg);
+    box-shadow: .39em 0 #fff, -.39em 0 #fff, 0 .39em 0 #fff, 0 -.39em #fff,
+        .275em .275em #fff, -.275em .275em #fff, -.275em -.275em 0 #fff, .275em -.275em #fff;
+}

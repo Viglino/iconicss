@@ -1,0 +1,47 @@
+i.icss-browser-firefox-c {
+    width: 1em;
+    height: 1em;
+    border-radius: 100%;
+    background-color: transparent;
+    overflow: hidden;
+    box-shadow: 
+        inset 0.6em 0 0 -0.5em #a50,
+        inset -0.17em -0.05em 0 -0.04em #a50,
+        inset -0.01em -0.15em 0 0.09em #a50
+        ;
+    background-image: 
+        radial-gradient(circle at 0.135em 0.33em, #d60 0, #d60 12%, transparent 12%),
+        radial-gradient(circle at 0.5em 0.5em, #08f 0, #8cf 65%, transparent 65%),
+        radial-gradient(circle at 0.5em 0.5em, #fff 0, #fff 67%, transparent 67%)
+        ;
+    background-size: 1em;
+}
+
+i.icss-browser-firefox-c:before {
+    width: 0.7em;
+    height: 0.68em;
+    border-radius: 100%;
+    border: 0.1em solid transparent;
+    border-width: 0.15em 0em 0 0em;
+    top: 0.05em;
+    left: 0.0em;
+    box-shadow: 
+        0.12em .03em 0 -.03em #f90,
+        0.2em 0.13em 0 0.06em #d60,
+        inset 0.19em -0.0em 0 -0.1em #a50,
+        inset 0.18em -0.05em 0 -0.07em #d60,
+        inset 0.18em -0.05em 0 -0.01em #f90,
+        inset -0.05em -0.04em 0 0.01em #f90;
+    transform: rotate(10deg)    
+}
+i.icss-browser-firefox-c:after {
+    border: 0.15em solid transparent;
+    border-left-color: #d60;
+    border-width: 0.07em 0.15em;
+    border-radius: 0 100% 70% 0; 
+    top: 0.22em;
+    left: 0.22em;
+    box-shadow: -0.13em 0.27em 0 -.02em #d60,
+        -0.1em 0.25em #f90;
+    transform: rotate(-10deg);
+}

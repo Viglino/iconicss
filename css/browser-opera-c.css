@@ -1,0 +1,19 @@
+i.icss-browser-opera-c {
+    width: .9em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: transparent;
+    margin: 0;
+    overflow: hidden;
+}
+i.icss-browser-opera-c:before {
+    width: .9em;
+    height: 1.3em;
+    border: 0.3em solid #cc0f16;
+    border-radius: 90%/ 75%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+i.icss-browser-opera-c:after {
+}

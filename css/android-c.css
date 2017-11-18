@@ -1,0 +1,31 @@
+i.icss-android-c {
+    border-width: .19em .2em;
+    border-style: solid;
+    border-color:  #a4c639;
+    border-radius: 0 0 .1em .1em;
+    margin: .3em .16em .19em;
+}
+i.icss-android-c:after {
+    width: .4em;
+    height: .4em;
+    background-color: #a4c639;
+    border-radius: 100% 100% 0 0;
+    clip: rect(0 .5em .21em 0);
+    left: -.2em;
+    top: -.43em;
+    background-image: 
+        radial-gradient(circle at 0.28em 0.11em , 
+			#fff 0, #fff 0.032em, transparent 0.032em),
+        radial-gradient(circle at 0.13em 0.11em , 
+			#fff 0, #fff 0.032em, transparent 0.032em);
+}
+i.icss-android-c:before {
+    border-width: .16em .065em;
+    border-style: solid;
+    border-color:  #a4c639;
+    border-radius: .08em;
+    left: .01em;
+    top: .07em;
+    box-shadow: -.16em 0 #a4c639, -.37em -.26em #a4c639, .22em -.26em #a4c639, 
+        .05em -.575em 0 -.035em #a4c639, -.19em -.575em 0 -.035em #a4c639;
+}
