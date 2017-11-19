@@ -1,0 +1,28 @@
+i.icss-gun {
+    width: .9em;
+    height: .1em;
+    border-radius: .01em .01em .03em .02em / 0 0 .07em .07em;
+    background-color: currentColor;
+    box-shadow: -.03em -.08em, .05em -.08em;
+    margin: .15em .05em .43em .07em;
+}
+i.icss-gun:before {
+    width: .28em;
+    height: .43em;
+    border-radius: 0 0 .05em;
+    top: .1em;
+    left: 0;
+    background: currentColor;
+    transform: skewX(-10deg);
+    box-shadow: .68em -.33em 0 -.11em
+}
+i.icss-gun:after {
+    width: .26em;
+    height: .26em;
+    border: .06em solid currentColor;
+    border-radius: 50%;
+    top: -.03em;
+    left: .2em;
+    box-shadow: -.28em -.18em 0 -.075em,
+        -.35em .38em 0 -.08em;
+}

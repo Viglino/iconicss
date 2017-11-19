@@ -1,0 +1,8 @@
+i.icss-diamonds-o {
+    width: .7em;
+    height: .7em;
+    background: transparent;
+    border: .065em solid currentColor;
+    transform: scaleX(0.8) rotate(45deg);
+    margin: 0 0.05em 0.15em;
+}

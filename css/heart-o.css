@@ -1,0 +1,29 @@
+i.icss-heart-o {
+  width: .5em;
+  height: .5em;
+  background: transparent;
+  border-left: solid .065em currentColor;
+  border-bottom: solid .065em currentColor;
+  transform: rotate(-45deg);
+  margin: .22em .16em .12em;
+}
+i.icss-heart-o:before {
+  width: .5em;
+  height: .28em;
+  top: -.22em;
+  left: -.063em;
+  border-radius: .5em .5em 0 0;
+  border: .065em solid currentColor;
+  border-bottom: 0;
+}
+
+i.icss-heart-o:after {
+  width: .28em;
+  height: .5em;
+  top: 0em;
+  left: .37em;
+  border-radius: 0 .5em .5em 0;
+  border: .065em solid currentColor;
+  border-left: 0; 
+}
+
