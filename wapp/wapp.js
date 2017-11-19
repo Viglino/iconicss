@@ -5,9 +5,10 @@ if (debug) $("body").addClass("debug");
 // Search function
 $(".search input").on("keyup", function()
 {   var n = 0;
-    var rex = new RegExp($(this).val(),"gi");
+	var val = $(this).val();
+    var rex = new RegExp(val,"i");
     $(".icons i").each(function(){
-        if (rex.test($(this).attr('class'))) 
+        if (rex.test($(this).data('icss'))) 
         {   $(this).parent().show();
             n++;
         }
