@@ -2,6 +2,7 @@ i.icss-scissors {
     width: .55em;
     height: .55em;
     border-width: 0 0 .1em .1em;
+    border-color: transparent transparent currentColor currentColor;
     border-style: solid;
     border-radius: .1em 0em .1em 0em;
     margin: 0 -.2em 0.1em .4em;

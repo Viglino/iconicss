@@ -1,22 +1,25 @@
 i.icss-android {
-    border-width: .19em .2em;
+    border-width: .23em .23em;
     border-style: solid;
     border-radius: 0 0 .1em .1em;
-    margin: .3em .16em .19em;
+    margin: .35em .17em .19em;
 }
 i.icss-android:before {
-    border-width: .2em .2em;
+    border-width: .23em .23em;
     border-style: solid;
     border-radius: 100% 100% 0 0;
-    clip: rect(0 .5em .21em 0);
-    left: -.2em;
-    top: -.43em
+    clip: rect(0 .5em .24em 0);
+    left: -.23em;
+    top: -.52em
 }
 i.icss-android:after {
-    border-width: .16em .065em;
+    border-width: .13em .065em;
     border-style: solid;
     border-radius: .08em;
-    left: .01em;
-    top: .07em;
-    box-shadow: -.16em 0, -.37em -.26em, .22em -.26em, .05em -.575em 0 -.035em, -.19em -.575em 0 -.035em;
+    left: .03em;
+    top: .17em;
+    box-shadow: -.18em 0, 
+        -.42em -.3em, .23em -.3em, 
+        -.42em -.4em, .23em -.4em, 
+        .05em -.78em 0 -.035em, -.22em -.78em 0 -.035em;
 }

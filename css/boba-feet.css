@@ -1,36 +1,38 @@
 i.icss-boba-feet {
-  width: .6em;
-  height: .47em;
+  width: .64em;
+  height: .55em;
   border-radius: .04em .04em .3em .3em / 100% 100% .2em .2em;
   background: transparent;
-  margin: .3em .2em 0;
+  margin: .35em .2em 0;
   background-image: 
-    radial-gradient(circle at .3em -.48em, 
+    radial-gradient(circle at .32em -.48em, 
       currentcolor 0em, currentcolor .6em, transparent .061em),
-    radial-gradient(circle at -.4em .6em, currentcolor 0, currentcolor .65em, transparent .051em),
-    radial-gradient(circle at 1em .6em, currentcolor 0, currentcolor .65em, transparent .051em),
-    linear-gradient( 90deg, transparent .27em, currentcolor .27em, currentcolor .34em, transparent .34em);
+    radial-gradient(circle at -.38em .6em, currentcolor 0, currentcolor .65em, transparent .051em),
+    radial-gradient(circle at 1.02em .6em, currentcolor 0, currentcolor .65em, transparent .051em),
+    linear-gradient( 90deg, transparent .29em, currentcolor .29em, 
+      currentcolor .36em, transparent .36em);
 
 }
 i.icss-boba-feet:before {
-  width: .53em;
-  height: .45em;
+  width: .57em;
+  height: .5em;
   background-color: transparent;
   border-radius: 100%;
-  top: -.28em;
-  clip: rect(-.2em .6em .22em -.2em);
+  top: -.31em;
+  clip: rect(-.2em .6em .24em -.2em);
   left: 50%;
   transform: translateX(-50%);
-  box-shadow: -.34em -.15em 0 -.185em;
+  box-shadow: -.36em -.18em 0 -.21em;
   background-image: 
-    radial-gradient(circle at .4em .1em, transparent 0, transparent .07em, currentcolor .071em),
-    radial-gradient(circle at .41em .06em, currentcolor 0, currentcolor .07em, transparent .071em);
+    radial-gradient(circle at .4em .09em, transparent 0, transparent .07em, currentcolor .071em),
+    radial-gradient(circle at .41em .05em, currentcolor 0, currentcolor .07em, transparent .071em);
 }
 i.icss-boba-feet:after {
   width: .1em;
-  height: .25em;
+  height: .28em;
   background: currentColor;
   border-radius: .05em 0 0em .05em;
+  top: -0.03em;
   left: -.13em;
-  box-shadow: .025em -.21em 0 -.025em
+  box-shadow: .025em -.235em 0 -.025em
 }

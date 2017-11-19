@@ -12,7 +12,9 @@ i.icss-bars:after {
 
 i.icss-bars:before {
     top: -0.36em;
+    left: 0;
 }
 i.icss-bars:after{
     top: 0.36em;
+    left: 0;
 }
