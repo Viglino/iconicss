@@ -1,0 +1,26 @@
+i.icss-storm {
+  width: .35em;
+  height: .35em;
+  box-shadow: .34em 0;
+  margin: .26em .5em .39em .15em;
+}
+i.icss-storm:before {
+  width: .35em;
+  height: .35em;
+  background-color: currentColor;
+  border-radius: 50%;
+  left: -.15em;
+  box-shadow: .65em 0, 
+    .1em -.14em 0 -.08em,
+    .3em -.23em 0 0.03em,
+    .52em -.18em; 
+}
+i.icss-storm:after {
+  border: 0.05em solid transparent;
+  border-color: currentColor transparent transparent currentColor;
+  border-width: .15em .1em;
+  transform: skew(-30deg);
+  box-shadow: -.09em -.23em 0 0;
+  top: .45em;
+  left: .23em;
+}

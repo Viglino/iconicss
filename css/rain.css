@@ -1,0 +1,27 @@
+i.icss-rain {
+  width: .35em;
+  height: .35em;
+  box-shadow: .34em 0;
+  margin: .26em .5em .39em .15em;
+}
+i.icss-rain:before {
+  width: .35em;
+  height: .35em;
+  background-color: currentColor;
+  border-radius: 50%;
+  left: -.15em;
+  box-shadow: .65em 0, 
+    .1em -.14em 0 -.08em,
+    .3em -.23em 0 0.03em,
+    .52em -.18em; 
+}
+i.icss-rain:after {
+  width: 0.075em;
+  height: 0.15em;
+  background-color: currentColor;
+  transform: skew(-30deg);
+  box-shadow: 0 -.22em, .4em -.22em,
+    .6em -.11em, .2em -.11em, .4em 0;
+  top: .55em;
+  left: -.1em;
+}

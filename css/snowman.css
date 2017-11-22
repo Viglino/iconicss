@@ -1,0 +1,43 @@
+i.icss-snowman {
+  width: .48em;
+  height: .48em;
+  background-color: transparent;
+  border: 0.065em solid currentColor;
+  border-radius: 50%;
+  border-bottom-color: transparent;
+  margin: .1em .22em .4em ;
+  box-shadow: 0 -.2em 0 -.1em,
+    0 .28em 0 -.2em, 0 .4em 0 -.2em;
+}
+i.icss-snowman:before {
+  width: .6em;
+  height: .6em;
+  background-color: transparent;
+  border: 0.065em solid currentColor;
+  border-radius: 50%;
+  border-top-color: transparent;
+  box-shadow: 
+    -.07em -.37em 0 -.26em,
+    .07em -.37em 0 -.26em,
+    .0em -.3em 0 -.26em,
+    .0em -1.18em 0 .4em;
+    
+  top: .21em;
+  left: 50%;
+  transform: translateX(-50%);
+  clip: rect(-.24em .6em 1em 0em);
+}
+i.icss-snowman:after {
+  width: .83em;
+  height: .17em;
+  background-color: transparent;
+  border: 0.06em solid transparent;  
+  border-left-color: currentColor;
+  border-right-color: currentColor;
+  top: .32em;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: inset .12em 0, inset -.12em 0,
+    .11em 0 0 -.06em,
+    -.11em 0 0 -.06em;
+}

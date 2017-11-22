@@ -1,0 +1,18 @@
+i.icss-flash {
+  border: 0.05em solid transparent;
+  background-color: transparent;
+  border-color: currentColor transparent transparent currentColor;
+  border-width: .28em .17em;
+  transform: skew(-30deg);
+  margin: .42em .2em 0 .16em;
+}
+i.icss-flash:before {
+  border: 0.05em solid transparent;
+  background-color: transparent;
+  border-color: transparent currentColor currentColor transparent;
+  border-width: .28em .17em;
+  top: -.7em;
+  left: -.35em
+}
+i.icss-flash:after {
+}
