@@ -1,0 +1,24 @@
+i.icss-flag-v {
+  width:0.55em;
+  height: .85em;
+  border-radius: 0 .05em 0 0;
+  background-color: transparent;
+  box-shadow: inset .1em .4em;
+  transform: skewY(5deg);
+  margin: 0 .25em -.02em .03em;
+}
+i.icss-flag-v:before {
+  width: .55em;
+  border: .18em solid currentColor;
+  border-right-color: transparent;
+  left: .25em;
+  top: .15em;
+  border-radius: 0 0 0 .05em;
+}
+i.icss-flag-v:after {
+  border:.08em solid currentColor;
+  border-radius: 50%;
+  top: -.14em;
+  left: -.03em;
+  transform: skewY(-5deg);
+}

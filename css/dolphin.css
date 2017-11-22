@@ -1,0 +1,26 @@
+i.icss-dolphin {
+  width:0.8em;
+  height: 0.8em;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: .2em -.2em 0 -.02em, -.085em -.38em 0 -.33em, .08em -.38em 0 -.2em;
+  margin: .25em .2em -.05em -.2em;
+}
+i.icss-dolphin:before {
+  width:0.5em;
+  height: 0.55em;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: -.12em -.12em 0 -.02em;
+  top: -.13em;
+  left: 0.63em;
+}
+i.icss-dolphin:after {
+  width:0.35em;
+  height: 0.4em;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: .05em -.12em 0 -.02em;
+  top: .55em;
+  left: 0.53em;
+}

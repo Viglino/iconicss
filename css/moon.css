@@ -1,0 +1,11 @@
+i.icss-moon {
+  width:0.8em;
+  height: 0.8em;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: inset .25em -.05em 0 .08em;
+}
+i.icss-moon:before {
+}
+i.icss-moon:after {
+}
