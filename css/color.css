@@ -5,6 +5,7 @@ i.icss-color {
     background-color: transparent;
     border: 0.065em solid currentColor;
     transform: rotate(-20deg);
+   	margin: 0 .03em .08em 0;
 }
 i.icss-color:before {
 	width: 0.28em; 

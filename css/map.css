@@ -1,31 +1,31 @@
 i.icss-map {
-  width: .5em;
-  height: .9em;
+  width: .4em;
+  height: .8em;
   background-color: transparent;
   border-radius: .02em;
   border:.07em solid currentColor;
   border-width: .07em 0 .07em .07em;
-  margin: 0 .81em 0 0;
+  margin: 0 .62em .06em 0;
   transform: skewY(-20deg);
 }
 i.icss-map:before {
-  width: .36em;
-  height: .9em;
+  width: .26em;
+  height: .8em;
   background-color: transparent;
   border-radius: .02em;
   border:.07em solid currentColor;
   border-width: .07em 0.03em;
   transform: skewY(40deg);
-  top: .07em;
-  left: .405em;
+  top: .03em;
+  left: .31em;
 }
 i.icss-map:after {
-  width: .5em;
-  height: .9em;
+  width: .4em;
+  height: .8em;
   background-color: transparent;
   border-radius: .02em;
   border:.07em solid currentColor;
   border-width: .07em .07em .07em 0;
-  top: .208em;
-  left: .735em;
+  top: .135em;
+  left: .55em;
 }
