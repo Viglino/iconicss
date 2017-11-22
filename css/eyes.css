@@ -1,0 +1,27 @@
+i.icss-eyes {
+  width: .6em;
+  height: .8em;
+  border-radius: 100%;
+  background-color: transparent;
+  box-shadow: 
+    inset 0 0 0 0.065em, 
+     0 -.18em 0 -.08em,
+     0.55em .03em 0 -.2em;
+  border: 0.065em solid transparent;
+  margin: 0 0.55em 0 -.05em;
+}
+i.icss-eyes:before {
+  width: .6em;
+  height: .8em;
+  border-radius: 100%;
+  background-color: transparent;
+  box-shadow: 
+    inset 0 0 0 0.065em, 
+     0 -.15em 0 -.06em,
+     -.675em .03em 0 -.2em;
+  border: 0.065em solid transparent;
+  top: -.065em;
+  left: .55em;
+}
+i.icss-eyes:after {
+}

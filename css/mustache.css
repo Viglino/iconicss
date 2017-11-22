@@ -1,0 +1,29 @@
+i.icss-mustache  {
+  width: .3em;
+  height: .3em;
+  border-radius: 50%;
+  box-shadow: .26em 0;
+  margin: 0 .65em .1em .4em;
+}
+
+i.icss-mustache:before {
+  width: .4em;
+  height: .5em;
+  border-radius: 0 0 0 100%;
+  border: 0 solid transparent;
+  border-bottom: .3em solid currentColor;
+  transform: rotate(-40deg);
+  top: -.03em;
+  left: -.29em ;
+}
+
+i.icss-mustache:after {
+  width: .4em;
+  height: .5em;
+  border-radius: 0 0 100% 0;
+  border: 0 solid transparent;
+  border-bottom: .3em solid currentColor;
+  transform: rotate(40deg);
+  top: -.03em;
+  left: .45em ;
+}

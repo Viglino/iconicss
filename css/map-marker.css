@@ -1,0 +1,20 @@
+i.icss-map-marker {
+	width: .6em;
+	height: .6em;
+	border-radius: 50% 100% 50% 10%;
+	background: transparent;
+	box-shadow: inset .01em -.01em 0 .13em;
+	transform: scaleY(1.4) rotate(-45deg);
+	margin: 0 .05em .28em;
+}
+i.icss-map-marker:before {
+	width: .58em;
+	height: .48em;
+	border-radius: 50%;
+	border: 0.13em solid currentColor;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(45deg) ;
+}
+i.icss-map-marker:after {
+}

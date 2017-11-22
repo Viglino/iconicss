@@ -1,0 +1,25 @@
+i.icss-foggy {
+  width: .35em;
+  height: .35em;
+  box-shadow: .34em 0;
+  margin: .26em .5em .39em .15em;
+}
+i.icss-foggy:before {
+  width: .35em;
+  height: .35em;
+  background-color: currentColor;
+  border-radius: 50%;
+  left: -.15em;
+  box-shadow: .65em 0, 
+    .1em -.14em 0 -.08em,
+    .3em -.23em 0 0.03em,
+    .52em -.18em; 
+}
+i.icss-foggy:after {
+  width: 0.7em;
+  height: 0.065em;
+  background-color: currentColor;
+  box-shadow: .2em .12em, 0em .24em;
+  top: .41em;
+  left: -.1em;
+}

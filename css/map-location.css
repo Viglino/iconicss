@@ -1,0 +1,31 @@
+i.icss-map-location {
+  width: .4em;
+  height: .8em;
+  background-color: transparent;
+  border-radius: .02em;
+  border:.07em solid currentColor;
+  border-width: .07em 0 .07em .07em;
+  box-shadow: .62em .2em;
+  margin: 0 .62em .06em 0;
+  transform: skewY(-20deg);
+}
+i.icss-map-location:before {
+  width: .26em;
+  height: .8em;
+  background-color: transparent;
+  border-radius: .02em;
+  border:.07em solid currentColor;
+  border-width: .07em 0.03em;
+  transform: skewY(40deg);
+  top: .03em;
+  left: .31em;
+}
+i.icss-map-location:after {
+	width: .28em;
+	height: .28em;
+	top: .08em;
+	left: .1em;
+	border-radius: 50% 50% 0 50%;
+	border: .1em solid currentColor;
+	transform: skewY(20deg) rotate(45deg) ;
+}
