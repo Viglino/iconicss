@@ -2076,42 +2076,43 @@ i.icss-card:after {
             box-shadow: 0 .125em, 0 .25em, 0 .375em;
 }
 i.icss-cloud-download {
-    background: transparent;
-    border: 0.23em solid currentColor;
-    border-bottom-color: transparent;
-    -webkit-box-shadow: 
-        -0.25em 0.25em 0 -0.1em, 
-        0.25em 0.25em 0 -0.1em;
-            box-shadow: 
-        -0.25em 0.25em 0 -0.1em, 
-        0.25em 0.25em 0 -0.1em;
-    margin: 0 0.4em 0.3em;
+    width: .22em;
+    height: .1em;
+    margin: .55em .63em 0 .15em;
+    -webkit-box-shadow: .49em 0;
+            box-shadow: .49em 0;
 }
 i.icss-cloud-download:before {
+    width: .35em;
+    height: .35em;
     -webkit-border-radius: 50%;
             border-radius: 50%;
-    border: 0.27em solid currentColor;
-    border-left-color: transparent;
-    left: 0.1em;
-    top: -0.158em;
-    -webkit-box-shadow: 
-        -0.5em -0.35em 0 0.01em,
-        -0.65em -0.15em 0 -0.06em;
-            box-shadow: 
-        -0.5em -0.35em 0 0.01em,
-        -0.65em -0.15em 0 -0.06em; 
+    clip: rect(-1em 1em .28em 0);
+    -webkit-transform: rotate(-48deg);
+        -ms-transform: rotate(-48deg);
+            transform: rotate(-48deg);
+    top: -.25em;
+    left: -.15em;
+    -webkit-box-shadow: inset 0 0 0 1em,
+        .253em .03em 0 .06em;
+            box-shadow: inset 0 0 0 1em,
+        .253em .03em 0 .06em
 }
 i.icss-cloud-download:after {
+    width: .3em;
+    height: .3em;
     -webkit-border-radius: 50%;
             border-radius: 50%;
-    border: 0.27em solid currentColor;
-    border-right-color: transparent;
-    left: -0.63em;
-    top: -0.158em;
-    -webkit-box-shadow: 
-        0.62em -0.17em 0 -0.05em;
-            box-shadow: 
-        0.62em -0.17em 0 -0.05em;
+    clip: rect(-1em 1em .26em -1em);
+    -webkit-transform: rotate(48deg);
+        -ms-transform: rotate(48deg);
+            transform: rotate(48deg);
+    top: -.2em;
+    left: .55em;
+    -webkit-box-shadow: inset 0 0 0 1em,
+        -.32em .02em 0 .12em;
+            box-shadow: inset 0 0 0 1em,
+        -.32em .02em 0 .12em
 }
 i.icss-cloud {
   width: .35em;
@@ -2314,8 +2315,8 @@ i.icss-dolphin {
   -webkit-border-radius: 50%;
           border-radius: 50%;
   background-color: transparent;
-  -webkit-box-shadow: .2em -.2em 0 -.02em, -.08em -.35em 0 -.3em, .08em -.38em 0 -.2em;
-          box-shadow: .2em -.2em 0 -.02em, -.08em -.35em 0 -.3em, .08em -.38em 0 -.2em;
+  -webkit-box-shadow: .2em -.2em 0 -.02em, -.085em -.38em 0 -.33em, .08em -.38em 0 -.2em;
+          box-shadow: .2em -.2em 0 -.02em, -.085em -.38em 0 -.33em, .08em -.38em 0 -.2em;
   margin: .25em .2em -.05em -.2em;
 }
 i.icss-dolphin:before {
@@ -2796,19 +2797,19 @@ i.icss-file-zip:before {
     left: .455em;
     -webkit-box-shadow: 
         -.4em 0em 0 -.06em,
-        -.28em .1em 0 -.06em,
+        -.3em .1em 0 -.06em,
         -.4em .2em 0 -.06em,
-        -.28em .3em 0 -.06em
+        -.3em .3em 0 -.06em
         ;
             box-shadow: 
         -.4em 0em 0 -.06em,
-        -.28em .1em 0 -.06em,
+        -.3em .1em 0 -.06em,
         -.4em .2em 0 -.06em,
-        -.28em .3em 0 -.06em
+        -.3em .3em 0 -.06em
         ;
 }
 i.icss-file-zip:after {
-    width: 0.25em;
+    width: 0.23em;
     height: 0.3em;
     -webkit-border-radius: .02em;
             border-radius: .02em;
@@ -2864,6 +2865,69 @@ i.icss-files:before {
     -webkit-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
             transform: rotate(-45deg);
+}
+i.icss-flag-v {
+  width:0.55em;
+  height: .85em;
+  -webkit-border-radius: 0 .05em 0 0;
+          border-radius: 0 .05em 0 0;
+  background-color: transparent;
+  -webkit-box-shadow: inset .1em .4em;
+          box-shadow: inset .1em .4em;
+  -webkit-transform: skewY(5deg);
+      -ms-transform: skewY(5deg);
+          transform: skewY(5deg);
+  margin: 0 .25em -.02em .03em;
+}
+i.icss-flag-v:before {
+  width: .55em;
+  border: .18em solid currentColor;
+  border-right-color: transparent;
+  left: .25em;
+  top: .15em;
+  -webkit-border-radius: 0 0 0 .05em;
+          border-radius: 0 0 0 .05em;
+}
+i.icss-flag-v:after {
+  border:.08em solid currentColor;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  top: -.14em;
+  left: -.03em;
+  -webkit-transform: skewY(-5deg);
+      -ms-transform: skewY(-5deg);
+          transform: skewY(-5deg);
+}
+i.icss-flag {
+  width:0.55em;
+  height: .85em;
+  -webkit-border-radius: 0 .05em 0 0;
+          border-radius: 0 .05em 0 0;
+  background-color: transparent;
+  -webkit-box-shadow: inset .1em .4em;
+          box-shadow: inset .1em .4em;
+  -webkit-transform: skewY(5deg);
+      -ms-transform: skewY(5deg);
+          transform: skewY(5deg);
+  margin: 0 .15em -.02em .03em;
+}
+i.icss-flag:before {
+  width: .45em;
+  border: .2em solid currentColor;
+  left: .25em;
+  top: .13em;
+  -webkit-border-radius: 0 .5em 0 .05em / 0 0.03em 0 .05em;
+          border-radius: 0 .5em 0 .05em / 0 0.03em 0 .05em;
+}
+i.icss-flag:after {
+  border:.08em solid currentColor;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  top: -.14em;
+  left: -.03em;
+  -webkit-transform: skewY(-5deg);
+      -ms-transform: skewY(-5deg);
+          transform: skewY(-5deg);
 }
 i.icss-flash {
   border: 0.05em solid transparent;
@@ -4521,6 +4585,19 @@ i.icss-mobile:after {
             border-radius: .05em;
     top: .8em;
     left: -.06em;
+}
+i.icss-moon {
+  width:0.8em;
+  height: 0.8em;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: transparent;
+  -webkit-box-shadow: inset .25em -.05em 0 .08em;
+          box-shadow: inset .25em -.05em 0 .08em;
+}
+i.icss-moon:before {
+}
+i.icss-moon:after {
 }
 i.icss-motorcycle {
   width: 0.5em;
