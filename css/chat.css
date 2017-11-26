@@ -1,0 +1,29 @@
+i.icss-chat  {
+  width: .7em;
+  height: .55em;
+  border-radius: 50%;
+  border: .065em solid transparent;
+  background: transparent;
+  box-shadow: inset 1em 0,  -.35em -.23em;
+  margin: .25em -.05em .05em .35em;
+}
+i.icss-chat:before {
+  width: .25em;
+  height: .2em;
+  border-radius: 0 0 100% 0;
+  border: 0 solid transparent;
+  border-right: .13em solid currentColor;
+  transform: rotate(18deg);
+  top: 0.15em;
+  left: -.38em;
+}
+i.icss-chat:after {
+  width: .2em;
+  height: .15em;
+  border-radius: 0 0 0 100%;
+  border: 0 solid transparent;
+  border-left: .12em solid currentColor;
+  transform: rotate(-10deg);
+  top: 0.37em;
+  left: .3em;
+}
