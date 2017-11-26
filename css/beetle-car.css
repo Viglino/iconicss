@@ -1,0 +1,31 @@
+i.icss-beetle-car {
+    height: 0.2em;
+    width: 1.22em;
+    border-style:solid;
+    border-color: transparent;
+    background: transparent;
+    border-width: 0 .58em;
+    border-radius: 0.1em;
+    box-shadow: inset 0 0 0 1em, -.05em .32em 0 -.065em;
+    margin: 0 -.1em .38em 0;
+}
+i.icss-beetle-car:before {
+    width: .78em;
+    height: 0.6em;
+    border-radius: 40% 50% 0 0 / 50% 70% 0 0;
+    box-shadow: inset 0 0 0 .065em,
+        -.35em .11em 0 -.09em,
+        inset 0 -.4em,
+        inset -.14em .005em;
+    clip: rect(0 1em .45em -1em);
+    top: -.0em;
+    left: -.28em;
+}
+i.icss-beetle-car:after {
+    width: .28em;
+    height: .28em;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1em, .65em 0;
+    top: 0.3em;
+    left: -.48em;
+}

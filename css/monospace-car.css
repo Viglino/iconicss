@@ -1,0 +1,33 @@
+i.icss-monospace-car {
+    height: 0.17em;
+    width: .91em;
+    border-style:solid;
+    border-color: transparent;
+    background: transparent;
+    border-width: 0 .25em 0 .6em;
+    border-radius: .1em 0 .05em .1em;
+    box-shadow: inset 0 0 0 1em, 
+        .055em 0, 
+        .12em .27em 0 -.05em,
+        .36em .25em 0 -.05em,
+        .24em .1em 0 -.013em;
+    margin: .06em .31em .34em -.16em;
+}
+i.icss-monospace-car:before {
+    width: 1em;
+    height: 0.7em;
+    border-radius: 40% .2em .03em 0 / 45% .1em 0;
+    box-shadow: inset 0 0 0 .07em,
+        inset 0 -.35em;
+    clip: rect(0 1em .45em 0);
+    top: -.06em;
+    left: -.4em;
+}
+i.icss-monospace-car:after {
+    width: .25em;
+    height: .25em;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1em, .65em 0;
+    top: 0.25em;
+    left: -.34em;
+}

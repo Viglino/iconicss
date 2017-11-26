@@ -1,0 +1,33 @@
+i.icss-ambulance {
+    height: .3em;
+    width: .3em;
+    background: transparent;
+    box-shadow: .065em .14em 0 .06em,
+        -.16em .18em 0 -.12em,
+        .33em .02em 0 -.09em,
+        .55em .02em 0 -.09em,
+        .55em .25em 0 -.09em,
+        .33em .25em 0 -.09em;
+    margin: -.05em .62em .35em .12em;
+}
+i.icss-ambulance:before {
+    width: 1em;
+    height: 0.7em;
+    border-radius: 40% .2em .03em 0 / 45% .06em 0;
+    box-shadow: inset 0 0 0 .07em,
+        inset -.15em -.3em;
+    clip: rect(0 1em .48em 0);
+    top: .05em;
+    left: -.1em;
+}
+i.icss-ambulance:after {
+    width: .25em;
+    height: .25em;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1em, 
+        .8em -.03em 0 -.09em,
+        -.17em -.03em 0 -.09em,
+        .65em 0;
+    top: 0.4em;
+    left: -.04em;
+}

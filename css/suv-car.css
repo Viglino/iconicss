@@ -1,0 +1,39 @@
+i.icss-suv-car {
+    height: 0.21em;
+    width: .55em;
+    border-style:solid;
+    border-color: transparent;
+    background: transparent;
+    border-width: 0 .18em 0 .32em;
+    border-radius: 0.1em;
+    box-shadow: inset 0 0 0 1em, 
+        .23em -.16em 0 -.075em,
+        .03em .37em 0 -.075em;
+    margin: .08em .38em .39em .28em;
+}
+i.icss-suv-car:before {
+    width: .78em;
+    height: 0.6em;
+    border-radius: .15em .08em;
+    border-right: .04em solid transparent;
+    box-shadow: inset 0 0 0 .065em,
+        -.35em .11em 0 -.09em,
+        inset 0 -.4em,
+        inset -.14em .005em,
+        .3em -.08em 0 -.19em;
+    clip: rect(0 1em .42em -1em);
+    top: -.0em;
+    left: -.28em;
+}
+i.icss-suv-car:after {
+    width: .23em;
+    height: .23em;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1em, 
+        .71em 0, 
+        -.18em -.08em 0 -.065em,
+        .86em -.08em 0 -.065em
+        ;
+    top: 0.37em;
+    left: -.48em;
+}
