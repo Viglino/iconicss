@@ -1,0 +1,38 @@
+i.icss-poodle {
+    width: .3em;
+    height: .3em;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 
+        inset -.04em -.02em 0 .11em,
+        .08em .32em 0 .01em,
+        .42em .32em 0 -.01em,
+        .43em .01em 0 -.08em,
+        -.15em .03em 0 -.09em,
+        -.2em .02em 0 -.12em,
+        .15em -.04em 0 -.09em,
+        .21em .01em 0 -.09em;
+    margin: 0 .42em .52em .1em;
+}
+i.icss-poodle:before {
+    width: .50em;
+    height: .4em;
+    border: .08em solid currentColor;
+    border-top: .13em solid currentColor;
+    border-bottom: 0 solid transparent;
+    border-radius: 100% 100% .01em .01em;
+    transform: perspective(.5em) rotateX(30deg);
+    top: .4em;
+    left: .15em;
+}
+i.icss-poodle:after {
+    width: .55em;
+    height: .4em;
+    border: .07em solid currentColor;
+    border-top: 0 solid transparent;
+    border-bottom: .12em solid currentColor;
+    border-radius: 0 50% 50% 50%;
+    transform: rotate(20deg);
+    top: .1em;
+    left: .15em;
+}

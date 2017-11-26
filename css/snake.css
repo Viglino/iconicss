@@ -1,0 +1,32 @@
+i.icss-snake {
+  width:0.45em;
+  height: 0.45em;
+  border-radius: 50%;
+  background-color: transparent;
+  border-style: solid;
+  border-color: currentColor currentColor transparent transparent;
+  border-width: .08em .08em .08em .005em;
+  margin: .05em .28em .3em 0;
+  transform: rotate(-15deg) skewX(-10deg);
+}
+i.icss-snake:before {
+  width:0.3em;
+  height: 0.35em;
+  border-radius: 50%;
+  border: 0.065em  solid currentColor;
+  border-color: transparent transparent currentColor currentColor;
+  border-width: .08em .08em .06em .08em;
+  top:.2em;
+  left: 0.28em;
+}
+i.icss-snake:after {
+  width:0.28em;
+  height: 0.28em;
+  border-radius: 50%;
+  border: 0.065em  solid currentColor;
+  border-color: currentColor currentColor transparent transparent;
+  border-width: .065em .05em .005em .06em;
+  box-shadow: -.39em -.62em 0 -.055em, -.44em -.6em 0 -.08em;
+  top:.44em;
+  left: 0.42em;
+}
