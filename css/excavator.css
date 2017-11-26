@@ -1,0 +1,33 @@
+i.icss-excavator {
+    height: 0.35em;
+    width: .5em;
+    background: transparent;
+    border-right: .2em solid transparent;
+    border-radius: 50% .03em .0em / 100% .03em .0em;
+    box-shadow: inset 0 0 0 .065em, 0 .1em;
+    margin: .03em .05em .28em .45em;
+}
+i.icss-excavator:before {
+    width: .35em;
+    height: .3em;
+    border: .06em solid currentColor;
+    border-width: .12em .1em 0 .06em;
+    border-bottom: transparent;
+    border-radius: .03em .03em 0 0;
+    transform: skewY(20deg) perspective(.2em) rotateX(35deg);
+    top: -.05em;
+    left: -.3em;
+}
+i.icss-excavator:after {
+    width: .23em;
+    height: .23em;
+    border-radius: 50%;
+    box-shadow: inset .2em -.3em 0 -.22em, 
+        .8em .3em 0 -.04em, 
+        .65em .3em 0 -.04em, 
+        .5em .3em 0 -.04em, 
+        .35em .3em 0 -.04em
+        ;
+    top: 0.14em;
+    left: -.44em;
+}

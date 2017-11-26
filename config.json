@@ -189,6 +189,8 @@
     "suv-car":{},
     "sport-car":{},
     "ambulance":{},
+    "excavator":{},
+    "bulldozer":{},
     "nuclear":{},
     "gun":{},
     "server":{},
