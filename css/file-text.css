@@ -13,7 +13,7 @@ i.icss-file-text:before {
     left: .275em;
     border-radius: .1em;
     border-color: transparent;
-    border-right-color: inherit;
+    border-right-color: currentColor;
     transform: rotate(-45deg);
     top: .02em;
 }
