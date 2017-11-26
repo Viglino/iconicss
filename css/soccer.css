@@ -1,0 +1,33 @@
+i.icss-soccer {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 .07em;
+    margin: 0;
+    
+    overflow: hidden;
+}
+i.icss-soccer:before {
+    width: .5em;
+    border-style: solid;
+    border-width: 0.3em .1em 0;
+    border-color: currentColor transparent;
+    top: .5em;
+    left: .23em;
+    box-shadow: .425em -.53em, 
+        -.54em .15em,
+        -.48em -.55em;
+    transform: rotate(25deg)
+}
+i.icss-soccer:after {
+    width: .32em;
+    height: .32em;
+    background-color: currentColor;
+    top: .35em;
+    left: .385em;
+    box-shadow: .2em -.5em,
+        .45em .1em,
+        -.47em -.22em;
+    transform: rotate(-15.5deg) skewX(10deg);
+}

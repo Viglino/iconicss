@@ -1,0 +1,25 @@
+i.icss-tennis-ball {
+    width: .8em;
+    height: .8em;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 .07em;
+    margin: 0;
+    overflow: hidden;
+}
+i.icss-tennis-ball:before {
+    width: .8em;
+    height: .8em;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 .07em;
+    top: .5em;
+    left: .1em;
+}
+i.icss-tennis-ball:after {
+    width: .8em;
+    height: .8em;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 .07em;
+    top: -.5em;
+    left: -.1em;
+}

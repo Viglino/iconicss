@@ -1,0 +1,35 @@
+i.icss-poolroom {
+    width: 1em;
+    height: .7em;
+    border-radius: .1em;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 .07em;
+}
+i.icss-poolroom:before {
+    width: .1em;
+    height: .1em;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1em,
+        -.53em -.28em 0 .01em,
+        -.53em .28em 0 .01em,
+        .33em .28em 0 .01em,
+        .33em -.28em 0 .01em,
+        -.1em -.28em 0 .01em,
+        -.1em .28em 0 .01em,
+        .1em .07em,
+        .1em -.07em,
+        .2em 0,
+        .2em .14em,
+        .2em -.14em;        ;
+    top: .3em;
+    left: .55em;
+}
+i.icss-poolroom:after {
+    width: .06em;
+    border:.025em solid transparent;
+    border-radius: .03em;
+    border-bottom: .75em solid currentColor;
+    top: -.08em;
+    left: .4em;
+    transform: rotate(55deg);
+}

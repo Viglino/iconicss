@@ -1,0 +1,18 @@
+i.icss-billiard {
+    width: .8em;
+    height: .8em;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: inset -.03em 0 0 .17em;
+}
+i.icss-billiard:before {
+	content:"8";
+	font-weight: bold;
+	font-family: sans-serif;
+    line-height: 1em;
+    font-size: .48em;
+    top:.35em;
+    left: .5em;
+}
+i.icss-billiard:after {
+}
