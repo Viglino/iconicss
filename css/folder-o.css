@@ -1,0 +1,26 @@
+i.icss-folder-o  {
+  width: 1em;
+  height: .75em;
+  border-radius: .05em;
+  border: .065em solid currentColor;
+  background: transparent;
+  border-top: 0 solid transparent;
+  margin: 0;
+}
+i.icss-folder-o:before {
+  width: .9em;
+  height: .065em;
+  border: 0 solid currentColor;
+  border-right-width: .5em;
+  top: 0;
+  left: 0;
+}
+i.icss-folder-o:after {
+  width: .5em;
+  height: .2em;
+  border-radius: .05em .05em 0 0;
+  border: .065em solid currentColor;
+  border-bottom: 0 solid transparent;
+  top: -.135em;
+  left: -.06em;
+}

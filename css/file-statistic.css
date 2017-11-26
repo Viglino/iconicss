@@ -1,0 +1,32 @@
+i.icss-file-statistic {
+    width: .8em;
+    height: 1em;
+    background-color: transparent;
+    border-width: .065em;
+    border-style: solid;
+    border-radius: .05em .34em .05em .05em;
+    overflow: hidden;
+}
+i.icss-file-statistic:before {
+    width: .26em;
+    height: .6em;
+    background: currentColor;
+    box-shadow: -.43em 1em 0 -.06em,
+        -.23em .8em 0 -.06em,
+        -.03em .9em 0 -.06em;
+    top: -.35em;
+    left: .45em
+}
+i.icss-file-statistic:after {
+    width: .4em;
+    height: .25em;
+    background-color: transparent;
+    border-style: solid;
+    border-color: currentColor currentColor transparent transparent;
+    border-width: .07em .07em 0 0;
+    border-radius: .05em;
+    transform: rotate(-40deg) skewX(20deg);
+    box-shadow: .23em .085em 0 -.085em;
+    top: .36em;
+    left: .07em;
+}
