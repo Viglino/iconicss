@@ -160,6 +160,7 @@
     "pipette":{},
     "map":{},
     "map-location":{},
+    "map-position":{},
     "map-marker":{},
     "pushpin":{},
     "flag":{},
@@ -191,6 +192,9 @@
     "ambulance":{},
     "excavator":{},
     "bulldozer":{},
+    "backhoe":{},
+    "dumper":{},
+    "mixer-truck":{},
     "nuclear":{},
     "gun":{},
     "server":{},
@@ -206,6 +210,7 @@
     "space-invader":{},
     "c3po":{},
     "r2d2":{},
+    "yoda":{},
     "boba-feet":{}
   }
 }

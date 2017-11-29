@@ -1,0 +1,43 @@
+i.icss-map-position {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  border-radius: .05em;
+  border: .07em solid currentColor;
+  background-image: 
+    linear-gradient(-36deg, transparent 53%, currentcolor 53%, 
+      currentcolor 56%, transparent 56%), 
+    linear-gradient(-36deg, transparent 28%, currentcolor 28%, 
+      currentColor 31%, transparent 31%), 
+    linear-gradient(26deg, transparent 67%, currentcolor 55%, 
+      currentColor 70%, transparent 70%),
+    linear-gradient(26deg, transparent 83%, currentcolor 83%, 
+      currentColor 86%, transparent 86%);
+  margin: 0;
+  overflow: hidden;
+}
+i.icss-map-position:before {
+  width: .05em;
+  height: .3em;
+  box-shadow: inset 0 1em, 
+    .32em -.73em 0 .1em, 
+    .1em -.85em 0 .1em, 
+    -.3em .65em 0 .1em, 
+    -.68em 0  0 .1em, 
+    -.35em -.3em,
+    -.35em 0,
+    -.2em .3em;
+  transform: rotate(-35deg) skew(30deg);
+  top: .3em;
+  left: .55em;
+}
+i.icss-map-position:after {
+	width: .3em;
+	height: .3em;
+	top: .18em;
+	left: .18em;
+	border-radius: 80% 50% .03em 50%;
+  background-image: radial-gradient(circle at 50% 50%, 
+    transparent .05em, currentColor .05em);
+	transform: scaleY(1.2) rotate(45deg) ;
+}
