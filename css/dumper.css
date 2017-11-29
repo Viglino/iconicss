@@ -1,0 +1,37 @@
+i.icss-dumper {
+    height: 0.25em;
+    width: .3em;
+    background: transparent;
+    border-radius: .1em .05em 0 0 / 100% .05em 0 0;
+    border: .065em solid currentColor;
+    box-shadow: 
+        -.12em .2em,
+        -.23em .288em 0 -.05em,
+        -.03em .208em 0 .03em;
+    margin: .12em .75em .37em .18em;
+}
+i.icss-dumper:before {
+    width: .75em;
+    border: .1em solid transparent;
+    border-top: .2em solid currentColor;
+    border-width: .4em .1em .03em .04em;
+    border-radius: .03em .03em .05em;
+    box-shadow: 
+        -.1em .137em 0 -.04em, 
+        -.01em .137em 0 -.04em,
+        -.35em -.24em 0 -.17em;
+    top: -.1em;
+    left: .24em;
+}
+i.icss-dumper:after {
+    width: .25em;
+    height: .25em;
+    border-radius: 50%;
+    box-shadow: inset 1em 0,
+        .48em 0, .72em 0,
+        -.22em -.02em 0 -.08em,
+        .9em -.045em 0 -.075em,
+        .44em -.54em 0 -.07em;
+    top: .3em;
+    left: -.1em;
+}

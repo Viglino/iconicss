@@ -1,0 +1,34 @@
+i.icss-backhoe {
+    height: 0.35em;
+    width: .42em;
+    background: transparent;
+    border-right: .1em solid transparent;
+    border-radius: .15em .1em .1em .06em / 100% .1em .1em .06em;
+    box-shadow: inset 0 0 0 .065em, 
+        -.34em .25em 0 -.03em,
+        -.03em .18em;
+    margin: .04em .02em .4em .8em;
+}
+i.icss-backhoe:before {
+    width: .4em;
+    height: .25em;
+    border-radius: .05em;
+    border: .09em solid transparent;
+    border-color: currentColor currentColor transparent transparent ;
+    transform: rotate(-45deg);
+    top: .35em;
+    left: -.6em;
+}
+i.icss-backhoe:after {
+    width: .3em;
+    height: .3em;
+    border-radius: 50%;
+    box-shadow: inset -.08em -.15em 0 -.1em, 
+        .03em .08em 0 -.01em,
+        .99em -.13em 0 -.08em, 
+        .9em -.47em 0 -.09em, 
+        .93em .12em 0 .03em, 
+        .45em .17em 0 -.02em;
+    top: .3em;
+    left: -.82em;
+}

@@ -1,0 +1,36 @@
+i.icss-mixer-truck {
+    height: 0.38em;
+    width: 1em;
+    background: transparent;
+    border-radius: .13em .05em 0 0 / 100% .05em 0 0;
+    border: 0 solid transparent;
+    border-right: .7em solid transparent;
+    box-shadow: 
+        inset 0 0 0 .065em,
+        inset 0 -.12em 0 .065em,
+        -.18em .15em 0 -.05em;
+    margin: .15em .05em .22em .2em;
+}
+i.icss-mixer-truck:before {
+    width: .6em;
+    height: .55em;
+    border-radius: 50% 100% 100% 50% / 50%;
+    border: .03em solid transparent;
+    transform: rotate(-10deg);
+    box-shadow: inset 1em 0, 
+        .15em 0 0 -.1em, -.08em 0 0 -.03em;
+    top: -.18em;
+    left: .38em;
+}
+i.icss-mixer-truck:after {
+    width: .25em;
+    height: .25em;
+    border-radius: 50%;
+    box-shadow: inset 1em 0,
+        .48em 0, .72em 0,
+        -.22em -.02em 0 -.08em,
+        .85em -.045em 0 -.075em,
+        .23em -.1em 0 -.075em;
+    top: .35em;
+    left: -.05em;
+}
