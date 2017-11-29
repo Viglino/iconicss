@@ -21,11 +21,11 @@ i.icss-map-location:before {
   left: .31em;
 }
 i.icss-map-location:after {
-	width: .28em;
-	height: .28em;
+	width: .3em;
+	height: .3em;
 	top: .08em;
 	left: .1em;
 	border-radius: 50% 50% 0 50%;
-	border: .1em solid currentColor;
+	border: .11em solid currentColor;
 	transform: skewY(20deg) rotate(45deg) ;
 }
