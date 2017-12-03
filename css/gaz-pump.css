@@ -1,0 +1,30 @@
+i.icss-gaz-pump {
+    width: .53em;
+    height: .86em;
+    border-radius: .03em .03em 0 0;
+    border: .05em solid transparent;
+    border-width: .05em .05em .48em .05em;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 .07em, 0 0 0 .07em, .42em .16em 0 -.23em;
+    margin: .07em .32em .07em .07em;
+    
+}
+i.icss-gaz-pump:before {
+    width: .2em;
+    height: .2em;
+    box-shadow: inset 0 -.07em, inset .07em 0, 
+        0 -.07em,
+        -.09em .16em 0 -.04em,
+        -.11em -.14em 0 -.05em;
+    border-radius: 0 .13em 0 .1em;
+    top: .07em;
+    left: .6em;
+}
+i.icss-gaz-pump:after {
+    width: .2em;
+    height: .8em;
+    box-shadow: inset -.07em 0, inset -.03em -.07em 0;
+    border-radius: 0 .13em .13em .1em;
+    top:0;
+    left: .6em;
+}

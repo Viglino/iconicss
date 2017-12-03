@@ -1,0 +1,29 @@
+i.icss-extinguisher {
+    width: .4em;
+    height: .8em;
+    border-radius: .17em .17em .05em .05em;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 .07em,
+        inset -.03em -.3em 0 .1em,
+        inset -.03em .4em 0 -.2em,
+        0 -.25em 0 -.13em;
+    margin: .2em .15em 0 .15em;
+}
+i.icss-extinguisher:before {
+    width: .25em;
+    height: .3em;
+    box-shadow: inset .08em -.075em;
+    border-radius: .05em;
+    top: -.25em;
+    left: .32em;
+    transform: rotate(25deg) skewX(-30deg);
+}
+i.icss-extinguisher:after {
+    width: .3em;
+    height: .8em;
+    border-radius: .2em 0 0 .05em;
+    border: .08em solid currentColor;
+    border-right: 0 solid transparent;
+    top: -.08em;
+    left: -.13em;
+}

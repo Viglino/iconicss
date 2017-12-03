@@ -1,0 +1,26 @@
+i.icss-pencil-b {
+  width: .14em;
+  height: .22em;
+  border-radius: 50%;
+  margin: .7em .78em .02em .08em;
+  transform: rotate(-45deg);
+}
+i.icss-pencil-b:before {
+  width: .69em;
+  height: .6em;
+  top: -.2em;
+  left: .1em;
+  border-radius: .08em; 
+  box-shadow: inset .083em .075em;
+  transform:  rotate(-30deg) skewX(30deg);
+}
+i.icss-pencil-b:after {
+  width: .8em;
+  height: .18em;
+  top: -.08em;
+  left: .41em;
+  border-radius: .1em;
+  box-shadow: inset 1em 0, 0 .2em, 0 .4em, 0 -.2em;
+  clip: rect(-.14em .53em .5em 0);
+}
+

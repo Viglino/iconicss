@@ -1,0 +1,19 @@
+i.icss-mac {
+    width: .4em;
+    height: .4em;
+    background-color: transparent;
+    border-radius: 100% .4em 100% .2em;
+    box-shadow: -.26em -.22em 0 .1em, 
+        -.42em -.38em 0 .1em;
+    transform: scaleX(.88) rotate(-45deg);
+    margin: .1em -.28em .17em .57em;
+}
+i.icss-mac:after {
+    width: .26em;
+    height: .13em;
+    border-radius: 100% .02em;
+    background-color: currentColor;
+    top: -.38em;
+    left: .1em; 
+    transform: rotate(23deg);
+}

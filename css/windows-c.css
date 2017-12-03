@@ -1,0 +1,12 @@
+i.icss-windows-c {
+    width: .35em;
+    height: .35em;
+    margin: 0 .5em .55em 0;
+    background-color: #f65314;
+    box-shadow: .4em 0 #7cbb00, 0 .4em #00a1f1, .4em .4em #ffbb00;
+    transform: perspective(1em) rotateY(-20deg);
+}
+i.icss-windows-c:before {
+}  
+i.icss-windows-c:after {
+}

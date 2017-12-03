@@ -1,0 +1,11 @@
+i.icss-windows {
+    width: .35em;
+    height: .35em;
+    margin: 0 .5em .55em 0;
+    box-shadow: .4em 0, 0 .4em, .4em .4em;
+    transform: perspective(1em) rotateY(-20deg);
+}
+i.icss-windows:before {
+}  
+i.icss-windows:after {
+}

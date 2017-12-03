@@ -1,0 +1,30 @@
+i.icss-cheese {
+    height: .45em;
+    width: .8em;
+    background: transparent;
+    border-radius: 0 .03em .03em;
+    box-shadow: inset 0 0 0 .065em;
+    margin: .04em 0 0 0;
+}
+i.icss-cheese:before {
+    width: 8em;
+    height: 1.1em;
+    border-radius: 50%;
+    background-color: currentColor;
+    clip: rect(0 .9em .42em 0);
+    transform: skew(60deg);
+    top: -.405em;
+    left: 0.115em;
+}
+i.icss-cheese:after {
+    width: .2em;
+    height: .2em;
+    border-radius: 50%;
+    box-shadow: inset 0 1em, 
+        .2em -.15em 0 -.04em,
+        .3em .08em 0 -.035em,
+        -.25em .08em 0 -.03em,
+        -.2em -.1em 0 -.04em;
+    top:.12em;
+    left: .32em;
+}

@@ -1,0 +1,30 @@
+i.icss-forklift {
+    height: .55em;
+    width: .4em;
+    background: transparent;
+    border-radius: .25em .06em .06em .06em / 100% .06em .06em .06em;
+    box-shadow: inset 0 0 0 .065em,
+        inset 0 -.15em 0 .065em,
+        .2em .15em 0 -.15em;
+    margin: .04em .05em .2em .5em;
+}
+i.icss-forklift:before {
+    width: .25em;
+    height: .15em;
+    transform: rotate(7deg);
+    box-shadow: inset 0 1em,
+        0 -.2em, 0 -.4em,
+        .68em -.1em 0 .4em,
+        0 .38em 0 .2em;
+    clip: rect(-.5em .35em .25em -.05em);
+    top: .4em;
+    left: -.4em;
+}
+i.icss-forklift:after {
+    width: .16em;
+    height: .16em;
+    border-radius: 50%;
+    box-shadow: inset 0 1em, .23em 0, .23em -.33em 0 .03em;
+    top: .58em;
+    left: .03em;
+}
