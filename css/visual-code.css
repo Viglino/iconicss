@@ -1,0 +1,28 @@
+i.icss-visual-code {
+   height: .845em;
+   border-radius: .03em; 
+   background-color: transparent;
+   border: .1em solid transparent;
+   border-left: .15em solid currentColor;
+   border-right: 0 solid transparent;
+   margin: 0 0 0 .58em;
+}
+i.icss-visual-code:before {
+}  
+i.icss-visual-code:after {
+   width: .55em;
+   height: .48em;
+   border-radius0: 0 .06em .06em 0;
+   background: transparent;
+   background-image: 
+      linear-gradient(41deg, 
+         transparent 0, transparent .36em, currentColor .36em, 
+         currentColor .47em, transparent .47em),
+      linear-gradient(-41deg, 
+         transparent 0, transparent .23em, currentColor .23em, 
+         currentColor .34em, transparent .34em)
+      ;
+   transform: perspective(.3em) rotateY(-30deg);
+   top: .05em;
+   left: -.845em;
+}

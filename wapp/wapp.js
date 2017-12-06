@@ -1,5 +1,5 @@
 ﻿/** The web application */
-var wapp= {
+var wapp = {
     /** the list of icons */
     icons: {},
     /** debug mode (in location search) */
