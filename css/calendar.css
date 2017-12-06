@@ -1,0 +1,26 @@
+i.icss-calendar  {
+  width: .9em;
+  height: .8em;
+  border-radius: .03em;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 .065em, inset 0 .15em 0 .065em; 
+  margin: .1em 0 0 0;
+}
+i.icss-calendar:before {
+  content: "31";
+  font-size: .5em;
+  font-weight: bold;
+  font-family: sans-serif;
+  line-height: 1em;
+  top: .45em;
+  left: 50%;
+  transform: translateX(-50%) scaleX(.8);
+}
+i.icss-calendar:after {
+  width: .1em;
+  height: .15em;
+  box-shadow: inset .1em 0, .5em 0;
+  border-radius: .03em;
+  top: -.08em;
+  left: .15em;
+}

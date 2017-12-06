@@ -1,0 +1,30 @@
+i.icss-shopping-cart  {
+  width: .18em;
+  height: .18em;
+  border-radius: 50%;
+  box-shadow: inset 1em 0, .5em 0, -.21em -.74em 0 -.015em;
+  margin: .8em .62em 0 .19em;
+}
+i.icss-shopping-cart:before {
+  width: .7em;
+  height: .7em;
+  border: .08em solid currentColor;
+  border-color: transparent transparent currentColor currentColor;
+  border-right: 0;
+  top: -.7em;
+  left: -.03em;
+  border-radius: 0 0 .05em .1em;
+  transform: skewX(5deg);
+}
+i.icss-shopping-cart:after {
+  width: .95em;
+  background-color: transparent;
+  border-radius: .03em .05em / .05em .1em;
+  border: .1em solid transparent;
+  border-width: .43em .1em 0 .05em;
+  border-color: currentColor transparent transparent;
+  transform: perspective(1em) rotateY(10deg);
+  transform-origin: 0 0;
+  top: -.61em;
+  left: .0em;
+}

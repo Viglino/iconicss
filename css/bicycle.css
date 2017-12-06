@@ -19,6 +19,7 @@ i.icss-bicycle:before {
 }
 i.icss-bicycle:after {
   height: 0.265em;
+  background-clip: currentColor;
   border: 0.046em solid currentColor;
   border-radius: 0.05em;
   left: 0.435em;

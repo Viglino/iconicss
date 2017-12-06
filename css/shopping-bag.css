@@ -1,0 +1,27 @@
+i.icss-shopping-bag {
+    width: .8em;
+    height: .75em;
+    border-radius: .0em;
+    margin: .21em .23em .04em -.05em;
+    transform: perspective(1em) rotateY(-15deg);
+}
+i.icss-shopping-bag:before {
+    height: .75em;
+    border: .11em solid transparent;
+    border-left: .16em solid currentColor;
+    border-right: 0;
+    top: 0;
+    left: .8em;
+    transform: skewY(-15deg);
+    transform-origin: 0;
+}
+i.icss-shopping-bag:after {
+    width: .6em;
+    height: .45em;
+    border: 0 solid transparent;
+    border-width: 0 .07em;
+    border-radius: .3em;
+    box-shadow: inset 0 0 0 .08em, .07em .02em;
+    top: -.23em;
+    left: .1em;
+}

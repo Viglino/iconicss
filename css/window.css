@@ -1,0 +1,26 @@
+i.icss-window {
+    width: 1.1em;
+    height: .75em;
+    background-color: transparent;
+    border: .05em solid transparent;
+    border-width: 0 .1em;
+    box-shadow: inset 0 0 0 .07em, 
+        inset 0 .19em 0 .07em,
+        0 .07em 0;
+    margin: .2em 0 .07em;
+}
+i.icss-window:before {
+    width: 1.1em;
+    height: .26em;
+    border-bottom: .1em solid transparent;
+    box-shadow: inset 0 1em, 
+        0 .48em 0 -.1em;
+    top: -.2em;
+    left: -.1em;
+}
+i.icss-window:after {
+    width: 0.06em;
+    height: .7em;
+    background-color: currentColor;
+    left: .43em;
+}

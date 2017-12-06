@@ -1,0 +1,46 @@
+i.icss-comment-o  {
+  width: .3em;
+  height: .18em;
+  background-color: transparent;
+  border-radius: 0 0 100% 0;
+  border: 0 solid transparent;
+  border-right: .15em solid transparent;
+  box-shadow: 
+    inset -.06em -.02em, 
+    .05em .02em 0 .02em;
+  transform: rotate(10deg);
+  margin: .5em .5em .03em .1em;
+}
+i.icss-comment-o:before {
+  width: .7em;
+  height: .63em;
+  border-radius: 130% 70% 100% / 110% 90% 100% ;
+  margin: 0 0 .2em;
+  background-color: transparent;
+  box-shadow: 
+    inset .05em -.05em,
+    inset .045em -.005em,
+    -.01em -.03em 0 0.02em,
+    -.17em .45em 0 -.27em
+    ;
+  clip: rect(-.1em .3em 1em -.1em);
+  transform: rotate(5deg);
+  top: -.572em;
+  left: -.13em;
+}
+i.icss-comment-o:after {
+  width: .9em;
+  height: .6em;
+  border-radius: 100% 100% 70%/ 100% 100% 100% 100%;
+  margin: 0 0 .2em;
+  background-color: transparent;
+  box-shadow: 
+    inset -.02em -.06em,
+    inset -.06em .0em,
+    -.03em -.03em 0 .03em
+    ;
+  clip: rect(-.1em 1em .8em .38em);
+  transform: rotate(-17deg);
+  top: -.565em;
+  left: -.16em;
+}

@@ -1,0 +1,29 @@
+i.icss-calendar-grid  {
+  width: .9em;
+  height: .85em;
+  border-radius: .03em;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 .065em, inset 0 .2em 0 .065em,
+    -.2em -.46em 0 -.39em, .2em -.46em 0 -.39em; 
+  margin: .1em 0 0 0;
+}
+i.icss-calendar-grid:before {
+  height: .065em;
+  width: .9em;
+  box-shadow: inset 1em 0,
+    0 .19em;
+  top: .4em;
+  left: 0;
+}
+i.icss-calendar-grid:after {
+  width: .065em;
+  height: .7em;
+  box-shadow: inset 1em 0 , 
+    .21em 0, 
+    -.21em 0 
+    ;
+  top: .1em;
+  left: .15em;
+  left: 50%;
+  transform: translateX(-50%);
+}

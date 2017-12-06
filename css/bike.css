@@ -23,6 +23,7 @@ i.icss-bike:before {
 }
 i.icss-bike:after {
   height: 0.27em;
+  background-clip: currentColor;
   border: 0.046em solid currentColor;
   border-radius: 0.05em;
   left: 0.43em;

@@ -1,0 +1,18 @@
+i.icss-comment  {
+  width: .9em;
+  height: .65em;
+  border-radius: 50%;
+  margin: 0 0 .2em;
+}
+i.icss-comment:before {
+  width: .3em;
+  height: .22em;
+  border-radius: 0 0 100% 0;
+  border: 0 solid transparent;
+  border-right: .15em solid currentColor;
+  transform: rotate(15deg);
+  top: 0.55em;
+  left: .08em;
+}
+i.icss-comment:after {
+}
