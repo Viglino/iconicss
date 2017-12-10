@@ -1,0 +1,27 @@
+i.icss-milk-bottle {
+  width: .3em;
+  height: .18em;
+  background-color: transparent;
+  border:.1em solid transparent;
+  border-width: .03em .1em;
+  border-bottom: .12em solid currentColor;
+  margin: .09em .03em .52em;
+}
+i.icss-milk-bottle:before {
+  width: .18em;
+  height: .1em;
+  background-color: currentColor;
+  border-radius: .04em;
+  top: -.1em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+i.icss-milk-bottle:after {
+  width: .35em;
+  height: .55em;
+  border-radius: .1em .1em .05em .05em;
+  background-color: currentColor;
+  top: .12em;
+  left: 50%;
+  transform: translateX(-50%);
+}

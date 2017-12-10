@@ -1,0 +1,38 @@
+i.icss-autobus {
+    height: 0.2em;
+    width: .6em;
+    border-style:solid;
+    border-color: transparent;
+    background: transparent;
+    border-width: 0 .15em 0 .15em;
+    box-shadow: inset -.065em 0,
+        inset .065em 0,
+        .065em 0,
+        -.065em 0,
+        .25em .16em,
+        -.065em .16em,
+        -.35em .22em 0 -.06em;
+    margin: .05em .28em .44em .38em;
+}
+i.icss-autobus:before {
+    width: 1.2em;
+    height: 0.6em;
+    border-radius: .2em .1em .03em .03em / .3em .2em .03em .03em;
+    box-shadow: inset 0 0 0 .07em,
+        inset 0 -.13em;
+    top: -.06em;
+    left: -.5em;
+}
+i.icss-autobus:after {
+    width: .26em;
+    height: .26em;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 1em, .7em 0,
+        .05em -.24em 0 -.05em,
+        -.23em -.015em 0 -.085em,
+        -.23em -.11em 0 -.085em,
+        .93em -.015em 0 -.085em,
+        .93em -.11em 0 -.085em;
+    top: 0.38em;
+    left: -.38em;
+}

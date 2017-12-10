@@ -1,0 +1,19 @@
+i.icss-fir {
+  width: .14em;
+  height: .2em;
+  margin: .65em .25em 0;
+}
+i.icss-fir:before {
+  width: 0.4em;
+  height: 0.4em;
+  border-radius: 0 0 0 100%; 
+  box-shadow: inset 1em 0, 
+    -.12em .12em 0 .03em,
+    .12em -.12em 0 -.04em;
+  margin: 0.45em .55em 0 0;
+  top: -.9em;
+  left: -.13em;
+  transform: rotate(-45deg);
+}
+i.icss-fir:after {
+}
