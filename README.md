@@ -12,7 +12,7 @@ Each icon uses a single single anchor element (one div) and just one color: the 
 
 * Because CSS3 is now widely suported by all main browsers
 * Because it may result in cool transition and morphing effects when changing icons
-* Besause it's fun! Like building a Lego:registered: model with a limited set of bricks.
+* Because it's fun! Like building a Lego:registered: model with a limited set of bricks.
 
 ## Known limitation
 * Some side effects may result in some browsers
