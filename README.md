@@ -2,16 +2,15 @@
 
 <img src="https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png" width="75" align="left" />
 
-
-### More than 250 pure CSS3 icons set.
+### More than 250 pure CSS3 icons!
 [Look at the demo page!](http://viglino.github.io/iconicss/)
 
-Each icon uses a single single anchor element (one div) and just one color: the `currentColor` (and transparent) except for the colored icons (as the name suggests). Thus they can easily be included in a page with a single element and use the current color.
+Each icon uses a single anchor element (one div) and just one color: the `currentColor` (and transparent) except for the colored icons (as the name suggests). Thus they can easily be included in a page with a single element and use the current color.
 
 ## Why use iConicss?
 
-* Because CSS3 is now widely suported by all main browsers
-* Because it may result in cool transition and morphing effects when changing icons
+* Because CSS3 is now widely suported by all main browsers.
+* Because it may result in cool transition and morphing effects when changing icons.
 * Because it's fun! Like building a Lego:registered: model with a limited set of bricks.
 
 ## Known limitation
@@ -44,10 +43,18 @@ Then just change the `icss-home` class to `icss-github` to let the transition pl
 
 ## Developpement
 
-### Debug mode
+### some rules
+
+1. Each icon must be a single element
+2. Don't use extra color (just the currentColor and transparen), except for colored icons...
+3. Color icons must have a standard icon and color must be justify (brand color)
+4. Avoid transform on the base element (except rotation when it applies to the whole icon)
+5. Use gradients sparingly (because IE don't love it)
+
+### debug mode
 
 If you want to fork, modify or create new icons, you can use the [debug mode](https://viglino.github.io/iconicss/?debug&icon=bug).   
-Just click on the button on top of the `index.html` page to access a page with one css per icon. Thus the icon's css can be easealy modified and download saved directly in your browser.
+Just click on the button on top of the `index.html` page to access a page with one css per icon. Thus the icon's css can be easealy accessed, modified and saved directly in your browser.
 
 If you create a new icon, be sure to add a css with its name in the `./css` directory and add an entry in the [config.json](https://github.com/Viglino/iconicss/blob/master/config.json) file of the project.
 
