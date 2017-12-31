@@ -20,11 +20,11 @@ i.icss-book:after {
     width: .2em;
     height: .2em;
     background-color: transparent;
-    border: 0.05em solid currentColor;
+    border: 0.06em solid currentColor;
     border-color: currentColor transparent transparent currentColor;
     border-radius: 50%;
     transform: rotate(-45deg);
-    top: 0.67em;
+    top: .667em;
     left: .018em;
     box-shadow: .13em -.15em 0 -.05em,
         .51em -.33em 0 -.05em;

@@ -1313,14 +1313,14 @@ i.icss-book:after {
     width: .2em;
     height: .2em;
     background-color: transparent;
-    border: 0.05em solid currentColor;
+    border: 0.06em solid currentColor;
     border-color: currentColor transparent transparent currentColor;
     -webkit-border-radius: 50%;
             border-radius: 50%;
     -webkit-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);
             transform: rotate(-45deg);
-    top: 0.67em;
+    top: .667em;
     left: .018em;
     -webkit-box-shadow: .13em -.15em 0 -.05em,
         .51em -.33em 0 -.05em;
@@ -1376,8 +1376,8 @@ i.icss-bottle:before {
   width: .13em;
   height: .22em;
   border-bottom: .035em solid transparent;
-  -webkit-box-shadow: inset .2em 0, 0 .1em;
-          box-shadow: inset .2em 0, 0 .1em;
+  -webkit-box-shadow: inset 0 .5em, 0 .1em ;
+          box-shadow: inset 0 .5em, 0 .1em ;
   -webkit-border-radius: .02em .02em 0 0;
           border-radius: .02em .02em 0 0;
   top: -.25em;
@@ -2605,6 +2605,53 @@ i.icss-card:after {
     -webkit-box-shadow: 0 .125em, 0 .25em, 0 .375em;
             box-shadow: 0 .125em, 0 .25em, 0 .375em;
 }
+i.icss-champagne-bottle {
+  width: .35em;
+  height: .7em;
+  background-color: transparent;
+  -webkit-box-shadow: inset 0 -.05em 0 .065em, inset 0 -.18em;
+          box-shadow: inset 0 -.05em 0 .065em, inset 0 -.18em;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, transparent), color-stop(.17em, transparent), 
+    color-stop(.17em, currentColor), color-stop(currentColor.32em), to(transparent.32em));
+  background: -webkit-linear-gradient(transparent 0, transparent .17em, 
+    currentColor .17em, currentColor.32em, transparent.32em);
+  background: -o-linear-gradient(transparent 0, transparent .17em, 
+    currentColor .17em, currentColor.32em, transparent.32em);
+  background: linear-gradient(transparent 0, transparent .17em, 
+    currentColor .17em, currentColor.32em, transparent.32em); 
+  -webkit-border-radius: .25em .25em .08em .08em / .5em .5em .2em .2em; 
+          border-radius: .25em .25em .08em .08em / .5em .5em .2em .2em;
+  margin: .3em 0 0;
+}
+i.icss-champagne-bottle:before {
+  width: .13em;
+  height: .22em;
+  border-bottom: .04em solid transparent;
+  -webkit-box-shadow: inset 0 .2em, 0 .052em;
+          box-shadow: inset 0 .2em, 0 .052em;
+  -webkit-border-radius: .02em .02em 0 0;
+          border-radius: .02em .02em 0 0;
+  top: -.25em;
+  left: .11em;
+  -webkit-transform: perspective(.3em) rotateX(37deg);
+          transform: perspective(.3em) rotateX(37deg);
+}
+i.icss-champagne-bottle:after {
+  width: .23em;
+  height: .21em;
+  -webkit-box-shadow: inset 0 0 0 .048em, 
+    0 -.325em 0 -.02em;
+          box-shadow: inset 0 0 0 .048em, 
+    0 -.325em 0 -.02em;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  top: .005em;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
 i.icss-chat  {
   width: .7em;
   height: .55em;
@@ -4738,6 +4785,91 @@ i.icss-github:after {
     -webkit-transform: rotate(65deg);
         -ms-transform: rotate(65deg);
             transform: rotate(65deg);
+}
+i.icss-glass-champagne {
+    height: .3em;
+    width: .55em;
+    background-color: transparent;
+    border: 0 solid currentColor;
+    border-width: 0 .23em 0.068em;
+    border-left-color:transparent;
+    border-right-color: transparent;
+    -webkit-box-shadow: inset 0 1em, 0 .025em;
+            box-shadow: inset 0 1em, 0 .025em;
+    margin: .7em .1em 0;
+    -webkit-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+            transform: rotate(15deg);
+}
+i.icss-glass-champagne:before {
+    height: .8em;
+    width: .35em;
+    background-color: transparent;
+    border: .065em  solid currentColor;
+    border-top: 0 solid transparent;
+    -webkit-border-radius: 0 0 60% 60% / 0 0 100% 100%;
+            border-radius: 0 0 60% 60% / 0 0 100% 100%;
+    background-image: 
+        -webkit-linear-gradient(105deg, transparent 0, transparent .35em,
+           currentColor .35em, currentColor .42em, transparent .42em ),
+        -webkit-radial-gradient(.07em .5em, 
+            circle, 
+            transparent 0, transparent .045em, currentColor .046em,
+            currentColor .1em, transparent .1em),
+        -webkit-radial-gradient(.19em .42em, 
+            circle, 
+            transparent 0, transparent .035em, currentColor .036em,
+            currentColor .1em, transparent .1em),
+        -webkit-radial-gradient(.13em .63em, 
+            circle, 
+            transparent 0, transparent .035em, currentColor .036em,
+            currentColor .1em, transparent .1em)
+        ;
+    background-image: 
+        -o-linear-gradient(105deg, transparent 0, transparent .35em,
+           currentColor .35em, currentColor .42em, transparent .42em ),
+        -o-radial-gradient(.07em .5em, 
+            circle, 
+            transparent 0, transparent .045em, currentColor .046em,
+            currentColor .1em, transparent .1em),
+        -o-radial-gradient(.19em .42em, 
+            circle, 
+            transparent 0, transparent .035em, currentColor .036em,
+            currentColor .1em, transparent .1em),
+        -o-radial-gradient(.13em .63em, 
+            circle, 
+            transparent 0, transparent .035em, currentColor .036em,
+            currentColor .1em, transparent .1em)
+        ;
+    background-image: 
+        linear-gradient(-15deg, transparent 0, transparent .35em,
+           currentColor .35em, currentColor .42em, transparent .42em ),
+        radial-gradient(circle at .07em .5em, 
+            transparent 0, transparent .045em, currentColor .046em,
+            currentColor .1em, transparent .1em),
+        radial-gradient(circle at .19em .42em, 
+            transparent 0, transparent .035em, currentColor .036em,
+            currentColor .1em, transparent .1em),
+        radial-gradient(circle at .13em .63em, 
+            transparent 0, transparent .035em, currentColor .036em,
+            currentColor .1em, transparent .1em)
+        ;
+    left:50%;
+    top:-.7em;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%)
+}
+i.icss-glass-champagne:after {
+    height: .1em;
+    width: .1em;
+    background-color: transparent;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    top:-.65em;
+    left: .03em;
+    -webkit-box-shadow: inset 0 -1em, -.04em .13em;
+            box-shadow: inset 0 -1em, -.04em .13em;
 }
 i.icss-glass-umbrella {
     height: .6em;
