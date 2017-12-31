@@ -3,10 +3,12 @@
 <img src="https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png" width="75" align="left" />
 
 
-### a pure CSS3 icons set.
+### More than 250 pure CSS3 icons set.
 [Look at the demo page!](http://viglino.github.io/iconicss/)
 
-## Why?
+Each icon uses a single single anchor element (one div) and just one color: the `currentColor` (and transparent) except for the colored icons (as the name suggests). Thus they can easily be included in a page with a single element and use the current color.
+
+## Why use iConicss?
 
 * Because CSS3 is now widely suported by all main browsers
 * Because it may result in cool transition and morphing effects when changing icons
