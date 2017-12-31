@@ -6967,11 +6967,12 @@ i.icss-pencil-b:before {
   left: .1em;
   -webkit-border-radius: .08em;
           border-radius: .08em; 
-  -webkit-box-shadow: inset .083em .075em; 
-          box-shadow: inset .083em .075em;
-  -webkit-transform:  rotate(-30deg) skewX(30deg);
-      -ms-transform:  rotate(-30deg) skewX(30deg);
-          transform:  rotate(-30deg) skewX(30deg);
+  border: .1em solid currentColor;
+  border-width: .1em 0 0 .1em;
+  border-color: currentColor transparent transparent currentColor;
+  -webkit-transform: rotate(-30deg) skewX(30deg);
+      -ms-transform: rotate(-30deg) skewX(30deg);
+          transform: rotate(-30deg) skewX(30deg);
 }
 i.icss-pencil-b:after {
   width: .8em;
