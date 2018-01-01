@@ -5,7 +5,7 @@
 ### More than 250 pure CSS3 icons!
 [Look at the demo page!](http://viglino.github.io/iconicss/)
 
-Each icon uses a single anchor element (one div) and just one color: the `currentColor` (and transparent) except for the colored icons (as the name suggests). Thus they can easily be included in a page with a single element and use the current color.
+Each icon uses a single anchor element (one div) and just one color: the `currentColor` (and transparent) except for the colored icons (as the name suggests). Thus they can easily be included in a page with a single element and use the current color and current font size.
 
 ## Why use iConicss?
 
@@ -25,15 +25,16 @@ All you need is download and include [iconicss.min.css](https://rawgit.com/Vigli
 ````
 <link rel="stylesheet" href="iconicss.min.css">
 ````
-
 then just add `icss-` classes to an `<i>` elements to add a new icon on your page:
 ````
 <i class="icss-home"></i>
 ````
-You can change color of icons as simple as set color in the CSS.
+
+You can change color of icons as simple as set `color` in CSS.
 ````
-<i class="icss-home" stle="color:red;"></i>
+<i class="icss-home" style="color:red;"></i>
 ````
+You can change the size of the icon just by changing the `font-size` in CSS
   
 To animate the icon when changing just add the `icss-anim` class to the element.
 ````
@@ -47,9 +48,10 @@ Then just change the `icss-home` class to `icss-github` to let the transition pl
 
 1. Each icon must be a single element
 2. Don't use extra color (just the currentColor and transparen), except for colored icons...
-3. Color icons must have a standard icon and color must be justify (brand color)
-4. Avoid transform on the base element (except rotation when it applies to the whole icon)
-5. Use gradients sparingly (because IE don't love it)
+3. Use relative font size units (em) to let the icon resize 
+4. Color icons must have a standard icon and color must be justify (brand color)
+5. Avoid transform on the base element (except rotation when it applies to the whole icon)
+6. Use gradients sparingly (because IE don't love it)
 
 ### debug mode
 
