@@ -1,0 +1,28 @@
+i.icss-bluetooth {
+    width: .16em;
+    height: 1em;
+    background-color: transparent;
+    border: .08em solid transparent;
+    border-left-color: currentColor; 
+    margin: 0 .5em;
+}
+i.icss-bluetooth:before {
+    width: .42em;
+    height: .7em;
+    border: .08em solid currentColor;
+    border-width: .08em .08em 0 .08em;
+    border-color: currentColor currentColor transparent transparent;
+    transform: rotate(45deg);
+    top: -.03em;
+    left: -.38em;
+}
+i.icss-bluetooth:after {
+    width: .42em;
+    height: .7em;
+    border: .08em solid currentColor;
+    border-width: 0 .08em .08em .08em;
+    border-color: transparent currentColor currentColor transparent ;
+    transform: rotate(-45deg);
+    top: .18em;
+    left: -.38em;
+}

@@ -1,0 +1,28 @@
+i.icss-pram {
+    width: .16em;
+    height: .13em;
+    background-color: transparent;
+    border: .08em solid currentColor;
+    border-width: .08em .08em 0 0; 
+    margin: .3em .8em .55em 0;
+}
+i.icss-pram:before {
+    width: .35em;
+    height: .35em;
+    border-radius: 50%;
+    border: .05em solid transparent;
+    box-shadow: inset 0 0 0 .075em, -.25em -.4em 0 .25em;
+    clip: rect(-1em .5em .3em -.1em);
+    top: .3em;
+    left: .6em;
+}
+i.icss-pram:after {
+    width: .35em;
+    height: .35em;
+    border-radius: 50%;
+    border: .05em solid transparent;
+    box-shadow: inset 0 0 0 .075em, .2em -.4em 0 .25em;
+    clip: rect(-.25em .45em .3em -.2em);
+    top: .3em;
+    left: .13em;
+}

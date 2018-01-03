@@ -1,0 +1,29 @@
+i.icss-camper {
+    width: .8em;
+    height: .2em;
+    background-color: transparent;
+    border: 1em solid transparent;
+    border-width: 0 .35em;
+    border-radius: .1em .1em 0 0;
+    box-shadow: inset .3em 0, 0 0 0 .1em;
+    margin: .13em .15em .5em .1em;
+}
+i.icss-camper:before {
+    width: .4em;
+    height: .4em;
+    border-radius: 50%;
+    box-shadow: inset .4em 0, 0 -.14em 0 .05em;
+    border: .07em solid transparent;
+    clip: rect(-.05em .4em .4em 0);
+    left: 50%;
+    top: .35em;
+    transform: translateX(-50%);
+}
+i.icss-camper:after {
+    width: 1em;
+    height: .25em;
+    box-shadow: inset .3em 0, inset -.3em 0, .14em .05em 0 -.09em;
+    top: .295em;
+    left: 50%;
+    transform: translateX(-50%);
+}

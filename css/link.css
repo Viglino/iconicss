@@ -1,0 +1,27 @@
+i.icss-link {
+    width: .09em;
+    height: .4em;
+    border-radius: .1em;
+    margin: .25em .26em;
+    transform: rotate(30deg);
+}
+i.icss-link:before {
+    width: .33em;
+    height: .42em;
+    background-color: transparent;
+    border-radius: .16em .16em .1em .1em;
+    border: .09em solid currentColor;
+    border-bottom: 0 solid transparent;
+    top: -.25em;
+    left: -.12em;
+}
+i.icss-link:after {
+    width: .33em;
+    height: .42em;
+    background-color: transparent;
+    border-radius: .1em .1em .16em .16em;
+    border: .09em solid currentColor;
+    border-top: 0 solid transparent;
+    top: .24em;
+    left: -.12em;
+}
