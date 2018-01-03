@@ -1,0 +1,31 @@
+i.icss-leia {
+	width: .8em; 
+	height: 1em; 
+	border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 .07em, 
+        inset 0 .3em 0 -.05em,
+        .4em 0 0 -.25em, -.4em 0 0 -.25em;
+    margin: 0 .15em;
+}
+i.icss-leia:before {
+    width: .12em;
+    height: .12em;
+    box-shadow: .15em 0, -.15em 0, 
+        -.05em .26em 0 .01em, .05em .26em 0 .01em;
+    border-radius: 50%; 
+    clip: rect(-.3em .4em .3em -.3em);
+    top: .45em;
+    left: 50%;
+    transform: translate(-50%);
+}
+i.icss-leia:after {
+    width: .2em;
+    height: .12em;
+    background-color: currentColor;
+    border-radius: 50%; 
+    clip: rect(.06em .3em .2em 0);
+    top: .69em;
+    left: 50%;
+    transform: translate(-50%);
+}
