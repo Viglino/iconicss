@@ -1,0 +1,33 @@
+i.icss-tags-o {
+  width: .6em;
+  height: .7em;
+  border-radius: 0 0 .03em .03em;
+  background: transparent;
+  border: 0.05em solid transparent;
+  border-width: 0 .05em .05em 0;
+  box-shadow: inset .065em 0, inset -.065em 0, inset 0 -.065em,
+    .065em .065em;
+  border-top: 0;
+  transform: rotate(-20deg);
+  margin: .24em .12em .06em;
+}
+i.icss-tags-o:before {
+  width: .42em;
+  height: .42em;
+  border-radius: .15em .055em;
+  border: 0.065em solid currentColor;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  top: -.21em;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+}
+i.icss-tags-o:after {
+  width: .22em;
+  height: .22em;
+  border-radius: 50%;
+  border: 0.065em solid currentColor;
+  top: -.1em;
+  left: 50%;
+  transform: translateX(-50%);
+}
