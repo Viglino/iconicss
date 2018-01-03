@@ -8026,6 +8026,32 @@ i.icss-server:after {
     -webkit-box-shadow: .91em 0, .91em .3em, .91em .6em, 0 .3em, 0 .6em;
             box-shadow: .91em 0, .91em .3em, .91em .6em, 0 .3em, 0 .6em;
 }
+i.icss-share-net {
+    width: .3em;
+    height: .3em;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    -webkit-box-shadow: .51em .3em, .51em -.3em;
+            box-shadow: .51em .3em, .51em -.3em;
+    margin: .3em .51em .3em 0;
+}
+i.icss-share-net:before {
+    width: .7em;
+    height: .7em;
+    background-color: transparent;
+    border: .09em solid currentColor;
+    border-width: .14em 0 0 .14em;
+    -webkit-border-radius: .13em 0 0;
+            border-radius: .13em 0 0;
+    top: -.2em;
+    left: .2em;
+    -webkit-transform: scaleY(.6) rotate(-45deg);
+        -ms-transform: scaleY(.6) rotate(-45deg);
+            transform: scaleY(.6) rotate(-45deg);
+}
+i.icss-share-net:after {
+}
+
 i.icss-share {
 	position: relative;
 	border-style: solid;

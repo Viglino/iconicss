@@ -1,0 +1,20 @@
+i.icss-share-net {
+    width: .3em;
+    height: .3em;
+    border-radius: 50%;
+    box-shadow: .51em .3em, .51em -.3em;
+    margin: .3em .51em .3em 0;
+}
+i.icss-share-net:before {
+    width: .7em;
+    height: .7em;
+    background-color: transparent;
+    border: .09em solid currentColor;
+    border-width: .14em 0 0 .14em;
+    border-radius: .13em 0 0;
+    top: -.2em;
+    left: .2em;
+    transform: scaleY(.6) rotate(-45deg);
+}
+i.icss-share-net:after {
+}
