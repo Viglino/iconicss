@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png" width="75" align="left" />
 
-### More than 250 pure CSS3 icons!
+### More than 260 pure CSS3 icons!
 [Look at the demo page!](http://viglino.github.io/iconicss/)
 
 Each icon uses a single anchor element (one div) and just one color: the `currentColor` (and transparent) except for the colored icons (as the name suggests). Thus they can easily be included in a page with a single HTML element and use the current color and current font size.
@@ -51,7 +51,7 @@ Then just change the `icss-home` class to `icss-github` to let the transition pl
 3. Use relative font size units (em) to let the icon resize 
 4. Color icons must have a standard icon and color must be justify (brand color)
 5. Avoid transform on the base element (except rotation when it applies to the whole icon)
-6. Use gradients sparingly (because IE don't love it)
+6. Use gradients sparingly (because IE doesn't love it)
 
 ### debug mode
 
