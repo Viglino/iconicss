@@ -1,135 +1,197 @@
-body
-{	font-family: 'Lucida Grande',Verdana,Geneva,Lucida,Arial,Helvetica,sans-serif;
-    font-size: 16px;
-    margin: 0;
-    padding:0;
-    color: #369;
+body {	
+  font-family: 'Lucida Grande',Verdana,Geneva,Lucida,Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding:0;
+  color: #369;
 }
-a 
-{	color: #337ab7;
-    text-decoration: none;
+.page-loader .loader p {
+  padding:0;
 }
-p 
-{	margin: 0; 
-    padding: 0.5em 1em;
+.page-loader .loader p::before {
+  content: "loading";
 }
-h1
-{	color: #fff;
-    padding:1em;
-    margin:0;
+a {	
+  color: #337ab7;
+  text-decoration: none;
+}
+p {	
+  margin: 0; 
+  padding: 0.5em 0;
+}
+.example {
+  padding: 0 .5em;
+}
+.example hr {
+  clear: both;
+  background: none;
+  border: 0;
+}
+.example p {
+  clear: both;
+  padding: 1em 0 .5em;
+}
+.example code {
+  color: #e60000;
+  background: #f1f0f0;
+}
+.example pre {
+  padding: .5em 1em;
+  margin: 0;
+  width: 80%;
+  float: right;
+}
+h1 {
+  color: #fff;
+  padding:1em;
+  margin:0;
+}
+h3 {
+  margin: 0;
+  padding: 2em 0 0;
+  clear: both;
 }
 input:focus {
-    border-color: orange;
+  border-color: orange;
 }
 
 .stretch {
-    display: inline-block;
-    transform: scaleY(2);
+  display: inline-block;
+  transform: scaleY(2);
 }
 
-.icon
-{	background: #ccc;
-    padding: 2em 2em 1em;
-    white-space: nowrap;
-    max-height: 30em;
-    overflow: hidden;
+.icon {	
+  background: #ccc;
+  padding: 2em 2em 1em;
+  white-space: nowrap;
+  max-height: 30em;
+  overflow: hidden;
 }
-.icon div
-{	display:inline-block;
-    position: relative;
-    line-height: 1em;
-    min-height: 1.1em;
+.icon div {	
+  display:inline-block;
+  position: relative;
+  line-height: 1em;
+  min-height: 1.1em;
 }
 .icon div i{
-    vertical-align: bottom;
+  vertical-align: bottom;
 }
 .icon textarea{
-    height: 1px;
-    opacity: 0;
-    width: 1px;
+  height: 1px;
+  opacity: 0;
+  width: 1px;
 }
+
+.button {
+  display: inline-block;
+  padding: 1em 1.5em;
+  background-color: #2a8;
+  color: #fff;
+  border: 0;
+  font-size: 1em;
+  border-radius: 0.3em;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+.button:hover {
+  box-shadow: 0 0 10px 2px #fff;
+}
+
 .icon button {
-    padding: 0.5em 1em;
-    background-color: currentColor;
-    color: inherit;
-    border: 0;
-    font-size: 1em;
-    border-radius: 0.3em;
-    border:3px solid #fff;
-    cursor: pointer;
+  padding: 0.5em 1em;
+  background-color: currentColor;
+  color: inherit;
+  border: 0;
+  font-size: 1em;
+  border-radius: 0.3em;
+  border:3px solid #fff;
+  cursor: pointer;
 }
 .icon button:hover {
-    box-shadow: 0 0 10px 2px #fff;
+  box-shadow: 0 0 10px 2px #fff;
 }
 .icon button > * {
-    color: #fff;
-    vertical-align: middle;
-    margin: 0.2em;
+  color: #fff;
+  vertical-align: middle;
+  margin: 0.2em;
 }
 .icon button i {
-    font-size: 2em;
-    vertical-align: middle;
-    transition: none;
+  font-size: 2em;
+  vertical-align: middle;
+  transition: none;
 }
 .icon button i:before,
 .icon button i:after {
-    transition: none;
+  transition: none;
 }
 
 .debug .icon > div:before {
-    content: "";
-    width:100%;
-    height:1em;
-    top:0;
-    left:0;
-    position: absolute;
-    border: 1px solid #369;
+  content: "";
+  width:100%;
+  height:1em;
+  top:0;
+  left:0;
+  position: absolute;
+  border: 1px solid #369;
 }
-.icon p
-{	font-size: 2em;
-    margin:0;
-    font-weight: bold;
+.icon p {
+  font-size: 2em;
+  margin:0;
+  font-weight: bold;
 }
 .icons > div {
-    background: #eee;
-    font-size: 2em;
-    display: inline-block;
-    padding:0.2em;
-    margin:0.2em;
-    border:0.1em solid #ddd;
-    line-height:1em;
-    height: 1em;
-    cursor: pointer;
+  background: #eee;
+  font-size: 2em;
+  display: inline-block;
+  padding:0.2em;
+  margin:0.2em;
+  border:0.1em solid #ddd;
+  line-height:1em;
+  height: 1em;
+  cursor: pointer;
 }
 .icons > div.selected {
     border-color: orange;
 }
-.icons > div > i
-{	vertical-align:bottom;
-
+.icons > div > i {	
+  vertical-align:bottom;
 }
 
 .header {
-    background: #369;
-    color: #fff;
+  background: #369;
+  color: #fff;
 }
-.header a {
-    position: absolute;
-    right: 0.5em;
-    top: 0.5em;
-    background: #369;
-    color: #fff;
-    padding: .1em .5em;
-    border: 2px solid #fff;
-    border-radius: 0.1em;
-    cursor: pointer;
+.header > a {
+  position: absolute;
+  right: 0.5em;
+  top: 0.5em;
+  background: #369;
+  color: #fff;
+  padding: .1em .5em;
+  border: 2px solid #fff;
+  border-radius: 0.1em;
+  cursor: pointer;
 }
-.header a i {
-    vertical-align: middle;
-    margin-right: .5em
+.header > a i {
+  vertical-align: middle;
+  margin-right: .5em
 }
-.debug .header a {
-    background: #ccc;
+.debug .header > a {
+  background: #ccc;
+}
+
+.header .menu a {
+  cursor: pointer;
+  color: #fff;
+  padding: .5em;
+  display: inline-block;
+}
+.header .menu a.select {
+    background: #888;
+}
+
+[data-page] {
+  display: none;
 }
 
 .footer {
@@ -151,13 +213,73 @@ input:focus {
     color: #444;
 }
 
-
-
-h2, .header > *, .footer > *, .search > *, .icons {
+h2, .header > *, .footer > *, .search > *, .icons, .page {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+.page {
+  padding: .5em;
+}
+
+
+[data-page] > .subtitle {
+  background: #efefef;
+  padding: .5em 0;
+}
+.center {
+  text-align: center;
+}
+ul.inline {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+ul.inline li {
+  display: inline-block;
+}
+
+[data-page] > .title {
+  background: #2a8;
+  color: #fff;
+  display: block; 
+}
+[data-page] > .title .left,
+[data-page] > .title .right {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 1em;
+  box-sizing: border-box;
+}
+[data-page] > .title .right {
+  width: calc(100% - 24em);
+  text-align: center;
+} 
+[data-page] > .title .left {
+  width: 20em;
+  height: 25em;
+  position: relative;
+  padding: 0;
+  margin-left: 4em;
+}
+[data-page] > .title .left i {
+  font-size: 18em;
+}
+[data-page] > .title .left > div {
+  position: absolute;
+  bottom: 4em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+[data-page] > .title .left p {
+  position: absolute;
+  bottom: .5em;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  font-weight: bold;
 }
 
 .search {

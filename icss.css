@@ -1,34 +1,49 @@
 
 i[class*="icss-"] {
-    position: relative;
-    display:inline-block;
-    font-style: normal;
-    background-color:currentColor;
-    box-sizing: border-box;
-    vertical-align: text-bottom;
+  position: relative;
+  display:inline-block;
+  font-style: normal;
+  background-color:currentColor;
+  box-sizing: border-box;
+  vertical-align: middle;
 }
 i[class*="icss-"]:before, 
 i[class*="icss-"]:after {
-    content: "";
-    border-width: 0; 
-    position: absolute;
-    box-sizing: border-box;
+  content: "";
+  border-width: 0; 
+  position: absolute;
+  box-sizing: border-box;
 }
 
-i[class*="icss-"].x2 {
-    font-size: 2em;
+[class*="icss-"].xxsmall {
+  font-size: .45em;
 }
-i[class*="icss-"].x3 {
-    font-size: 3em;
+[class*="icss-"].xsmall {
+  font-size: .5em;
 }
-i[class*="icss-"].middle {
-    vertical-align:middle;
+[class*="icss-"].small {
+  font-size: .65em;
+}
+[class*="icss-"].x2 {
+  font-size: 2em;
+}
+[class*="icss-"].x3 {
+  font-size: 3em;
+}
+[class*="icss-"].x4 {
+  font-size: 4em;
+}
+[class*="icss-"].x5 {
+  font-size: 5em;
+}
+i[class*="icss-"].bottom {
+  vertical-align:text-bottom;
 }
 
 i.icss-anim,
 i.icss-anim:before,
-i.icss-anim:after
-{   transition: all 1s;
+i.icss-anim:after {   
+  transition: all 1s;
 }
 
 .icss-spin {
@@ -37,6 +52,8 @@ i.icss-anim:after
 .icss-pulse {
   animation: fa-spin 1s infinite steps(8);
 }
+
+
 @keyframes fa-spin {
   0% {
     transform: rotate(0deg);
@@ -44,4 +61,24 @@ i.icss-anim:after
   100% {
     transform: rotate(359deg);
   }
+}
+
+/* Stack icons */
+.icss-stack {
+  position: relative;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+}
+
+.icss-stack i[class*="icss-"] {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-.5em, -.5em);
+}
+
+.icss-stack i[class*="icss-"].bottom {
+  bottom: 0;
+  top: auto;
 }

@@ -6,7 +6,7 @@ i[class*="icss-"] {
     background-color:currentColor;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    vertical-align: text-bottom;
+    vertical-align: middle;
 }
 i[class*="icss-"]:before, 
 i[class*="icss-"]:after {

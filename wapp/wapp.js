@@ -1,4 +1,6 @@
-﻿/** The web application */
+﻿/** The web application 
+ * @namespace
+ */
 var wapp = {
   /** the list of icons */
   icons: {},
@@ -7,6 +9,27 @@ var wapp = {
 
   /** Initialize function */
   initialize: function(){},
+
+  /** Show a page */
+  showPage: function(id) {
+    if (!$("#"+(id||"none")).length) id="home";
+    $("[data-page]").hide();
+    $("#"+id).show();
+    $(".menu a").removeClass("select");
+    $(".menu a."+id).addClass("select");
+    wapp.currentPage=id;
+    wapp.getUrl();
+  },
+
+  /** Retrieve current url */
+  getUrl: function() {
+    var url = document.location.href.split("?")[0] 
+      + "?" + (wapp.debug?"debug&":"") 
+      + "icon=" + (wapp.currentIcon || "home")
+      + "&page=" + $("[data-page]:visible").attr("id");
+    window.history.replaceState (null, null, url);
+    return url;
+  },
 
   /** Set debug mode 
    * @param {boolean} b true/false
@@ -54,7 +77,7 @@ $(".search input").on("keyup", function() {
   var n = 0;
 	var val = $(this).val();
     var rex = new RegExp(val,"i");
-    $(".icons i").each(function(){
+    $("#icons .icons i").each(function(){
         if (rex.test($(this).data('icss'))) {
           $(this).parent().show();
            n++;
@@ -75,6 +98,7 @@ $(".color li").click(function(e) {
     $(this).parent().hide();
     e.stopPropagation();
 });
+
 
 /** Change icon
  */
@@ -99,20 +123,35 @@ function showICSS(icon) {
   $(".icon .title").text(icon);
 
   // Set icon in permalink
-  var s = "?" + (wapp.debug?"debug&":"") + "icon=" + icon;
-  window.history.replaceState (null, null, document.location.href.split("?")[0] + s);
+  wapp.currentIcon = (icon!=="home" ? icon:null);
+  wapp.getUrl();
 };
-
-
 
 function loadIcon(i) {
   $.ajax("css/"+i+".css", {
+    dataType: "text",
     success:function(r) {
       wapp.icons[i] = r;
     }
   });
 }
 
+function carousel() {
+  if (wapp.currentPage === "home") {
+    var icons = Object.keys(wapp.icons);
+    if (icons.length) {
+      var newIcon = icons[Math.round(Math.random()*icons.length)];
+      $(".title .left i").removeClass()
+        .addClass("icss-anim icss-"+newIcon);
+      $(".title .left p").text(newIcon);
+    }
+  }
+  setTimeout(carousel, 5000);
+}
+
+/** Initialize function.
+ * Runs when document is ready.
+ */
 wapp.initialize = function() {
   // Load config
   $.ajax("config.json",{
@@ -139,8 +178,18 @@ wapp.initialize = function() {
       }
       // Nb icons
       $(".nb").text(n);
+
+      // Start at home page
+      if (/page\=/.test(document.location.search)) wapp.showPage (document.location.search.replace(/(.*)page=(.*)(.*)/,"$2")||"home");
+      else wapp.showPage();
+
       // Select current icon
       showICSS();
+
+      carousel();
+      
+      // Show page
+      pageLoader.hide();
     },
     error: function(){
     }
