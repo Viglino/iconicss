@@ -22,22 +22,22 @@ This will impact icons that use gradient background-image (just a few ones).
 ## How to use it?
 
 All you need is download and include [iconicss.min.css](https://rawgit.com/Viglino/iconicss/master/dist/iconicss.min.css) in your html page:
-````
+````html
 <link rel="stylesheet" href="iconicss.min.css">
 ````
 then just add `icss-` classes to an `<i>` elements to add a new icon on your page:
-````
+````html
 <i class="icss-home"></i>
 ````
 
 You can change color of icons as simple as set `color` in CSS.
-````
+````html
 <i class="icss-home" style="color:red;"></i>
 ````
 You can change the size of the icon just by changing the `font-size` in CSS
   
 To animate the icon when changing just add the `icss-anim` class to the element.
-````
+````html
 <i class="icss-anim icss-home"></i>
 ````
 Then just change the `icss-home` class to `icss-github` to let the transition play.
