@@ -12,12 +12,18 @@ body {
   content: "loading";
 }
 a {	
-  color: #337ab7;
+  color: #963;
   text-decoration: none;
 }
 p {	
   margin: 0; 
   padding: 0.5em 0;
+}
+.example p.warning {
+  color: #e80;
+  background-color: rgb(255, 165, 0, .2);
+  padding: .5em 0;
+  margin: 1em 0;
 }
 .example {
   padding: 0 .5em;
@@ -25,7 +31,7 @@ p {
 .example hr {
   clear: both;
   background: none;
-  border: 0;
+  border-color: transparent;
 }
 .example p {
   clear: both;
@@ -43,7 +49,7 @@ p {
 }
 h1 {
   color: #fff;
-  padding:1em;
+  padding:1em 1em 0;
   margin:0;
 }
 h3 {
@@ -161,7 +167,7 @@ input:focus {
   background: #369;
   color: #fff;
 }
-.header > a {
+#icons a.debug {
   position: absolute;
   right: 0.5em;
   top: 0.5em;
@@ -219,15 +225,57 @@ h2, .header > *, .footer > *, .search > *, .icons, .page {
     margin-right: auto;
     display: block;
 }
+#license h2 {
+  background: #a82;
+  color: #fff;
+  margin: 0;
+  padding: 1em .5em;
+}
+.header p {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding: 1em 2em;
+}
 .page {
   padding: .5em;
 }
 
-
 [data-page] > .subtitle {
-  background: #efefef;
+  background-color: #efefef;
   padding: .5em 0;
+  z-index: 2;
+  position: relative;
+  overflow: hidden;
+  padding-top: 2em;
 }
+[data-page] > .subtitle:before {
+  content:"";
+  background: #000;
+  left: -1em;
+  right: -1em;
+  height: 4em;
+  position: absolute;
+  z-index: -1;
+  transform: rotate(-2deg);
+  transform-origin: 50% 0;
+  top: -2.4em;
+}
+[data-page] > .subtitle:after {
+  content:"";
+  background: #2a8;
+  left: -1em;
+  right: -1em;
+  height: 4em;
+  position: absolute;
+  z-index: -1;
+  transform: rotate(-1.2deg);
+  transform-origin: 50% 0;
+  top: -3em;
+}
+
+
 .center {
   text-align: center;
 }
@@ -253,8 +301,9 @@ ul.inline li {
   box-sizing: border-box;
 }
 [data-page] > .title .right {
-  width: calc(100% - 24em);
+  width: calc(100% - 18em);
   text-align: center;
+  font-size: 1.5em;
 } 
 [data-page] > .title .left {
   width: 20em;
@@ -280,6 +329,16 @@ ul.inline li {
   box-sizing: border-box;
   text-transform: capitalize;
   font-weight: bold;
+}
+
+@media (max-width: 700px) {
+  [data-page] > .title .right {
+    width: 100%;
+  } 
+  [data-page] > .title .left {
+    width: 100%;
+    margin:0;
+  }
 }
 
 .search {

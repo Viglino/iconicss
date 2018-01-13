@@ -166,8 +166,10 @@ wapp.initialize = function() {
         if (wapp.debug) $('<link/>', { rel: 'stylesheet', href: "css/"+i+".css" }).appendTo('head');
         loadIcon(i);                
         var div = $("<div>")
+          .addClass("icss-stack")
+          .data('icon',i)
           .click(function() {
-            showICSS($("i", this).attr('class').replace("icss-","")) 
+            showICSS($(this).data('icon')) 
           });
         if (r.icons[i].color) div.appendTo(".icons.color");
         else div.appendTo(".icons.standard");
@@ -179,13 +181,17 @@ wapp.initialize = function() {
       // Nb icons
       $(".nb").text(n);
 
-      // Start at home page
-      if (/page\=/.test(document.location.search)) wapp.showPage (document.location.search.replace(/(.*)page=(.*)(.*)/,"$2")||"home");
-      else wapp.showPage();
+      var page="home";
+      if (/page\=/.test(document.location.search)) {
+        page = document.location.search.replace(/(.*)page=(.*)(.*)/,"$2")||"home";
+      }
 
       // Select current icon
       showICSS();
+      // Show current page
+      wapp.showPage(page);
 
+      // Start carousel
       carousel();
       
       // Show page

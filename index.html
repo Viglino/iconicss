@@ -7,7 +7,7 @@
 	<meta name="description" content="pure CSS3 icons." />
 	<meta name="keywords" content="css,css3,html,icon" />
 
-  <link rel="stylesheet" href="https://cdn.rawgit.com/Viglino/css-page-loader/master/pageloader-loading.css" />
+  <link rel="stylesheet" href="https://cdn.rawgit.com/Viglino/css-page-loader/master/pageloader-ball.css" />
 	<link rel="stylesheet" type="text/css" href="wapp/wapp.css" />
   <link rel="stylesheet" type="text/css" href="icss.css" />
 
@@ -28,17 +28,15 @@ Code highlighting
 -->		
 	<div class="header">
     <h1><span class="stretch">iConicss</span></h1>
+    <p>
+      <span class="nb"></span> pure CSS3 icons.
+    </p>
+        
     <div class="menu">
-        <span class="nb"></span> pure CSS3 icons.
         <a class="home" onclick="wapp.showPage('home');"><i class="icss-home"></i> Home</a>
         <a class="icons" onclick="wapp.showPage('icons');"><i class="icss-mickey"></i> Icons</a>
         <a class="license" onclick="wapp.showPage('license');"><i class="icss-lightbulb"></i> License</a>
       </div>
-    
-		<a onclick="wapp.setDebug();">
-			<i class="icss-bug x2" ></i>
-			debug...
-		</a>
   </div>
   
   <!-- Home page -->
@@ -54,13 +52,16 @@ Code highlighting
           <h2>
               <span class="nb"></span> Pure CSS3 icons...
           </h2>
+          <h4 style="margin:0;">
+              «&nbsp;One CSS, one DIV, one icon!&nbsp;»
+          </h4>
           <p>
               Just CSS+HTML - no extra dependencies...
               <br/>
               Cool animations! Color and resize it!
               <br/><br/>
           </p>
-          <a class="button" href="https://cdn.rawgit.com/Viglino/iconicss/master/dist/iconicss.min.css" target="_new" style="font-size:1em;">
+          <a class="button" href="https://cdn.rawgit.com/Viglino/iconicss/master/dist/iconicss.min.css" target="_new" style="font-size:.65em;">
             <i class="icss-download x2"></i> &nbsp;
             <span class="stretch"> Download</span>
           </a>
@@ -86,8 +87,8 @@ Code highlighting
         <pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-home"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span></pre>
     
         <p>Change icon color or size in CSS. It will use the currentColor.</p>
-        <i class="icss-globe" style="font-size:3em; color:#a00"></i>
-        <pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-globe"</span><span style='color:#074726; '> </span><span style='color:#074726; '>style</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"</span><span style='color:#bb7977; font-weight:bold; '>font-size</span><span style='color:#806030; '>:</span><span style='color:#8c0000; '>3</span><span style='color:#006600; '>em</span><span style='color:#806030; '>;</span><span style='color:#074726; '> </span><span style='color:#bb7977; font-weight:bold; '>color</span><span style='color:#806030; '>:</span><span style='color:#074726; '>#a00</span><span style='color:#e60000; '>"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span></pre>
+        <i class="icss-lamp" style="font-size:3em; color:#a00"></i>
+        <pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-lamp"</span><span style='color:#074726; '> </span><span style='color:#074726; '>style</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"</span><span style='color:#bb7977; font-weight:bold; '>font-size</span><span style='color:#806030; '>:</span><span style='color:#8c0000; '>3</span><span style='color:#006600; '>em</span><span style='color:#806030; '>;</span><span style='color:#074726; '> </span><span style='color:#bb7977; font-weight:bold; '>color</span><span style='color:#806030; '>:</span><span style='color:#074726; '>#a00</span><span style='color:#e60000; '>"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span></pre>
       </div>
 
       <h3>Icon size</h3>
@@ -113,20 +114,37 @@ Code highlighting
         <i class="icss-forklift xsmall"></i>
       </div>
 
-      <h3>Animated Icons</h3>
+      <h3>Transform icons</h3>
       <div class="example">
-        <p>Use <code>.icss-spin</code> class to get any icon to rotate and use <code>.icss-pulse</code> to have it rotate with 8 steps.</p>
-        <i class="icss-gear icss-spin x2"></i>
-        <pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-gear icss-spin x2"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span></pre>
+        <p>
+          Use <code>flip</code> class to flip the icon.
+          <code>rot10</code>, <code>rot20</code>, <code>rot45</code>, <code>rot90</code>, <code>rot180</code> 
+          to rotate icons.
+        </p>
+<pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-suv-car x3"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-suv-car flip x3"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span></pre>        
+        <i class="icss-suv-car x3"></i>
+        <i class="icss-suv-car flip x3"></i>
         <hr/>
-        <i class="icss-x icss-pulse x2"></i>
-        <pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-x icss-pulse x2"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span></pre>        
+        <pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-suv-car rot10 x3"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span></pre>
+        <i class="icss-suv-car rot10 x3"></i>
+        <hr/>
+        <pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-suv-car rot-10 x3"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span></pre>        
+        <i class="icss-suv-car rot-10 x3"></i>
+
+        <p class="warning">
+          <span style="float:left; padding:.3em 1em">
+              <i class="icss-warning x2"></i> 
+          </span>
+          On icons that already gets a transform (rotation) you may have to stack the icon and set the transform on the parent.
+        </p>
+
       </div>
 
       <h3>Stacked Icons</h3>
       <div class="example">
         <p>
-          To stack multiple icons, use the <code>.fa-stack</code> class on the parent. 
+          To stack multiple icons, use the <code>.icss-stack</code> class on the parent. 
           You can use the sizing classes to adapt the icon size (<code>small</code>, <code>x2</code>, <code>x3</code>). 
         </p>
 <pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>span</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-stack x4"</span><span style='color:#a65700; '>></span>
@@ -138,13 +156,94 @@ Code highlighting
           <i class="icss-ban" style="color:#a00;"></i>
         </span>
 
+        <hr/>
+        
 <pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>span</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-stack x4"</span><span style='color:#a65700; '>></span>
   <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-bicycle xxsmall bottom"</span><span style='color:#074726; '> </span><span style='color:#074726; '>style</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"</span><span style='color:#bb7977; font-weight:bold; '>color</span><span style='color:#806030; '>:</span><span style='color:#8c0000; '>#</span><span style='color:#c00000; '>555</span><span style='color:#806030; '>;</span><span style='color:#e60000; '>"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span>
-  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-triangle"</span><span style='color:#074726; '> </span><span style='color:#074726; '>style</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"</span><span style='color:#bb7977; font-weight:bold; '>color</span><span style='color:#806030; '>:</span><span style='color:#074726; '>orange</span><span style='color:#806030; '>;</span><span style='color:#e60000; '>"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-triangle-o"</span><span style='color:#074726; '> </span><span style='color:#074726; '>style</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"</span><span style='color:#bb7977; font-weight:bold; '>color</span><span style='color:#806030; '>:</span><span style='color:#074726; '>orange</span><span style='color:#806030; '>;</span><span style='color:#e60000; '>"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span>
 <span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>span</span><span style='color:#a65700; '>></span></pre>
         <span class="icss-stack x4">
           <i class="icss-bicycle xxsmall bottom" style="color:#555;"></i>
-          <i class="icss-triangle" style="color:orange;"></i>
+          <i class="icss-triangle-o" style="color:orange;"></i>
+        </span>
+      </div>
+
+      <h3>Animated Icons</h3>
+      <div class="example">
+        <p>
+          Use <code>icss-spin</code> class to get any icon to rotate and use <code>icss-pulse</code> to have it rotate with 8 steps. 
+          <br/>
+          <code>icss-ring</code>, <code>icss-tada</code> will create special effects.
+          <br/>
+          <code>icss-reverse</code> will reverse animation direction.
+          <br/>
+          For more animations look at <a href="https://github.com/l-lin/font-awesome-animation">Louis LIN's repo</a>.
+        </p>
+<pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-gear icss-spin x2"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-circle-point icss-spin x2"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-power-off icss-spin x2"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span></pre>
+        <i class="icss-gear icss-spin x2"></i>
+        <i class="icss-circle-point icss-spin x2"></i>
+        <i class="icss-power-off icss-spin x2"></i>
+        <hr/>
+        <pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-spinner icss-pulse x2"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span></pre>        
+        <i class="icss-spinner icss-pulse x2"></i>
+        <hr/>
+        <pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-dolphin icss-spin icss-reverse x3"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span></pre>
+        <i class="icss-dolphin icss-spin icss-reverse x3"></i>
+        <hr/>
+        <i class="icss-bell icss-ring x2"></i>
+        <hr/>
+        <span class="icss-stack icss-vibes x3">
+          <i class="icss-thumb-up"></i>
+        </span>
+        <hr/>
+        <span class="icss-stack icss-tada x2">
+          <i class="icss-race-cup"></i>
+        </span>
+      </div>
+      
+      <h3>Hover animations</h3>
+      <div class="example">
+        <p>
+          Use <code>icss-spin-hover</code> class on stack to get any icon to rotate when cursor hovers it.
+        </p>
+        <span class="icss-stack icss-spin-hover x3">
+            <i class="icss-spinner"></i>
+        </span>
+        <span class="icss-stack icss-spin-hover icss-reverse x3">
+            <i class="icss-dolphin"></i>
+        </span>
+
+        <hr/>
+
+        <span class="icss-stack icss-ring-hover x3">
+          <i class="icss-bell"></i>
+        </span>
+        <span class="icss-stack icss-vibes-hover x3">
+          <i class="icss-hand-pointer"></i>
+        </span>
+        <span class="icss-stack icss-tada-hover x3">
+          <i class="icss-race-cup"></i>
+        </span>
+
+
+      </div>
+
+      <h3>Drop shadow</h3>
+      <div class="example">
+        <p>
+          Use the <code>.icss-shadow</code> class on the parent to display drop shadow on icons. 
+		      Then stack the same icon with different colors.
+        </p>
+
+<pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>span</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-shadow x3"</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-bicycle"</span><span style='color:#074726; '> </span><span style='color:#074726; '>style</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"</span><span style='color:#bb7977; font-weight:bold; '>color</span><span style='color:#806030; '>:</span><span style='color:#8c0000; '>#</span><span style='color:#c00000; '>555</span><span style='color:#806030; '>;</span><span style='color:#e60000; '>"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span>
+  <span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#074726; '> </span><span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"icss-bicycle"</span><span style='color:#074726; '> </span><span style='color:#074726; '>style</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"</span><span style='color:#bb7977; font-weight:bold; '>color</span><span style='color:#806030; '>:</span><span style='color:#074726; '>orange</span><span style='color:#806030; '>;</span><span style='color:#e60000; '>"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span>
+<span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>span</span><span style='color:#a65700; '>></span></pre>
+        <span class="icss-shadow x3">
+          <i class="icss-bicycle" style="color:#555;"></i>
+          <i class="icss-bicycle" style="color:orange;"></i>
         </span>
       </div>
 
@@ -154,17 +253,19 @@ Code highlighting
 
   <!-- License page -->
 	<div id="license" data-page=true>
-    <div class="icon">
-      <h2>Licence</h2>
-    </div>
+    <h2><i class="icss-gavel x2_5"></i> Licence</h2>
     <div class="page">
-        iConicss is fully open source and is GPL friendly. 
-        You can use it for commercial projects, open source projects. 
-        
-      <h3>Brand Icons</h3>
-      <!-- 
-        https://legalmatterblog.com/2015/04/27/may-the-4th-be-with-your-brand-a-legal-guide-to-making-star-wars-tributes/
-      -->
+        <p style="font-size:1.5em">
+          <div style="float:left; margin-right:1em;">
+            <i class="icss-gift x3 rot-10"></i>
+          </div>
+          iConicss is fully open source. 
+          You can use it for commercial projects or open source projects. 
+          <br/>
+          No attribution is required...
+        </p>
+
+      <h3><i class="icss-shopping-bag x2"></i> Brand Icons</h3>
       <ul>
         <li>
           All brand icons are trademarks of their respective owners.
@@ -176,6 +277,10 @@ Code highlighting
         <li>
           Do not use brand logos for any purpose except to represent that particular brand or service.
         </li>
+        <li>
+          Star Wars icons are is a <a href="https://legalmatterblog.com/2015/04/27/may-the-4th-be-with-your-brand-a-legal-guide-to-making-star-wars-tributes/">fan tribute</a> 
+          to the Star Wars Univers.
+        </li>
       </ul>
 
     </div>
@@ -183,6 +288,11 @@ Code highlighting
     
   <!-- Icons page -->
   <div id="icons" data-page=true>
+    <a class="debug" onclick="wapp.setDebug();">
+      <i class="icss-bug x2" ></i>
+      debug...
+    </a>
+    
 		<div class="icon">
 			<div style="font-size:20em;"><i class="icss"></i></div>
 			<div style="font-size:12em;"><i class="icss"></i></div>
