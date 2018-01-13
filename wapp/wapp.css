@@ -226,12 +226,40 @@ h2, .header > *, .footer > *, .search > *, .icons, .page {
     display: block;
 }
 #license h2 {
+  position: relative;
   background: #a82;
   color: #fff;
   margin: 0 auto;
-  padding: 1em .5em;
+  padding: 1em .5em 1.5em;
   max-width:100%;
+  z-index: 1;
+  overflow: hidden;
 }
+#license h2:before {
+  content:"";
+  background: #000;
+  left: -1em;
+  right: -1em;
+  height: 4em;
+  position: absolute;
+  z-index: -1;
+  transform: rotate(-2deg);
+  transform-origin: 50% 0;
+  bottom: -2.4em;
+}
+#license h2:after {
+  content:"";
+  background: #fff;
+  left: -1em;
+  right: -1em;
+  height: 4em;
+  position: absolute;
+  z-index: -1;
+  transform: rotate(-1.2deg);
+  transform-origin: 50% 0;
+  bottom: -3em;
+}
+
 .header p {
   max-width: 1000px;
   margin-left: auto;
@@ -302,7 +330,7 @@ ul.inline li {
   box-sizing: border-box;
 }
 [data-page] > .title .right {
-  width: calc(100% - 18em);
+  width: calc(100% - 16em);
   text-align: center;
   font-size: 1.5em;
 } 
@@ -311,7 +339,7 @@ ul.inline li {
   height: 25em;
   position: relative;
   padding: 0;
-  margin-left: 4em;
+  margin-left: 3em;
 }
 [data-page] > .title .left i {
   font-size: 18em;
