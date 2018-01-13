@@ -1,0 +1,7 @@
+i.icss-square-o {
+    width: 1em;
+    height: 1em;
+    border-radius: 0.1em;
+    background-color: transparent; 
+    border: .1em solid currentColor;
+}

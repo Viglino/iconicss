@@ -1,0 +1,31 @@
+i.icss-baby-face {
+    width: .8em;
+    height: .8em;
+    background-color: transparent;
+    border: .08em solid currentColor;
+    border-radius: 50%;
+    margin: 0 .1em;
+}
+i.icss-baby-face:before {
+    width: 1em;
+    height: .45em;
+    border-radius: 50%;
+    border: .08em solid transparent;
+    border-color: transparent currentColor;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+i.icss-baby-face:after {
+    width: .35em;
+    height: .35em;
+    border-radius: 50%;
+    box-shadow: inset 0 -.2em 0 -.1em, 
+        -.365em -.195em 0 -.13em,
+        .365em -.195em 0 -.13em,
+        -.15em -.17em 0 -.12em,
+        .15em -.17em 0 -.12em;
+    top: 33%;
+    left: 50%;
+    transform: translateX(-50%);
+}

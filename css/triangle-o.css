@@ -1,0 +1,17 @@
+i.icss-triangle-o {
+    width: 1em;
+    height: .1em;
+    border-radius: 0.05em;
+    margin: .82em 0 .06em 0;
+    transform-origin: 50% -.33em;
+}
+i.icss-triangle-o:before {
+    width: 1.23em;
+    height: 1.23em;
+    border: 0.15em solid currentColor;
+    border-color: currentColor currentColor transparent transparent;
+    border-radius: 0.1em;
+    transform: translateX(-50%) scaleX(0.6) rotate(-45deg);
+    top: -.55em;
+    left: 50%;
+}

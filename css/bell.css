@@ -1,0 +1,32 @@
+i.icss-bell {
+    width: .55em;
+    height: .8em;
+    border-bottom: .1em solid transparent;
+    background-color: transparent;
+    box-shadow: inset .5em .5em, 0 .28em 0 -.17em;
+    border-radius: 50% 50% .3em .3em;
+    margin: .1em .15em .1em;
+}
+i.icss-bell:before {
+    width: .7em;
+    height: .65em;
+    border: .1em solid currentColor;
+    border-color: transparent transparent currentColor transparent;
+    box-shadow: inset 1em 0;
+    border-width: 0 .05em .28em;
+    border-radius: 0 0 .1em .1em; 
+    top: .11em;
+    left: 50%;
+    transform: translateX(-50%)
+       perspective(1em) rotateX(40deg);
+}
+i.icss-bell:after {
+    width: .22em;
+    height: .2em;
+    box-shadow: inset 0 0 0 .07em;
+    border-radius: 50%; 
+    top: -.12em;
+    left: 50%;
+    transform: translateX(-50%);
+
+}

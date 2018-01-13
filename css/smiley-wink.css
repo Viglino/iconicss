@@ -1,0 +1,27 @@
+i.icss-smiley-wink {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 .07em;
+  border-radius: 50%;
+}
+i.icss-smiley-wink:before {
+  width: .45em;
+  height: .45em;
+  border-radius: 100%;
+  top: .35em;
+  left: 50%;
+  transform: translateX(-50%) rotate(15deg);
+  box-shadow: inset 0 -.1em 0 -0.02em, 0 .08em 0 -.05em;
+} 
+i.icss-smiley-wink:after {
+  width: .16em;
+  height: .16em;
+  border-radius: 100%;
+  border: 0 solid transparent;
+  border-width: .045em 0; 
+  box-shadow: inset .5em 0, .35em -.07em 0 -.005em;
+  transform: rotate(10deg);
+  top: 30%;
+  left: .25em;
+}

@@ -1,0 +1,28 @@
+i.icss-plug-o {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    border-radius: .1em;
+    box-shadow: inset 0 0 0 .07em;    
+    margin: 0;
+}
+i.icss-plug-o:after {
+    width: .72em;
+    height: .72em;
+    background-color: transparent;
+    border-radius: 50%;
+    border: .07em solid currentColor;
+	top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+}
+i.icss-plug-o:before {
+    width: .13em;
+    height: .13em;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: -.14em 0, .14em 0;
+	top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+}

@@ -1,0 +1,38 @@
+i.icss-vador-tie-fighter {
+    width: 1.1em;
+    height: 1em;
+    background-color: transparent;
+    border: .1em solid transparent;
+    border-width: .46em .05em;
+    border-color: transparent currentColor;
+    border-radius: .2em / .45em;
+    box-shadow: inset .5em 0 0 -.1em, 
+        inset -.5em 0 0 -.1em,
+        .1em 0 0 -.02em, 
+        -.1em 0 0 -.02em;
+    margin: 0 .07em;
+    transform: rotate(5deg);
+}
+.icss-stack i.icss-vador-tie-fighter {
+    transform: translate(-.63em, -.5em);
+}
+
+i.icss-vador-tie-fighter:before {
+    width: .4em;
+    height: .4em;
+    border-radius: 50%;
+    border: .07em solid transparent;
+    box-shadow: inset 0 0 0 .07em, 0 0 0 .09em,
+        .22em .2em 0 -.15em, -.22em .2em 0 -.15em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+i.icss-vador-tie-fighter:after {
+    width: .08em;
+    height: .08em;
+    box-shadow: .02em .16em, -.02em -.16em, .16em .02em, -.16em -.02em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}

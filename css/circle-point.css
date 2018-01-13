@@ -1,0 +1,30 @@
+i.icss-circle-point {
+    width: .2em;
+    height: .2em;
+    border-radius: 50%;
+	background-color: transparent;
+    box-shadow: 0 -.4em;
+    margin: .4em;
+}
+i.icss-circle-point:after {
+    width: .95em;
+    height: .95em;
+    border-radius: 50%;
+	background-color: transparent;
+	border: .1em solid currentColor;
+    border-color: transparent currentColor currentColor currentColor;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(-20deg);
+}
+i.icss-circle-point:before {
+    width: .95em;
+    height: .95em;
+    border-radius: 50%;
+	background-color: transparent;
+	border: .1em solid currentColor;
+    border-color: transparent currentColor currentColor currentColor;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) rotate(20deg);
+}

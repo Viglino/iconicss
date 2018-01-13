@@ -1,0 +1,31 @@
+i.icss-thumb-up{
+    width: .4em;
+    height: .13em;
+    background:currentColor;
+    border-radius: .2em;
+    box-shadow: .01em .13em, -.03em .26em, -.08em .38em;
+    margin: .3em .11em .45em .42em;
+    transform: rotate(-5deg)
+}
+.icss-stack i.icss-thumb-up {
+    transform: translate(-.5em, -.45em) rotate(-5deg);
+}
+i.icss-thumb-up:before{
+    width: .52em;
+    height: .55em;
+    background-color: currentColor;
+    border-radius: .3em 100% 100% 100%;
+    top: 0;
+    left: -.25em;
+    transform: rotate(-50deg);
+}
+i.icss-thumb-up:after{
+    width: .13em;
+    height: .43em;
+    background: currentColor;
+    top: -.28em;
+    left: -.08em;
+    border-radius: .04em;
+    transform: rotate(28deg);
+    border-radius: .04em 70% .04em / .04em 30% .04em;
+}

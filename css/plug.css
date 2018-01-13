@@ -1,0 +1,23 @@
+i.icss-plug {
+    width: .12em;
+    height: .5em;
+    background-color: currentColor;
+    border-radius: .1em;
+    box-shadow: -.13em -.5em, .13em -.5em;    
+    margin: .5em .6em 0 .15em;
+    transform: rotate(45deg)
+}
+.icss-stack i.icss-plug {
+   transform: translate(-.5em, -.5em) rotate(45deg);
+}
+i.icss-plug:after {
+    width: .55em;
+    height: .47em;
+    background-color: currentColor;
+    border-radius: .1em .1em 80% 80% / .1em .1em 100% 100%;
+	top: -.23em;
+	left: 50%;
+    transform: translateX(-50%);
+}
+i.icss-plug:before {
+}

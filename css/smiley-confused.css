@@ -1,0 +1,25 @@
+i.icss-smiley-confused {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 .07em;
+  border-radius: 50%;
+}
+i.icss-smiley-confused:before {
+  width: .35em;
+  height: .25em;
+  border-radius: 50%;
+  top: .58em;
+  left: .38em;
+  transform: rotate(-10deg);
+  box-shadow: inset .1em .38em 0 -.3em;
+}
+i.icss-smiley-confused:after {
+  width: .16em;
+  height: .14em;
+  border-radius: 100%;
+  box-shadow: inset .5em 0, .39em 0;
+  transform: rotate(-5deg);
+  top: 33%;
+  left: .23em;
+}

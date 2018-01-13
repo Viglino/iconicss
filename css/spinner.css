@@ -1,0 +1,17 @@
+i.icss-spinner {
+    width: .25em;
+    height: .25em;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: 
+        0 -.4em,
+        -.28em -.28em 0 -.01em,
+        -.4em 0 0 -.02em,
+        -.28em .28em 0 -.03em,
+        0 .4em 0 -.04em,
+        .28em .28em 0 -.05em,
+        .4em 0 0 -.06em,
+        .28em -.28em 0 -.07em
+        ;
+    margin: .375em;
+}

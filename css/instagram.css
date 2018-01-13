@@ -1,0 +1,21 @@
+i.icss-instagram {
+    width: 1em;
+    height: 1em;
+    border-radius: .25em;
+    border: .08em solid currentColor;
+    background-color: transparent;
+    margin: 0;
+}
+i.icss-instagram:before {
+}
+i.icss-instagram:after {
+    width: .58em;
+    height: .58em;
+    border-radius: 50%;
+    border: .08em solid currentColor;
+    background-color: transparent;
+    box-shadow: .29em -.29em 0 -.23em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

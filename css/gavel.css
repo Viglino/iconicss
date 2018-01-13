@@ -1,0 +1,28 @@
+i.icss-gavel {
+    width: .1em;
+    height: .45em;
+    border-radius: .05em;
+    box-shadow: .23em -.275em, -.23em -.275em;
+    margin: .3em .3em .275em .45em;
+    transform: rotate(-30deg);
+}
+.icss-stack i.icss-gavel {
+    transform: translate(-.5em, -.5em) rotate(-30deg);
+}
+i.icss-gavel:before {
+    width: .45em;
+    height: .35em;
+    background-color: currentColor;
+    top: -.225em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+i.icss-gavel:after {
+    width: .2em;
+    height: .4em;
+    border-radius: .05em;
+    background-color: currentColor;
+    top: .325em;
+    left: 50%;
+    transform: translateX(-50%);
+}
