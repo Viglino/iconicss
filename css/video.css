@@ -6,6 +6,7 @@ i.icss-video {
     border-style: solid;
     overflow: hidden;
     border-radius: .05em;
+    margin: 0.125em 0;
 }
 i.icss-video:before {
     border-style: solid;

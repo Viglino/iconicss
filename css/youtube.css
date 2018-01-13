@@ -4,6 +4,7 @@ i.icss-youtube {
     width: 1em;
     height: .7em;
     overflow: hidden;
+    margin: .2em 0 .1em;
 }
 i.icss-youtube:before {
     width: 0.5em;

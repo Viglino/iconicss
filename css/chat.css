@@ -5,7 +5,7 @@ i.icss-chat  {
   border: .065em solid transparent;
   background: transparent;
   box-shadow: inset 1em 0,  -.35em -.23em;
-  margin: .25em -.05em .05em .35em;
+  margin: .35em -.05em .05em .35em;
 }
 i.icss-chat:before {
   width: .25em;

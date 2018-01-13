@@ -14,7 +14,7 @@ i.icss-bus {
             transparent .1em, currentColor .1em, 
             currentColor .3em, transparent .3em)
         ;    
-    margin: 0.51em 0 0.16em;
+    margin: 0.51em .06em 0.16em;
 }
 i.icss-bus:before {
     width: 0.88em;

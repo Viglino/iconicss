@@ -5,8 +5,12 @@ i.icss-race-cup {
   box-shadow: inset 0 0 0 .08em;
   border-radius: 0 .05em 100% .08em;
   transform: skewY(-10deg);
-  margin: -.05em 0 .42em .62em;
+  margin: .15em 0 .42em .62em;
 }
+.icss-stack i.icss-race-cup {
+   transform: translate(-.5em, -.5em) skewY(-10deg);
+}
+
 i.icss-race-cup:before {
   width: .5em;
   height: .95em;

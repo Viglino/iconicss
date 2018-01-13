@@ -7,7 +7,7 @@ i.icss-2cv-car {
     border-width: 0 .62em 0 .6em;
     border-radius: 0.1em;
     box-shadow: inset 0 0 0 1em, -.09em .32em 0 -.065em;
-    margin: .02em -.16em .38em .03em;
+    margin: .25em -.16em .38em .03em;
 }
 i.icss-2cv-car:before {
     width: .8em;

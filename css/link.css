@@ -5,6 +5,9 @@ i.icss-link {
     margin: .25em .26em;
     transform: rotate(30deg);
 }
+.icss-stack i.icss-link {
+   transform: translate(-.3em, -.45em) rotate(-135deg);
+}
 i.icss-link:before {
     width: .33em;
     height: .42em;

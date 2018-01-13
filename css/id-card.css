@@ -6,6 +6,7 @@ i.icss-id-card {
     border-style: solid;
     overflow: hidden;
     border-radius: .08em;
+    margin: .1em 0 0;
 }
 i.icss-id-card:before {
     border-style: solid;

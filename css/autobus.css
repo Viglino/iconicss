@@ -14,6 +14,9 @@ i.icss-autobus {
         -.35em .22em 0 -.06em;
     margin: .05em .28em .44em .38em;
 }
+.icss-stack i.icss-autobus {
+    transform: translate(-.6em, -.5em);
+}
 i.icss-autobus:before {
     width: 1.2em;
     height: 0.6em;

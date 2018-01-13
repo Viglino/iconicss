@@ -11,4 +11,5 @@ i.icss-easter-egg {
 		linear-gradient(45deg, currentcolor 25%, transparent 25%);
 	background-size: 0.2em 0.3em;
 	background-position: -0.1em 0, -0.1em 0, 0 0, 0 0;
+	margin: 0 .15em;
 }

@@ -4,7 +4,7 @@ i.icss-folder  {
   border-radius: .05em;
   background: currentColor;
   border-top: 0 solid transparent;
-  margin: 0;
+  margin: .2em 0 0;
 }
 i.icss-folder:before {
   width: .5em;

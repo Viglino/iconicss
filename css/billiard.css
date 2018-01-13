@@ -4,6 +4,7 @@ i.icss-billiard {
     border-radius: 50%;
     background-color: transparent;
     box-shadow: inset -.03em 0 0 .17em;
+    margin: .1em;
 }
 i.icss-billiard:before {
 	content:"8";

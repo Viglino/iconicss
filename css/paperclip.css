@@ -6,7 +6,10 @@ i.icss-paperclip {
   border:.07em solid currentColor;
   border-bottom: 0;
   transform: rotate(45deg);
-  margin: 0 .35em .15em .5em;
+  margin: .1em .35em .15em .5em;
+}
+.icss-stack i.icss-paperclip {
+    transform: translate(-.5em, -.5em) rotate(45deg);
 }
 i.icss-paperclip:before {
   width: .35em;

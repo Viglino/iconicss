@@ -8,6 +8,9 @@ i.icss-helicopter {
     inset -.4em 0;
   margin: .16em .38em .1em .2em;
 }
+.icss-stack i.icss-helicopter {
+    transform: translate(-.75em, -.5em);
+}
 i.icss-helicopter:before {
   width: .65em;
   height: .07em;

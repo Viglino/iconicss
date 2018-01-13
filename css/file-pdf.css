@@ -5,6 +5,7 @@ i.icss-file-pdf {
     border-width: .065em;
     border-style: solid;
     border-radius: .05em .34em .05em .05em;
+    margin: 0 .1em;
 }
 i.icss-file-pdf:before {
     border-style: solid;

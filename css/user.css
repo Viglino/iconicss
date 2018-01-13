@@ -4,6 +4,7 @@ i.icss-user {
     border-radius: .08em;
     background-color: transparent;
     overflow: hidden;
+    margin: 0 .1em;
 }
 i.icss-user:before {
     width: .6em;

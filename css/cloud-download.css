@@ -1,7 +1,7 @@
 i.icss-cloud-download {
     width: .22em;
     height: .1em;
-    margin: .55em .63em 0 .15em;
+    margin: .75em .63em .1em .15em;
     box-shadow: .49em 0;
 }
 i.icss-cloud-download:before {

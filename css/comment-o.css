@@ -9,7 +9,10 @@ i.icss-comment-o  {
     inset -.06em -.02em, 
     .05em .02em 0 .02em;
   transform: rotate(10deg);
-  margin: .5em .5em .03em .1em;
+  margin: .7em .55em .05em .15em;
+}
+.icss-stack i.icss-comment-o {
+    transform: translate(-.5em, -.5em) rotate(10deg);
 }
 i.icss-comment-o:before {
   width: .7em;

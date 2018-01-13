@@ -8,7 +8,10 @@ i.icss-dumper {
         -.12em .2em,
         -.23em .288em 0 -.05em,
         -.03em .208em 0 .03em;
-    margin: .12em .75em .37em .18em;
+    margin: .2em .75em .37em .18em;
+}
+.icss-stack i.icss-dumper {
+    transform: translate(-.65em, -.5em);
 }
 i.icss-dumper:before {
     width: .75em;

@@ -5,7 +5,7 @@ i.icss-visual-code {
    border: .1em solid transparent;
    border-left: .15em solid currentColor;
    border-right: 0 solid transparent;
-   margin: 0 0 0 .58em;
+   margin: .05em .1em 0 .7em;
 }
 i.icss-visual-code:before {
 }  

@@ -4,7 +4,7 @@ i.icss-bottle {
   background-color: transparent;
   box-shadow: inset 0 0 0 .065em, inset 0 -.33em, inset 0 .48em 0 -.3em;
   border-radius: .3em .3em .08em .08em;
-  margin: .2em 0 0;
+  margin: .3em .3em 0;
 }
 i.icss-bottle:before {
   width: .13em;

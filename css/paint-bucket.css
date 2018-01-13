@@ -5,7 +5,10 @@ i.icss-paint-bucket {
   border: 0.065em solid currentColor;
   background-color: transparent;
   transform: rotate(40deg)perspective(1em) rotateX(-12deg) ;
-  margin: 0 .23em .06em;
+  margin: .18em .23em .06em .1em;
+}
+.icss-stack i.icss-paint-bucket {
+    transform: translate(-.5em, -.5em) rotate(40deg)perspective(1em) rotateX(-12deg);
 }
 i.icss-paint-bucket:before {
   width: .3em;

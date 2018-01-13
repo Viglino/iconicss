@@ -3,7 +3,7 @@ i.icss-gamepad {
     height: .55em;
     background-color: transparent;
     border-radius: .3em ;
-    margin: 0;
+    margin: .2em 0;
     box-shadow: 
         inset 0 0 0 0.07em, 
         -.25em 0.5em 0 -0.28em;

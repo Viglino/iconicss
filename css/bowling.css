@@ -18,7 +18,7 @@ i.icss-bowling {
             currentColor 45%, transparent 45%),
         linear-gradient(37deg, 
             currentColor 42%, transparent 42%);
-    margin: .42em .2em 0 0;
+    margin: .42em .3em 0 .1em;
 }
 i.icss-bowling:before { 
     width: .3em;

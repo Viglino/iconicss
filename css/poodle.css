@@ -12,7 +12,7 @@ i.icss-poodle {
         -.2em .02em 0 -.12em,
         .15em -.04em 0 -.09em,
         .21em .01em 0 -.09em;
-    margin: 0 .42em .52em .1em;
+    margin: .1em .42em .52em .1em;
 }
 i.icss-poodle:before {
     width: .50em;

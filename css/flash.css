@@ -4,7 +4,10 @@ i.icss-flash {
   border-color: currentColor transparent transparent currentColor;
   border-width: .28em .17em;
   transform: skew(-30deg);
-  margin: .42em .2em 0 .16em;
+  margin: .45em .26em 0;
+}
+.icss-stack i.icss-flash {
+    transform: translate(-.5em, -.5em) skew(-30deg);
 }
 i.icss-flash:before {
   border: 0.05em solid transparent;

@@ -1,18 +1,24 @@
 i.icss-apple {
+    width: 1em;
+    height: 1em;
+    background: transparent;
+}
+i.icss-apple:before {
     width: .7em;
     height: .7em;
+    background-color: currentColor;
     border-radius: 100% .4em 100% .25em;
-    margin: 0 .2em .15em;
     box-shadow: .18em .18em;
     transform: rotate(-45deg);
-    margin: 0 .2em .08em -0.03em;
+    top: .22em;
+    left: .03em;
 }
 i.icss-apple:after {
     width: .26em;
     height: .13em;
     border-radius: 100% .02em;
     background-color: currentColor;
-    top: 0.07em;
-    left: 0.75em; 
-    transform: rotate(20deg);
+    top: 0;
+    left: .47em; 
+    transform: rotate(-25deg);
 }

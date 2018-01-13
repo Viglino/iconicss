@@ -6,7 +6,10 @@ i.icss-mac-c {
     top: -.42em;
     left: .08em; 
     transform: rotate(-30deg);
-    margin: .32em .26em .32em .24em;
+    margin: .05em .4em .35em;
+}
+.icss-stack i.icss-mac-c {
+    transform: translate(-.5em, -.5em) rotate(-30deg);
 }
 /* http://bennettfeely.com/clippy/ */
 i.icss-mac-c:before {

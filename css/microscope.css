@@ -1,15 +1,9 @@
 i.icss-microscope {
-  width: .2em;
-  height: .4em;
-  border-radius: .05em;
-  background-color: transparent;
-  border: 0 solid transparent;
-  border-width: .05em 0;
-  box-shadow: inset 1em 0, 
-    0 .1em 0 -.03em,
-    0 -.18em 0 -.04em;
-  transform: rotate(25deg);
-  margin: .1em .27em .48em .25em;
+  width:.35em;
+  height: .08em;
+  border-radius: .03em;
+  background-color: currentColor;
+  margin: .7em .5em .22em .2em;
 }
 i.icss-microscope:before {
   width: .65em;
@@ -22,16 +16,21 @@ i.icss-microscope:before {
     0 .33em 0 -.25em,
     -.005em .57em 0 -.07em;
   clip: rect(0 1em .75em 0em);
-  transform: rotate(-25deg);
-  top: .05em;
-  left: -.1em
+  top: -.45em;
+  left: .03em
 }
 i.icss-microscope:after {
-  width:.35em;
-  height: .08em;
-  border-radius: .03em;
-  background-color: currentColor;
-  top:.58em;
-  left: -.05em;
-  transform: rotate(-25deg)
+  width: .2em;
+  height: .4em;
+  border-radius: .05em;
+  background-color: transparent;
+  border: 0 solid transparent;
+  border-width: .05em 0;
+  box-shadow: inset 1em 0, 
+    0 .1em 0 -.03em,
+    0 -.18em 0 -.04em;
+  transform: rotate(25deg);
+  top: -.58em;
+  left: .23em;
 }
+

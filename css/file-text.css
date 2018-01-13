@@ -6,6 +6,7 @@ i.icss-file-text {
     border-width: .065em;
     border-style: solid;
     border-radius: .05em .34em .05em .05em;
+    margin: 0 .1em;
 }
 i.icss-file-text:before {
     border-style: solid;

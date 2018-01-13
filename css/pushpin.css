@@ -1,8 +1,11 @@
 i.icss-pushpin {
   width: .28em;
   height: .45em;
-  margin: 0 .2em .4em;
+  margin: .15em .4em .4em;
   transform: rotate(20deg);
+}
+.icss-stack i.icss-pushpin {
+    transform: translate(-.5em, -.5em) rotate(20deg);
 }
 i.icss-pushpin:before {
   border: 0.05em solid transparent;

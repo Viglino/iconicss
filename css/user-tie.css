@@ -5,7 +5,7 @@ i.icss-user-tie {
     border-width: .065em;
     border-style: solid;
     border-radius: .5em .5em .15em .15em;
-    margin-top: .45em;
+    margin-top: .5em;
 }
 i.icss-user-tie:before {
     width: .5em;

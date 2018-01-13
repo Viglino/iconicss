@@ -2,8 +2,12 @@ i.icss-pencil-b {
   width: .14em;
   height: .22em;
   border-radius: 50%;
-  margin: .7em .78em .02em .08em;
+  margin: 0.47em .85em .25em 0;
   transform: rotate(-45deg);
+  transform-origin: .4em .07em;
+}
+.icss-stack i.icss-pencil-b {
+    transform: translate(-.5em, -.5em) rotate(-45deg);
 }
 i.icss-pencil-b:before {
   width: .69em;

@@ -9,7 +9,9 @@ i.icss-airplane {
 	margin: 0 .4em;
 	transform: rotate(45deg);
 }
-
+.icss-stack i.icss-airplane {
+    transform: translate(-.5em, -.5em) rotate(45deg);
+}
 i.icss-airplane:before {
 	border-style: solid;
 	border-color: transparent;

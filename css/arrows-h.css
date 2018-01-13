@@ -6,6 +6,9 @@ i.icss-arrows-h {
     margin: .13em .16em;
     overflow: hidden;
 }
+.icss-stack i.icss-arrows-h {
+   transform: translate(-.5em, -.5em) rotate(-135deg);
+}
 i.icss-arrows-h:before {
     height: 1.5em;
     border: .075em solid currentColor;

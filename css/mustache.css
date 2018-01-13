@@ -3,9 +3,11 @@ i.icss-mustache  {
   height: .3em;
   border-radius: 50%;
   box-shadow: .26em 0;
-  margin: 0 .65em .1em .4em;
+  margin: .3em .65em .1em .4em;
 }
-
+.icss-stack i.icss-mustache {
+    transform: translate(-.65em, -.5em);
+}
 i.icss-mustache:before {
   width: .4em;
   height: .5em;

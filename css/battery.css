@@ -5,7 +5,7 @@ i.icss-battery {
     border-width: .065em;
     border-style: solid;
     border-radius: .05em;
-    margin-right: .125em;
+    margin: .275em .125em .275em 0;
 }
 i.icss-battery:before {
     border-style: solid;

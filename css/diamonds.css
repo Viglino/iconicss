@@ -1,6 +1,16 @@
 i.icss-diamonds {
+    width:1em;
+    height:1em;
+    background-color: transparent;
+}
+i.icss-diamonds:before {
     width: .7em;
     height: .7em;
-    transform: scaleX(0.8) rotate(45deg);
-    margin: 0 0.05em 0.15em;
+    background-color: currentColor;
+    transform: 
+        translate(-50%, -50%) 
+        scaleX(0.8) 
+        rotate(45deg);
+    top: 50%;
+    left: 50%;
 }

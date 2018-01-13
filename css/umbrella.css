@@ -6,7 +6,7 @@ i.icss-umbrella {
     border-style: solid;
     border-radius: .1em;
     border-color: transparent currentColor currentColor transparent;
-    margin: 0 .45em 0 .33em;
+    margin: .15em .45em 0 .33em;
 }
 i.icss-umbrella:before {
     width: .9em;

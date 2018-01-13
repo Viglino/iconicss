@@ -5,7 +5,10 @@ i.icss-heart-o {
   border-left: solid .065em currentColor;
   border-bottom: solid .065em currentColor;
   transform: rotate(-45deg);
-  margin: .22em .16em .12em;
+  margin: .3em .25em .2em;
+}
+.icss-stack i.icss-heart-o {
+    transform: translate(-.5em, -.5em) rotate(-45deg);
 }
 i.icss-heart-o:before {
   width: .5em;

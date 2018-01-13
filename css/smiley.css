@@ -1,26 +1,24 @@
 i.icss-smiley {
   width: 1em;
   height: 1em;
-  border: 0.065em solid currentColor;
   background-color: transparent;
-  border-radius: 100%;
-
+  box-shadow: inset 0 0 0 .07em;
+  border-radius: 50%;
 }
 i.icss-smiley:before {
   width: .5em;
   height: .5em;
   border-radius: 100%;
-  top: .25em;
+  top: .3em;
   left: 50%;
   transform: translateX(-50%);
-  box-shadow: inset 0 -.1em 0 -0.02em;
-} 
+box-shadow: inset 0 -.1em 0 -0.02em, 0 .08em 0 -.05em;
+}
 i.icss-smiley:after {
-  width: .14em;
-  height: .14em;
+  width: .16em;
+  height: .16em;
   border-radius: 100%;
-  box-shadow: -.18em -.1em, .18em -.1em;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  box-shadow: inset .5em 0, .39em 0;
+  top: 30%;
+  left: .235em;
 }

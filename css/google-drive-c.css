@@ -3,7 +3,10 @@ i.icss-google-drive-c {
     height: .3em;
     box-shadow: inset .065em 0 0 1em #0057e7;
     transform: skewX(-30deg);
-    margin: .57em .1em 0 0.26em;
+    margin: .65em .1em 0 0.26em;
+}
+.icss-stack i.icss-google-drive-c {
+    transform: translate(-.5em, -.5em) skewX(-30deg);
 }
 i.icss-google-drive-c:before {
     width: .65em;

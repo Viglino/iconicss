@@ -12,7 +12,7 @@ i.icss-vador {
             transparent .115em, currentColor .115em, 
             currentColor .2em, transparent .2em);
     box-shadow: 0 -.295em 0 -.27em, inset 0 -.08em ;
-    margin: 0 .3em .05em;
+    margin: .1em .2em .05em;
 }
 i.icss-vador:before {
     width: 1em;

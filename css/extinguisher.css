@@ -7,7 +7,7 @@ i.icss-extinguisher {
         inset -.03em -.3em 0 .1em,
         inset -.03em .4em 0 -.2em,
         0 -.25em 0 -.13em;
-    margin: .2em .15em 0 .15em;
+    margin: .2em .25em 0 .35em;
 }
 i.icss-extinguisher:before {
     width: .25em;

@@ -6,6 +6,7 @@ i.icss-file-stat-pie {
     border-style: solid;
     border-radius: .05em .34em .05em .05em;
     overflow: hidden;
+    margin: 0 .1em;
 }
 i.icss-file-stat-pie:before {
     border-style: solid;

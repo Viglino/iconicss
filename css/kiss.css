@@ -4,8 +4,11 @@ i.icss-kiss {
   background-color: transparent; 
   border-radius: 50% 50% / 50%;
   box-shadow: inset 0 -.36em 0 -0.2em;
-  margin: .2em .0em .05em .06em;
+  margin: .4em .15em .1em;
   transform: rotate(-20deg);
+}
+.icss-stack i.icss-kiss {
+    transform: translate(-.5em, -.5em) rotate(-20deg);
 }
 i.icss-kiss:before {
   width: .41em;

@@ -4,7 +4,7 @@ i.icss-lock {
     background-color: transparent;
     border-color: currentColor transparent;
     border-radius: .06em;
-    margin: 0.4em 0 0;
+    margin: 0.4em .1em 0;
     box-shadow: inset 0.27em 0.15em, 
         inset -0.27em 0.15em,
         inset 0 -.1em;

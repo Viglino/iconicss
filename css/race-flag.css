@@ -2,7 +2,7 @@ i.icss-race-flag {
   width: .08em;
   height: .95em;
   border-radius: 0 .05em 0 0;
-  margin: 0 .65em 0 0;
+  margin: .05em .7em 0 .15em;
 }
 i.icss-race-flag:before {
   width:0.5em;

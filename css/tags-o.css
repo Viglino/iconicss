@@ -9,7 +9,10 @@ i.icss-tags-o {
     .065em .065em;
   border-top: 0;
   transform: rotate(-20deg);
-  margin: .24em .12em .06em;
+  margin: .24em .2em .06em;
+}
+.icss-stack i.icss-tags-o {
+    transform: translate(-.5em, -.5em) rotate(-20deg);
 }
 i.icss-tags-o:before {
   width: .42em;

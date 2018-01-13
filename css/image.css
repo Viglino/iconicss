@@ -6,6 +6,7 @@ i.icss-image {
     border-style: solid;
     overflow: hidden;
     border-radius: .05em;
+    margin: .125em 0;
 }
 i.icss-image:before {
     border-style: solid;

@@ -14,7 +14,7 @@ i.icss-car {
             transparent .1em, currentColor .1em, 
             currentColor .4em, transparent .4em)
         ;    
-    margin: 0.31em 0 0.18em;
+    margin: 0.46em 0 0.18em;
 }
 i.icss-car:before {
     width: 0.88em;

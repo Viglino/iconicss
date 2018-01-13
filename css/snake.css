@@ -6,8 +6,11 @@ i.icss-snake {
   border-style: solid;
   border-color: currentColor currentColor transparent transparent;
   border-width: .08em .08em .08em .005em;
-  margin: .05em .28em .3em 0;
+  margin: .2em .32em .3em .1em;
   transform: rotate(-15deg) skewX(-10deg);
+}
+.icss-stack i.icss-snake {
+    transform: translate(-.5em, -.5em) rotate(-15deg) skewX(-10deg);
 }
 i.icss-snake:before {
   width:0.3em;

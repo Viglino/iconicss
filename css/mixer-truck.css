@@ -9,7 +9,10 @@ i.icss-mixer-truck {
         inset 0 0 0 .065em,
         inset 0 -.12em 0 .065em,
         -.18em .15em 0 -.05em;
-    margin: .15em .05em .22em .2em;
+    margin: .2em .05em .22em .2em;
+}
+.icss-stack i.icss-mixer-truck {
+    transform: translate(-.6em, -.5em);
 }
 i.icss-mixer-truck:before {
     width: .6em;

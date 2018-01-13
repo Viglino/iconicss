@@ -5,6 +5,7 @@ i.icss-mobile {
     border-style: solid;
     border-width: .065em;
     border-radius: .05em;
+    margin: 0 .2em;
 }
 i.icss-mobile:before {
     width: .6em;

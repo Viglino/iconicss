@@ -3,14 +3,15 @@ i.icss-triangle {
     height: .1em;
     border-radius: 0.05em;
     margin: .82em 0 .06em 0;
+    transform-origin: 50% -.33em;
 }
 i.icss-triangle:before {
-    width: 1.2em;
-    height: 1.2em;
-    border: 0.15em solid currentColor;
+    width: 1.23em;
+    height: 1.23em;
+    border: 0.62em solid currentColor;
     border-color: currentColor currentColor transparent transparent;
-    border-radius: 0.05em;
-    transform: scaleX(0.6) rotate(-45deg);
+    border-radius: 0.1em;
+    transform: translateX(-50%) scaleX(0.6) rotate(-45deg);
     top: -.55em;
-    left: -.1em;
+    left: 50%;
 }

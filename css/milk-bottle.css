@@ -5,7 +5,7 @@ i.icss-milk-bottle {
   border:.1em solid transparent;
   border-width: .03em .1em;
   border-bottom: .12em solid currentColor;
-  margin: .09em .03em .52em;
+  margin: .2em .3em .52em;
 }
 i.icss-milk-bottle:before {
   width: .18em;

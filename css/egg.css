@@ -2,4 +2,5 @@ i.icss-egg {
 	width: 0.7em; 
 	height: 1em; 
 	border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+	margin: 0 .15em;
 }

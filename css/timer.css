@@ -5,7 +5,8 @@ i.icss-timer {
     border-style: solid;
     border-width: .08em;
     border-radius: 50%;
-    box-shadow: -.29em -.29em 0 -.32em
+    box-shadow: -.29em -.29em 0 -.32em;
+    margin: .1em
 }
 i.icss-timer:before {
     width: .14em;

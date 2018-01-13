@@ -1,11 +1,16 @@
 i.icss-windows {
-    width: .35em;
-    height: .35em;
-    margin: 0 .5em .55em 0;
-    box-shadow: .4em 0, 0 .4em, .4em .4em;
-    transform: perspective(1em) rotateY(-20deg);
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
 }
 i.icss-windows:before {
+    width: .35em;
+    height: .35em;
+    background-color: currentColor;
+    box-shadow: .4em 0, 0 .4em, .4em .4em;
+    transform: perspective(1em) rotateY(-20deg);
+    top: .08em;
+    left: 0.08em;
 }  
 i.icss-windows:after {
 }

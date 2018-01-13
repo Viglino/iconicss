@@ -6,6 +6,7 @@ i.icss-envelope {
     border-style: solid;
     overflow: hidden;
     border-radius: .05em;
+    margin: .125em 0;
 }
 i.icss-envelope:before {
     width: .6em;

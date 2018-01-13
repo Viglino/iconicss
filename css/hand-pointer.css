@@ -8,7 +8,7 @@ i.icss-hand-pointer{
         .12em .10em 0,
         .25em .12em 0,
         .36em .19em 0;
-    margin: .21em .37em .42em .15em;
+    margin: .21em .47em .42em .3em;
 }
 i.icss-hand-pointer:before{
     width: .55em;

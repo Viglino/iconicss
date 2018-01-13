@@ -6,8 +6,7 @@ i.icss-gaz-pump {
     border-width: .05em .05em .48em .05em;
     background-color: transparent;
     box-shadow: inset 0 0 0 .07em, 0 0 0 .07em, .42em .16em 0 -.23em;
-    margin: .07em .32em .07em .07em;
-    
+    margin: .07em .37em .07em .15em;
 }
 i.icss-gaz-pump:before {
     width: .2em;

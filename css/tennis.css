@@ -4,8 +4,11 @@ i.icss-tennis {
     border-radius: 50%;
     background-color: transparent;
     box-shadow: inset 0 0 0 .08em;
-    margin: 0 .28em .32em 0;
+    margin: .05em .38em .32em .1em;
     transform: rotate(-40deg)
+}
+.icss-stack i.icss-tennis {
+    transform: translate(-.5em, -.5em) rotate(-40deg);
 }
 i.icss-tennis:before {
     height: .25em;

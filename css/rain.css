@@ -2,7 +2,7 @@ i.icss-rain {
   width: .35em;
   height: .35em;
   box-shadow: .34em 0;
-  margin: .26em .5em .39em .15em;
+  margin: .3em .5em .39em .15em;
 }
 i.icss-rain:before {
   width: .35em;

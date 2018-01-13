@@ -2,7 +2,7 @@ i.icss-yoda {
   width: .4em;
   height: .4em;
   border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
-  margin: 0 .23em .45em;
+  margin: .1em .23em .45em;
   background: transparent;
   background-image: radial-gradient(circle at 32% 39%, 
     transparent 0, transparent .05em, 

@@ -6,7 +6,7 @@ i.icss-pet-bottle {
   border-width: .03em .12em;
   border-bottom: .12em solid currentColor;
   box-shadow: inset .5em 0, 0 .05em;
-  margin: .09em 0 .68em;
+  margin: .09em .3em .68em;
 }
 i.icss-pet-bottle:before {
   width: .35em;

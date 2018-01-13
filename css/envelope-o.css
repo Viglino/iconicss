@@ -5,6 +5,7 @@ i.icss-envelope-o {
     border-width: 0 .065em 0.065em;
     border-style: solid;
     border-radius: .05em;
+    margin: .28em 0 0;
 }
 i.icss-envelope-o:before {
     width: .6em;

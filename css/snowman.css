@@ -5,7 +5,7 @@ i.icss-snowman {
   border: 0.065em solid currentColor;
   border-radius: 50%;
   border-bottom-color: transparent;
-  margin: .1em .22em .4em ;
+  margin: .1em .23em .4em ;
   box-shadow: 0 -.2em 0 -.1em,
     0 .28em 0 -.2em, 0 .4em 0 -.2em;
 }

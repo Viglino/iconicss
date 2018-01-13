@@ -1,4 +1,9 @@
 i.icss-mac {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+}
+i.icss-mac:before {
     width: .4em;
     height: .4em;
     background-color: transparent;
@@ -6,14 +11,15 @@ i.icss-mac {
     box-shadow: -.26em -.22em 0 .1em, 
         -.42em -.38em 0 .1em;
     transform: scaleX(.88) rotate(-45deg);
-    margin: .1em -.28em .17em .57em;
+    top: .35em;
+    left: .7em;
 }
 i.icss-mac:after {
     width: .26em;
     height: .13em;
     border-radius: 100% .02em;
     background-color: currentColor;
-    top: -.38em;
-    left: .1em; 
-    transform: rotate(23deg);
+    top: .1em;
+    left: .47em; 
+    transform: rotate(-22deg);
 }

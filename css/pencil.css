@@ -2,8 +2,11 @@ i.icss-pencil {
   width: .8em;
   height: 0.25em;
   background-color: currentColor;
-  margin: 0 .05em .35em;
+  margin: .35em .05em .35em;
   transform: rotate(-45deg);
+}
+.icss-stack i.icss-pencil {
+    transform: translate(-.5em, -.5em) rotate(-45deg);
 }
 i.icss-pencil:before {
   width: .2em;

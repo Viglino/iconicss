@@ -5,7 +5,7 @@ i.icss-mail {
     border-style: solid;
     border-top-color: transparent;
     border-bottom-color: transparent;
-    margin-top: .06em;
+    margin: .15em 0;
 }
 i.icss-mail:before {
     border-style: solid;

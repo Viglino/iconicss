@@ -3,7 +3,7 @@ i.icss-alarm-clock {
   border-width: .03em;
   border-radius: 100%;
   box-shadow: -.2em 0, .2em 0, 0 -.2em, 0 .2em;
-  margin: .4em .36em .37em;
+  margin: .45em;
 }
 i.icss-alarm-clock:before {
   width: .7em;

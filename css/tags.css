@@ -7,7 +7,10 @@ i.icss-tags {
   border: .05em solid transparent;
   border-width: 0 .05em .05em 0;
   transform: rotate(-20deg);
-  margin: .24em .12em .06em;
+  margin: .24em .2em .06em;
+}
+.icss-stack i.icss-tags {
+    transform: translate(-.5em, -.5em) rotate(-20deg);
 }
 i.icss-tags:before {
   width: .42em;

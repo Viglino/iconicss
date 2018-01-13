@@ -1,21 +1,28 @@
 i.icss-pipette {
-    width: 1em;
+    width:1em;
+    height:1em;
+    background-color: transparent;
+}
+i.icss-pipette:before {
+    width: 1.1em;
     height: .35em;
     border-width: .075em;
     border-style: solid;
     border-right: none;
     border-color: transparent;
-    box-shadow: -.225em 0 0 .05em inset,0 0 0 .063em inset;
+    box-shadow: inset -.3em 0 0 .05em, inset 0 0 0 .063em;
     border-radius: 50% .15em .15em 50%;
-    transform: rotate(-45deg);
-    margin: -.2em -.1em .2em -.2em;
     background-color: transparent;
+    left: -.05em;
+    top: .4em;
+    transform: rotate(-45deg);
 }
-i.icss-pipette:before {
+i.icss-pipette:after {
     height: .35em;
-    right: .25em;
-    top: -.07em;
     border-width: .06em;
     border-style: solid;
     border-radius: .1em;
+    top: .25em;
+    left: .6em;
+    transform: rotate(-45deg);
 }

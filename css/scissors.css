@@ -5,9 +5,12 @@ i.icss-scissors {
     border-color: transparent transparent currentColor currentColor;
     border-style: solid;
     border-radius: .1em 0em .1em 0em;
-    margin: 0 -.2em 0.1em .4em;
+    margin: .25em -.1em 0.1em .55em;
     background-color: transparent;
     transform:rotate(45deg);
+}
+.icss-stack i.icss-scissors {
+    transform: translate(-.5em, -.5em) rotate(45deg);
 }
 i.icss-scissors:before {
     width: .25em;

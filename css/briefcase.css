@@ -5,6 +5,7 @@ i.icss-briefcase {
   border: .065em solid currentColor;
   border-width: 0 0.34em 0.24em;
   background-color: transparent;
+  margin: .48em 0 0;
 }
 i.icss-briefcase:before {
   width: 1em;

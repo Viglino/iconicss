@@ -1,7 +1,7 @@
 i.icss-globe {
     width: .6em;
     height: .6em;
-    margin: .1em .05em .3em .15em;
+    margin: .1em .1em .3em .2em;
     border-radius: 100%;
     transform: rotate(-35deg);
     background-color:transparent;
@@ -10,6 +10,9 @@ i.icss-globe {
         linear-gradient(90deg, currentcolor .04em, transparent .041em);
     background-size: .6em .18em, .6em .6em;
     background-position:0 .32em, .28em 0;
+}
+.icss-stack i.icss-globe {
+    transform: translate(-.5em, -.5em) rotate(-35deg);
 }
 i.icss-globe:before {
     height: .63em;

@@ -4,7 +4,7 @@ i.icss-man {
     border-style: solid;
     border-width: .13em;
     border-radius: .13em;
-    margin: 0 .13em .7em;
+    margin: 0 .35em .7em;
 }
 i.icss-man:before {
     width: .54em;

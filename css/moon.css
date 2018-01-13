@@ -4,6 +4,7 @@ i.icss-moon {
   border-radius: 50%;
   background-color: transparent;
   box-shadow: inset .25em -.05em 0 .08em;
+  margin: .1em;
 }
 i.icss-moon:before {
 }

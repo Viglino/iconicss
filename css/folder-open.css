@@ -5,7 +5,7 @@ i.icss-folder-open  {
   background: transparent;
   border: 0 solid transparent;
   border-top: .16em solid currentColor;
-  margin: .04em .045em 0;
+  margin: .24em .045em 0;
 }
 i.icss-folder-open:before {
   width: .5em;

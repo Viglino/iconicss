@@ -5,7 +5,10 @@ i.icss-flag {
   background-color: transparent;
   box-shadow: inset .1em .4em;
   transform: skewY(5deg);
-  margin: 0 .15em -.02em .03em;
+  margin: .15em .2em -.02em .2em;
+}
+.icss-stack i.icss-flag {
+    transform: translate(-.5em, -.5em) skewY(5deg);
 }
 i.icss-flag:before {
   width: .45em;

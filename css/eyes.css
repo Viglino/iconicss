@@ -8,7 +8,10 @@ i.icss-eyes {
      0 -.18em 0 -.08em,
      0.55em .03em 0 -.2em;
   border: 0.065em solid transparent;
-  margin: 0 0.55em 0 -.05em;
+  margin: .15em 0.55em 0 -.05em;
+}
+.icss-stack i.icss-eyes {
+    transform: translate(-.55em, -.5em);
 }
 i.icss-eyes:before {
   width: .6em;

@@ -6,7 +6,10 @@ i.icss-tag-o {
   border: 0.065em solid currentColor;
   border-top: 0;
   transform: rotate(-20deg);
-  margin: .24em .12em .06em;
+  margin: .24em .2em .06em;
+}
+.icss-stack i.icss-tag-o {
+    transform: translate(-.5em, -.5em) rotate(-20deg);
 }
 i.icss-tag-o:before {
   width: .42em;

@@ -5,7 +5,7 @@ i.icss-lamp {
     background-color: transparent;
     border-width: 0 .1em .5em;
     border-radius: .15em .15em .03em .03em;
-    margin: 0em 0em .41em;
+    margin: .05em .2em .41em;
 }
 i.icss-lamp:before {
     width: .35em;

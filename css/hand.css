@@ -2,7 +2,7 @@ i.icss-hand{
     width: .6em;
     height: .5em;
     border-radius: .35em .3em .5em .5em;
-    margin: .5em 0 0 .11em;
+    margin: .5em .1em 0 .21em;
 }
 i.icss-hand:before{
     width: .1em;

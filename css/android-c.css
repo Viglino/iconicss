@@ -3,7 +3,7 @@ i.icss-android-c {
     border-style: solid;
     border-color:  #a4c639;
     border-radius: 0 0 .1em .1em;
-    margin: .35em .17em .21em;
+    margin: .35em .25em .21em;
 }
 i.icss-android-c:after {
     width: .46em;

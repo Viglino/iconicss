@@ -4,7 +4,7 @@ i.icss-spades {
     border-left-color: transparent;
     border-right-color: transparent;
     background-color: transparent;
-    margin: .5em .22em 0;
+    margin: .7em .3em 0;
 }
 i.icss-spades:before {
     width: .5em;

@@ -7,7 +7,10 @@ i.icss-users {
     margin-top: .4em;
     background-color: transparent;
     box-shadow: .45em .05em 0 -.05em;
-    margin-right: .4em;
+    margin: .5em .35em 0 0;
+}
+.icss-stack i.icss-users {
+    transform: translate(-.6em, -.5em);
 }
 i.icss-users:before {
     border-style: solid;

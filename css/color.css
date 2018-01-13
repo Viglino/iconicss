@@ -7,6 +7,9 @@ i.icss-color {
     transform: rotate(-20deg);
    	margin: 0 .03em .08em 0;
 }
+.icss-stack i.icss-color {
+    transform: translate(-.5em, -.5em) rotate(-20deg);
+}
 i.icss-color:before {
 	width: 0.28em; 
 	height: 0.24em; 

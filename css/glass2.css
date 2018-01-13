@@ -7,6 +7,9 @@ i.icss-glass2 {
     transform: rotate(-45deg);
     margin: -.05em .12em .45em;
 }
+.icss-stack i.icss-glass2 {
+    transform: translate(-.5em, -.5em) rotate(-45deg);
+}
 i.icss-glass2:before {
     width: .488em;
     height: .75em;

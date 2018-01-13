@@ -7,7 +7,7 @@ i.icss-clubs {
     border-right-color: transparent;
     background-color: transparent;
     box-shadow: inset .1em 0;
-    margin: .4em .2em 0;
+    margin: .45em .3em 0;
 }
 i.icss-clubs:before {
     width: .4em;

@@ -4,7 +4,7 @@ i.icss-baby-face {
     background-color: transparent;
     border: .08em solid currentColor;
     border-radius: 50%;
-    margin: 0 .1em;
+    margin: .1em;
 }
 i.icss-baby-face:before {
     width: 1em;
