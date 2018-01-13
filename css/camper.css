@@ -12,7 +12,7 @@ i.icss-camper:before {
     width: .4em;
     height: .4em;
     border-radius: 50%;
-    box-shadow: inset .4em 0, 0 -.14em 0 .05em;
+    box-shadow: inset 0 0 0 1em, 0 -.14em 0 .05em;
     border: .07em solid transparent;
     clip: rect(-.05em .4em .4em 0);
     left: 50%;
@@ -22,7 +22,7 @@ i.icss-camper:before {
 i.icss-camper:after {
     width: 1em;
     height: .25em;
-    box-shadow: inset .3em 0, inset -.3em 0, .14em .05em 0 -.09em;
+    box-shadow: inset .4em 0 0 -.1em, inset -.3em 0, .14em .05em 0 -.09em;
     top: .295em;
     left: 50%;
     transform: translateX(-50%);

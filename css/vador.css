@@ -6,11 +6,11 @@ i.icss-vador {
     background-image: 
         linear-gradient(currentcolor .24em, transparent .1em),
         radial-gradient(ellipse .15em .12em at .17em .3em, 
-            transparent .115em, currentColor .115em, 
-            currentColor .2em, transparent .2em),
+            transparent .115em, currentColor .116em, 
+            currentColor .2em, transparent .201em),
         radial-gradient(ellipse .15em .12em at .48em .3em, 
-            transparent .115em, currentColor .115em, 
-            currentColor .2em, transparent .2em);
+            transparent .115em, currentColor .116em, 
+            currentColor .2em, transparent .201em);
     box-shadow: 0 -.295em 0 -.27em, inset 0 -.08em ;
     margin: .1em .2em .05em;
 }

@@ -2972,8 +2972,8 @@ i.icss-camper:before {
     height: .4em;
     -webkit-border-radius: 50%;
             border-radius: 50%;
-    -webkit-box-shadow: inset .4em 0, 0 -.14em 0 .05em;
-            box-shadow: inset .4em 0, 0 -.14em 0 .05em;
+    -webkit-box-shadow: inset 0 0 0 1em, 0 -.14em 0 .05em;
+            box-shadow: inset 0 0 0 1em, 0 -.14em 0 .05em;
     border: .07em solid transparent;
     clip: rect(-.05em .4em .4em 0);
     left: 50%;
@@ -2985,8 +2985,8 @@ i.icss-camper:before {
 i.icss-camper:after {
     width: 1em;
     height: .25em;
-    -webkit-box-shadow: inset .3em 0, inset -.3em 0, .14em .05em 0 -.09em;
-            box-shadow: inset .3em 0, inset -.3em 0, .14em .05em 0 -.09em;
+    -webkit-box-shadow: inset .4em 0 0 -.1em, inset -.3em 0, .14em .05em 0 -.09em;
+            box-shadow: inset .4em 0 0 -.1em, inset -.3em 0, .14em .05em 0 -.09em;
     top: .295em;
     left: 50%;
     -webkit-transform: translateX(-50%);
@@ -11881,35 +11881,35 @@ i.icss-vador {
     background-image: 
         -webkit-gradient(linear, left top, left bottom, color-stop(.24em, currentcolor), color-stop(.1em, transparent)),
         radial-gradient(ellipse .15em .12em at .17em .3em, 
-            transparent .115em, currentColor .115em, 
-            currentColor .2em, transparent .2em),
+            transparent .115em, currentColor .116em, 
+            currentColor .2em, transparent .201em),
         radial-gradient(ellipse .15em .12em at .48em .3em, 
-            transparent .115em, currentColor .115em, 
-            currentColor .2em, transparent .2em);
+            transparent .115em, currentColor .116em, 
+            currentColor .2em, transparent .201em);
     background-image: 
         -webkit-linear-gradient(currentcolor .24em, transparent .1em),
         -webkit-radial-gradient(ellipse .15em .12em at .17em .3em, 
-            transparent .115em, currentColor .115em, 
-            currentColor .2em, transparent .2em),
+            transparent .115em, currentColor .116em, 
+            currentColor .2em, transparent .201em),
         -webkit-radial-gradient(ellipse .15em .12em at .48em .3em, 
-            transparent .115em, currentColor .115em, 
-            currentColor .2em, transparent .2em);
+            transparent .115em, currentColor .116em, 
+            currentColor .2em, transparent .201em);
     background-image: 
         -o-linear-gradient(currentcolor .24em, transparent .1em),
         -o-radial-gradient(ellipse .15em .12em at .17em .3em, 
-            transparent .115em, currentColor .115em, 
-            currentColor .2em, transparent .2em),
+            transparent .115em, currentColor .116em, 
+            currentColor .2em, transparent .201em),
         -o-radial-gradient(ellipse .15em .12em at .48em .3em, 
-            transparent .115em, currentColor .115em, 
-            currentColor .2em, transparent .2em);
+            transparent .115em, currentColor .116em, 
+            currentColor .2em, transparent .201em);
     background-image: 
         linear-gradient(currentcolor .24em, transparent .1em),
         radial-gradient(ellipse .15em .12em at .17em .3em, 
-            transparent .115em, currentColor .115em, 
-            currentColor .2em, transparent .2em),
+            transparent .115em, currentColor .116em, 
+            currentColor .2em, transparent .201em),
         radial-gradient(ellipse .15em .12em at .48em .3em, 
-            transparent .115em, currentColor .115em, 
-            currentColor .2em, transparent .2em);
+            transparent .115em, currentColor .116em, 
+            currentColor .2em, transparent .201em);
     -webkit-box-shadow: 0 -.295em 0 -.27em, inset 0 -.08em ;
             box-shadow: 0 -.295em 0 -.27em, inset 0 -.08em ;
     margin: .1em .2em .05em;
