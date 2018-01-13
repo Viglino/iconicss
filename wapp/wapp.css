@@ -228,8 +228,9 @@ h2, .header > *, .footer > *, .search > *, .icons, .page {
 #license h2 {
   background: #a82;
   color: #fff;
-  margin: 0;
+  margin: 0 auto;
   padding: 1em .5em;
+  max-width:100%;
 }
 .header p {
   max-width: 1000px;
