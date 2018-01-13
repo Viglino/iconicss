@@ -52,34 +52,34 @@ i[class*="icss-"].bottom {
 }
 
 /* rotate */
-.rot10 {
+i[class*="icss-"].rot10 {
   transform: rotate(10deg);
 }
-.rot-10 {
+i[class*="icss-"].rot-10 {
   transform: rotate(-10deg);
 }
-.rot20 {
+i[class*="icss-"].rot20 {
   transform: rotate(20deg);
 }
-.rot-20 {
+i[class*="icss-"].rot-20 {
   transform: rotate(-20deg);
 }
-.rot45 {
+i[class*="icss-"].rot45 {
   transform: rotate(45deg);
 }
-.rot-45 {
+i[class*="icss-"].rot-45 {
   transform: rotate(-45deg);
 }
-.rot90 {
+i[class*="icss-"].rot90 {
   transform: rotate(90deg);
 }
-.rot-90 {
+i[class*="icss-"].rot-90 {
   transform: rotate(-90deg);
 }
-.rot180 {
+i[class*="icss-"].rot180 {
   transform: rotate(180deg);
 }
-.rot-180 {
+i[class*="icss-"].rot-180 {
   transform: rotate(-180deg);
 }
 
