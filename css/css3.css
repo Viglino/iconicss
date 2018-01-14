@@ -1,0 +1,41 @@
+i.icss-css3 {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-css3:before {
+  width: .42em;
+  height: .9em;
+  background-color: transparent;
+  box-shadow: 
+    inset .8em 0,
+    .2em -.2em, 
+    -.19em -.9em,
+    -.2em .41em
+    ;
+  border: 0 solid transparent;
+  border-width: .16em 0 .595em;
+  clip: rect(-.13em .57em .66em -.15em);
+  top: .25em;
+  left: 50%;
+  transform: 
+    translateX(-50%)
+    perspective(1em) 
+    rotateX(-15deg) 
+    ;
+}
+i.icss-css3:after {
+  width: .68em;
+  height: .68em;
+  box-shadow: inset .4em -.4em currentColor, 
+    -.1em .1em 0 transparent;
+  border-radius: .33em 0; 
+  top: .51em;
+  left: 50%;
+  transform:
+    translateX(-50%)
+    scaleY(.3) 
+    rotate(-45deg)
+    ;
+}

@@ -1,0 +1,32 @@
+i.icss-blazon-o {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-blazon-o:before {
+  width: .85em;
+  height: 1.1em;
+  box-shadow: inset 0 0 0 .12em;
+  clip: rect(.02em .99em .9em -.3em);
+  top: .04em;
+  left: 50%;
+  transform: 
+    translateX(-50%)
+    perspective(1em) 
+    rotateX(-15deg) 
+    ;
+}
+i.icss-blazon-o:after {
+  width: .66em;
+  height: .66em;
+  box-shadow: inset .26em -.26em currentColor;
+  border-radius: .18em 0; 
+  top: .55em;
+  left: 50%;
+  transform:
+    translateX(-50%)
+    scaleY(.3) 
+    rotate(-45deg)
+    ;
+}
