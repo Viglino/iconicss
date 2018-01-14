@@ -3,7 +3,7 @@ i.icss-share-net {
     height: .3em;
     border-radius: 50%;
     box-shadow: .51em .3em, .51em -.3em;
-    margin: .3em .51em .3em 0;
+    margin: .4em .62em .3em .08em;
 }
 i.icss-share-net:before {
     width: .7em;

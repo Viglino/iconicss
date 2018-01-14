@@ -8,7 +8,7 @@ i.icss-ambulance {
         .55em .02em 0 -.09em,
         .55em .25em 0 -.09em,
         .33em .25em 0 -.09em;
-    margin: .05em .62em .35em .12em;
+    margin: .15em .62em .35em .12em;
 }
 .icss-stack i.icss-ambulance {
     transform: translate(-.55em, -.5em);

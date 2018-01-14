@@ -12,6 +12,9 @@ i.icss-tie-fighter {
     margin: 0 .05em;
     transform: rotate(5deg);
 }
+.icss-stack i.icss-tie-fighter {
+    transform: translate(-.5em, -.5em) rotate(5deg);
+}
 i.icss-tie-fighter:before {
     width: .4em;
     height: .4em;

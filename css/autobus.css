@@ -12,7 +12,7 @@ i.icss-autobus {
         .25em .16em,
         -.065em .16em,
         -.35em .22em 0 -.06em;
-    margin: .05em .28em .44em .38em;
+    margin: .2em .28em .44em .38em;
 }
 .icss-stack i.icss-autobus {
     transform: translate(-.6em, -.5em);

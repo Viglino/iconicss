@@ -13,9 +13,8 @@ i.icss-tie-bomber {
     transform: rotate(5deg);
 }
 .icss-stack i.icss-tie-bomber {
-    transform: translate(-.75em, -.5em);
+    transform: translate(-.75em, -.5em) rotate(5deg);
 }
-
 i.icss-tie-bomber:before {
     width: .38em;
     height: .38em;

@@ -16,7 +16,7 @@ i.icss-x-wing-fighter {
     transform: rotate(-5deg);
 }
 .icss-stack i.icss-x-wing-fighter {
-    transform: translate(-.8em, -.5em);
+    transform: translate(-.8em, -.5em) rotate(-5deg);
 }
 i.icss-x-wing-fighter:before {
     width: 1.5em;

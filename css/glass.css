@@ -6,7 +6,7 @@ i.icss-glass {
     border-left-color:transparent;
     border-right-color: transparent;
     border-radius: 0;
-    margin: 0em .2em;
+    margin: .3em .2em 0;
 }
 i.icss-glass:before {
     height: .6em;

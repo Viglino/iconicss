@@ -7,7 +7,7 @@ i.icss-phone {
     border-radius: .3em;
     border-right-color: transparent;
     transform: rotate(-36deg);
-    margin: 0 .25em 0 .2em;
+    margin: .05em .25em 0 .2em;
 }
 .icss-stack i.icss-phone {
     transform: translate(-.5em, -.5em) rotate(-36deg);

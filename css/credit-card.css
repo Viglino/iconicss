@@ -4,6 +4,7 @@ i.icss-credit-card {
   border-radius: .1em;
   border: solid .065em currentColor;
   background-color: transparent;
+  margin: .1em 0;
 }
 i.icss-credit-card:before {
   width: .95em;

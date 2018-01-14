@@ -14,7 +14,7 @@ i.icss-vador-tie-fighter {
     transform: rotate(5deg);
 }
 .icss-stack i.icss-vador-tie-fighter {
-    transform: translate(-.63em, -.5em);
+    transform: translate(-.63em, -.5em) rotate(5deg);
 }
 
 i.icss-vador-tie-fighter:before {
