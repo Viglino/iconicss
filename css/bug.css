@@ -12,6 +12,9 @@ i.icss-bug {
         inset -1.29em .3em 0 -1em;
     transform: rotate(20deg);
 }
+.icss-stack i.icss-bug {
+   transform: translate(-.6em, -.5em) rotate(20deg);
+}
 i.icss-bug:before {
     width: 1em;
     height: .5em;
