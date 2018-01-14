@@ -56,52 +56,52 @@ i[class*="icss-"].bottom {
 }
 
 /* rotate */
-.rot10 {
+i[class*="icss-"].rot10 {
   -webkit-transform: rotate(10deg);
       -ms-transform: rotate(10deg);
           transform: rotate(10deg);
 }
-.rot-10 {
+i[class*="icss-"].rot-10 {
   -webkit-transform: rotate(-10deg);
       -ms-transform: rotate(-10deg);
           transform: rotate(-10deg);
 }
-.rot20 {
+i[class*="icss-"].rot20 {
   -webkit-transform: rotate(20deg);
       -ms-transform: rotate(20deg);
           transform: rotate(20deg);
 }
-.rot-20 {
+i[class*="icss-"].rot-20 {
   -webkit-transform: rotate(-20deg);
       -ms-transform: rotate(-20deg);
           transform: rotate(-20deg);
 }
-.rot45 {
+i[class*="icss-"].rot45 {
   -webkit-transform: rotate(45deg);
       -ms-transform: rotate(45deg);
           transform: rotate(45deg);
 }
-.rot-45 {
+i[class*="icss-"].rot-45 {
   -webkit-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
-.rot90 {
+i[class*="icss-"].rot90 {
   -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
           transform: rotate(90deg);
 }
-.rot-90 {
+i[class*="icss-"].rot-90 {
   -webkit-transform: rotate(-90deg);
       -ms-transform: rotate(-90deg);
           transform: rotate(-90deg);
 }
-.rot180 {
+i[class*="icss-"].rot180 {
   -webkit-transform: rotate(180deg);
       -ms-transform: rotate(180deg);
           transform: rotate(180deg);
 }
-.rot-180 {
+i[class*="icss-"].rot-180 {
   -webkit-transform: rotate(-180deg);
       -ms-transform: rotate(-180deg);
           transform: rotate(-180deg);
@@ -508,7 +508,7 @@ i.icss-ambulance {
         .55em .02em 0 -.09em,
         .55em .25em 0 -.09em,
         .33em .25em 0 -.09em;
-    margin: .05em .62em .35em .12em;
+    margin: .15em .62em .35em .12em;
 }
 .icss-stack i.icss-ambulance {
     -webkit-transform: translate(-.55em, -.5em);
@@ -1014,7 +1014,7 @@ i.icss-autobus {
         .25em .16em,
         -.065em .16em,
         -.35em .22em 0 -.06em;
-    margin: .05em .28em .44em .38em;
+    margin: .2em .28em .44em .38em;
 }
 .icss-stack i.icss-autobus {
     -webkit-transform: translate(-.6em, -.5em);
@@ -1636,6 +1636,104 @@ i.icss-billiard:before {
 i.icss-billiard:after {
 }
 
+i.icss-blazon-o {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-blazon-o:before {
+  width: .85em;
+  height: 1.1em;
+  -webkit-box-shadow: inset 0 0 0 .12em;
+          box-shadow: inset 0 0 0 .12em;
+  clip: rect(.02em .99em .9em -.3em);
+  top: .04em;
+  left: 50%;
+  -webkit-transform: 
+    translateX(-50%)
+    perspective(1em) 
+    rotateX(-15deg) 
+    ;
+          transform: 
+    translateX(-50%)
+    perspective(1em) 
+    rotateX(-15deg) 
+    ;
+}
+i.icss-blazon-o:after {
+  width: .66em;
+  height: .66em;
+  -webkit-box-shadow: inset .26em -.26em currentColor;
+          box-shadow: inset .26em -.26em currentColor;
+  -webkit-border-radius: .18em 0;
+          border-radius: .18em 0; 
+  top: .55em;
+  left: 50%;
+  -webkit-transform:
+    translateX(-50%)
+    scaleY(.3) 
+    rotate(-45deg)
+    ;
+      -ms-transform:
+    translateX(-50%)
+    scaleY(.3) 
+    rotate(-45deg)
+    ;
+          transform:
+    translateX(-50%)
+    scaleY(.3) 
+    rotate(-45deg)
+    ;
+}
+i.icss-blazon {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-blazon:before {
+  width: .85em;
+  height: 1.1em;
+  background-color: currentColor;
+  clip: rect(.02em .99em .9em -.3em);
+  top: .04em;
+  left: 50%;
+  -webkit-transform: 
+    translateX(-50%)
+    perspective(1em) 
+    rotateX(-15deg) 
+    ;
+          transform: 
+    translateX(-50%)
+    perspective(1em) 
+    rotateX(-15deg) 
+    ;
+}
+i.icss-blazon:after {
+  width: .66em;
+  height: .66em;
+  background-color: currentColor;
+  -webkit-border-radius: .18em 0;
+          border-radius: .18em 0; 
+  top: .55em;
+  left: 50%;
+  -webkit-transform:
+    translateX(-50%)
+    scaleY(.3) 
+    rotate(-45deg)
+    ;
+      -ms-transform:
+    translateX(-50%)
+    scaleY(.3) 
+    rotate(-45deg)
+    ;
+          transform:
+    translateX(-50%)
+    scaleY(.3) 
+    rotate(-45deg)
+    ;
+}
 i.icss-bluetooth {
     width: .16em;
     height: 1em;
@@ -3720,6 +3818,7 @@ i.icss-credit-card {
           border-radius: .1em;
   border: solid .065em currentColor;
   background-color: transparent;
+  margin: .1em 0;
 }
 i.icss-credit-card:before {
   width: .95em;
@@ -3734,6 +3833,71 @@ i.icss-credit-card:after {
   width: .35em;
   height: .063em;
   background-color: currentColor;
+}
+i.icss-css3 {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-css3:before {
+  width: .42em;
+  height: .9em;
+  background-color: transparent;
+  -webkit-box-shadow: 
+    inset .8em 0,
+    .2em -.2em, 
+    -.19em -.9em,
+    -.2em .41em
+    ;
+          box-shadow: 
+    inset .8em 0,
+    .2em -.2em, 
+    -.19em -.9em,
+    -.2em .41em
+    ;
+  border: 0 solid transparent;
+  border-width: .16em 0 .595em;
+  clip: rect(-.13em .57em .66em -.15em);
+  top: .25em;
+  left: 50%;
+  -webkit-transform: 
+    translateX(-50%)
+    perspective(1em) 
+    rotateX(-15deg) 
+    ;
+          transform: 
+    translateX(-50%)
+    perspective(1em) 
+    rotateX(-15deg) 
+    ;
+}
+i.icss-css3:after {
+  width: .68em;
+  height: .68em;
+  -webkit-box-shadow: inset .4em -.4em currentColor, 
+    -.1em .1em 0 transparent;
+          box-shadow: inset .4em -.4em currentColor, 
+    -.1em .1em 0 transparent;
+  -webkit-border-radius: .33em 0;
+          border-radius: .33em 0; 
+  top: .51em;
+  left: 50%;
+  -webkit-transform:
+    translateX(-50%)
+    scaleY(.3) 
+    rotate(-45deg)
+    ;
+      -ms-transform:
+    translateX(-50%)
+    scaleY(.3) 
+    rotate(-45deg)
+    ;
+          transform:
+    translateX(-50%)
+    scaleY(.3) 
+    rotate(-45deg)
+    ;
 }
 i.icss-david-star {
 	width: .9em;
@@ -5702,7 +5866,7 @@ i.icss-glass {
     border-right-color: transparent;
     -webkit-border-radius: 0;
             border-radius: 0;
-    margin: 0em .2em;
+    margin: .3em .2em 0;
 }
 i.icss-glass:before {
     height: .6em;
@@ -6486,7 +6650,7 @@ i.icss-lightbulb {
     height: .1em;
     -webkit-border-radius: .1em;
             border-radius: .1em;
-    margin: .7em .2em .2em;
+    margin: .7em .325em .2em;
     -webkit-box-shadow: 0 .13em, 
         0 .19em 0 -.03em,
         0 .22em 0 -0.035em;
@@ -7421,7 +7585,7 @@ i.icss-milk-carton {
           border-radius: .03em .03em 0 .03em;
   -webkit-box-shadow: inset 0 0 0 .065em, .07em -.08em;
           box-shadow: inset 0 0 0 .065em, .07em -.08em;
-  margin: .1em .3em 0 .2em;
+  margin: .15em .3em 0 .2em;
 }
 i.icss-milk-carton:before {
   width: .4em;
@@ -8141,7 +8305,7 @@ i.icss-phone {
     -webkit-transform: rotate(-36deg);
         -ms-transform: rotate(-36deg);
             transform: rotate(-36deg);
-    margin: 0 .25em 0 .2em;
+    margin: .05em .25em 0 .2em;
 }
 .icss-stack i.icss-phone {
     -webkit-transform: translate(-.5em, -.5em) rotate(-36deg);
@@ -9109,7 +9273,7 @@ i.icss-share-net {
             border-radius: 50%;
     -webkit-box-shadow: .51em .3em, .51em -.3em;
             box-shadow: .51em .3em, .51em -.3em;
-    margin: .3em .51em .3em 0;
+    margin: .4em .62em .3em .08em;
 }
 i.icss-share-net:before {
     width: .7em;
@@ -10830,11 +10994,10 @@ i.icss-tie-bomber {
             transform: rotate(5deg);
 }
 .icss-stack i.icss-tie-bomber {
-    -webkit-transform: translate(-.75em, -.5em);
-        -ms-transform: translate(-.75em, -.5em);
-            transform: translate(-.75em, -.5em);
+    -webkit-transform: translate(-.75em, -.5em) rotate(5deg);
+        -ms-transform: translate(-.75em, -.5em) rotate(5deg);
+            transform: translate(-.75em, -.5em) rotate(5deg);
 }
-
 i.icss-tie-bomber:before {
     width: .38em;
     height: .38em;
@@ -10888,6 +11051,11 @@ i.icss-tie-fighter {
     -webkit-transform: rotate(5deg);
         -ms-transform: rotate(5deg);
             transform: rotate(5deg);
+}
+.icss-stack i.icss-tie-fighter {
+    -webkit-transform: translate(-.5em, -.5em) rotate(5deg);
+        -ms-transform: translate(-.5em, -.5em) rotate(5deg);
+            transform: translate(-.5em, -.5em) rotate(5deg);
 }
 i.icss-tie-fighter:before {
     width: .4em;
@@ -11839,9 +12007,9 @@ i.icss-vador-tie-fighter {
             transform: rotate(5deg);
 }
 .icss-stack i.icss-vador-tie-fighter {
-    -webkit-transform: translate(-.63em, -.5em);
-        -ms-transform: translate(-.63em, -.5em);
-            transform: translate(-.63em, -.5em);
+    -webkit-transform: translate(-.63em, -.5em) rotate(5deg);
+        -ms-transform: translate(-.63em, -.5em) rotate(5deg);
+            transform: translate(-.63em, -.5em) rotate(5deg);
 }
 
 i.icss-vador-tie-fighter:before {
@@ -12413,9 +12581,9 @@ i.icss-x-wing-fighter {
             transform: rotate(-5deg);
 }
 .icss-stack i.icss-x-wing-fighter {
-    -webkit-transform: translate(-.8em, -.5em);
-        -ms-transform: translate(-.8em, -.5em);
-            transform: translate(-.8em, -.5em);
+    -webkit-transform: translate(-.8em, -.5em) rotate(-5deg);
+        -ms-transform: translate(-.8em, -.5em) rotate(-5deg);
+            transform: translate(-.8em, -.5em) rotate(-5deg);
 }
 i.icss-x-wing-fighter:before {
     width: 1.5em;
