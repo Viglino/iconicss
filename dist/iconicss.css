@@ -2536,6 +2536,11 @@ i.icss-bug {
         -ms-transform: rotate(20deg);
             transform: rotate(20deg);
 }
+.icss-stack i.icss-bug {
+   -webkit-transform: translate(-.6em, -.5em) rotate(20deg);
+       -ms-transform: translate(-.6em, -.5em) rotate(20deg);
+           transform: translate(-.6em, -.5em) rotate(20deg);
+}
 i.icss-bug:before {
     width: 1em;
     height: .5em;
@@ -3206,6 +3211,41 @@ i.icss-card:after {
     left: .48em;
     -webkit-box-shadow: 0 .125em, 0 .25em, 0 .375em;
             box-shadow: 0 .125em, 0 .25em, 0 .375em;
+}
+i.icss-cc-by {
+  width: 1em;
+  height: 1em;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: transparent;
+  -webkit-box-shadow: inset 0 0 0 .1em;
+          box-shadow: inset 0 0 0 .1em;
+}
+i.icss-cc-by:before {
+  width: .16em;
+  height: .16em;
+  top: .18em;
+  left: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background: currentColor;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+i.icss-cc-by:after {
+  width: .15em;
+  height: .25em;
+  top: .57em;
+  left: 50%;
+  -webkit-border-radius: .05em .05em 0 0;
+          border-radius: .05em .05em 0 0;
+  background: currentColor;
+  -webkit-box-shadow: -.04em -.21em, .04em -.21em;
+          box-shadow: -.04em -.21em, .04em -.21em;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 i.icss-champagne-bottle {
   width: .35em;
@@ -3939,6 +3979,87 @@ i.icss-david-star:after {
 	-webkit-transform: scaleX(.6) rotate(-45deg);
 	    -ms-transform: scaleX(.6) rotate(-45deg);
 	        transform: scaleX(.6) rotate(-45deg); 
+}
+i.icss-death-star {
+  width: 1em;
+  height: 1em;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: transparent;
+  overflow: hidden;
+}
+i.icss-death-star:before {
+  width: .32em;
+  height: .32em;
+  top: .12em;
+  left: .2em;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  border: 0 solid transparent;
+  border-width: .1em 0 0 0;
+  -webkit-box-shadow: inset 0 0 0 .3em, .17em -.05em 0 .2em, -.51em -.2em 0 .08em;
+          box-shadow: inset 0 0 0 .3em, .17em -.05em 0 .2em, -.51em -.2em 0 .08em;
+  background: transparent;
+  -webkit-transform: rotate(-90deg);
+      -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+i.icss-death-star:after {
+  width: .4em;
+  height: .1em;
+  top: .37em;
+  left: -.18em;
+  background: currentColor;
+  -webkit-box-shadow: 
+    .25em .04em 0 -.04em,
+    -.01em -.05em,
+    .75em -.2em 0 -.02em,
+    .6em -.2em 0 -.02em,
+    .6em -.3em 0 -.02em,
+    .55em -.25em 0 -.02em,
+    .5em -.4em 0 -.02em,
+    .6em -.12em 0 -.02em,
+    .7em -.07em 0 -.02em,
+    .6em -.07em 0 -.02em,
+
+    .53em 0,
+    .8em .02em 0 -.02em,
+    
+    .08em .17em,
+    .8em .15em 0 -.02em,
+    .7em .25em 0 -.02em,
+    .55em .3em 0 -.02em,
+    .5em .4em 0 -.02em,
+    .4em .5em 0 -.02em,
+    .3em .48em,
+    .4em .4em,
+    .4em .25em,
+    .45em .17em;
+          box-shadow: 
+    .25em .04em 0 -.04em,
+    -.01em -.05em,
+    .75em -.2em 0 -.02em,
+    .6em -.2em 0 -.02em,
+    .6em -.3em 0 -.02em,
+    .55em -.25em 0 -.02em,
+    .5em -.4em 0 -.02em,
+    .6em -.12em 0 -.02em,
+    .7em -.07em 0 -.02em,
+    .6em -.07em 0 -.02em,
+
+    .53em 0,
+    .8em .02em 0 -.02em,
+    
+    .08em .17em,
+    .8em .15em 0 -.02em,
+    .7em .25em 0 -.02em,
+    .55em .3em 0 -.02em,
+    .5em .4em 0 -.02em,
+    .4em .5em 0 -.02em,
+    .3em .48em,
+    .4em .4em,
+    .4em .25em,
+    .45em .17em;
 }
 i.icss-diamonds-o {
     width:1em;
@@ -8048,24 +8169,28 @@ i.icss-paint-roll:after {
           box-shadow: 0 -0.19em 0 -0.05em;
 }
 i.icss-paint-tube {
-  width: .45em;
-  height: .8em;
-  -webkit-border-radius: 0.07em 0.07em 0 0;
-          border-radius: 0.07em 0.07em 0 0;
+  width: .31em;
+  height: .7em;
+  -webkit-border-radius: 0.01em 0.01em 0 0;
+          border-radius: 0.01em 0.01em 0 0;
+  border: 0 solid transparent;
+  border-width: .15em 0 .33em;
   background: transparent;
-  -webkit-box-shadow: inset 0 0 0 0.07em,
-    0 -0.25em 0 -0.13em;
-          box-shadow: inset 0 0 0 0.07em,
-    0 -0.25em 0 -0.13em;
-  margin: .15em .15em 0.03em .23em;
+  -webkit-box-shadow: inset 0 0 0 1em,
+    0 0 0 .07em,
+    0 -0.2em 0 -0.07em;
+          box-shadow: inset 0 0 0 1em,
+    0 0 0 .07em,
+    0 -0.2em 0 -0.07em;
+  margin: .22em .34em .08em;
   -webkit-transform: rotate(20deg);
       -ms-transform: rotate(20deg);
           transform: rotate(20deg);
 }
 .icss-stack i.icss-paint-tube {
-    -webkit-transform: translate(-.5em, -.5em) rotate(45deg);
-        -ms-transform: translate(-.5em, -.5em) rotate(45deg);
-            transform: translate(-.5em, -.5em) rotate(45deg);
+    -webkit-transform: translate(-.5em, -.5em) rotate(20deg);
+        -ms-transform: translate(-.5em, -.5em) rotate(20deg);
+            transform: translate(-.5em, -.5em) rotate(20deg);
 }
 i.icss-paint-tube:before {
   width: .56em;
@@ -8074,7 +8199,7 @@ i.icss-paint-tube:before {
   -webkit-border-radius: 0.02em;
           border-radius: 0.02em;
   left: 50%;
-  top: 0.72em;
+  top: 0.52em;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -8086,7 +8211,7 @@ i.icss-paint-tube:after {
   -webkit-border-radius: 0.02em;
           border-radius: 0.02em;
   left: 50%;
-  top: -0.17em;
+  top: -0.38em;
   -webkit-transform: translateX(-50%);
       -ms-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -10972,6 +11097,53 @@ i.icss-thumb-up:after{
             transform: rotate(28deg);
     -webkit-border-radius: .04em 70% .04em / .04em 30% .04em;
             border-radius: .04em 70% .04em / .04em 30% .04em;
+}
+i.icss-ticket {
+  width: .41em;
+  height: .52em;
+  border: .09em solid transparent;
+  background-color: transparent;
+  -webkit-box-shadow: inset 0 0 0 1em, 0 0 0 .08em;
+          box-shadow: inset 0 0 0 1em, 0 0 0 .08em;
+  margin: .24em .3em;
+  -webkit-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+.icss-stack i.icss-ticket {
+    -webkit-transform: translate(-.5em, -.5em) rotate(10deg);
+        -ms-transform: translate(-.5em, -.5em) rotate(10deg);
+            transform: translate(-.5em, -.5em) rotate(10deg);
+}
+i.icss-ticket:before {
+  width: .8em;
+  height: .8em;
+  top: -.715em;
+  left: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-box-shadow: inset 0 0 0 .29em;
+          box-shadow: inset 0 0 0 .29em;
+  background: transparent;
+  clip: rect(.4em, .685em, .6em, .115em);
+}
+i.icss-ticket:after {
+  width: .8em;
+  height: .8em;
+  top: .26em;
+  left: 50%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  -webkit-box-shadow: inset 0 0 0 .29em;
+          box-shadow: inset 0 0 0 .29em;
+  background: transparent;
+  clip: rect(.2em, .685em, .4em, .115em);
 }
 i.icss-tie-bomber {
     width: 1.4em;

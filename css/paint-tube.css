@@ -1,15 +1,18 @@
 i.icss-paint-tube {
-  width: .45em;
-  height: .8em;
-  border-radius: 0.07em 0.07em 0 0;
+  width: .31em;
+  height: .7em;
+  border-radius: 0.01em 0.01em 0 0;
+  border: 0 solid transparent;
+  border-width: .15em 0 .33em;
   background: transparent;
-  box-shadow: inset 0 0 0 0.07em,
-    0 -0.25em 0 -0.13em;
-  margin: .15em .15em 0.03em .23em;
+  box-shadow: inset 0 0 0 1em,
+    0 0 0 .07em,
+    0 -0.2em 0 -0.07em;
+  margin: .22em .34em .08em;
   transform: rotate(20deg);
 }
 .icss-stack i.icss-paint-tube {
-    transform: translate(-.5em, -.5em) rotate(45deg);
+    transform: translate(-.5em, -.5em) rotate(20deg);
 }
 i.icss-paint-tube:before {
   width: .56em;
@@ -17,7 +20,7 @@ i.icss-paint-tube:before {
   background: currentColor;
   border-radius: 0.02em;
   left: 50%;
-  top: 0.72em;
+  top: 0.52em;
   transform: translateX(-50%);
 }
 i.icss-paint-tube:after {
@@ -26,6 +29,6 @@ i.icss-paint-tube:after {
   background: currentColor;
   border-radius: 0.02em;
   left: 50%;
-  top: -0.17em;
+  top: -0.38em;
   transform: translateX(-50%);
 }

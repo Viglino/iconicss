@@ -1,0 +1,34 @@
+i.icss-ticket {
+  width: .41em;
+  height: .52em;
+  border: .09em solid transparent;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 1em, 0 0 0 .08em;
+  margin: .24em .3em;
+  transform: rotate(10deg);
+}
+.icss-stack i.icss-ticket {
+    transform: translate(-.5em, -.5em) rotate(10deg);
+}
+i.icss-ticket:before {
+  width: .8em;
+  height: .8em;
+  top: -.715em;
+  left: 50%;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  box-shadow: inset 0 0 0 .29em;
+  background: transparent;
+  clip: rect(.4em, .685em, .6em, .115em);
+}
+i.icss-ticket:after {
+  width: .8em;
+  height: .8em;
+  top: .26em;
+  left: 50%;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  box-shadow: inset 0 0 0 .29em;
+  background: transparent;
+  clip: rect(.2em, .685em, .4em, .115em);
+}
