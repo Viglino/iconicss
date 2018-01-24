@@ -25,6 +25,9 @@ i[class*="icss-"]:after {
 [class*="icss-"].small {
   font-size: .65em;
 }
+[class*="icss-"].x1_5 {
+  font-size: 1.5em;
+}
 [class*="icss-"].x2 {
   font-size: 2em;
 }

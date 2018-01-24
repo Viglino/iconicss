@@ -1,0 +1,26 @@
+i.icss-associate {
+  width: .2em;
+  height: .2em;
+  border-radius: .1em;
+  box-shadow: .56em 0;
+  margin: .1em .67em .7em .13em;
+}
+i.icss-associate:before {
+  width: .3em;
+  height: .55em;
+  border-radius: .15em .15em 0 0;
+  background-color: currentColor;
+  box-shadow: .56em 0;
+  top: .23em;
+  left: -.05em;
+}
+i.icss-associate:after {
+  width: .4em;
+  height: .4em;
+  border: .1em solid currentColor;
+  border-radius: .1em;
+  border-width: 0 .12em .12em 0;
+  left: .18em;
+  top: .14em;
+  transform: rotate(45deg);
+}

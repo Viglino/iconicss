@@ -1,0 +1,15 @@
+i.icss-backslash {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-backslash:before {
+  width: .2em;
+  height: 1.2em;
+  background-color: currentColor;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-45deg);}
+i.icss-backslash:after {
+}

@@ -17,6 +17,7 @@ var wapp = {
     $("#"+id).show();
     $(".menu a").removeClass("select");
     $(".menu a."+id).addClass("select");
+    $(window).scrollTop(0);
     wapp.currentPage=id;
     wapp.getUrl();
   },

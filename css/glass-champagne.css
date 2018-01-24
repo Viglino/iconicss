@@ -7,8 +7,11 @@ i.icss-glass-champagne {
     border-left-color:transparent;
     border-right-color: transparent;
     box-shadow: inset 0 1em, 0 .025em;
-    margin: .7em .1em 0;
+    margin: .7em .2em 0 .1em;
     transform: rotate(15deg);
+}
+.icss-stack i.icss-glass-champagne {
+   transform: translate(-.5em, -.5em) rotate(15deg);
 }
 i.icss-glass-champagne:before {
     height: .8em;

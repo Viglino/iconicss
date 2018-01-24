@@ -1,0 +1,35 @@
+i.icss-castle-key {
+    height: .48em;
+    width: .32em;
+    background: transparent;
+    border-radius: 50% / 45%;
+    border: .1em solid currentColor;
+    border-width: .1em .05em;
+    margin: .25em .68em .25em 0;
+    transform: rotate(45deg);
+    transform-origin: .5em 50%;
+}
+.icss-stack i.icss-castle-key {
+   transform: translate(-.5em, -.5em) rotate(45deg);
+}
+i.icss-castle-key:before {
+    width: .8em;
+    height: .08em;
+    background-color: currentColor;
+    border-radius: .1em;
+    box-shadow: -.91em 0;
+    clip: rect(0, 1em, .2em, -.2em);
+    top: 50%;
+    left: .16em;
+    transform: translateY(-50%);
+}
+i.icss-castle-key:after {
+    width: .4em;
+    height: .15em;
+    border: 0 solid transparent;
+    border-width: 0 .13em .05em;
+    border-radius: .1em;
+    box-shadow: inset .5em .5em, 0 -.105em 0 -.04em;
+    top: .03em;
+    left: .58em;
+}

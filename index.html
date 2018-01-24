@@ -35,6 +35,7 @@ Code highlighting
     <div class="menu">
         <a class="home" onclick="wapp.showPage('home');"><i class="icss-home"></i> Home</a>
         <a class="icons" onclick="wapp.showPage('icons');"><i class="icss-mickey"></i> Icons</a>
+        <a class="examples" onclick="wapp.showPage('examples');"><i class="icss-plug"></i> Examples</a>
         <a class="license" onclick="wapp.showPage('license');"><i class="icss-lightbulb"></i> License</a>
       </div>
   </div>
@@ -79,6 +80,93 @@ Code highlighting
             </li>
         </ul>
     </div>
+
+    <div class="page">
+
+      <h3>What is iConicss?</h3>
+
+      <p>
+        <div class="icss-stack x5" style="float:left; margin-right:.2em;">
+          <i class="icss-blazon" style="color:#09E"></i>
+          <i class="icss-css3 small" style="color: #fff;"></i>
+          <i class="icss-blazon-o" style="color:#07B"></i>
+        </div>
+        iConicss is an html5/CSS3 icon set. Each icon uses a single anchor element (one div) and just one color: 
+        the currentColor (and transparent) except for the colored icons (as the name suggests). 
+        Thus they can easily be included in a page with a single HTML element and use the 
+        current color and current font size.
+      </p>
+
+      <h3>Why use iConicss?</h3>
+
+      <ul>
+        <li>
+          Because CSS3 is now widely suported by all main browsers.
+        </li>
+        <li>
+          Because it may result in cool transition and morphing effects when changing icons.
+        </li>
+        <li>
+          Because it's fun! Like building a Lego®️ model with a limited set of bricks.
+        </li>
+      </ul>
+
+      <h3>Known limitation</h3>
+      <ul>
+        <li>
+          Some side effects may result in some browsers
+        </li>
+        <li>
+          IE doesn't compute properly the currentColor keyword in the CSS linear-gradient() (it's a known bug since 2014!). This will impact icons that use gradient background-image (just a few ones).
+        </li>
+      </ul>
+
+      <h3>How to use it?</h3>
+      
+      <p>
+        All you need is download and include 
+        <a href="https://cdn.rawgit.com/Viglino/iconicss/master/dist/iconicss.min.css">iconicss.min.css</a> 
+        in your html page:
+      </p>
+      <pre style='width:100%; color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>link</span> <span style='color:#074726; '>rel</span><span style='color:#806030; '>=</span><span style='color:#800000; '>"</span><span style='color:#e60000; '>stylesheet</span><span style='color:#800000; '>"</span> <span style='color:#074726; '>href</span><span style='color:#806030; '>=</span><span style='color:#800000; '>"</span><span style='color:#40015a; '>iconicss.min.css</span><span style='color:#800000; '>"</span><span style='color:#a65700; '>></span></pre>
+      <p>
+
+        then just add <code>icss-</code> classes to an <i> elements to add a new icon on your page:
+      </p>
+      <pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span> <span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#800000; '>"</span><span style='color:#e60000; '>icss-home</span><span style='color:#800000; '>"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span></pre>
+      <i class="icss-home"></i>
+      
+      <p>
+        You can change color of icons as simple as set <code>color</code> in CSS.
+      </p>
+      <pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span> <span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#800000; '>"</span><span style='color:#e60000; '>icss-home</span><span style='color:#800000; '>"</span> <span style='color:#074726; '>style</span><span style='color:#806030; '>=</span><span style='color:#800000; '>"</span><span style='color:#bb7977; font-weight:bold; '>color</span><span style='color:#806030; '>:</span><span style='color:#e60000; '>red</span><span style='color:#806030; '>;</span><span style='color:#800000; '>"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span></pre>
+      <i class="icss-home" style="color:red;"></i>
+
+      <p>
+        You can change the size of the icon just by changing the <code>font-size</code> in CSS.
+      </p>
+      <pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span> <span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#800000; '>"</span><span style='color:#e60000; '>icss-home</span><span style='color:#800000; '>"</span> <span style='color:#074726; '>style</span><span style='color:#806030; '>=</span><span style='color:#800000; '>"</span><span style='color:#bb7977; font-weight:bold; '>font-size</span><span style='color:#806030; '>:</span><span style='color:#8c0000; '>2</span><span style='color:#006600; '>em</span><span style='color:#800000; '>"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span></pre>
+      <i class="icss-home" style="font-size:2em"></i>
+        
+      <p>
+        To animate the icon when changing just add the <code>icss-anim</code> class to the element.
+        <br/>
+        Then just change the <code>icss-home</code> class to icss-github to let the transition play.
+      </p>
+      <p>
+        Look at the <a href="javascript:wapp.showPage('examples');">example page <i class="icss-plug x1_5"></i></a> for more usecases.
+      </p>
+    </div>
+
+  </div>
+
+  <div id="examples" data-page=true>
+    <h2>
+      <div class="page">
+        <i class="icss-pen x2_5"></i> Examples
+      </div>
+    </h2>
+  
     <div class="page">
       <h3>Example code</h3>
       <div class="example">
@@ -322,7 +410,36 @@ Code highlighting
 
     </div>
   </div>
-    
+
+  <!-- Advanced page -->
+  <div id="advanced" data-page=true>
+
+    <table style="display:inline-block; padding:0 .5em; border-radius:1em; color:#fff; border:2px solid #000; font-weight:bold; margin:.5em; background-image:linear-gradient(0deg, #000 2.5em, #ccc 2.5em);height: 5.5em;">
+        <tbody><tr>
+          <td>
+            <div class="icss-stack x5">
+              <i class="icss-circle" style="color:#fff"></i>
+              <i class="icss-cc" style="color:#000;"></i>
+            </div>
+          </td><td>
+            <div class="icss-stack x3">
+              <i class="icss-circle" style="color:#fff"></i>
+              <i class="icss-cc-by" style="color:#000;"></i>
+              <div style="font-size: 0.35em;text-align: center;margin-top: 3em;">BY</div>
+            </div>
+          </td><td>
+              <div class="icss-stack x3">
+              <i class="icss-circle" style="color:#fff"></i>
+              <i class="icss-cc-sa" style="color:#000;"></i>
+              <div style="font-size: 0.35em;text-align: center;margin-top: 3em;">SA</div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+
   <!-- Icons page -->
   <div id="icons" data-page=true>
     <a class="debug" onclick="wapp.setDebug();">

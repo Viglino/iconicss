@@ -18,6 +18,7 @@ a {
 p {	
   margin: 0; 
   padding: 0.5em 0;
+  clear: both;
 }
 .example p.warning {
   color: #e80;
@@ -37,15 +38,16 @@ p {
   clear: both;
   padding: 1em 0 .5em;
 }
-.example code {
+code {
   color: #e60000;
   background: #f1f0f0;
 }
-.example pre {
+pre {
   padding: .5em 1em;
   margin: 0;
   width: 80%;
   float: right;
+  box-sizing: border-box;
 }
 h1 {
   color: #fff;
@@ -225,6 +227,7 @@ h2, .header > *, .footer > *, .search > *, .icons, .page {
     margin-right: auto;
     display: block;
 }
+#examples h2,
 #license h2 {
   position: relative;
   background: #a82;
@@ -235,6 +238,11 @@ h2, .header > *, .footer > *, .search > *, .icons, .page {
   z-index: 1;
   overflow: hidden;
 }
+#examples h2{
+  background-color: #8a2;
+}
+
+#examples h2:before,
 #license h2:before {
   content:"";
   background: #000;
@@ -247,6 +255,7 @@ h2, .header > *, .footer > *, .search > *, .icons, .page {
   transform-origin: 50% 0;
   bottom: -2.4em;
 }
+#examples h2:after,
 #license h2:after {
   content:"";
   background: #fff;

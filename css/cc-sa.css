@@ -1,0 +1,24 @@
+i.icss-cc-sa {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 .1em;
+}
+i.icss-cc-sa:before {
+  width: .5em;
+  height: .5em;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  border: .1em solid currentColor;
+  border-left-color: transparent;
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+i.icss-cc-sa:after {
+  top: .5em;
+  left: .16em;
+  border: .14em solid transparent;
+  border-top: .18em solid currentColor;
+  transform: rotate(0deg);
+}

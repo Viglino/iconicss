@@ -1,0 +1,39 @@
+i.icss-hourglass-2 {
+    height: .4em;
+    width: 1.1em;
+    background: transparent;
+    border-radius: .5em;
+    box-shadow: inset 0 -1em,
+        0 -.6em 0 -.15em, 
+        0 .3em 0 -.15em;
+    border: .1em solid transparent;
+    border-width: 0 .53em 0;
+    margin: .455em -.05em .15em;
+    transform-origin: 50% .5em;
+}
+i.icss-hourglass-2:before {
+    height: .6em;
+    width: .5em;
+    border-radius: 50% / 40% 40% 60% 60%;
+    clip: rect(.15em, 1em, .57em, -.1em);
+    border: .08em solid transparent;
+    border-width: .06em .08em;   
+    box-shadow: 0 0 0 .07em,
+        inset 0 -.38em 0 -.2em;
+    top: -.53em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+i.icss-hourglass-2:after {
+    height: .6em;
+    width: .5em;
+    border-radius: 50% / 60% 60% 40% 40%;
+    clip: rect(.03em, 1em, .5em, -.1em);
+    border: .08em solid transparent;
+    border-width: .25em .07em .16em;
+    box-shadow: 0 0 0 .07em,
+        inset 0 -.5em 0 -.2em;
+    top: -.0em;
+    left: 50%;
+    transform: translateX(-50%);
+}

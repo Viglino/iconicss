@@ -1,0 +1,50 @@
+i.icss-js {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-js:before {
+  width: .1em;
+  height: .6em;
+  background-color: transparent;
+  box-shadow: 
+    inset 1em 1em,
+    -.12em -.298em 0 .02em, 
+    .1em .226em 0 .05em, 
+    -.1em .65em 0 .1em,
+    .1em -.65em 0 .1em
+    ;
+  border: 0 solid transparent;
+  border-width: .18em 0 .28em;
+  clip: rect(-.13em .26em .78em -.14em);
+  top: .2em;
+  left: 73%;
+  transform-origin: -.15em 50%;
+  transform: 
+    translateX(-50%)
+    perspective(1em) 
+    rotateX(-10deg) 
+    ;
+}
+i.icss-js:after {
+  width: .1em;
+  height: .6em;
+  background-color: transparent;
+  box-shadow: 
+    .12em .22em 0 .05em, 
+    -.1em .65em 0 .1em,
+    .1em -.5em 0 .1em
+    ;
+  border: 0 solid transparent;
+  border-width: .18em 0 .28em;
+  clip: rect(-.13em .26em .78em -.14em);
+  top: .2em;
+  left: 27%;
+  transform-origin: .25em 50%;
+  transform: 
+    translateX(-50%)
+    perspective(1em) 
+    rotateX(-10deg) 
+    ;
+}

@@ -1,18 +1,19 @@
-i.icss-css3 {
+i.icss-html5 {
   width: 1em;
   height: 1em;
   background-color: transparent;
   margin: 0;
 }
-i.icss-css3:before {
+i.icss-html5:before {
   width: .42em;
   height: .9em;
   background-color: transparent;
   box-shadow: 
     inset 1em 1em,
-    .2em -.2em, 
-    -.19em -.9em,
-    -.2em .41em
+    -.2em -.595em, 
+    .19em -.9em,
+    -.2em .41em,
+    .2em .155em
     ;
   border: 0 solid transparent;
   border-width: .16em 0 .595em;
@@ -25,7 +26,7 @@ i.icss-css3:before {
     rotateX(-15deg) 
     ;
 }
-i.icss-css3:after {
+i.icss-html5:after {
   width: .68em;
   height: .68em;
   box-shadow: inset .4em -.4em currentColor, 

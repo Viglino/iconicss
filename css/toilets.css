@@ -20,6 +20,7 @@ i.icss-toilets:before {
   border-radius: .1em;
   background-color: currentColor;
   top: -.22em;
+  left: 0;
   box-shadow: .53em 0;
 }
 i.icss-toilets:after {

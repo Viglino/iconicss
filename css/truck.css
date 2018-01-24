@@ -1,0 +1,29 @@
+i.icss-truck {
+    height: 0.4em;
+    width: .3em;
+    background: transparent;
+    border-radius: .15em .05em 0 0 / 70% .05em 0 0;
+    border: .065em solid currentColor;
+    border-bottom: .2em solid currentColor;
+    margin: .3em .63em .15em .03em;
+}
+i.icss-truck:before {
+    width: .6em;
+    height: .5em;
+    background-color: currentColor;
+    border: .1em solid currentColor;
+    border-width: .1em .1em .23em;
+    box-shadow: -.25em .16em 0 -.16em;
+    top: -.16em;
+    left: .27em;
+}
+i.icss-truck:after {
+    width: .23em;
+    height: .23em;
+    border-radius: 50%;
+    box-shadow: inset 1em 0,
+        .53em 0,
+        -.17em -.04em 0 -.08em;
+    top: .25em;
+    left: 0;
+}
