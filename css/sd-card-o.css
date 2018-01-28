@@ -1,0 +1,39 @@
+i.icss-sd-card-o {
+    width: .52em;
+    height: 1em;
+    background-color: transparent;
+    border-radius: .03em .03em 0 0;
+    box-shadow: inset .07em .07em;
+    margin: 0 .38em 0 .1em;
+}
+i.icss-sd-card-o:before {
+    content: "SD";
+    font-size: .5em;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1.3em;
+    width: 2em;
+    height: 2.2em;
+    background-color: transparent;
+    border-bottom: .8em solid transparent;
+    border-radius: 0 0 .03em .03em;
+    box-shadow: inset -.2em -.14em,
+        -.6em -1.2em 0 -.9em,
+        -.3em -1.2em 0 -.9em,
+        0em -1.2em 0 -.9em,
+        .3em -1.2em 0 -.9em
+        ;
+    top: .6em;
+    left: -.2em;
+    transform: scaleX(.8);
+}
+i.icss-sd-card-o:after {
+    width: .43em;
+    height: .08em;
+    background-color: currentColor;
+    border-radius: .03em;
+    top: .13em;
+    left: .415em;
+    transform: rotate(45deg);
+}

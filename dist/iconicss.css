@@ -3359,14 +3359,14 @@ i.icss-cc-nc {
 }
 i.icss-cc-nc:before {
   content:"$";
-  font-size: .8em;
   font-weight: bold;
-  vertical-align: middle;
-  top: 43%;
+  font-family: sans-serif;
+  line-height: 1em;
+  top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%) scaleY(.8);
+      -ms-transform: translate(-50%, -50%) scaleY(.8);
+          transform: translate(-50%, -50%) scaleY(.8);
 }
 i.icss-cc-nc:after {
   width: 1em;
@@ -10163,6 +10163,103 @@ i.icss-scissors:after {
             box-shadow: .15em 0 0 -.06em;
 }
 
+i.icss-sd-card-o {
+    width: .52em;
+    height: 1em;
+    background-color: transparent;
+    -webkit-border-radius: .03em .03em 0 0;
+            border-radius: .03em .03em 0 0;
+    -webkit-box-shadow: inset .07em .07em;
+            box-shadow: inset .07em .07em;
+    margin: 0 .38em 0 .1em;
+}
+i.icss-sd-card-o:before {
+    content: "SD";
+    font-size: .5em;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1.3em;
+    width: 2em;
+    height: 2.2em;
+    background-color: transparent;
+    border-bottom: .8em solid transparent;
+    -webkit-border-radius: 0 0 .03em .03em;
+            border-radius: 0 0 .03em .03em;
+    -webkit-box-shadow: inset -.2em -.14em,
+        -.6em -1.2em 0 -.9em,
+        -.3em -1.2em 0 -.9em,
+        0em -1.2em 0 -.9em,
+        .3em -1.2em 0 -.9em
+        ;
+            box-shadow: inset -.2em -.14em,
+        -.6em -1.2em 0 -.9em,
+        -.3em -1.2em 0 -.9em,
+        0em -1.2em 0 -.9em,
+        .3em -1.2em 0 -.9em
+        ;
+    top: .6em;
+    left: -.2em;
+    -webkit-transform: scaleX(.8);
+        -ms-transform: scaleX(.8);
+            transform: scaleX(.8);
+}
+i.icss-sd-card-o:after {
+    width: .43em;
+    height: .08em;
+    background-color: currentColor;
+    -webkit-border-radius: .03em;
+            border-radius: .03em;
+    top: .13em;
+    left: .415em;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
+i.icss-sd-card {
+    width: .72em;
+    height: .6em;
+    background-color: transparent;
+    -webkit-border-radius: 0 0 .03em .03em;
+            border-radius: 0 0 .03em .03em;
+    -webkit-box-shadow: inset 0 0 0 .15em, 
+        inset 0 -.25em,
+        inset 0 .15em,
+        -.01em -.22em 0 -.05em;
+            box-shadow: inset 0 0 0 .15em, 
+        inset 0 -.25em,
+        inset 0 .15em,
+        -.01em -.22em 0 -.05em;
+    margin: .4em .1em 0;
+}
+i.icss-sd-card:before {
+    width: .4em;
+    height: .2em;
+    border: 0 solid transparent;
+    border-width: 0 .07em;
+    -webkit-border-radius: .005em 0 0;
+            border-radius: .005em 0 0;
+    -webkit-box-shadow: inset .1em 0, inset -.1em 0, 
+        -.05em -.05em 0 .05em,
+        .3em .05em 0 -.05em;
+            box-shadow: inset .1em 0, inset -.1em 0, 
+        -.05em -.05em 0 .05em,
+        .3em .05em 0 -.05em;
+    clip: rect(-.1em, .615em, .5em, -.1em);
+    top: -.3em;
+    left: .1em;
+}
+i.icss-sd-card:after {
+    border: .17em solid transparent;
+    border-top-color: currentColor;
+    -webkit-border-radius: .05em;
+            border-radius: .05em;
+    top: -.35em;
+    left: .33em;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+}
 i.icss-search {
     margin: 0 .3em .37em 0;
     width: .73em;

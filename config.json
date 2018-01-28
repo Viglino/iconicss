@@ -278,6 +278,8 @@
     "nuclear":{},
     "gun":{},
     "server":{},
+    "sd-card":{},
+    "sd-card-o":{},
     "bug":{},
     "blazon":{},
     "blazon-o":{},
