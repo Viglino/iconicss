@@ -1,0 +1,20 @@
+i.icss-target {
+    width: .8em;
+    height: .8em;
+    background-color: transparent;
+    border: .1em solid transparent;
+    box-shadow: inset 0 0 0 .1em, 0 0 0 .1em;
+    border-radius: 100%;
+    margin: 0.1em;
+}
+i.icss-target:before {
+    width: .2em;
+    height: .2em;
+    background-color: currentColor;
+    border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+i.icss-target:after {
+}

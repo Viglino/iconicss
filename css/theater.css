@@ -1,0 +1,35 @@
+i.icss-theater {
+	width: .25em; 
+	height: .25em; 
+    background-color: transparent;
+    box-shadow: inset -.06em -.13em 0 -.1em, .04em .078em 0 -.04em;
+    border-radius: 50%;
+    margin: .55em .43em .2em .32em;
+}
+i.icss-theater:before {
+	width: .65em; 
+	height: .8em; 
+	border-radius: 50% 50% 50% 50% / 20% 20% 60% 60%;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 .07em;
+    background-image: 
+        radial-gradient(ellipse .3em .15em at 68% 43%, 
+       currentColor 0, currentColor .075em, transparent .075em),
+        radial-gradient(ellipse .3em .15em at 32% 43%, 
+        currentColor 0, currentColor .075em, transparent .075em);
+    overflow: hidden;
+    top: -.35em;
+    left: -.23em;
+    transform: rotate(-20deg)
+}
+i.icss-theater:after {
+	width: .65em; 
+	height: .8em; 
+	border-radius: 50% 50% 50% 50% / 20% 20% 60% 60%;
+    background-color: transparent;
+    box-shadow: inset 0 .35em 0 -.1em, inset -.39em .41em 0 -.2em;
+    overflow: hidden;
+    top: -.55em;
+    left: -.03em;
+    transform: rotate(15deg)
+}

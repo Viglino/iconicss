@@ -3184,14 +3184,14 @@ i.icss-camera:before {
           transform: translate(-50%, -50%);
 }
 i.icss-camera:after {
-  width: .08em;
+  width: .09em;
   height: .51em;
   -webkit-box-shadow: 
-    inset 0 -.43em,
+    inset 0 -.42em,
     -.02em 0 0 .08em,
     -.05em -.1em 0 .02em;
           box-shadow: 
-    inset 0 -.43em,
+    inset 0 -.42em,
     -.02em 0 0 .08em,
     -.05em -.1em 0 .02em;
   -webkit-border-radius: .04em;
@@ -3376,7 +3376,7 @@ i.icss-castle-key {
 }
 i.icss-castle-key:before {
     width: .8em;
-    height: .08em;
+    height: .09em;
     background-color: currentColor;
     -webkit-border-radius: .1em;
             border-radius: .1em;
@@ -6666,6 +6666,66 @@ i.icss-gun:after {
         -.35em .38em 0 -.08em;
             box-shadow: -.28em -.18em 0 -.075em,
         -.35em .38em 0 -.08em;
+}
+i.icss-guy-fawkes {
+	width: .8em; 
+	height: 1em; 
+	-webkit-border-radius: 50% 50% 50% 50% / 25% 25% 60% 60%; 
+	        border-radius: 50% 50% 50% 50% / 25% 25% 60% 60%;
+    background-color: transparent;
+    -webkit-box-shadow: inset 0 0 0 .07em;
+            box-shadow: inset 0 0 0 .07em;
+    background-image: 
+        -webkit-radial-gradient(ellipse .3em .13em at 68% 46%, 
+       currentColor 0, currentColor .08em, transparent .08em),
+        -webkit-radial-gradient(ellipse .3em .13em at 32% 46%, 
+        currentColor 0, currentColor .08em, transparent .08em);
+    background-image: 
+        -o-radial-gradient(ellipse .3em .13em at 68% 46%, 
+       currentColor 0, currentColor .08em, transparent .08em),
+        -o-radial-gradient(ellipse .3em .13em at 32% 46%, 
+        currentColor 0, currentColor .08em, transparent .08em);
+    background-image: 
+        radial-gradient(ellipse .3em .13em at 68% 46%, 
+       currentColor 0, currentColor .08em, transparent .08em),
+        radial-gradient(ellipse .3em .13em at 32% 46%, 
+        currentColor 0, currentColor .08em, transparent .08em);
+    margin: 0 .1em;
+    overflow: hidden;
+}
+i.icss-guy-fawkes:before {
+    width: .32em;
+    height: .5em;
+    -webkit-box-shadow: inset .06em .14em 0 -.1em,
+        inset -.02em -.14em 0 -.09em,
+        -.02em .42em 0 -.13em;
+            box-shadow: inset .06em .14em 0 -.1em,
+        inset -.02em -.14em 0 -.09em,
+        -.02em .42em 0 -.13em;
+    -webkit-border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+            border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+    top: 48%;
+    left: 68%;
+    -webkit-transform: translate(-50%, -50%) rotate(16deg);
+        -ms-transform: translate(-50%, -50%) rotate(16deg);
+            transform: translate(-50%, -50%) rotate(16deg);
+}
+i.icss-guy-fawkes:after {
+    width: .32em;
+    height: .5em;
+    -webkit-box-shadow: inset -.06em .14em 0 -.1em,
+        inset .02em -.14em 0 -.09em,
+        .02em .42em 0 -.13em;
+            box-shadow: inset -.06em .14em 0 -.1em,
+        inset .02em -.14em 0 -.09em,
+        .02em .42em 0 -.13em;
+    -webkit-border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+            border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+    top: 48%;
+    left: 32%;
+    -webkit-transform: translate(-50%, -50%) rotate(-16deg) ;
+        -ms-transform: translate(-50%, -50%) rotate(-16deg) ;
+            transform: translate(-50%, -50%) rotate(-16deg) ;
 }
 i.icss-hammer {
     width: .2em;
@@ -12146,6 +12206,110 @@ i.icss-tank-truck:after {
     top: .35em;
     left: -.05em;
 }
+i.icss-target-arrow {
+    width: .7em;
+    height: .7em;
+    background-color: transparent;
+    border: .08em solid transparent;
+    -webkit-box-shadow: inset 0 0 0 .08em, 0 0 0 .08em;
+            box-shadow: inset 0 0 0 .08em, 0 0 0 .08em;
+    -webkit-border-radius: 100%;
+            border-radius: 100%;
+    margin: 0.15em;
+}
+i.icss-target-arrow:before {
+    width: .15em;
+    height: .15em;
+    -webkit-box-shadow: inset .05em 0 0 .02em,
+        -.665em 0 0 .035em;
+            box-shadow: inset .05em 0 0 .02em,
+        -.665em 0 0 .035em;
+    -webkit-border-radius: 100%;
+            border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: rotate(-45deg) translate(.59em, -50%);
+        -ms-transform: rotate(-45deg) translate(.59em, -50%);
+            transform: rotate(-45deg) translate(.59em, -50%);
+    -webkit-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+            transform-origin: 0 0;
+}
+i.icss-target-arrow:after {
+    width: .55em;
+    height: .15em;
+    -webkit-box-shadow: inset 0 .2em, .1em 0;
+            box-shadow: inset 0 .2em, .1em 0;
+    border: .05em solid transparent;
+    border-left: 0;
+    border-right: .07em solid currentColor;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: rotate(-45deg) translateY(-50%);
+        -ms-transform: rotate(-45deg) translateY(-50%);
+            transform: rotate(-45deg) translateY(-50%);
+    -webkit-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+            transform-origin: 0 0;
+}
+i.icss-target-gun {
+    width: .7em;
+    height: .7em;
+    background-color: transparent;
+    border: .08em solid transparent;
+    -webkit-box-shadow: inset 0 0 0 .08em, 0 0 0 .08em;
+            box-shadow: inset 0 0 0 .08em, 0 0 0 .08em;
+    -webkit-border-radius: 100%;
+            border-radius: 100%;
+    margin: 0.15em;
+}
+i.icss-target-gun:before {
+    width: 1em;
+    height: .07em;
+    -webkit-box-shadow: inset .4em 0, inset -.4em 0;
+            box-shadow: inset .4em 0, inset -.4em 0;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+i.icss-target-gun:after {
+    width: .07em;
+    height: 1em;
+    -webkit-box-shadow: inset 0 .4em, inset 0 -.4em;
+            box-shadow: inset 0 .4em, inset 0 -.4em;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+i.icss-target {
+    width: .8em;
+    height: .8em;
+    background-color: transparent;
+    border: .1em solid transparent;
+    -webkit-box-shadow: inset 0 0 0 .1em, 0 0 0 .1em;
+            box-shadow: inset 0 0 0 .1em, 0 0 0 .1em;
+    -webkit-border-radius: 100%;
+            border-radius: 100%;
+    margin: 0.1em;
+}
+i.icss-target:before {
+    width: .2em;
+    height: .2em;
+    background-color: currentColor;
+    -webkit-border-radius: 100%;
+            border-radius: 100%;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+i.icss-target:after {
+}
 i.icss-taxi {
     width: 1em;
     height: 0.36em;
@@ -12365,6 +12529,61 @@ i.icss-tennis:after {
     left: .13em;
 }
 
+i.icss-theater {
+	width: .25em; 
+	height: .25em; 
+    background-color: transparent;
+    -webkit-box-shadow: inset -.06em -.13em 0 -.1em, .04em .078em 0 -.04em;
+            box-shadow: inset -.06em -.13em 0 -.1em, .04em .078em 0 -.04em;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    margin: .55em .43em .2em .32em;
+}
+i.icss-theater:before {
+	width: .65em; 
+	height: .8em; 
+	-webkit-border-radius: 50% 50% 50% 50% / 20% 20% 60% 60%; 
+	        border-radius: 50% 50% 50% 50% / 20% 20% 60% 60%;
+    background-color: transparent;
+    -webkit-box-shadow: inset 0 0 0 .07em;
+            box-shadow: inset 0 0 0 .07em;
+    background-image: 
+        -webkit-radial-gradient(ellipse .3em .15em at 68% 43%, 
+       currentColor 0, currentColor .075em, transparent .075em),
+        -webkit-radial-gradient(ellipse .3em .15em at 32% 43%, 
+        currentColor 0, currentColor .075em, transparent .075em);
+    background-image: 
+        -o-radial-gradient(ellipse .3em .15em at 68% 43%, 
+       currentColor 0, currentColor .075em, transparent .075em),
+        -o-radial-gradient(ellipse .3em .15em at 32% 43%, 
+        currentColor 0, currentColor .075em, transparent .075em);
+    background-image: 
+        radial-gradient(ellipse .3em .15em at 68% 43%, 
+       currentColor 0, currentColor .075em, transparent .075em),
+        radial-gradient(ellipse .3em .15em at 32% 43%, 
+        currentColor 0, currentColor .075em, transparent .075em);
+    overflow: hidden;
+    top: -.35em;
+    left: -.23em;
+    -webkit-transform: rotate(-20deg);
+        -ms-transform: rotate(-20deg);
+            transform: rotate(-20deg)
+}
+i.icss-theater:after {
+	width: .65em; 
+	height: .8em; 
+	-webkit-border-radius: 50% 50% 50% 50% / 20% 20% 60% 60%; 
+	        border-radius: 50% 50% 50% 50% / 20% 20% 60% 60%;
+    background-color: transparent;
+    -webkit-box-shadow: inset 0 .35em 0 -.1em, inset -.39em .41em 0 -.2em;
+            box-shadow: inset 0 .35em 0 -.1em, inset -.39em .41em 0 -.2em;
+    overflow: hidden;
+    top: -.55em;
+    left: -.03em;
+    -webkit-transform: rotate(15deg);
+        -ms-transform: rotate(15deg);
+            transform: rotate(15deg)
+}
 i.icss-thermometer-0 {
     height: .9em;
     width: .18em;
@@ -12837,8 +13056,8 @@ i.icss-trash:after {
 i.icss-triangle-o {
     width: 1em;
     height: .1em;
-    -webkit-border-radius: 0.05em;
-            border-radius: 0.05em;
+    -webkit-border-radius: 0.1em;
+            border-radius: 0.1em;
     margin: .82em 0 .06em 0;
     -webkit-transform-origin: 50% -.33em;
         -ms-transform-origin: 50% -.33em;
@@ -12849,8 +13068,8 @@ i.icss-triangle-o:before {
     height: 1.23em;
     border: 0.15em solid currentColor;
     border-color: currentColor currentColor transparent transparent;
-    -webkit-border-radius: 0.1em;
-            border-radius: 0.1em;
+    -webkit-border-radius: .1em .13em;
+            border-radius: .1em .13em;
     -webkit-transform: translateX(-50%) scaleX(0.6) rotate(-45deg);
         -ms-transform: translateX(-50%) scaleX(0.6) rotate(-45deg);
             transform: translateX(-50%) scaleX(0.6) rotate(-45deg);
@@ -12872,8 +13091,8 @@ i.icss-triangle:before {
     height: 1.23em;
     border: 0.62em solid currentColor;
     border-color: currentColor currentColor transparent transparent;
-    -webkit-border-radius: 0.1em;
-            border-radius: 0.1em;
+    -webkit-border-radius: .1em .13em;
+            border-radius: .1em .13em;
     -webkit-transform: translateX(-50%) scaleX(0.6) rotate(-45deg);
         -ms-transform: translateX(-50%) scaleX(0.6) rotate(-45deg);
             transform: translateX(-50%) scaleX(0.6) rotate(-45deg);
@@ -13997,8 +14216,8 @@ i.icss-warning:before {
     height: 1.23em;
     border: 0.15em solid currentColor;
     border-color: currentColor currentColor transparent transparent;
-    -webkit-border-radius: 0.1em;
-            border-radius: 0.1em;
+    -webkit-border-radius: .1em .13em;
+            border-radius: .1em .13em;
     -webkit-transform: translateX(-50%) scaleX(0.6) rotate(-45deg);
         -ms-transform: translateX(-50%) scaleX(0.6) rotate(-45deg);
             transform: translateX(-50%) scaleX(0.6) rotate(-45deg);
@@ -14352,8 +14571,8 @@ i.icss-x-wing-fighter {
 i.icss-x-wing-fighter:before {
     width: 1.5em;
     height: .07em;
-    -webkit-box-shadow: inset .63em 0, inset -.63em 0;
-            box-shadow: inset .63em 0, inset -.63em 0;
+    -webkit-box-shadow: inset .65em 0, inset -.65em 0;
+            box-shadow: inset .65em 0, inset -.65em 0;
     -webkit-border-radius: .05em;
             border-radius: .05em;
     top: 55%;
@@ -14365,8 +14584,8 @@ i.icss-x-wing-fighter:before {
 i.icss-x-wing-fighter:after {
     width: 1.5em;
     height: .07em;
-    -webkit-box-shadow: inset .63em 0, inset -.63em 0;
-            box-shadow: inset .63em 0, inset -.63em 0;
+    -webkit-box-shadow: inset .65em 0, inset -.65em 0;
+            box-shadow: inset .65em 0, inset -.65em 0;
     -webkit-border-radius: .05em;
             border-radius: .05em;
     top: 55%;

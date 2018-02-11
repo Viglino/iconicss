@@ -21,7 +21,7 @@ i.icss-x-wing-fighter {
 i.icss-x-wing-fighter:before {
     width: 1.5em;
     height: .07em;
-    box-shadow: inset .63em 0, inset -.63em 0;
+    box-shadow: inset .65em 0, inset -.65em 0;
     border-radius: .05em;
     top: 55%;
     left: 50%;
@@ -30,7 +30,7 @@ i.icss-x-wing-fighter:before {
 i.icss-x-wing-fighter:after {
     width: 1.5em;
     height: .07em;
-    box-shadow: inset .63em 0, inset -.63em 0;
+    box-shadow: inset .65em 0, inset -.65em 0;
     border-radius: .05em;
     top: 55%;
     left: 50%;
