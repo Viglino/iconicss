@@ -1,0 +1,26 @@
+i.icss-sound-0 {
+    width: .45em;
+    height: .7em;
+    background-color: transparent;
+    border: .2em solid transparent;
+    border-right: .24em solid currentColor; 
+    border-left: 0;
+    box-shadow: inset .15em 0;
+    margin: .15em .5em .15em .05em;
+}
+i.icss-sound-0:before {
+    width: .4em;
+    height: .1em;
+    background-color: currentColor;
+    top: 50%;
+    left: .5em;
+    transform: translateY(-50%) rotate(45deg);
+}
+i.icss-sound-0:after {
+    width: .4em;
+    height: .1em;
+    background-color: currentColor;
+    top: 50%;
+    left: .5em;
+    transform: translateY(-50%) rotate(-45deg);
+}

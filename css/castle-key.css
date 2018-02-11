@@ -14,7 +14,7 @@ i.icss-castle-key {
 }
 i.icss-castle-key:before {
     width: .8em;
-    height: .08em;
+    height: .09em;
     background-color: currentColor;
     border-radius: .1em;
     box-shadow: -.91em 0;

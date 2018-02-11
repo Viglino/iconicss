@@ -1,0 +1,28 @@
+i.icss-bad-robot {
+    width: 1em;
+    height: .85em;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 .07em, inset 0 -.3em;
+    border-radius: 50% 50% 0 0 ;
+    margin: .15em 0 0;
+}
+i.icss-bad-robot:before {
+    width: .7em;
+    height: .7em;
+    border: .1em solid currentColor;
+    border-radius: .1em;
+    border-top: 0;
+    border-left: 0;
+    top: -.3em;
+    left: 50%;
+    transform: scaleY(.7) translateX(-50%) rotate(45deg);
+}
+i.icss-bad-robot:after {
+    width: .15em;
+    height: .18em;
+    box-shadow: -.15em 0, .15em 0;
+    border-radius: 50%;
+    top: .3em;
+    left: 50%;
+    transform: translateX(-50%);
+}

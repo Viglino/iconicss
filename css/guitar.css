@@ -1,0 +1,35 @@
+i.icss-guitar {
+    width: .15em;
+    height: .7em;
+    background-color: transparent;
+    border-radius: .02em;
+    box-shadow: inset 0 0 0 .065em;
+    margin: 0 .42em .3em;
+    transform: rotate(45deg);
+    transform-origin: 50% .5em;
+}
+.icss-stack i.icss-guitar {
+    transform: translate(-.5em, -.5em) rotate(45deg);
+}
+i.icss-guitar:before {
+    width: .45em;
+    height: .35em;
+    border-radius: 45%;
+    box-shadow: 
+        inset 0 0 0 .1em,
+        inset .05em 0 0 .1em,
+        inset -.05em 0 0 .1em,
+        0 -.2em 0 -.03em;
+    top: .65em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+i.icss-guitar:after {
+    width: .25em;
+    height: .05em;
+    border-radius: .02em;
+    box-shadow: inset 0 .2em, 0 .075em, 0 .15em;
+    top: .05em;
+    left: 50%;
+    transform: translateX(-50%);
+}

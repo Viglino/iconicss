@@ -1,0 +1,34 @@
+i.icss-camera {
+  width: .5em;
+  height: .5em;
+  border-radius: 100%;
+  background-color: transparent;
+  box-shadow: 
+    inset -.026em -.026em 0 0.08em, 
+    0 -.03em 0 0.14em,
+    -.03em -.17em 0 0.04em;
+  border: 0.07em solid transparent;
+  margin: .3em .25em .2em;
+}
+i.icss-camera:before {
+  width: 1em;
+  height: 0.7em;
+  border-radius: .08em;
+  box-shadow: 
+    inset .15em -.01em 0 .09em,
+    inset 0 0 0 .05em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+i.icss-camera:after {
+  width: .09em;
+  height: .51em;
+  box-shadow: 
+    inset 0 -.42em,
+    -.02em 0 0 .08em,
+    -.05em -.1em 0 .02em;
+  border-radius: .04em;
+  top: -.09em;
+  left: .53em
+}

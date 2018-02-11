@@ -1,0 +1,38 @@
+i.icss-trumpet {
+  width: .55em;
+  height: .5em;
+  border-radius: 0 0 .1em .1em / 0 0 .2em .2em;
+  background-color: transparent;
+  border-top: .08em solid transparent;
+  border-bottom: .13em solid transparent;
+  box-shadow: 
+    inset 0 0 0 0.07em,
+    -.13em -.28em 0 -.22em,
+    .13em -.28em 0 -.22em,
+    0 -.28em 0 -.22em;
+  margin: .4em .1em .1em .25em;
+}
+i.icss-trumpet:before {
+  width: .98em;
+  height: 0.55em;
+  border: .2em solid red;
+  border-color: transparent currentColor;
+  border-width: .23em .14em .23em .16em;
+  box-shadow: 
+    inset 0 .5em,
+    -.03em 0;
+  clip: rect(0, .88em, .55em, -.02em);
+  top: -.24em;
+  left: -.225em;
+  
+}
+i.icss-trumpet:after {
+  width: .07em;
+  height: .46em;
+  box-shadow: 
+    inset .3em 0, .13em 0, -.13em 0;
+  border-radius: 0 0 .04em .04em;
+  top: -.1em;
+  left: 50%;
+  transform: translateX(-50%);
+}

@@ -1,0 +1,32 @@
+i.icss-flashlight {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+}
+i.icss-flashlight:before {
+    width: .45em;
+    height: .85em;
+    background-color: transparent;
+    border: .1em solid transparent;
+    border-top: .2em solid currentColor;
+    border-bottom: 0;
+    border-radius: 0 0 .2em .2em / 0 0 .1em .1em;
+    box-shadow: inset 0 .05em 0 .07em,
+        inset 0 -.32em 0 .07em;
+    top: .2em;
+    left: .275em;
+    transform: rotate(45deg);
+    transform-origin: .225em .3em;
+}
+i.icss-flashlight:after {
+    width: .38em;
+    height: .15em;
+    box-shadow: 
+       0 .03em 0 .06em,
+       0 0 0 .07em; 
+    border-radius: 50%;
+    top: .05em;
+    left: .31em;
+    transform: rotate(45deg);
+    transform-origin: .19em .45em;
+}

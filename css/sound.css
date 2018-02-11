@@ -1,0 +1,10 @@
+i.icss-sound {
+    width: .45em;
+    height: .7em;
+    background-color: transparent;
+    border: .2em solid transparent;
+    border-right: .24em solid currentColor; 
+    border-left: 0;
+    box-shadow: inset .15em 0;
+    margin: .15em .25em .15em .25em;
+}

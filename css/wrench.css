@@ -1,0 +1,34 @@
+i.icss-wrench {
+    width: .2em;
+    height: .7em;
+    background-color: transparent;
+    border-radius: .1em;
+    box-shadow: inset 0 0 0 .065em, inset 0 .5em 0 .065em;
+    margin: .3em .4em 0;
+    transform: rotate(45deg);
+    transform-origin: 50% .2em;
+}
+.icss-stack i.icss-wrench {
+    transform: translate(-.5em, -.5em) rotate(45deg);
+}
+i.icss-wrench:before {
+    width: .45em;
+    height: .45em;
+    border: .14em solid currentColor;
+    border-top-color: transparent;
+    border-radius: 50%;
+    top: -.35em;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+i.icss-wrench:after {
+    width: .25em;
+    height: .18em;
+    border: .05em solid currentColor;
+    border-top: 0;
+    top: -.19em;
+    left: 50%;
+    transform: translateX(-50%);
+
+}

@@ -1,0 +1,27 @@
+i.icss-sparkle {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+}
+i.icss-sparkle:before {
+    width: .5em;
+    height: .5em;
+    box-shadow: inset .8em 0,
+        1em -1.5em 0 -.1em,
+        2em -1.7em 0 -.12em;
+    border-radius: .1em;
+    transform: scaleX(.2) rotate(45deg);
+    top: .3em;
+    left: .06em;
+}
+i.icss-sparkle:after {
+    width: .5em;
+    height: .5em;
+    box-shadow: inset .8em 0,
+       -1em -1.5em 0 -.1em,
+       1.11em .38em 0 -.12em;
+    border-radius: .1em;
+    transform: scaleY(.2) rotate(45deg);
+    top:.3em;
+    left: .06em;
+}

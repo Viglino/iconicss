@@ -1,0 +1,34 @@
+i.icss-hammer {
+    width: .2em;
+    height: .5em;
+    border-radius: .05em;
+    box-shadow: 0 -.4em 0 -.05em;
+    margin: .5em .4em 0;
+    transform: rotate(45deg);
+    transform-origin: 50% 0em;
+}
+.icss-stack i.icss-hammer {
+    transform: translate(-.5em, -.5em) rotate(45deg);
+}
+i.icss-hammer:before {
+    width: .45em;
+    height: .3em;
+    border: .08em solid transparent;
+    border-right-color: currentColor;
+    box-shadow: inset .5em 0, .1em 0;
+    top: -.5em;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+i.icss-hammer:after {
+    width: .45em;
+    height: .32em;
+    border: 0 solid transparent;
+    border-top: .125em solid currentColor;
+    box-shadow: inset 0 .02em;
+    border-radius: 50%;
+    clip: rect(0 .22em .3em 0);
+    top: -.421em;
+    left: -.24em;
+}
