@@ -6,8 +6,8 @@ i.icss-sparkle {
 i.icss-sparkle:before {
     width: .5em;
     height: .5em;
-    box-shadow: inset .8em 0,
-        1em -1.5em 0 -.1em,
+    background-color: currentColor;
+    box-shadow: 1em -1.5em 0 -.1em,
         2em -1.7em 0 -.12em;
     border-radius: .1em;
     transform: scaleX(.2) rotate(45deg);
@@ -17,8 +17,8 @@ i.icss-sparkle:before {
 i.icss-sparkle:after {
     width: .5em;
     height: .5em;
-    box-shadow: inset .8em 0,
-       -1em -1.5em 0 -.1em,
+    background-color: currentColor;
+    box-shadow: -1em -1.5em 0 -.1em,
        1.11em .38em 0 -.12em;
     border-radius: .1em;
     transform: scaleY(.2) rotate(45deg);

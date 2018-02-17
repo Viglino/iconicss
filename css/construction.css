@@ -1,0 +1,31 @@
+i.icss-construction {
+    width: 1em;
+    height: .25em;
+    background-color: transparent;
+    background-image: 
+        linear-gradient(-45deg, currentColor 25%, 
+            transparent 25%, transparent 50%, 
+            currentColor 50%, currentColor 75%, 
+            transparent 75%, transparent);
+    background-size: .2em .2em;
+    margin: .35em 0 .4em;
+}
+i.icss-construction:before {
+    width: .15em;
+    height: .15em;
+    background-color: currentColor;
+    box-shadow: .75em 0;
+    border-radius: 50%;
+    top: -.2em;
+    left: .05em;
+}
+i.icss-construction:after {
+    width: .8em;
+    height: .35em;
+    border: .1em solid currentColor;
+    border-width: 0 .11em;
+    top: .28em;
+    left: .1em;
+    transform: perspective(1em) rotateX(25deg);
+
+}

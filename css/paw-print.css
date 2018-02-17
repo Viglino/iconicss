@@ -1,0 +1,28 @@
+i.icss-paw-print {
+    width: .5em;
+    height: .33em;
+    border-radius: .5em .5em 50% 50%;
+    margin: .56em .25em .1em;
+}
+i.icss-paw-print:before {
+    width: .2em;
+    height: .28em;
+    background-color: currentColor;
+    border-radius: 50%;
+    top: -.35em;
+    left: .02em;
+    box-shadow: -.22em .15em 0 -.01em,
+       .17em .46em 0 .03em; 
+    transform: rotate(-10deg);
+}
+i.icss-paw-print:after {
+    width: .2em;
+    height: .28em;
+    background-color: currentColor;
+    border-radius: 50%;
+    top: -.35em;
+    left: .28em;
+    box-shadow: .22em .15em 0 -.01em,
+        -.18em .47em 0 .02em; 
+    transform: rotate(10deg);
+}

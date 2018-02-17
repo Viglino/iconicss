@@ -1,0 +1,35 @@
+i.icss-diamond {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 .08em;
+    border-radius: 50% 3.5em 50% .1em;
+    margin: 0;
+    overflow: hidden;
+}
+i.icss-diamond:before {
+    width: 1.2em;
+    height: .5em;
+    box-shadow: inset 0 -.09em; 
+    border-radius: 50%;
+    background-image: linear-gradient(23deg, 
+        transparent, transparent .67em, 
+        currentColor .671em, currentColor .70em,
+       transparent .701em),
+        linear-gradient(-23deg, 
+        transparent, transparent .68em, 
+        currentColor .681em, currentColor .71em,
+       transparent .711em);
+    top: .23em;
+    left: -.09em;
+    transform: rotate(45deg);
+}
+i.icss-diamond:after {
+    width: .4em;
+    height: .6em;
+    top: .33em;
+    left: .15em;
+    box-shadow: inset .07em -.09em,
+        inset -.04em .05em; 
+    transform: rotate(22deg) skewY(-45deg);
+}

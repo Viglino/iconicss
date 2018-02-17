@@ -1,0 +1,16 @@
+i.icss-no-entry {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background-color: transparent;
+    margin: 0;
+    overflow: hidden;
+}
+i.icss-no-entry:before {
+    width: 1em;
+    height: .4em;
+    background-color: currentColor;
+    box-shadow: 0 .6em, .8em .3em, -.8em .3em;
+    left: 0;
+    top: 0;
+}

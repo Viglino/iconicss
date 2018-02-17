@@ -1,0 +1,40 @@
+i.icss-police {
+    width: 1em;
+    height: .8em;
+    background-color: transparent;
+    margin: .15em 0 .05em;
+    overflow: hidden;
+}
+i.icss-police:before {
+    width: .75em;
+    height: .75em;
+    border-radius: 0 0 .8em;
+    transform: translateX(-50%) rotate(45deg);
+    background-image: 
+        linear-gradient(45deg, 
+            currentColor 0, currentColor .44em,
+            transparent .44em),
+        linear-gradient(-135deg, 
+            currentColor 0, currentColor .44em,
+            transparent .44em),
+        linear-gradient(0deg, 
+            currentColor 0, currentColor .3em, 
+            transparent .3em),
+        linear-gradient(-90deg, 
+            currentColor 0, currentColor .3em, 
+            transparent .3em),
+        linear-gradient(135deg, 
+            currentColor 0, currentColor .44em,
+            transparent .44em);
+    left: 50%;
+    top: -.15em;
+}
+i.icss-police:after {
+    width: .7em;
+    height: .55em;
+    box-shadow: 0 .15em, 0 .24em 0 -.03em;
+    border-radius: 50%;
+    left: 50%;
+    top: .0em;
+    transform: translateX(-50%);
+}

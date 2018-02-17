@@ -16,12 +16,12 @@ i.icss-warning:before {
     left: 50%;
 }
 i.icss-warning:after {
-    width: .12em;
+    width: .125em;
     border: .015em solid transparent;
-    border-top: .27em solid currentColor;
+    border-top: .25em solid currentColor;
     border-bottom: .07em solid transparent;
     box-shadow: 0 .1em 0 -.012em;
-    top: -.45em;
+    top: -.44em;
     left: 50%;
     transform: translateX(-50%); 
 }

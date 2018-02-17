@@ -15,8 +15,8 @@ i.icss-guy-fawkes {
 i.icss-guy-fawkes:before {
     width: .32em;
     height: .5em;
-    box-shadow: inset .06em .14em 0 -.1em,
-        inset -.02em -.14em 0 -.09em,
+    box-shadow: inset .06em .14em 0 -.101em,
+        inset -.02em -.14em 0 -.091em,
         -.02em .42em 0 -.13em;
     border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
     top: 48%;
@@ -26,8 +26,8 @@ i.icss-guy-fawkes:before {
 i.icss-guy-fawkes:after {
     width: .32em;
     height: .5em;
-    box-shadow: inset -.06em .14em 0 -.1em,
-        inset .02em -.14em 0 -.09em,
+    box-shadow: inset -.06em .14em 0 -.101em,
+        inset .02em -.14em 0 -.091em,
         .02em .42em 0 -.13em;
     border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
     top: 48%;
