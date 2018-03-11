@@ -2,8 +2,12 @@ i.icss-paint-roll {
   width: .8em;
   height: .25em;
   border-radius: 0.05em;
-  margin: 0 .08em .68em .02em;
+  margin: 0 .1em .75em .1em;
   transform: rotate(20deg);
+  transform-origin: .4em .5em;
+}
+.icss-stack i.icss-paint-roll {
+    transform: translate(-.5em, -.5em) rotate(20deg);
 }
 i.icss-paint-roll:before {
   width: .55em;

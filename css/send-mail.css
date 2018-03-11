@@ -1,0 +1,28 @@
+i.icss-send-mail {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+}
+i.icss-send-mail:before {
+    border: .3em solid transparent;
+    border-width: .24em .3em .1em;
+    border-top-color: currentColor;
+    box-shadow: 
+        -.5em -.1em 0 -.13em,
+        -.5em .05em 0 -.13em,
+        -.5em .2em 0 -.13em;
+    border-radius: .02em;
+    top: .3em;
+    left: .4em;
+    transform: skewX(-20deg);
+}
+
+i.icss-send-mail:after {
+    border: .3em solid currentColor;
+    border-width: .24em .3em .15em;
+    border-top-color: transparent;
+    border-radius: 0 0 .02em .02em;
+    top: .37em;
+    left: .375em;
+    transform: skewX(-20deg);
+}
