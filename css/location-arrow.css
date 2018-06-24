@@ -1,29 +1,26 @@
 i.icss-location-arrow {
-    background: transparent;
-    border: 1px solid transparent;
-    border-width: 0 0.2em 0.8em 0.2em;
-    border-color: transparent transparent currentColor;
-    margin: 0 0.01em 0.3em 0.38em;
-    transform: rotate(30deg);
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    border-radius: 50%;
+    transform: rotate(45deg);
 }
 .icss-stack i.icss-location-arrow {
-    transform: translate(-.5em, -.5em) rotate(30deg);
+   transform: translate(-.5em, -.5em) rotate(45deg);
 }
 i.icss-location-arrow:before {
-    background: transparent;
     border: 1px solid transparent;
-    border-width: 0.4em 0.15em 0 0.15em;
+    border-width: 0.2em 0.8em 0 0.2em;
     border-color: currentColor transparent transparent;
-    transform: rotate(-39deg);
-    top: .65em;
-    left: .00em;
+    transform: rotate(-78.7deg);
+    top: .4em;
+    left: 0;
 }
 i.icss-location-arrow:after {
-    background: transparent;
     border: 1px solid transparent;
-    border-width: 0.4em 0.15em 0 0.15em;
-    border-color: currentColor transparent transparent;
-    transform: rotate(39deg);
-    top: .65em;
-    left: -.30em;   
+    border-width: 0 0.8em .2em 0.2em;
+    border-color: transparent transparent currentColor;
+    transform: rotate(-101.3deg);
+    top: .4em;
+    left: 0;
 }

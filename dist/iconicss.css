@@ -8199,41 +8199,39 @@ i.icss-link:after {
 }
 
 i.icss-location-arrow {
-    background: transparent;
-    border: 1px solid transparent;
-    border-width: 0 0.2em 0.8em 0.2em;
-    border-color: transparent transparent currentColor;
-    margin: 0 0.01em 0.3em 0.38em;
-    -webkit-transform: rotate(30deg);
-        -ms-transform: rotate(30deg);
-            transform: rotate(30deg);
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
 }
 .icss-stack i.icss-location-arrow {
-    -webkit-transform: translate(-.5em, -.5em) rotate(30deg);
-        -ms-transform: translate(-.5em, -.5em) rotate(30deg);
-            transform: translate(-.5em, -.5em) rotate(30deg);
+   -webkit-transform: translate(-.5em, -.5em) rotate(45deg);
+       -ms-transform: translate(-.5em, -.5em) rotate(45deg);
+           transform: translate(-.5em, -.5em) rotate(45deg);
 }
 i.icss-location-arrow:before {
-    background: transparent;
     border: 1px solid transparent;
-    border-width: 0.4em 0.15em 0 0.15em;
+    border-width: 0.2em 0.8em 0 0.2em;
     border-color: currentColor transparent transparent;
-    -webkit-transform: rotate(-39deg);
-        -ms-transform: rotate(-39deg);
-            transform: rotate(-39deg);
-    top: .65em;
-    left: .00em;
+    -webkit-transform: rotate(-78.7deg);
+        -ms-transform: rotate(-78.7deg);
+            transform: rotate(-78.7deg);
+    top: .4em;
+    left: 0;
 }
 i.icss-location-arrow:after {
-    background: transparent;
     border: 1px solid transparent;
-    border-width: 0.4em 0.15em 0 0.15em;
-    border-color: currentColor transparent transparent;
-    -webkit-transform: rotate(39deg);
-        -ms-transform: rotate(39deg);
-            transform: rotate(39deg);
-    top: .65em;
-    left: -.30em;   
+    border-width: 0 0.8em .2em 0.2em;
+    border-color: transparent transparent currentColor;
+    -webkit-transform: rotate(-101.3deg);
+        -ms-transform: rotate(-101.3deg);
+            transform: rotate(-101.3deg);
+    top: .4em;
+    left: 0;
 }
 i.icss-lock {
     width: .75em;
