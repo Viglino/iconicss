@@ -1,0 +1,74 @@
+a.icss-github-corner,
+a.icss-github-corner-left {
+    font-size: 2em;
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: 1000;
+    color: #fff;
+    background-color: #333;
+    padding: .5em 2em 0;
+    text-align: center;
+    transform: rotate(45deg);
+    transform-origin: 3.9em 3em;
+    overflow: hidden;
+}
+a.icss-github-corner-left {
+    left: 0;
+    right: auto;
+    transform: rotate(-45deg);
+    transform-origin: 1em 3.1em;
+}
+a.icss-github-corner:hover i,
+a.icss-github-corner-left:hover i{
+    animation: vertical 2s ease;
+}
+
+a.icss-github-corner i,
+a.icss-github-corner-left i,
+i.icss-github-corner {
+    position: relative;
+    display:inline-block;
+    font-style: normal;
+    background-color:currentColor;
+    box-sizing: border-box;
+    vertical-align: middle;
+    width: .8em;
+    height: .6em;
+    border-radius: 45% 45% 45% 45% / 50%;
+    background-color: currentColor;
+    box-shadow: 0 .35em 0 -.2em, 
+        0 .38em 0 -.2em,
+        0 .41em 0 -.2em,
+        0 .44em 0 -.2em,
+        0 .47em 0 -.2em;
+    margin: .12em .1em .23em;
+}
+a.icss-github-corner i:before,
+a.icss-github-corner-left i:before,
+i.icss-github-corner:before {
+    content: "";
+    border-width: 0; 
+    position: absolute;
+    box-sizing: border-box;
+    border-width: .15em .15em;
+    border-style: solid;
+    border-radius: 0.02em 60% 100% 80%;
+    left: 0;
+    top: -.07em;
+    transform: rotate(20deg);
+}
+a.icss-github-corner i:after,
+a.icss-github-corner-left i:after,
+i.icss-github-corner:after {
+    content: "";
+    border-width: 0; 
+    position: absolute;
+    box-sizing: border-box;
+    border-width: .15em .15em;
+    border-style: solid;
+    border-radius: 0.02em 80% 100% 60%;
+    left: .5em;
+    top: -.07em;
+    transform: rotate(65deg);
+}
