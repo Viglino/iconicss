@@ -1,0 +1,23 @@
+i.icss-openlayers {
+    width: 1em;
+    height: 1em;
+    background: transparent
+}
+i.icss-openlayers:before {
+    width: .75em;
+    height: .75em;
+    border-radius: 0.15em;
+    transform: scaleY(.8) rotate(45deg);
+    top: .125em;
+    left: .125em;
+    box-shadow: .1em .1em 
+}
+i.icss-openlayers:after {
+    width: .75em;
+    height: .75em;
+    border-radius: 0.15em;
+    transform: scaleY(.8) rotate(45deg);
+    top: .025em;
+    left: .125em;
+    background-color: currentcolor;
+}

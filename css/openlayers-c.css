@@ -1,0 +1,29 @@
+i.icss-openlayers-c {
+    width: 1em;
+    height: 1em;
+    background: transparent
+}
+i.icss-openlayers-c:before {
+    width: .75em;
+    height: .75em;
+    border-radius: 0.15em;
+    background: #e2e4e1;
+    transform: scaleY(.8) rotate(45deg);
+    top: .125em;
+    left: .125em;
+    box-shadow: .1em .1em #325158;
+}
+i.icss-openlayers-c:after {
+    width: .75em;
+    height: .75em;
+    border-radius: 0.15em;
+    border: 0;
+    transform: scaleY(.8) rotate(45deg);
+    top: .025em;
+    left: .125em;
+    background: #83bcc5;
+    background-image: radial-gradient(
+        circle at .85em .6em,
+        #70b3be 0, #70b3be .65em, 
+        #83bcc5 .65em);
+}

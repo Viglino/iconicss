@@ -1,0 +1,28 @@
+i.icss-bio-hazard,
+i.icss-bio-hazard:before,
+i.icss-bio-hazard:after {
+    width: .55em;
+    height: .55em;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: inset 0 -.071em 0 .07em currentColor;
+    background-image:radial-gradient(
+      circle at 50% .55em,
+      transparent, transparent .25em,
+      currentColor .25em, currentColor .32em,
+      transparent .32em
+    );
+}
+i.icss-bio-hazard {
+    margin: .025em .225em .425em;
+}
+i.icss-bio-hazard:before {
+    transform: rotate(120deg);
+    top: .39em;
+    left: .225em;
+}
+i.icss-bio-hazard:after {
+    transform: rotate(-120deg);
+    top: .39em;
+    left: -.225em;
+}
