@@ -51,6 +51,10 @@ p {
 .example .bonus pre {
   width:100%;
 }
+.example .bonus .icss-github-corner,
+.example .bonus .icss-github-corner-left {
+  position:absolute;
+}
 code {
   color: #e60000;
   background: #f1f0f0;
