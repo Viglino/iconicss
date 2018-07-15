@@ -6333,7 +6333,7 @@ i.icss-github-c:after {
 a.icss-github-corner,
 a.icss-github-corner-left {
     font-size: 2em;
-    position: absolute;
+    position: fixed;
     top:0;
     right: 0;
     z-index: 1000;
