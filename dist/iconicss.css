@@ -5107,6 +5107,47 @@ i.icss-exchange:before {
     left: -1.8em
 }
 
+i.icss-exclamation-circle {
+    width: 1em;
+    height: 1em;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    border: .1em solid currentColor;
+    background-color: transparent;
+        
+}
+i.icss-exclamation-circle:before {
+    width: .15em;
+    border: .015em solid transparent;
+    border-top: .38em solid currentColor;
+    border-bottom: .09em solid transparent;
+    -webkit-box-shadow: 0 .13em 0 -.012em;
+            box-shadow: 0 .13em 0 -.012em;
+    top: .1em;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%); 
+}
+i.icss-exclamation {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    border: .1em solid transparent;
+}
+i.icss-exclamation:before {
+    width: .15em;
+    border: .015em solid transparent;
+    border-top: .5em solid currentColor;
+    border-bottom: .09em solid transparent;
+    -webkit-box-shadow: 0 .14em 0 -.012em;
+            box-shadow: 0 .14em 0 -.012em;
+    top: .03em;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%); 
+}
 i.icss-external-link {
     width: .6em;
     height: .8em;
@@ -7929,6 +7970,74 @@ i.icss-image:after {
     -webkit-border-radius: 100%;
             border-radius: 100%;
 }
+i.icss-info-circle {
+    width: 1em;
+    height: 1em;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    border: .1em solid currentColor;
+    background-color: transparent;
+}
+i.icss-info-circle:before {
+    width: .15em;
+    height: .38em;
+    background-color: currentColor;
+    -webkit-border-radius: .03em;
+            border-radius: .03em;
+    top: .3em;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%); 
+}
+i.icss-info-circle:after {
+    width: .15em;
+    height: .13em;
+    background-color: currentColor;
+    -webkit-border-radius: .03em;
+            border-radius: .03em;
+    -webkit-box-shadow: -.06em .19em, -.06em .44em, .06em .44em;
+            box-shadow: -.06em .19em, -.06em .44em, .06em .44em;
+    top: .11em;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%); 
+}
+i.icss-info {
+    width: 1em;
+    height: 1em;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    border: .1em solid transparent;
+    background-color: transparent;
+}
+i.icss-info:before {
+    width: .17em;
+    height: .48em;
+    background-color: currentColor;
+    -webkit-border-radius: .03em;
+            border-radius: .03em;
+    top: .27em;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%); 
+}
+i.icss-info:after {
+    width: .17em;
+    height: .15em;
+    background-color: currentColor;
+    -webkit-border-radius: .03em;
+            border-radius: .03em;
+    -webkit-box-shadow: -.08em .24em, -.08em .57em, .08em .57em;
+            box-shadow: -.08em .24em, -.08em .57em, .08em .57em;
+    top: .03em;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%); 
+}
 i.icss-instagram-c {
     width: 1em;
     height: 1em;
@@ -10701,6 +10810,69 @@ i.icss-pushpin:after {
           box-shadow: 0 -.61em;
   clip: rect(-.3em .55em .15em 0);
 }
+i.icss-question-circle {
+    width: 1em;
+    height: 1em;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    border: .1em solid currentColor;
+    background-color: transparent;
+        
+}
+i.icss-question-circle:before {
+    width: .4em;
+    height: .4em;
+    border: .1em solid currentColor;
+    border-bottom-color: transparent;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    -webkit-box-shadow: .26em .26em 0 -.14em;
+            box-shadow: .26em .26em 0 -.14em;
+    top: .1em;
+    left: .2em;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg); 
+}
+i.icss-question-circle:after {
+    width: .1em;
+    height: .16em;
+    background-color: currentColor;
+    top: .4em;
+    left: .35em;
+    -webkit-border-radius: .05em 0 0;
+            border-radius: .05em 0 0;
+}
+i.icss-question {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    border: .1em solid transparent;
+}
+i.icss-question:before {
+    width: .45em;
+    height: .45em;
+    border: .1em solid currentColor;
+    border-bottom-color: transparent;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    -webkit-box-shadow: .3em .3em 0 -.16em;
+            box-shadow: .3em .3em 0 -.16em;
+    top: .06em;
+    left: .2em;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg); 
+}
+i.icss-question:after {
+    width: .1em;
+    height: .18em;
+    background-color: currentColor;
+    top: .41em;
+    left: .375em;
+    -webkit-border-radius: .05em 0 0;
+            border-radius: .05em 0 0;
+}
 i.icss-r2d2 {
   width: .6em;
   height: .8em;
@@ -12418,6 +12590,31 @@ i.icss-storm:after {
           box-shadow: -.09em -.23em 0 0;
   top: .45em;
   left: .23em;
+}
+i.icss-success {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+}
+i.icss-success:after,
+i.icss-success:before {
+    width: .16em;
+    height: .7em;
+    background-color: currentColor;
+    -webkit-border-radius: .1em;
+            border-radius: .1em;
+    top: .65em;
+    left: .35em;
+    -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+            transform: rotate(-135deg);
+    -webkit-transform-origin: 0.08em 0.08em;
+        -ms-transform-origin: 0.08em 0.08em;
+            transform-origin: 0.08em 0.08em;
+}
+i.icss-success:after {
+    width: .43em;
+    height: .16em;
 }
 i.icss-sun-cloud {
   width: .35em;
