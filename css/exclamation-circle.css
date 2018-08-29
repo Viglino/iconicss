@@ -1,0 +1,18 @@
+i.icss-exclamation-circle {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    border: .1em solid currentColor;
+    background-color: transparent;
+        
+}
+i.icss-exclamation-circle:before {
+    width: .15em;
+    border: .015em solid transparent;
+    border-top: .38em solid currentColor;
+    border-bottom: .09em solid transparent;
+    box-shadow: 0 .13em 0 -.012em;
+    top: .1em;
+    left: 50%;
+    transform: translateX(-50%); 
+}

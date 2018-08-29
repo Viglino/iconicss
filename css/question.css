@@ -1,0 +1,25 @@
+i.icss-question {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    border: .1em solid transparent;
+}
+i.icss-question:before {
+    width: .45em;
+    height: .45em;
+    border: .1em solid currentColor;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    box-shadow: .3em .3em 0 -.16em;
+    top: .06em;
+    left: .2em;
+    transform: rotate(45deg); 
+}
+i.icss-question:after {
+    width: .1em;
+    height: .18em;
+    background-color: currentColor;
+    top: .41em;
+    left: .375em;
+    border-radius: .05em 0 0;
+}

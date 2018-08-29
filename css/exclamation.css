@@ -1,0 +1,16 @@
+i.icss-exclamation {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    border: .1em solid transparent;
+}
+i.icss-exclamation:before {
+    width: .15em;
+    border: .015em solid transparent;
+    border-top: .5em solid currentColor;
+    border-bottom: .09em solid transparent;
+    box-shadow: 0 .14em 0 -.012em;
+    top: .03em;
+    left: 50%;
+    transform: translateX(-50%); 
+}

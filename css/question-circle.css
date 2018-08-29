@@ -1,0 +1,27 @@
+i.icss-question-circle {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    border: .1em solid currentColor;
+    background-color: transparent;
+        
+}
+i.icss-question-circle:before {
+    width: .4em;
+    height: .4em;
+    border: .1em solid currentColor;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    box-shadow: .26em .26em 0 -.14em;
+    top: .1em;
+    left: .2em;
+    transform: rotate(45deg); 
+}
+i.icss-question-circle:after {
+    width: .1em;
+    height: .16em;
+    background-color: currentColor;
+    top: .4em;
+    left: .35em;
+    border-radius: .05em 0 0;
+}

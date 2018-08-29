@@ -1,0 +1,26 @@
+i.icss-info {
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    border: .1em solid transparent;
+    background-color: transparent;
+}
+i.icss-info:before {
+    width: .17em;
+    height: .48em;
+    background-color: currentColor;
+    border-radius: .03em;
+    top: .27em;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+i.icss-info:after {
+    width: .17em;
+    height: .15em;
+    background-color: currentColor;
+    border-radius: .03em;
+    box-shadow: -.08em .24em, -.08em .57em, .08em .57em;
+    top: .03em;
+    left: 50%;
+    transform: translateX(-50%); 
+}

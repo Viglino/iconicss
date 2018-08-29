@@ -1,0 +1,20 @@
+i.icss-success {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+}
+i.icss-success:after,
+i.icss-success:before {
+    width: .16em;
+    height: .7em;
+    background-color: currentColor;
+    border-radius: .1em;
+    top: .65em;
+    left: .35em;
+    transform: rotate(-135deg);
+    transform-origin: 0.08em 0.08em;
+}
+i.icss-success:after {
+    width: .43em;
+    height: .16em;
+}
