@@ -1,0 +1,36 @@
+i.icss-sprint-man {
+    width: .22em;
+    height: .22em;
+    background-color: currentColor;
+    border-radius: 50%;
+    box-shadow: -.09em .18em 0 -.038em;
+    margin: .03em .18em .75em .6em;
+}
+i.icss-sprint-man:before {
+    width: .6em;
+    height: .55em;
+    border: .3em solid transparent;
+    border-width: .3em .2em 0 0;
+    box-shadow: 
+       inset -.09em .09em,
+       inset .09em .09em,
+       .15em .25em 0 -.16em;
+    top: -.05em;
+    left: -.4em;
+    transform: rotate(-20deg)
+}
+i.icss-sprint-man:after {
+    width: .3em;
+    height: .55em;
+    border: 0 solid transparent;
+    border-width: .2em 0 0;
+    box-shadow:
+        inset .15em -.1em,
+        .2em .35em 0 -.1em,
+        -.1em .35em 0 -.1em,
+        -.1em .5em 0 -.1em
+        ;
+    top: .13em;
+    left: -.13em;
+    transform: rotate(20deg) skewX(-20deg)
+}

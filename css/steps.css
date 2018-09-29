@@ -1,0 +1,23 @@
+i.icss-steps {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+}
+i.icss-steps:before {
+    width: .25em;
+    height: .39em;
+    background-color: currentColor;
+    border-radius: .25em .25em .1em .1em / 120% 120% .15em .15em;
+    top: .05em;
+    left: .18em;
+    box-shadow: .4em .28em;
+}
+i.icss-steps:after {
+    width: .21em;
+    height: .19em;
+    background-color: currentColor;
+    border-radius: .1em .1em .25em .25em / .15em .15em 120% 120% ;
+    top: .51em;
+    left: .2em;
+    box-shadow: .4em .28em;
+}

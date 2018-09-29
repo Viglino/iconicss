@@ -1,0 +1,34 @@
+i.icss-tennis-man {
+    width: .28em;
+    height: .28em;
+    background-color: transparent;
+    border: .07em solid currentColor;
+    border-radius: 50%;
+    box-shadow: .37em -.25em 0 -.03em;
+    margin: .21em .72em .51em 0em;
+}
+i.icss-tennis-man:before {
+    width: .43em;
+    height: .7em;
+    border-top: .45em solid transparent;
+    box-shadow: 
+        inset -.18em 0,
+        .03em .13em 0 -.03em,
+        .17em .6em 0 -.17em,
+        .17em .68em 0 -.17em,
+        -.11em .45em 0 -.17em;
+    top: -.33em;
+    left: .18em;
+    transform: rotate(-20deg) skewY(-25deg)
+    
+}
+i.icss-tennis-man:after {
+    width: .5em;
+    height: .4em;
+    border: .07em solid currentColor;
+    border-width: .08em .08em 0 0;
+    border-radius: 0 .1em 0 0;
+    top: -.03em;
+    left: .3em;
+    transform: rotate(-45deg) skewX(20deg);
+}

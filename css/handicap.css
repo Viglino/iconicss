@@ -1,0 +1,30 @@
+i.icss-handicap {
+    width: .22em;
+    height: .22em;
+    background-color: currentColor;
+    border-radius: 50%;
+    box-shadow: -.18em .63em 0 .12em;
+    margin: .03em .33em .75em .45em;
+}
+i.icss-handicap:before {
+    width: .32em;
+    height: .32em;
+    border: .08em solid currentColor;
+    border-radius: .05em .15em 0 0;
+    border-width: .08em 0 0 .08em;
+    top: .25em;
+    left: -.14em;
+    transform: rotate(-30deg)
+}
+i.icss-handicap:after {
+    width: .25em;
+    height: .63em;
+    border: .1em solid transparent;
+    border-radius: 0 80% 0 0 / 100% ;
+    border-width: .3em 0 0;
+    box-shadow: inset -.09em .09em, 
+        -.2em -.05em 0 -.04em;
+    transform: skewX(-13deg);
+    top: .25em;
+    left: .1em;
+}

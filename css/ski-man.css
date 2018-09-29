@@ -1,0 +1,34 @@
+i.icss-ski-man {
+    width: .22em;
+    height: .22em;
+    background-color: currentColor;
+    border-radius: 50%;
+    margin: 0em .02em .78em .7em;
+}
+i.icss-ski-man:before {
+    width: .2em;
+    height: .4em;
+    box-shadow: inset .5em .3em;
+    border-top: .2em solid transparent;
+    box-shadow: 
+        inset 0 .09em,
+        -.1em .1em,
+        0 .1em,
+        .05em .35em 0 -.05em;
+    top: .15em;
+    left: -.05em;
+    transform: rotate(22deg) skewX(-20deg);
+}
+i.icss-ski-man:after {
+    width: .7em;
+    height: .13em;
+    border-top: .09em solid transparent;
+    border-radius: 0 0 .5em;
+    top: .68em;
+    left: -.6em;
+    box-shadow: 
+        inset 0 -.1em,
+        -.1em -.52em 0 .01em;
+    transform-origin: 50% -.07em;
+    transform: perspective(.4em) rotateX(40deg) rotate(20deg);
+}

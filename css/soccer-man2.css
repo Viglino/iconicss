@@ -1,0 +1,31 @@
+i.icss-soccer-man2 {
+    width: .22em;
+    height: .22em;
+    background-color: currentColor;
+    border-radius: 50%;
+    margin: 0em .35em .78em .43em;
+    box-shadow: .18em .8em 0 -.01em;
+}
+i.icss-soccer-man2:before {
+    width: .2em;
+    height: .35em;
+    background-color: currentColor;
+    border-radius: .05em .05em 0 0;
+    box-shadow: 
+        -.06em .28em 0 -.063em,
+        .06em .28em 0 -.063em,
+        .06em .45em 0 -.063em;
+    top: .25em;
+    left: -.05em;
+    transform: rotate(10deg)
+}
+i.icss-soccer-man2:after {
+    width: .4em;
+    height: .4em;
+    border: .1em solid currentColor;
+    border-radius: 0 .1em; 
+    border-width: .08em .08em 0 0;
+    top: .22em;
+    left: -.12em;
+    transform: rotate(-35deg) skewX(30deg);
+}

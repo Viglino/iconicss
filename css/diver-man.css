@@ -1,0 +1,26 @@
+i.icss-diver-man {
+    width: .22em;
+    height: .22em;
+    background-color: currentColor;
+    border-radius: 50%;
+    margin: .55em .55em .23em .23em;
+}
+i.icss-diver-man:before {
+    width: .18em;
+    height: .4em;
+    background-color: currentColor; 
+    border-radius: .05em;
+    box-shadow: 0 -.35em 0 -.035em;
+    top: -.28em;
+    left: .28em;
+    transform: rotate(23deg);
+}
+i.icss-diver-man:after {
+    width: .1em;
+    height: .5em;
+    background-color: currentColor; 
+    border-radius: .02em;
+    transform: rotate(3deg);
+    top: -.03em;
+    left: .28em;
+}

@@ -4725,6 +4725,41 @@ i.icss-diamonds:before {
     top: 50%;
     left: 50%;
 }
+i.icss-diver-man {
+    width: .22em;
+    height: .22em;
+    background-color: currentColor;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    margin: .55em .55em .23em .23em;
+}
+i.icss-diver-man:before {
+    width: .18em;
+    height: .4em;
+    background-color: currentColor; 
+    -webkit-border-radius: .05em; 
+            border-radius: .05em;
+    -webkit-box-shadow: 0 -.35em 0 -.035em;
+            box-shadow: 0 -.35em 0 -.035em;
+    top: -.28em;
+    left: .28em;
+    -webkit-transform: rotate(23deg);
+        -ms-transform: rotate(23deg);
+            transform: rotate(23deg);
+}
+i.icss-diver-man:after {
+    width: .1em;
+    height: .5em;
+    background-color: currentColor; 
+    -webkit-border-radius: .02em; 
+            border-radius: .02em;
+    -webkit-transform: rotate(3deg);
+        -ms-transform: rotate(3deg);
+            transform: rotate(3deg);
+    top: -.03em;
+    left: .28em;
+}
+
 i.icss-dolphin {
   width:0.8em;
   height: 0.8em;
@@ -7222,6 +7257,52 @@ i.icss-hammer:after {
     left: -.24em;
 }
 
+i.icss-hand-ball-man {
+    width: .22em;
+    height: .22em;
+    background-color: currentColor;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    -webkit-box-shadow: -.15em -.2em 0 -.03em;
+            box-shadow: -.15em -.2em 0 -.03em;
+    margin: .13em .23em .65em .55em;
+}
+i.icss-hand-ball-man:before {
+    width: .3em;
+    height: .55em;
+    -webkit-box-shadow: inset -.1em 0,
+        -.1em -.4em 0 -.1em,
+        0 -.1em,
+        .1em .2em 0 -.1em,
+        .19em -.21em 0 -.11em;
+            box-shadow: inset -.1em 0,
+        -.1em -.4em 0 -.1em,
+        0 -.1em,
+        .1em .2em 0 -.1em,
+        .19em -.21em 0 -.11em;
+    top: .25em;
+    left: -.4em;
+    -webkit-transform: rotate(20deg);
+        -ms-transform: rotate(20deg);
+            transform: rotate(20deg)
+}
+i.icss-hand-ball-man:after {
+    width: .53em;
+    height: .33em;
+    -webkit-border-radius: 0 .03em 0;
+            border-radius: 0 .03em 0;
+    border-left: .2em solid transparent;
+    -webkit-box-shadow: inset -.12em .12em,
+        0 -.43em 0 -.11em;
+            box-shadow: inset -.12em .12em,
+        0 -.43em 0 -.11em;
+    -webkit-transform: scaleY(.8) rotate(45deg);
+        -ms-transform: scaleY(.8) rotate(45deg);
+            transform: scaleY(.8) rotate(45deg);
+    top: .45em;
+    left: -.4em;
+}
+
 i.icss-hand-pointer{
     width: .13em;
     height: .32em;
@@ -7305,6 +7386,47 @@ i.icss-hand:after{
     -webkit-border-radius: .04em 70% .04em .04em / .04em 70% .04em .04em;
             border-radius: .04em 70% .04em .04em / .04em 70% .04em .04em;
 }
+i.icss-handicap {
+    width: .22em;
+    height: .22em;
+    background-color: currentColor;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    -webkit-box-shadow: -.18em .63em 0 .12em;
+            box-shadow: -.18em .63em 0 .12em;
+    margin: .03em .33em .75em .45em;
+}
+i.icss-handicap:before {
+    width: .32em;
+    height: .32em;
+    border: .08em solid currentColor;
+    -webkit-border-radius: .05em .15em 0 0;
+            border-radius: .05em .15em 0 0;
+    border-width: .08em 0 0 .08em;
+    top: .25em;
+    left: -.14em;
+    -webkit-transform: rotate(-30deg);
+        -ms-transform: rotate(-30deg);
+            transform: rotate(-30deg)
+}
+i.icss-handicap:after {
+    width: .25em;
+    height: .63em;
+    border: .1em solid transparent;
+    -webkit-border-radius: 0 80% 0 0 / 100% ;
+            border-radius: 0 80% 0 0 / 100% ;
+    border-width: .3em 0 0;
+    -webkit-box-shadow: inset -.09em .09em, 
+        -.2em -.05em 0 -.04em;
+            box-shadow: inset -.09em .09em, 
+        -.2em -.05em 0 -.04em;
+    -webkit-transform: skewX(-13deg);
+        -ms-transform: skewX(-13deg);
+            transform: skewX(-13deg);
+    top: .25em;
+    left: .1em;
+}
+
 i.icss-heart-o {
   width: .5em;
   height: .5em;
@@ -9709,6 +9831,42 @@ i.icss-nuclear:after {
         -ms-transform: translate(-50%, -50%) scaleX(0.7);
             transform: translate(-50%, -50%) scaleX(0.7);
 }
+i.icss-old-mam {
+    width: .22em;
+    height: .22em;
+    background-color: currentColor;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    -webkit-box-shadow: -.09em -.08em 0 -.05em;
+            box-shadow: -.09em -.08em 0 -.05em;
+    margin: .03em .28em .75em .5em;
+}
+i.icss-old-mam:before {
+    width: .3em;
+    height: .5em;
+    -webkit-box-shadow: inset .5em .3em;
+            box-shadow: inset .5em .3em;
+    -webkit-box-shadow: 
+       inset -.09em .09em,
+       inset .09em .09em,
+       -.3em .1em 0 -.1em;
+            box-shadow: 
+       inset -.09em .09em,
+       inset .09em .09em,
+       -.3em .1em 0 -.1em;
+    top: .47em;
+    left: -.06em
+}
+i.icss-old-mam:after {
+    width: .32em;
+    height: .6em;
+    background-color: currentColor;
+    -webkit-border-radius: 80% .05em 0 0 / 50% .05em 0 0;
+            border-radius: 80% .05em 0 0 / 50% .05em 0 0;
+    top: .20em;
+    left: -.28em
+}
+
 i.icss-openlayers-c {
     width: 1em;
     height: 1em;
@@ -10733,6 +10891,42 @@ i.icss-pram:after {
     left: .13em;
 }
 
+i.icss-pregnant {
+    width: .22em;
+    height: .22em;
+    background-color: currentColor;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    -webkit-box-shadow: -.09em -.08em 0 -.05em;
+            box-shadow: -.09em -.08em 0 -.05em;
+    margin: .03em .39em .75em;
+}
+i.icss-pregnant:before {
+    width: .32em;
+    height: .43em;
+    border: .08em solid currentColor;
+    -webkit-box-shadow: inset 0 -.1em;
+            box-shadow: inset 0 -.1em;
+    -webkit-border-radius: .05em .15em .2em .2em;
+            border-radius: .05em .15em .2em .2em;
+    top: .28em;
+    left: -.055em;
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg)
+}
+i.icss-pregnant:after {
+    width: .2em;
+    height: .53em;
+    background-color: currentColor; 
+    -webkit-border-radius: .2em .2em 0 0; 
+            border-radius: .2em .2em 0 0;
+    -webkit-box-shadow: 0 .24em 0 -.05em;
+            box-shadow: 0 .24em 0 -.05em;
+    top: .25em;
+    left: .0em;
+}
+
 i.icss-print {
 	width: .68em;
 	height: 1em;
@@ -11584,6 +11778,57 @@ i.icss-shopping-cart:after {
   top: -.61em;
   left: .0em;
 }
+i.icss-ski-man {
+    width: .22em;
+    height: .22em;
+    background-color: currentColor;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    margin: 0em .02em .78em .7em;
+}
+i.icss-ski-man:before {
+    width: .2em;
+    height: .4em;
+    -webkit-box-shadow: inset .5em .3em;
+            box-shadow: inset .5em .3em;
+    border-top: .2em solid transparent;
+    -webkit-box-shadow: 
+        inset 0 .09em,
+        -.1em .1em,
+        0 .1em,
+        .05em .35em 0 -.05em;
+            box-shadow: 
+        inset 0 .09em,
+        -.1em .1em,
+        0 .1em,
+        .05em .35em 0 -.05em;
+    top: .15em;
+    left: -.05em;
+    -webkit-transform: rotate(22deg) skewX(-20deg);
+        -ms-transform: rotate(22deg) skewX(-20deg);
+            transform: rotate(22deg) skewX(-20deg);
+}
+i.icss-ski-man:after {
+    width: .7em;
+    height: .13em;
+    border-top: .09em solid transparent;
+    -webkit-border-radius: 0 0 .5em;
+            border-radius: 0 0 .5em;
+    top: .68em;
+    left: -.6em;
+    -webkit-box-shadow: 
+        inset 0 -.1em,
+        -.1em -.52em 0 .01em;
+            box-shadow: 
+        inset 0 -.1em,
+        -.1em -.52em 0 .01em;
+    -webkit-transform-origin: 50% -.07em;
+        -ms-transform-origin: 50% -.07em;
+            transform-origin: 50% -.07em;
+    -webkit-transform: perspective(.4em) rotateX(40deg) rotate(20deg);
+            transform: perspective(.4em) rotateX(40deg) rotate(20deg);
+}
+
 i.icss-skull {
 	height: .7em;
 	width: .75em;
@@ -12098,6 +12343,93 @@ i.icss-snowman:after {
     .11em 0 0 -.06em,
     -.11em 0 0 -.06em;
 }
+i.icss-soccer-man {
+    width: .22em;
+    height: .22em;
+    background-color: currentColor;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    margin: 0em .35em .78em .43em;
+    -webkit-box-shadow: .28em .8em 0 -.01em;
+            box-shadow: .28em .8em 0 -.01em;
+}
+i.icss-soccer-man:before {
+    width: .65em;
+    height: .46em;
+    border: 0 solid transparent;
+    border-width: 0 .21em 0 .3em;
+    -webkit-box-shadow: 
+        inset 0 .28em,
+        inset .07em 0,
+        0 -.07em,
+        -.09em .26em 0 -.19em;
+            box-shadow: 
+        inset 0 .28em,
+        inset .07em 0,
+        0 -.07em,
+        -.09em .26em 0 -.19em; 
+    -webkit-transform: rotate(10deg) skewY(15deg); 
+        -ms-transform: rotate(10deg) skewY(15deg); 
+            transform: rotate(10deg) skewY(15deg);
+    top: .29em;
+    left: -.375em
+}
+i.icss-soccer-man:after {
+    width: .24em;
+    height: .37em;
+    -webkit-box-shadow: .07em -.08em;
+            box-shadow: .07em -.08em;
+    top: .62em;
+    left: -.1em;
+    -webkit-transform: skewY(32deg);
+        -ms-transform: skewY(32deg);
+            transform: skewY(32deg)
+}
+
+i.icss-soccer-man2 {
+    width: .22em;
+    height: .22em;
+    background-color: currentColor;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    margin: 0em .35em .78em .43em;
+    -webkit-box-shadow: .18em .8em 0 -.01em;
+            box-shadow: .18em .8em 0 -.01em;
+}
+i.icss-soccer-man2:before {
+    width: .2em;
+    height: .35em;
+    background-color: currentColor;
+    -webkit-border-radius: .05em .05em 0 0;
+            border-radius: .05em .05em 0 0;
+    -webkit-box-shadow: 
+        -.06em .28em 0 -.063em,
+        .06em .28em 0 -.063em,
+        .06em .45em 0 -.063em;
+            box-shadow: 
+        -.06em .28em 0 -.063em,
+        .06em .28em 0 -.063em,
+        .06em .45em 0 -.063em;
+    top: .25em;
+    left: -.05em;
+    -webkit-transform: rotate(10deg);
+        -ms-transform: rotate(10deg);
+            transform: rotate(10deg)
+}
+i.icss-soccer-man2:after {
+    width: .4em;
+    height: .4em;
+    border: .1em solid currentColor;
+    -webkit-border-radius: 0 .1em;
+            border-radius: 0 .1em; 
+    border-width: .08em .08em 0 0;
+    top: .22em;
+    left: -.12em;
+    -webkit-transform: rotate(-35deg) skewX(30deg);
+        -ms-transform: rotate(-35deg) skewX(30deg);
+            transform: rotate(-35deg) skewX(30deg);
+}
+
 i.icss-soccer {
     width: 1em;
     height: 1em;
@@ -12513,6 +12845,59 @@ i.icss-sport-car:after {
     top: .07em;
     left: .2em;
 }
+i.icss-sprint-man {
+    width: .22em;
+    height: .22em;
+    background-color: currentColor;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    -webkit-box-shadow: -.09em .18em 0 -.038em;
+            box-shadow: -.09em .18em 0 -.038em;
+    margin: .03em .18em .75em .6em;
+}
+i.icss-sprint-man:before {
+    width: .6em;
+    height: .55em;
+    border: .3em solid transparent;
+    border-width: .3em .2em 0 0;
+    -webkit-box-shadow: 
+       inset -.09em .09em,
+       inset .09em .09em,
+       .15em .25em 0 -.16em;
+            box-shadow: 
+       inset -.09em .09em,
+       inset .09em .09em,
+       .15em .25em 0 -.16em;
+    top: -.05em;
+    left: -.4em;
+    -webkit-transform: rotate(-20deg);
+        -ms-transform: rotate(-20deg);
+            transform: rotate(-20deg)
+}
+i.icss-sprint-man:after {
+    width: .3em;
+    height: .55em;
+    border: 0 solid transparent;
+    border-width: .2em 0 0;
+    -webkit-box-shadow:
+        inset .15em -.1em,
+        .2em .35em 0 -.1em,
+        -.1em .35em 0 -.1em,
+        -.1em .5em 0 -.1em
+        ;
+            box-shadow:
+        inset .15em -.1em,
+        .2em .35em 0 -.1em,
+        -.1em .35em 0 -.1em,
+        -.1em .5em 0 -.1em
+        ;
+    top: .13em;
+    left: -.13em;
+    -webkit-transform: rotate(20deg) skewX(-20deg);
+        -ms-transform: rotate(20deg) skewX(-20deg);
+            transform: rotate(20deg) skewX(-20deg)
+}
+
 i.icss-square-o {
     width: 1em;
     height: 1em;
@@ -12555,6 +12940,33 @@ i.icss-star:after {
 	-webkit-transform: rotate(35deg);	
 	    -ms-transform: rotate(35deg);	
 	        transform: rotate(35deg);
+}
+i.icss-steps {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+}
+i.icss-steps:before {
+    width: .25em;
+    height: .39em;
+    background-color: currentColor;
+    -webkit-border-radius: .25em .25em .1em .1em / 120% 120% .15em .15em;
+            border-radius: .25em .25em .1em .1em / 120% 120% .15em .15em;
+    top: .05em;
+    left: .18em;
+    -webkit-box-shadow: .4em .28em;
+            box-shadow: .4em .28em;
+}
+i.icss-steps:after {
+    width: .21em;
+    height: .19em;
+    background-color: currentColor;
+    -webkit-border-radius: .1em .1em .25em .25em / .15em .15em 120% 120% ;
+            border-radius: .1em .1em .25em .25em / .15em .15em 120% 120% ;
+    top: .51em;
+    left: .2em;
+    -webkit-box-shadow: .4em .28em;
+            box-shadow: .4em .28em;
 }
 i.icss-storm {
   width: .35em;
@@ -13349,6 +13761,54 @@ i.icss-tennis-ball:after {
             box-shadow: inset 0 0 0 .07em;
     top: -.5em;
     left: -.1em;
+}
+
+i.icss-tennis-man {
+    width: .28em;
+    height: .28em;
+    background-color: transparent;
+    border: .07em solid currentColor;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    -webkit-box-shadow: .37em -.25em 0 -.03em;
+            box-shadow: .37em -.25em 0 -.03em;
+    margin: .21em .72em .51em 0em;
+}
+i.icss-tennis-man:before {
+    width: .43em;
+    height: .7em;
+    border-top: .45em solid transparent;
+    -webkit-box-shadow: 
+        inset -.18em 0,
+        .03em .13em 0 -.03em,
+        .17em .6em 0 -.17em,
+        .17em .68em 0 -.17em,
+        -.11em .45em 0 -.17em;
+            box-shadow: 
+        inset -.18em 0,
+        .03em .13em 0 -.03em,
+        .17em .6em 0 -.17em,
+        .17em .68em 0 -.17em,
+        -.11em .45em 0 -.17em;
+    top: -.33em;
+    left: .18em;
+    -webkit-transform: rotate(-20deg) skewY(-25deg);
+        -ms-transform: rotate(-20deg) skewY(-25deg);
+            transform: rotate(-20deg) skewY(-25deg)
+    
+}
+i.icss-tennis-man:after {
+    width: .5em;
+    height: .4em;
+    border: .07em solid currentColor;
+    border-width: .08em .08em 0 0;
+    -webkit-border-radius: 0 .1em 0 0;
+            border-radius: 0 .1em 0 0;
+    top: -.03em;
+    left: .3em;
+    -webkit-transform: rotate(-45deg) skewX(20deg);
+        -ms-transform: rotate(-45deg) skewX(20deg);
+            transform: rotate(-45deg) skewX(20deg);
 }
 
 i.icss-tennis {

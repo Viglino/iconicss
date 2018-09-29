@@ -1,0 +1,31 @@
+i.icss-hand-ball-man {
+    width: .22em;
+    height: .22em;
+    background-color: currentColor;
+    border-radius: 50%;
+    box-shadow: -.15em -.2em 0 -.03em;
+    margin: .13em .23em .65em .55em;
+}
+i.icss-hand-ball-man:before {
+    width: .3em;
+    height: .55em;
+    box-shadow: inset -.1em 0,
+        -.1em -.4em 0 -.1em,
+        0 -.1em,
+        .1em .2em 0 -.1em,
+        .19em -.21em 0 -.11em;
+    top: .25em;
+    left: -.4em;
+    transform: rotate(20deg)
+}
+i.icss-hand-ball-man:after {
+    width: .53em;
+    height: .33em;
+    border-radius: 0 .03em 0;
+    border-left: .2em solid transparent;
+    box-shadow: inset -.12em .12em,
+        0 -.43em 0 -.11em;
+    transform: scaleY(.8) rotate(45deg);
+    top: .45em;
+    left: -.4em;
+}

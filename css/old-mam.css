@@ -1,0 +1,27 @@
+i.icss-old-mam {
+    width: .22em;
+    height: .22em;
+    background-color: currentColor;
+    border-radius: 50%;
+    box-shadow: -.09em -.08em 0 -.05em;
+    margin: .03em .28em .75em .5em;
+}
+i.icss-old-mam:before {
+    width: .3em;
+    height: .5em;
+    box-shadow: inset .5em .3em;
+    box-shadow: 
+       inset -.09em .09em,
+       inset .09em .09em,
+       -.3em .1em 0 -.1em;
+    top: .47em;
+    left: -.06em
+}
+i.icss-old-mam:after {
+    width: .32em;
+    height: .6em;
+    background-color: currentColor;
+    border-radius: 80% .05em 0 0 / 50% .05em 0 0;
+    top: .20em;
+    left: -.28em
+}
