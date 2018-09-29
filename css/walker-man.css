@@ -1,0 +1,35 @@
+i.icss-walker-man {
+    width: .22em;
+    height: .22em;
+    background-color: currentColor;
+    border-radius: 50%;
+    box-shadow: -.09em .18em 0 -.038em, 
+        -.12em .38em 0 -.038em;
+    margin: .03em .33em .75em .45em;
+}
+i.icss-walker-man:before {
+    width: .3em;
+    height: .5em;
+    transform: skew(-10deg, 30deg);
+    box-shadow: inset -.08em .1em,
+        -.3em -.2em 0 -.08em;
+    border-radius: .3em .2em 0 0;
+    border: 0 solid transparent;
+    border-width: .15em .05em 0 0;
+    top: .43em;
+    left: -.08em
+}
+i.icss-walker-man:after {
+    width: .3em;
+    height: .89em;
+    border: 0 solid transparent;
+    border-width: .2em 0 .5em 0;
+    box-shadow:
+        inset .05em -.08em,
+        .08em -.02em 0 -.02em,
+        -.2em .1em 0 -.1em
+        ;
+    top: .12em;
+    left: -.0em;
+    transform: rotate(10deg);
+}
