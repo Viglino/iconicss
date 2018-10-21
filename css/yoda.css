@@ -54,7 +54,7 @@ i.icss-yoda:after {
   box-shadow:
     -.25em .1em 0 -.12em, .09em -.25em 0 -.12em;
   border-radius: 100% .1em 10% .5em / 100% .5em 10% .1em ;
-  top: -.em;
+  top: 0;
   left: -.05em;
   transform: scaleY(.35) rotate(45deg);
 }
