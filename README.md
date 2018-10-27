@@ -21,11 +21,13 @@ This will impact icons that use gradient background-image (just a few ones).
 
 ## How to use it?
 
-All you need is download and include [iconicss.min.css](https://rawgit.com/Viglino/iconicss/master/dist/iconicss.min.css) in your html page:
+Install iConicss using `npm install iconicss` or download [iconicss.min.css](https://rawgit.com/Viglino/iconicss/master/dist/iconicss.min.css) then add it in your html page:
 ````html
 <link rel="stylesheet" href="iconicss.min.css">
 ````
-then just add `icss-` classes to an `<i>` elements to add a new icon on your page:
+Using npm you can `import 'iconicss/dist/iconicss.min.css'` or individual files such as `import 'iconicss/css/github.css'` but you'll have to `import 'iconics iconicss/icss.css` before.
+
+Then just add `icss-` classes to an `<i>` elements to add a new icon on your page:
 ````html
 <i class="icss-home"></i>
 ````
