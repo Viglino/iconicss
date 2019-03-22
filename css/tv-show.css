@@ -1,0 +1,30 @@
+i.icss-tv-show {
+  width: .9em;
+  height: .6em;
+  border-radius: .02em;
+  background-color: transparent;
+  border: .07em solid currentColor;
+  box-shadow: 0 .37em 0 -.27em;
+  margin: .25em .05em .15em .05em;
+}
+i.icss-tv-show:before {
+  width: .2em;
+  height: .3em;
+  border: .1em solid currentColor;
+  border-color: transparent transparent transparent currentColor;
+  border-width: .15em .2em .15em;
+  top: 50%;
+  left: .31em;
+  box-shadow: -.12em .3em 0 -.1em;
+  transform: translateY(-50%);
+}
+i.icss-tv-show:after {
+  width: .3em;
+  height: .3em;
+  border: .06em solid currentColor;
+  border-color: transparent transparent currentColor currentColor;
+  transform: translateX(-50%) rotate(-45deg);
+  border-radius: 0 .05em 0 ;
+  top: -.35em;
+  left: 50%;
+}

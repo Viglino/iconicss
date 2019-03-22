@@ -712,6 +712,11 @@ i.icss-arrow-down {
         -ms-transform: rotate(90deg);
             transform: rotate(90deg);
 }
+.icss-stack i.icss-arrow-down {
+   -webkit-transform: translate(-.5em, -.5em) rotate(90deg);
+       -ms-transform: translate(-.5em, -.5em) rotate(90deg);
+           transform: translate(-.5em, -.5em) rotate(90deg);
+}
 i.icss-arrow-down:before {
     width: .6em;
     height: .18em;
@@ -810,6 +815,11 @@ i.icss-arrow-up {
     -webkit-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
             transform: rotate(90deg);
+}
+.icss-stack i.icss-arrow-up {
+   -webkit-transform: translate(-.5em, -.5em) rotate(90deg);
+       -ms-transform: translate(-.5em, -.5em) rotate(90deg);
+           transform: translate(-.5em, -.5em) rotate(90deg);
 }
 i.icss-arrow-up:before {
     width: .6em;
@@ -11020,6 +11030,40 @@ i.icss-print:after {
 	-webkit-box-shadow: 0 .12em, -.1em -.28em 0 .05em;
 	        box-shadow: 0 .12em, -.1em -.28em 0 .05em;
 }
+i.icss-projection {
+  width: .9em;
+  height: .7em;
+  -webkit-border-radius: .05em;
+          border-radius: .05em;
+  background-color: transparent;
+  border: .07em solid currentColor;
+  margin: .16em .05em .2em .05em;
+}
+i.icss-projection:before {
+  width: 1em;
+  height: .13em;
+  background-color: currentColor;
+  -webkit-border-radius: .05em;
+          border-radius: .05em;
+  top: -.1em;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+i.icss-projection:after {
+  width: .3em;
+  height: .3em;
+  -webkit-transform: translateX(-50%) rotate(-45deg);
+      -ms-transform: translateX(-50%) rotate(-45deg);
+          transform: translateX(-50%) rotate(-45deg);
+  -webkit-border-radius: 0 .12em 0 ;
+          border-radius: 0 .12em 0 ;
+  -webkit-box-shadow: 0 -.07em, .07em 0,  .62em -.62em 0 -.09em;
+          box-shadow: 0 -.07em, .07em 0,  .62em -.62em 0 -.09em;
+  top: .63em;
+  left: 50%;
+}
 i.icss-pushpin {
   width: .28em;
   height: .45em;
@@ -15010,6 +15054,44 @@ i.icss-tux:after {
 	        box-shadow: 0.06em -0.40em 0 -0.087em, 0.22em 0.37em, -0.22em 0.37em;
 	clip: rect(-0.5em 0.6em 0.53em -0.5em);
 }
+i.icss-tv-show {
+  width: .9em;
+  height: .6em;
+  -webkit-border-radius: .02em;
+          border-radius: .02em;
+  background-color: transparent;
+  border: .07em solid currentColor;
+  -webkit-box-shadow: 0 .37em 0 -.27em;
+          box-shadow: 0 .37em 0 -.27em;
+  margin: .25em .05em .15em .05em;
+}
+i.icss-tv-show:before {
+  width: .2em;
+  height: .3em;
+  border: .1em solid currentColor;
+  border-color: transparent transparent transparent currentColor;
+  border-width: .15em .2em .15em;
+  top: 50%;
+  left: .31em;
+  -webkit-box-shadow: -.12em .3em 0 -.1em;
+          box-shadow: -.12em .3em 0 -.1em;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+i.icss-tv-show:after {
+  width: .3em;
+  height: .3em;
+  border: .06em solid currentColor;
+  border-color: transparent transparent currentColor currentColor;
+  -webkit-transform: translateX(-50%) rotate(-45deg);
+      -ms-transform: translateX(-50%) rotate(-45deg);
+          transform: translateX(-50%) rotate(-45deg);
+  -webkit-border-radius: 0 .05em 0 ;
+          border-radius: 0 .05em 0 ;
+  top: -.35em;
+  left: 50%;
+}
 i.icss-umbrella {
     width: .2em;
     height: .8em;
@@ -15536,6 +15618,34 @@ i.icss-vador:after {
             transform: translateX(-50%);
     -webkit-box-shadow: .08em -.1em, -.08em -.1em;
             box-shadow: .08em -.1em, -.08em -.1em;
+}
+i.icss-video-camera {
+  width: .7em;
+  height: .5em;
+  -webkit-border-radius: .1em;
+          border-radius: .1em;
+  margin: .4em .23em .1em .07em;
+}
+i.icss-video-camera:before {
+  height: 0.4em;
+  border: .2em solid currentColor;
+  border-width: .1em .18em .1em 0;
+  border-color: transparent currentColor;
+  -webkit-border-radius: .03em;
+          border-radius: .03em;
+  top: .05em;
+  left: .7em;
+}
+i.icss-video-camera:after {
+  width: .28em;
+  height: .28em;
+  border: .08em solid currentColor;
+  -webkit-box-shadow: -.3em -.03em 0 .04em;
+          box-shadow: -.3em -.03em 0 .04em;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  top: -.26em;
+  left: .37em
 }
 i.icss-video {
     width: 1em;

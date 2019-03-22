@@ -6,6 +6,9 @@ i.icss-arrow-down {
     margin: .41em  0;
     transform: rotate(90deg);
 }
+.icss-stack i.icss-arrow-down {
+   transform: translate(-.5em, -.5em) rotate(90deg);
+}
 i.icss-arrow-down:before {
     width: .6em;
     height: .18em;

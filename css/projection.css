@@ -1,0 +1,26 @@
+i.icss-projection {
+  width: .9em;
+  height: .7em;
+  border-radius: .05em;
+  background-color: transparent;
+  border: .07em solid currentColor;
+  margin: .16em .05em .2em .05em;
+}
+i.icss-projection:before {
+  width: 1em;
+  height: .13em;
+  background-color: currentColor;
+  border-radius: .05em;
+  top: -.1em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+i.icss-projection:after {
+  width: .3em;
+  height: .3em;
+  transform: translateX(-50%) rotate(-45deg);
+  border-radius: 0 .12em 0 ;
+  box-shadow: 0 -.07em, .07em 0,  .62em -.62em 0 -.09em;
+  top: .63em;
+  left: 50%;
+}
