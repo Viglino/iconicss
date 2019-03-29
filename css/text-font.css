@@ -1,0 +1,19 @@
+i.icss-text-font {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    margin: 0;
+}
+
+i.icss-text-font:before {
+    top: 50%;
+    left: 50%;
+    content: "A";
+    font-size: 1em;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+    font-family: serif;
+}
+
+i.icss-text-font:after {
+}

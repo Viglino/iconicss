@@ -1,0 +1,24 @@
+i.icss-text-underline {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    margin: 0;
+}
+
+i.icss-text-underline:before {
+    top: 50%;
+    left: 50%;
+    content: "U";
+    font-size: 1em;
+    font-weight: bold;
+    transform: translate(-50%,-50%);
+    font-family: serif;
+}
+
+i.icss-text-underline:after {
+    width: 1em ;
+    height: 1em;
+    top: 0;
+    left: 0;
+    border-bottom: .1em solid currentColor;
+}

@@ -1,0 +1,14 @@
+i.icss-text-header {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    margin: 0;
+}
+
+i.icss-text-header:before {
+    top: 50%;
+    left: 50%;
+    content: "H";
+    transform: translate(-50%,-50%);
+    font-family: serif;
+}

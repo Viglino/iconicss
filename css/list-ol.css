@@ -1,0 +1,33 @@
+i.icss-list-ol {
+    width: .55em;
+    height: .12em;
+    border-radius: .02em;
+    background-color: currentColor;
+    box-shadow: 0 .25em, 0 -.25em;
+    margin: .44em .1em .44em .35em;
+}
+
+i.icss-list-ol:before {
+    content: '2';
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: .25em;
+    line-height: 1em;
+    width: .55em;
+    padding: .12em 0;
+    box-shadow: 0 -1em 0 -.165em;
+    top: .2em;
+    left: -1em;
+    transform: translateY(-50%);
+}
+
+i.icss-list-ol:after {
+    content: '3';
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: .25em;
+    line-height: 1em;
+    top: 1.2em;
+    left: -1em;
+    transform: translateY(-50%);
+}

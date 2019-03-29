@@ -1,0 +1,19 @@
+i.icss-list-ul {
+    width: .55em;
+    height: .12em;
+    border-radius: .02em;
+    background-color: currentColor;
+    box-shadow: 0 .25em, 0 -.25em;
+    margin: .44em .1em .44em .35em;
+}
+
+i.icss-list-ul:before {
+    width: .15em;
+    height: .15em;
+    border-radius: .02em;
+    background-color: currentColor;
+    box-shadow: 0 .25em, 0 -.25em;
+    top: 50%;
+    left: -.23em;
+    transform: translateY(-50%);
+}

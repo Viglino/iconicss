@@ -1,0 +1,34 @@
+i.icss-unlink {
+    width: .1em;
+    height: .1em;
+    border-radius: 0;
+    margin: .45em .45em;
+    box-shadow: .15em .3em, .3em .15em, 
+        .18em .38em, .38em .19em,
+        .1em .25em, .25em .1em,
+        -.1em -.25em, -.25em -.1em,
+        -.15em -.3em, -.3em -.15em,
+        -.18em -.38em, -.38em -.19em;
+}
+i.icss-unlink:before {
+    width: .34em;
+    height: .4em;
+    background-color: transparent;
+    border-radius: .16em .16em 0 0;
+    border: .09em solid currentColor;
+    border-bottom: 0 solid transparent;
+    top: -.4em;
+    left: .15em;
+    transform: rotate(45deg);
+}
+i.icss-unlink:after {
+    width: .33em;
+    height: .4em;
+    background-color: transparent;
+    border-radius: 0 0 .16em .16em;
+    border: .09em solid currentColor;
+    border-top: 0 solid transparent;
+    top: .1em;
+    left: -.35em;
+    transform: rotate(45deg);
+}

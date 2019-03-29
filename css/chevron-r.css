@@ -1,0 +1,16 @@
+i.icss-chevron-r {
+  width: 1em;
+  height: 1em;
+  border-radius: .07em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-chevron-r:before {
+  height: .6em;
+  width: .6em;
+  border: .15em solid currentColor;
+  border-color: currentColor currentColor transparent transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%,-50%) rotate(45deg);
+}

@@ -1,0 +1,26 @@
+i.icss-text-height {
+    background-color: transparent;
+    border: .15em solid transparent;
+    border-width: 0 .15em .15em .15em;
+    border-bottom-color: currentColor;
+    margin: .1em 0 .75em .7em;
+}
+
+i.icss-text-height:before {
+    width: 1em;
+    text-align: center;
+    content: "T";
+    font-size: .9em;
+    font-family: serif;
+    line-height: .7em;
+    border-right: .07em solid currentColor; 
+    top: .1em;
+    left: -.965em;
+}
+
+i.icss-text-height:after {
+    border: .15em solid transparent;
+    border-top-color: currentColor;
+    left: -.15em;
+    top: .65em
+}

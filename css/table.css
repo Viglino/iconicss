@@ -1,0 +1,28 @@
+i.icss-table  {
+  width: .9em;
+  height: .85em;
+  border-radius: .07em;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 .065em, inset 0 .2em 0 .065em; 
+  margin: .05em 0;
+}
+i.icss-table:before {
+  height: .065em;
+  width: .9em;
+  box-shadow: inset 1em 0,
+    0 .19em;
+  top: .4em;
+  left: 0;
+}
+i.icss-table:after {
+  width: .065em;
+  height: .7em;
+  box-shadow: inset 1em 0 , 
+    .21em 0, 
+    -.21em 0 
+    ;
+  top: .1em;
+  left: .15em;
+  left: 50%;
+  transform: translateX(-50%);
+}

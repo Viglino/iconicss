@@ -1,0 +1,16 @@
+i.icss-caret-up {
+  width: 1em;
+  height: 1em;
+  border-radius: .07em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-caret-up:before {
+  height: .4em;
+  width: .4em;
+  border: .2em solid currentColor;
+  border-color: currentColor currentColor transparent transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-30%) rotate(-45deg);
+}

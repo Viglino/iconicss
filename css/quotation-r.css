@@ -1,0 +1,25 @@
+i.icss-quotation-r  {
+  width: 1em;
+  height: 1em;
+  border-radius: .07em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-quotation-r:before {
+  height: .6em;
+  width: .6em;
+  border: .15em solid currentColor;
+  border-color: currentColor currentColor transparent transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) rotate(-135deg);
+}
+i.icss-quotation-r:after {
+  height: .6em;
+  width: .6em;
+  border: .15em solid currentColor;
+  border-color: currentColor currentColor transparent transparent;
+  top: 50%;
+  left: 50%;
+  transform: translate(10%,-50%) rotate(-135deg);
+}

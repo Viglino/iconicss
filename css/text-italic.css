@@ -1,0 +1,17 @@
+i.icss-text-italic {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    margin: 0;
+}
+
+i.icss-text-italic:before {
+    top: 50%;
+    left: 50%;
+    content: "I";
+    font-size: 1em;
+    font-weight: bold;
+    font-style: italic;
+    transform: translate(-50%,-50%);
+    font-family: serif;
+}

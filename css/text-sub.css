@@ -1,0 +1,23 @@
+i.icss-text-sub {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    margin: 0;
+}
+
+i.icss-text-sub:before {
+    content: "x";
+    font-family: serif;
+    left: 40%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+}
+
+i.icss-text-sub:after {
+    content: "2";
+    font-size: .4em;
+    font-weight: bold;
+    font-family: sans-serif;
+    left: 1.6em;
+    top: .7em;
+}

@@ -1,0 +1,28 @@
+i.icss-text-justify{
+    width: .8em;
+    height: .12em;
+    border-radius: .02em;
+    background-color: currentColor;
+    box-shadow: 0 .4em;
+    margin: .35em  .1em .53em;
+}
+
+i.icss-text-justify:before {
+    width: .5em;
+    height: .12em;
+    border-radius: .02em;
+    background-color: currentColor;
+    box-shadow: .3em .4em;
+    top: -.2em;
+    left: 0;
+}
+
+i.icss-text-justify:after {
+    width: .2em;
+    height: .12em;
+    border-radius: .02em;
+    background-color: currentColor;
+    box-shadow: -.6em .4em;
+    top: -.2em;
+    left: .6em;
+}

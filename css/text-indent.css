@@ -1,0 +1,25 @@
+i.icss-text-indent {
+    width: .8em;
+    height: .12em;
+    border-radius: .02em;
+    background-color: currentColor;
+    box-shadow: 0 .6em;
+    margin: .15em  .1em .73em;
+}
+
+i.icss-text-indent:before {
+    width: .55em;
+    height: .12em;
+    border-radius: .02em;
+    background-color: currentColor;
+    box-shadow: 0 .2em;
+    top: .2em;
+    left: .25em;
+}
+
+i.icss-text-indent:after {
+    border: .18em solid transparent;
+    border-left-color: currentColor;
+    top: .18em;
+    left: 0;
+}

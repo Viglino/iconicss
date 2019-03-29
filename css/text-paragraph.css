@@ -1,0 +1,15 @@
+i.icss-text-paragraph {
+    width: .13em;
+    height: .8em;
+    box-shadow: .22em 0;
+    margin: .1em .4em .1em .47em;
+}
+
+i.icss-text-paragraph:before {
+    border-radius: 50%;
+    background-color: transparent;
+    border: .23em solid currentColor;
+    border-color: currentColor transparent transparent currentColor;
+    left: -.225em;
+    transform: rotate(-45deg);
+}

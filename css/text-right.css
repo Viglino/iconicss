@@ -1,0 +1,18 @@
+i.icss-text-right {
+    width: .8em;
+    height: .12em;
+    border-radius: .02em;
+    background-color: currentColor;
+    box-shadow: 0 .4em;
+    margin: .35em  .1em .53em;
+}
+
+i.icss-text-right:before {
+    width: .5em;
+    height: .12em;
+    border-radius: .02em;
+    background-color: currentColor;
+    box-shadow: 0 .4em;
+    top: -.2em;
+    right: 0;
+}
