@@ -1,0 +1,30 @@
+i.icss-submarine {
+  width: .83em; 
+  height: .45em; 
+  background-color: transparent;
+  box-shadow: inset .35em -.07em 0 .15em, 
+    inset .07em -.07em 0 .15em, 
+    inset 0 0 0 .08em,
+    .2em .15em 0 -.18em,
+    .05em .3em 0 -.2em;
+  border-radius: .3em .2em .2em .5em / .25em .25em .2em .2em;
+  margin: .35em .02em .2em .15em;
+}
+i.icss-submarine:before {
+  width: .3em;
+  height: .33em;
+  box-shadow: inset 0 .1em,
+    -.66em .16em;
+  border-radius: .05em;
+  clip: rect(0,1em,1em,-.5em);
+  top: -.1em;
+  left: .35em;
+}
+i.icss-submarine:after {
+  width: .12em;
+  height: .3em;
+  border-radius: .05em 0;
+  box-shadow: -.06em -.07em;
+  top: -.22em;
+  left: .55em;
+}

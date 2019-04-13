@@ -1,0 +1,35 @@
+i.icss-fish {
+  width: .8em; 
+  height: .5em; 
+  background-color: transparent;
+  box-shadow: inset .42em -.2em, inset 0 -.25em;
+  border-radius: 80% 50%;
+    margin: .35em .03em .15em .17em;
+}
+i.icss-fish:before {
+  width: .23em;
+  height: .23em;
+  box-shadow: inset .09em 0, 
+      .215em .12em 0 -.08em, 
+      .22em .2em 0 -.08em, 
+      .2em -.2em 0 -.08em, 
+      .13em -.3em 0 -.07em, 
+      -.1em .1em, 0 0 0 .07em;
+  border-radius: 50%;
+  border: .06em solid transparent;
+  left: .47em;
+  top: -.08em
+}
+i.icss-fish:after {
+  width: 1em; 
+  height: .7em; 
+  background-color: transparent;
+  box-shadow: inset -.25em .06em 0 -.12em, 
+      .31em -.26em 0 -.23em,
+      .35em .01em 0 -.12em;
+  border: .1em solid transparent;
+  border-width: .2em .35em;
+  border-radius: 50% 50%;
+  top: .01em;
+  left: -.6em;
+}

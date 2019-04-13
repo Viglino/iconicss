@@ -1,0 +1,29 @@
+i.icss-shark {
+	width: 0.8em; 
+	height: .24em; 
+	border-radius: 50% 50% 50% 50% / 50% 40% 60% 50%;
+  background-color: transparent;
+	box-shadow: inset .02em .15em, inset .62em .02em;
+	margin: .46em 0 .3em .2em;
+}
+i.icss-shark:before {
+	width: 1.05em;
+	height: 1em;
+	border: .307em solid transparent;
+	border-radius: 50% 40% 50% 40%;
+	transform: rotate(45deg);
+	box-shadow: 
+		inset -.45em 1.03em 0 -1em,
+		inset -.98em .55em 0 -1em,
+		.33em -.34em 0 -.27em;
+	top: -.4em;
+	left: -.74em;
+}
+i.icss-shark:after {
+	width: .2em;
+	height: .33em;
+	box-shadow: inset -.59em 0 0 -.5em;
+	border-radius: 50%;
+	top: -.04em;
+	left: .025em
+}

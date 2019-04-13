@@ -1,0 +1,42 @@
+i.icss-exotic-fish {
+  width: .6em; 
+  height: .75em; 
+  background-color: transparent;
+  box-shadow: inset .18em .07em 0 -.07em,
+    inset .08em .02em,
+    -.01em -.01em 0 .01em,
+    -.08em -.02em 0 0;
+  border-radius: 100% 0 0 100% / 50% 0 0 50%;
+  border-left: .1em solid transparent;
+  margin: .2em .23em .05em .17em;
+}
+i.icss-exotic-fish:before {
+  width: .35em; 
+  height: .4em; 
+  background-color: transparent;
+  box-shadow: 
+    inset .15em .07em 0 -.07em, 
+    inset -.12em -.1em 0 -.07em, 
+    -.1em 0 0 .02em,
+    -.04em 0 0 .04em,
+    .27em -.03em 0 -.06em;
+  border-left: .075em solid transparent;
+  border-radius: .9em 0 .2em .7em/ .5em;
+  transform: rotate(-5deg);
+  left: .17em;
+  top: .17em
+}
+i.icss-exotic-fish:after {
+  width: .18em; 
+  height: .18em; 
+  background-color: transparent;
+  box-shadow: inset -.025em -.01em 0 .065em, 
+    -.09em .13em 0 -.055em,
+    -.11em .19em 0 -.055em,
+    -.1em -.25em 0 -.04em,
+    -.13em -.12em 0 -.055em,
+    -.17em 0 0 -.06em;
+  border-radius: 50% 50%;
+  top: .055em;
+  left: -.17em;
+}

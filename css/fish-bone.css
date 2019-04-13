@@ -1,0 +1,33 @@
+i.icss-fish-bone {
+  width: .6em; 
+  height: .07em; 
+  margin: .5em .2em .43em .2em;
+}
+i.icss-fish-bone:before {
+  width: .85em; 
+  height: .5em; 
+  background-color: transparent;
+  box-shadow: inset -.7em 0 0 -.5em, 
+    inset .58em 0 0 -.5em,
+    -.88em 0 0 .02em;
+  clip: rect(0, 1em, 1em, -.15em);
+  border-radius: 1em / .7em;
+  top: 50%;
+  left: -.05em;
+  transform: translateY(-50%)
+}
+i.icss-fish-bone:after {
+  width: .3em; 
+  height: .5em;
+  border: 0 solid transparent;
+  border-width: 0 .09em 0 0;
+  box-shadow: inset -.26em 0 0 -.2em,
+    inset .265em 0 0 -.2em,
+    .07em 0,
+    .07em -.1em,
+    .07em .12em 0 -.05em;
+  border-radius: 1em .2em .2em 1em / .3em;
+  top: 50%;
+  left: .14em;
+  transform: translateY(-50%);
+}

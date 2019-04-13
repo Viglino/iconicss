@@ -1,0 +1,32 @@
+i.icss-frog {
+  width: .8em; 
+  height: .5em; 
+  background-color: transparent;
+  box-shadow: inset .42em -.2em;
+  border-radius: 80% 50%;
+  margin: .3em .05em .2em .15em;
+}
+i.icss-frog:before {
+  width: .25em;
+  height: .25em;
+  box-shadow: inset .11em 0, 
+      0 0 0 .07em,
+      0 .1em 0 .05em,
+      .15em .12em 0 -.05em,
+      -.25em .58em 0 -.08em,
+      -.17em .52em 0 -.08em
+      ;
+  border-radius: 50%;
+  border: .06em solid transparent;
+  left: .45em;
+  top: -.1em
+}
+i.icss-frog:after {
+  width: .45em; 
+  height: .25em; 
+  background-color: currentColor;
+  box-shadow: .32em 0 0 -.075em;
+  border-radius: 50% 80%;
+  top: .35em;
+  left: -.05em;
+}
