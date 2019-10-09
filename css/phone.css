@@ -4,7 +4,7 @@ i.icss-phone {
     background-color: transparent;
     border-width: .3em .15em;
     border-style: solid;
-    border-radius: .3em;
+    border-radius: .3em / .6em .2em .2em .6em;
     border-right-color: transparent;
     transform: rotate(-36deg);
     margin: .05em .25em 0 .2em;

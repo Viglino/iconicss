@@ -1,0 +1,36 @@
+i.icss-wechat-c  {
+  width: .7em;
+  height: .55em;
+  border-radius: 50%;
+  border: .065em solid transparent;
+  background: transparent;
+  box-shadow: inset 1em 0 #7bb32e, 
+    -.35em -.23em #7bb32e;
+  margin: .3em -.05em .1em .35em;
+}
+i.icss-wechat-c:before {
+  width: 1.5em;
+  height: 1.5em;
+  background-color: transparent;
+  color: #7bb32e;
+  transform: scaleX(.5) 
+    scale(.1,.11)
+    perspective(5em) 
+    translate(1em, 0)
+    rotateX(-90deg) 
+    translateZ(1em) 
+    rotate(31deg);
+  box-shadow: -3.4em 0, .2em -3.3em;
+  top: -.7em;
+  left: -.8em;
+}
+i.icss-wechat-c:after {
+  border: .065em solid #fff;
+  border-radius: 50%;
+  color: #fff;
+  box-shadow: .2em 0, 
+    -.35em -.3em,
+    -.12em -.3em;
+  top: .12em;
+  left: .12em;
+}

@@ -1,0 +1,36 @@
+i.icss-wechat  {
+  width: .7em;
+  height: .55em;
+  border-radius: 50%;
+  border: .065em solid transparent;
+  background: transparent;
+  box-shadow: inset .1em 0, 
+    inset -.1em 0, 
+    inset 0 -.2em, 
+    inset 0 .11em, 
+    -.35em -.23em;
+  background-image: 
+    radial-gradient(circle at .19em .17em, 
+      transparent 0, transparent .042em, currentColor .041em,
+      currentColor .15em, transparent .15em),
+    radial-gradient(circle at .38em .17em, 
+      transparent 0, transparent .04em, currentColor .041em,
+      currentColor .15em, transparent .15em)
+    ;
+  background-size: 1em 1em;
+  margin: .3em -.05em .1em .35em;
+}
+i.icss-wechat:before {
+  border: .07em solid transparent;
+  border-top: .15em solid currentColor;
+  transform: rotate(35deg);
+  top: 0.18em;
+  left: -.35em;
+}
+i.icss-wechat:after {
+  border: .08em solid transparent;
+  border-top: .15em solid currentColor;
+  transform: rotate(-33deg);
+  top: 0.33em;
+  left: .39em;
+}

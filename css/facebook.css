@@ -1,0 +1,29 @@
+i.icss-facebook {
+  width: 1em;
+  height: 1em;
+  border-radius: .08em; 
+  background-color: transparent;
+  overflow: hidden;
+}
+i.icss-facebook:before {
+  border-radius: .2em 0 0 0;
+  border: .1em solid transparent;
+  border-width: .15em 0 0 .15em;
+  width: .35em;
+  height: .3em;
+  box-shadow: -.2em -.35em 0 .35em, inset .3em 0;
+  top: .2em;
+  left: .5em
+}
+i.icss-facebook:after {
+  width: .45em;
+  height: .16em;
+  background-color: transparent;
+  box-shadow: -.5em 0 0 0, 
+    .5em 0 0 0,
+    -.5em .2em 0 .2em,
+    .5em .2em 0 .2em;
+  top: .49em;
+  left: .35em
+
+}

@@ -1,0 +1,32 @@
+i.icss-twitter-c  {
+  width: 1em;
+  height: 1em;
+  border-radius: .1em;
+  background: #fff;
+  overflow: hidden;
+}
+i.icss-twitter-c:before {
+    content: '';
+    top: .17em;
+    left: .48em;
+    height: .3587em;
+    width: .3587em;
+    border-radius: 100%;
+    background-color: #61BFE8;
+    box-shadow:       
+      .077em -.4235em 0 .1295em #fff, 
+      .084em -.2184em 0 -.0104em #61BFE8, 
+      .1312em -.3745em 0 .1288em #FFF, 
+      .105em -.154em 0 -.0008em #61BFE8, 
+      -.147em -.469em 0 .332em #FFF, 
+      -.385em -.057em 0 .0049em #61BFE8, 
+      -.504em -.0945em 0 .0049em #FFF, 
+      -.385em .07em 0 .0049em #61BFE8, 
+      -.476em .077em 0 .0049em #FFF, 
+      -.329em .196em 0 .0049em #61BFE8, 
+      -.581em .0822em 0 .1942em #FFF, 
+      -.5792em -.4602em 0 .1942em #FFF,
+      -.332em .0245em 0 .3225em #61BFE8;
+}
+i.icss-twitter-c:after {
+}

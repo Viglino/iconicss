@@ -6,7 +6,9 @@
   "directories": {
     "example": "examples"
   },
-  "scripts": {},
+  "scripts": {
+    "start": "gulp"
+  },
   "repository": {},
   "keywords": [
     "css3",
