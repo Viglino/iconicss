@@ -15,3 +15,7 @@ jspm_packages/
 
 # Optional npm cache directory
 .npm
+
+# Cutom files
+custom/
+dist/myiconicss.css

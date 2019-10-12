@@ -1,13 +1,15 @@
 {
   "name": "iconicss",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Pure css3 icons",
   "main": "./build/iconicss.css",
   "directories": {
     "example": "examples"
   },
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "custom": "gulp run custom",
+    "bump": "gulp run dobump"
   },
   "repository": {},
   "keywords": [
