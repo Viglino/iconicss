@@ -4293,6 +4293,46 @@ i.icss-clubs:before {
     top:-.06em;
 }
 
+i.icss-codepen {
+    height: .3em;
+    width: .1em;
+    border-radius: .1em;
+    -webkit-box-shadow: .7em 0,
+      .35em .25em,
+      .35em -.25em;
+            box-shadow: .7em 0,
+      .35em .25em,
+      .35em -.25em;;
+    margin: .35em .8em .35em .1em;
+}
+i.icss-codepen:before {
+  width: .6em;
+  height: .6em;
+  border-radius: .06em;
+  border: .095em solid currentColor;
+  -webkit-transform: scale(1, .76) rotate(-45deg);
+      -ms-transform: scale(1, .76) rotate(-45deg);
+          transform: scale(1, .76) rotate(-45deg);
+  -webkit-transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+          transform-origin: 0 0;
+  top: .025em;
+  left: -.025em;
+}
+i.icss-codepen:after {
+  width: .6em;
+  height: .6em;
+  border-radius: .06em;
+  border: .095em solid currentColor;
+  -webkit-transform: scale(1, .76) rotate(-45deg);
+      -ms-transform: scale(1, .76) rotate(-45deg);
+          transform: scale(1, .76) rotate(-45deg);
+  -webkit-transform-origin: 0 0;
+      -ms-transform-origin: 0 0;
+          transform-origin: 0 0;
+  top: .275em;
+  left: -.025em;
+}
 i.icss-coffee {
     height: .7em;
     width: .8em;
@@ -4732,6 +4772,50 @@ i.icss-death-star:after {
     .4em .4em,
     .4em .25em,
     .45em .17em;
+}
+i.icss-delicious-c {
+  height: 1em;
+  width: 1em;
+  border-radius: .05em;
+  background-color: transparent;
+  overflow: hidden;
+}
+i.icss-delicious-c:before {
+  width: .5em;
+  height: .5em;
+  background-color: #3399ff;
+  -webkit-box-shadow: 
+    -.5em .5em #222222, 
+    -.5em 0 #fff, 
+    0 .5em #eeeeee;
+          box-shadow: 
+    -.5em .5em #222222, 
+    -.5em 0 #fff, 
+    0 .5em #eeeeee;
+  top: 0;
+  left: 50%;
+}
+i.icss-delicious-c:after {
+}
+i.icss-delicious {
+  height: 1em;
+  width: 1em;
+  border-radius: .05em;
+  -webkit-box-shadow: inset 0 0 0 .08em;
+          box-shadow: inset 0 0 0 .08em; 
+  background-color: transparent;
+  overflow: hidden;
+}
+i.icss-delicious:before {
+  width: .5em;
+  height: .5em;
+  background-color: currentColor;
+  -webkit-box-shadow: -.5em .5em;
+          box-shadow: -.5em .5em;
+  top: 0;
+  left: 50%;
+}
+i.icss-delicious:after {
 }
 i.icss-diamond {
     width: 1em;
@@ -11448,6 +11532,158 @@ i.icss-rebel:after {
   clip: rect(0 1em 1em 0);
   left: -.6em;
   top: .1em;
+}
+i.icss-reddit-c {
+    height: .6em;
+    width: .85em;
+    background-color: transparent;
+    color: #ff4500;
+    -webkit-box-shadow:  
+        inset 0 .12em,
+        inset .15em 0,
+        inset -.15em 0;
+            box-shadow:  
+        inset 0 .12em,
+        inset .15em 0,
+        inset -.15em 0;
+    background-image: 
+        -o-radial-gradient(.425em -.9em , 
+        ellipse .4em .85em , 
+        transparent  0, transparent 0.62em, 
+        #ff4500 0.62em, #ff4500 0.65em, 
+        #fff 0.65em, #fff .67em, currentColor .67em),
+      -o-radial-gradient(0.28em 0.25em , 
+		    circle , 
+		    #fff  0, #fff 0.08em, 
+        #ff4500 0.08em, #ff4500 0.18em, transparent 0.18em),
+      -o-radial-gradient(0.57em 0.25em ,     
+		    circle ,     
+		    #fff  0, #fff 0.08em, 
+        #ff4500 0.08em, #ff4500 0.18em, transparent 0.18em);
+    background-image: 
+        radial-gradient(ellipse .4em .85em at .425em -.9em , 
+        transparent  0, transparent 0.62em, 
+        #ff4500 0.62em, #ff4500 0.65em, 
+        #fff 0.65em, #fff .67em, currentColor .67em),
+      radial-gradient(circle at 0.28em 0.25em , 
+		    #fff  0, #fff 0.08em, 
+        #ff4500 0.08em, #ff4500 0.18em, transparent 0.18em),
+      radial-gradient(circle at 0.57em 0.25em ,     
+		    #fff  0, #fff 0.08em, 
+        #ff4500 0.08em, #ff4500 0.18em, transparent 0.18em);
+    border-radius: 50%;
+    margin: .3em .075em .1em .075em;
+}
+i.icss-reddit-c:before {
+  width: .19em;
+  height: .19em;
+  background-color: #ff4500;
+  color: #ff4500;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 .22em, 
+    -.38em 0, 
+    .38em 0, 
+    -.28em .25em 0 -.02em, 
+    .28em .25em 0 -.02em, 
+    .35em -.33em 0 -.02em;
+          box-shadow: 0 .22em, 
+    -.38em 0, 
+    .38em 0, 
+    -.28em .25em 0 -.02em, 
+    .28em .25em 0 -.02em, 
+    .35em -.33em 0 -.02em;
+  top: .05em;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+i.icss-reddit-c:after {
+  width: .3em;
+  height: .4em;
+  border-radius: .04em;
+  border: .06em solid #ff4500;
+  border-color: #ff4500 transparent transparent #ff4500; 
+  -webkit-transform: rotate(20deg); 
+      -ms-transform: rotate(20deg); 
+          transform: rotate(20deg);
+  top: -.265em;
+  left: .45em
+}
+i.icss-reddit {
+    height: .6em;
+    width: .85em;
+    background-color: transparent;
+    -webkit-box-shadow:  
+        inset 0 .12em,
+        inset .15em 0,
+        inset -.15em 0;
+            box-shadow:  
+        inset 0 .12em,
+        inset .15em 0,
+        inset -.15em 0;
+    background-image: 
+        -o-radial-gradient(.425em -.9em , 
+		  ellipse .4em .85em , 
+		  transparent  0, transparent 0.62em, 
+        currentColor 0.62em, currentColor 0.65em, 
+        transparent 0.65em, transparent .67em, currentColor .67em),
+      -o-radial-gradient(0.28em 0.25em , 
+		    circle , 
+		    transparent  0, transparent 0.08em, 
+        currentColor 0.08em, currentColor 0.18em, transparent 0.18em),
+      -o-radial-gradient(0.57em 0.25em ,     
+		    circle ,     
+		    transparent  0, transparent 0.08em, 
+        currentColor 0.08em, currentColor 0.18em, transparent 0.18em);
+    background-image: 
+        radial-gradient(ellipse .4em .85em at .425em -.9em , 
+		  transparent  0, transparent 0.62em, 
+        currentColor 0.62em, currentColor 0.65em, 
+        transparent 0.65em, transparent .67em, currentColor .67em),
+      radial-gradient(circle at 0.28em 0.25em , 
+		    transparent  0, transparent 0.08em, 
+        currentColor 0.08em, currentColor 0.18em, transparent 0.18em),
+      radial-gradient(circle at 0.57em 0.25em ,     
+		    transparent  0, transparent 0.08em, 
+        currentColor 0.08em, currentColor 0.18em, transparent 0.18em);
+    border-radius: 50%;
+    margin: .3em .075em .1em .075em;
+}
+i.icss-reddit:before {
+  width: .19em;
+  height: .19em;
+  background-color: currentColor;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 .22em, 
+    -.38em 0, 
+    .38em 0, 
+    -.28em .25em 0 -.02em, 
+    .28em .25em 0 -.02em, 
+    .35em -.33em 0 -.02em;
+          box-shadow: 0 .22em, 
+    -.38em 0, 
+    .38em 0, 
+    -.28em .25em 0 -.02em, 
+    .28em .25em 0 -.02em, 
+    .35em -.33em 0 -.02em;
+  top: .05em;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+i.icss-reddit:after {
+  width: .3em;
+  height: .4em;
+  border-radius: .04em;
+  border: .06em solid currentColor;
+  border-color: currentColor transparent transparent currentColor; 
+  -webkit-transform: rotate(20deg); 
+      -ms-transform: rotate(20deg); 
+          transform: rotate(20deg);
+  top: -.265em;
+  left: .45em
 }
 i.icss-rss {
 	width: 1em; 
