@@ -1,0 +1,29 @@
+i.icss-codepen {
+    height: .3em;
+    width: .1em;
+    border-radius: .1em;
+    box-shadow: .7em 0,
+      .35em .25em,
+      .35em -.25em;;
+    margin: .35em .8em .35em .1em;
+}
+i.icss-codepen:before {
+  width: .6em;
+  height: .6em;
+  border-radius: .06em;
+  border: .095em solid currentColor;
+  transform: scale(1, .76) rotate(-45deg);
+  transform-origin: 0 0;
+  top: .025em;
+  left: -.025em;
+}
+i.icss-codepen:after {
+  width: .6em;
+  height: .6em;
+  border-radius: .06em;
+  border: .095em solid currentColor;
+  transform: scale(1, .76) rotate(-45deg);
+  transform-origin: 0 0;
+  top: .275em;
+  left: -.025em;
+}
