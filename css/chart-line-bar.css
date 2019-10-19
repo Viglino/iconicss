@@ -1,0 +1,29 @@
+i.icss-chart-line-bar {
+    width: .8em;
+    height: .8em;
+    background-color: transparent;
+    border: .065em solid currentColor;
+    border-width: 0 0 .065em .065em;
+    margin: .1em;
+}
+i.icss-chart-line-bar:before {
+    width: .12em;
+    height: 1em;
+    background: currentColor;
+    clip: rect(-1em 1em .15em 0);
+    box-shadow: .18em -.23em, .36em -.1em, .54em -.34em;
+    top: .55em;
+    left: .05em;
+}
+i.icss-chart-line-bar:after {
+    width: .4em;
+    height: .25em;
+    background-color: transparent;
+    border-style: solid;
+    border-color: currentColor currentColor transparent transparent;
+    border-width: .07em .07em 0 0;
+    transform: rotate(-40deg) skewX(20deg);
+    box-shadow: .23em .085em 0 -.085em, .3em .085em 0 -.085em;
+    top: .1em;
+    left: .07em;
+}

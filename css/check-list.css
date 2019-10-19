@@ -1,0 +1,33 @@
+i.icss-check-list {
+    width: .78em;
+    height: .9em;
+    background-color: transparent;
+    border-width: .065em;
+    border-style: solid;
+    border-radius: .05em;
+    box-shadow: 0 -.4em 0 -.31em;
+    margin: .1em .11em 0;
+}
+i.icss-check-list:before {
+    width: .4em;
+    height: .22em;
+    border-width: 0 0.05em;
+    border-radius: .03em;
+    box-shadow: inset 0 .3em,
+        .15em .34em 0 -.075em,
+        .15em .58em 0 -.075em;
+    top: -.1em;
+    left: 50%;
+    transform: translateX(-50%);     
+}
+i.icss-check-list:after {
+    width: .35em;
+    height: .4em;
+    border: .1em solid transparent;
+    background-color: transparent;
+    top: .1em;
+    left: 0em;
+    box-shadow: inset -.06em -.06em,
+        .16em .16em 0 -.1em;
+    transform: rotate(45deg);
+}

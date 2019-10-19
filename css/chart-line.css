@@ -1,0 +1,27 @@
+i.icss-chart-line {
+    width: .8em;
+    height: .8em;
+    background-color: transparent;
+    border: .065em solid currentColor;
+    border-width: 0 0 .065em .065em;
+    margin: .1em;
+}
+i.icss-chart-line:before {
+    border: .13em solid transparent;
+    border-bottom: .25em solid currentColor;
+    transform: rotate(47deg);
+    top: -.03em;
+    left: .66em;
+}
+i.icss-chart-line:after {
+    width: .4em;
+    height: .25em;
+    background-color: transparent;
+    border-style: solid;
+    border-color: currentColor currentColor transparent transparent;
+    border-width: .07em .07em 0 0;
+    transform: rotate(-40deg) skewX(20deg);
+    box-shadow: .23em .085em 0 -.085em, .35em .085em 0 -.085em;
+    top: .36em;
+    left: .08em;
+}

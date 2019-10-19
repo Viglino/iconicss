@@ -87,7 +87,7 @@ input:focus {
 
 .icon {	
   background: #ccc;
-  padding: 2em 2em 1em;
+  padding: 1em 2em;
   white-space: nowrap;
   max-height: 30em;
   overflow: hidden;
@@ -96,7 +96,7 @@ input:focus {
   display:inline-block;
   position: relative;
   line-height: 1em;
-  min-height: 1.1em;
+  min-height: 1.02em;
 }
 .icon div i{
   vertical-align: bottom;
@@ -162,6 +162,7 @@ input:focus {
 .icon p {
   font-size: 2em;
   margin:0;
+  padding: .2em 0;
   font-weight: bold;
 }
 .icons > div {

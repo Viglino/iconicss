@@ -1,0 +1,25 @@
+i.icss-barcode {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+}
+
+i.icss-barcode:before {
+    width: .1em;
+    height: .8em;
+    background-color: currentColor;
+    box-shadow: .2em 0, .45em 0, .5em 0, .8em 0;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 0;
+}
+
+i.icss-barcode:after {
+    width: .06em;
+    height: .8em;
+    background-color: currentColor;
+    box-shadow: .3em 0, .43em 0, .59em 0;
+    transform: translateY(-50%);
+    top: 50%;
+    left: .35em;
+}

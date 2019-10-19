@@ -1,0 +1,19 @@
+i.icss-text-case {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    margin: 0;
+}
+
+i.icss-text-case:before {
+    top: 50%;
+    left: 50%;
+    content: "Aa";
+    font-size: .8em;
+    font-family: sans-serif;
+    transform: translate(-50%,-50%) scaleX(.85);
+    font-family: sans-serif;
+}
+
+i.icss-text-case:after {
+}

@@ -1,0 +1,21 @@
+i.icss-text-word {
+    width: 1em;
+    height: .9em;
+    background-color: transparent;
+    border: .1em solid currentColor;
+    border-width: .065em 0;
+    margin: .05em 0;
+}
+
+i.icss-text-word:before {
+    top: 50%;
+    left: 50%;
+    content: "Abl";
+    font-size: .75em;
+    font-family: sans-serif;
+    transform: translate(-50%,-50%) scaleX(.85);
+    font-family: sans-serif;
+}
+
+i.icss-text-word:after {
+}
