@@ -3968,13 +3968,14 @@ i.icss-chart-line:after {
     border-style: solid;
     border-color: currentColor currentColor transparent transparent;
     border-width: .07em .07em 0 0;
+    clip: rect(0 1em 1em .1em);
     -webkit-transform: rotate(-40deg) skewX(20deg);
         -ms-transform: rotate(-40deg) skewX(20deg);
             transform: rotate(-40deg) skewX(20deg);
-    -webkit-box-shadow: .23em .085em 0 -.085em, .35em .085em 0 -.085em;
-            box-shadow: .23em .085em 0 -.085em, .35em .085em 0 -.085em;
-    top: .36em;
-    left: .08em;
+    -webkit-box-shadow: .23em .085em 0 -.085em, .38em .085em 0 -.085em;
+            box-shadow: .23em .085em 0 -.085em, .38em .085em 0 -.085em;
+    top: .42em;
+    left: .01em;
 }
 i.icss-chart-pie {
     width: 1em;
