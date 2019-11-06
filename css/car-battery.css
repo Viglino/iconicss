@@ -1,0 +1,27 @@
+i.icss-car-battery {
+  width: 1em;
+  height: .7em;
+  border-radius: .07em;
+	background-color: transparent;
+  border: .065em solid currentColor;
+  margin: .2em 0 .1em;
+}
+i.icss-car-battery:before {
+  width: .22em;
+  height: .08em;
+  background-color: currentColor;
+  box-shadow: .46em 0;
+  top: .15em;
+  left: .1em;
+}
+i.icss-car-battery:after {
+  width: .28em;
+  height: .22em;
+  box-shadow: inset .1em .1em, 
+    .05em -.28em 0 -.06em,
+    -.5em -.28em 0 -.06em;
+  border: .1em solid transparent;
+  border-width: 0 .1em;
+  left: .53em;
+  top: .08em;
+}

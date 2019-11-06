@@ -1,0 +1,26 @@
+i.icss-abs {
+  width: .75em;
+  height: .75em;
+  border-radius: 50%;
+	background-color: transparent;
+  border: .065em solid currentColor;
+  margin: .125em;
+}
+i.icss-abs:before {
+  content: "ABS";
+  font-family: sans-serif;
+  font-weight: bold;
+  transform: translate(-50%, -50%) scale(.22, .5);
+  top: 50%;
+  left: 50%;
+}
+i.icss-abs:after {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  border: .065em solid currentColor;
+  border-color: transparent currentColor; 
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}

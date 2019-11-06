@@ -1,0 +1,32 @@
+i.icss-corkscrew {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+}
+i.icss-corkscrew:before {
+  width: .2em;
+  height: 1em;
+  background: 
+    radial-gradient(circle at 0 .1em, transparent .05em, currentColor .05em,
+      currentColor .1em, transparent .1em, transparent),
+    radial-gradient(circle at .2em .1em, transparent .05em, currentColor .05em,
+      currentColor .1em, transparent .1em, transparent);
+  background-size: .2em .3em;
+  background-position: .1em 0, -.1em .15em;
+  transform: translateX(-50%) perspective(1em) rotateX(-60deg);
+  left: 50%;
+  top: .23em;
+}
+i.icss-corkscrew:after {
+  width: .55em;
+  height: .2em;
+  border-radius: .05em;
+  background-color: transparent;
+  border: .1em solid transparent;
+  border-width: 0 .08em;
+  box-shadow: inset .5em 0, 
+    -.1em 0, .1em 0;
+  transform: translateX(-50%);
+  top: .1em;
+  left: 50%;
+}

@@ -1,0 +1,27 @@
+i.icss-breake {
+  width: .75em;
+  height: .75em;
+  border-radius: 50%;
+	background-color: transparent;
+  border: .065em solid currentColor;
+  margin: .125em;
+}
+i.icss-breake:before {
+  width: .1em;
+  height: .35em;
+  border-bottom: .065em solid transparent;
+  box-shadow: inset .1em 0, 0 .1em;
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+}
+i.icss-breake:after {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  border: .065em solid currentColor;
+  border-color: transparent currentColor; 
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}

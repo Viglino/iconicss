@@ -1,0 +1,33 @@
+i.icss-chopper {
+  width: .5em;
+  height: .4em;
+  background-color: transparent;
+  box-shadow: 
+    inset 0 -.065em, 
+    0 0 0 .065em; 
+  border-radius: .1em 0 0 0;
+  border-bottom: .065em solid transparent;
+  transform: rotate(-25deg);
+  margin: .35em .33em .25em .12em;
+}
+.icss-stack i.icss-chopper {
+   transform: translate(-.5em, -.5em) rotate(-25deg);
+}
+
+i.icss-chopper:before {
+  width: .38em;
+  height: .2em;
+  border: .065em solid currentColor;
+  border-radius: 0 .05em .05em 0;
+  border-width: .065em .1em .065em 0;
+  left: .515em;
+  top: -.065em;
+}
+i.icss-chopper:after {
+  width: .1em;
+  height: .1em;
+  border-radius: 50%;
+  background-color: currentColor;
+  top: .05em;
+  left: .05em;
+}

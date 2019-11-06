@@ -1,0 +1,31 @@
+i.icss-foglight {
+  width: .55em;
+  height: .7em;
+  border-radius: .1em 100% 100% .1em / .1em 60% 60% .1em;
+	background-color: transparent;
+  border: .065em solid currentColor;
+  margin: .15em 0 .15em .35em;
+}
+i.icss-foglight:before {
+  width: .28em;
+  height: .08em;
+  background-color: currentColor;
+  transform: translateY(-50%);
+  box-shadow: 0 .2em, 0 -.2em;
+  top: 50%;
+  left: -.42em;
+}
+i.icss-foglight:after {
+  width: .2em;
+  height: .7em;
+  background: 
+    radial-gradient(circle at .3em .16em, transparent .15em, currentColor .15em,
+      currentColor .2em, transparent .2em, transparent),
+    radial-gradient(circle at -.1em .295em, transparent .15em, currentColor .15em, 
+      currentColor .2em, transparent .2em, transparent) 0 -50px;
+  background-size: .2em .57em;
+  background-position: -.5em 0, .1em .15em;
+  transform: translateY(-50%);
+  left: -.38em;
+  top: 50%;
+}

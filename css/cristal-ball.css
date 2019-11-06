@@ -1,0 +1,35 @@
+i.icss-cristal-ball {
+    width: .8em;
+    height: .8em;
+    background-color: transparent;
+    border-radius: 50%;
+    border: .065em solid transparent;
+    box-shadow: inset .1em .1em 0 -.07em, 0 0 0 .065em;
+    margin: .065em .15em .135em;
+}
+i.icss-cristal-ball:before {
+    width: .35em;
+    height: .1em;
+    background-color: currentColor;
+    border-radius: .05em; 
+    transform: translateX(-50%);
+    box-shadow: 
+        -.1em -.25em 0 -.018em,
+        .18em -.5em 0 -.018em,
+        -.1em .1em, -.3em .1em, 
+        .1em .1em, .3em .1em, 
+        .2em 0, 
+        -.2em 0; 
+    top: .68em;
+    left: 50%;
+}
+i.icss-cristal-ball:after {
+    width: .065em;
+    height: .3em;
+    background-color: currentColor;
+    border: 0 solid transparent;
+    box-shadow: .28em -.25em;
+    border-radius: .05em;
+    top: .33em;
+    left: .21em;
+}

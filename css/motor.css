@@ -1,0 +1,31 @@
+i.icss-motor {
+  width: .65em;
+  height: .45em;
+  border-radius: .05em;
+  border: .1em solid currentColor;
+  background-color: transparent;
+  border-width: .12em .1em;
+  box-shadow: inset .1em 0, inset -.28em 0;
+  margin: .35em .2em .25em;
+}
+i.icss-motor:before {
+  width: .8em;
+  height: .35em;
+  border: .1em solid transparent;
+  border-width: .13em 0;
+  box-shadow: inset .1em .1em, .09em 0, -.145em 0 0 -.07em;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+i.icss-motor:after {
+  width: .38em;
+  height: .15em;
+  border: .15em solid red;
+  border-width: .1em .07em 0 .03em;
+  border-radius: .04em;
+  border-color: currentColor transparent transparent;
+  box-shadow: -.05em -.5em, .25em -.27em 0 .02em;
+  top: .3em;
+  left: .08em;
+}

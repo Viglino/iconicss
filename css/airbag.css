@@ -1,0 +1,25 @@
+i.icss-airbag {
+  width: .28em;
+  height: .28em;
+  border-radius: 50%;
+  background-color: transparent;
+  border: .05em solid transparent;
+  box-shadow: inset .2em .2em,
+    .05em .1em 0 -.03em,
+    -.45em .1em 0 .04em;
+  margin: .07em .05em .65em .67em;
+}
+i.icss-airbag:before {
+  width: .21em;
+  height: .43em;
+  border-radius: .1em 0 .15em 0;
+  box-shadow: 
+    inset 0 .12em 0 0,
+    -.1em 0,
+    .2em -.31em;
+  transform: skewX(-10deg) rotate(15deg);
+  top: .45em;
+  left: -.42em;
+}
+i.icss-airbag:after {
+}

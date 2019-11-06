@@ -8,10 +8,9 @@ i.icss-ambulance {
         .55em .02em 0 -.09em,
         .55em .25em 0 -.09em,
         .33em .25em 0 -.09em;
+    transform-origin: 100% 100%;
+    transform:  rotate(0deg);
     margin: .15em .62em .35em .12em;
-}
-.icss-stack i.icss-ambulance {
-    transform: translate(-.55em, -.5em);
 }
 i.icss-ambulance:before {
     width: 1em;

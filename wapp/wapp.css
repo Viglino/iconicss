@@ -410,17 +410,34 @@ ul.inline li {
     padding: 0.1em 0.5em 0.1em 2em;
 }
 .search .icss-search {
-    position: absolute;
-    margin: 0.2em 0.4em;
-    color: #666;
-    font-size: 1.2em
+  position: absolute;
+  margin: 0.2em 0.4em;
+  color: #666;
+  font-size: 1.2em
 }
+.search .new,
+.search .font-size {
+  float: right;
+  font-size: 1.5em;
+  position: relative;
+  padding: 0 0 0 .5em;
+}
+.search .font-size i {
+  cursor: pointer;
+}
+.search .new {
+  font-size: .9em;
+  font-style: normal;
+  transform: scaleX(0.8);
+  cursor: pointer;
+}
+
 .search .color {
-    float: right;
-    font-size: 1.5em;
-    position: relative;
-    cursor: pointer;
-    padding: 0 0 0 1em;
+  float: right;
+  font-size: 1.5em;
+  position: relative;
+  cursor: pointer;
+  padding: 0 0 0 1em;
 }
 .search .color ul {
     display: none;

@@ -1,0 +1,33 @@
+i.icss-magic-wand {
+    width: .07em;
+    height: .35em;
+    background-color: transparent;
+    border-radius: 50%;
+    box-shadow: .4em .05em;
+    margin: .325em .465em;
+}
+i.icss-magic-wand:before {
+    width: .2em;
+    height: 1em;
+    background-color: transparent;
+    border-radius: .05em; 
+    box-shadow: inset 0 0 0 .065em,
+        inset 0 -.35em, inset 0 .2em, .5em 0 0 -.36em;
+    transform: rotate(45deg);
+    top: -.23em;
+    left: -.15em;
+}
+i.icss-magic-wand:after {
+    width: .35em;
+    height: .35em;
+    background-color: transparent;
+    border: 0 solid transparent;
+    border-width: .145em 0;
+    box-shadow: inset .5em .5em, 
+        -.3em -.5em 0 -.11em,
+        .05em -.45em 0 -.11em,
+        -.55em -.35em 0 -.1em;
+    border-radius: 50%;
+    top: .05em;
+    left: .25em;
+}

@@ -1,0 +1,28 @@
+i.icss-car-door {
+  width: .6em;
+  height: 1em;
+  border-radius: .11em / 50% 50% 30% 30%;
+  background-color: transparent;
+  border: .067em solid currentColor;
+  margin: 0 .2em;
+}
+i.icss-car-door:before {
+  width: .47em;
+  height: .55em;
+  border: .065em solid transparent;
+  border-radius: .11em .11em .08em .08em / 50%;
+  border-width: .07em .03em .04em;
+  box-shadow: inset 0 0 0 .06em, 0 0 0 .05em;
+  transform: translate(-50%, -50%);
+  top: 55%;
+  left: 50%;
+}
+i.icss-car-door:after {
+  width: .07em;
+  height: .28em;
+  background-color: currentColor;
+  border-radius: .05em;
+  transform: rotate(-45deg);
+  top: .28em;
+  left: .56em;
+}

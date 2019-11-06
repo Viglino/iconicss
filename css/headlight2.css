@@ -1,0 +1,20 @@
+i.icss-headlight2 {
+  width: .55em;
+  height: .7em;
+  border-radius: .1em 100% 100% .1em / .1em 60% 60% .1em;
+	background-color: transparent;
+  border: .065em solid currentColor;
+  margin: .15em 0 .15em .35em;
+}
+i.icss-headlight2:before {
+  width: .25em;
+  height: .08em;
+  background-color: currentColor;
+  transform: skewY(-15deg) translateY(-50%);
+  transform-origin: 100% 0;
+  box-shadow: 0 .2em, 0 -.2em;
+  top: 50%;
+  left: -.42em;
+}
+i.icss-headlight2:after {
+}

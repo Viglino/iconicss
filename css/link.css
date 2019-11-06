@@ -2,11 +2,11 @@ i.icss-link {
     width: .09em;
     height: .4em;
     border-radius: .1em;
-    margin: .1em .45em .3em;
-    transform: rotate(30deg);
+    transform0: rotate(30deg);
+    margin: .3em .455em .3em;
 }
 .icss-stack i.icss-link {
-   transform: translate(-.3em, -.45em) rotate(-135deg);
+   transform: translate(-.5em, -.5em) rotate(30deg);
 }
 i.icss-link:before {
     width: .33em;

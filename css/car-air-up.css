@@ -1,0 +1,26 @@
+i.icss-car-air-up {
+  width: .4em;
+  height: .4em;
+  border-radius: 50%;
+  background-color: transparent;
+  border: .2em solid transparent;
+  border-left-color: currentColor;
+  box-shadow: -.2em 0 0 -.13em, 
+    -.25em 0 0 -.13em,
+    .33em -.0em 0 -.085em;
+  margin: .0em .25em .6em .3em;
+}
+i.icss-car-air-up:before {
+  width: .21em;
+  height: .43em;
+  border-radius: .1em 0 .15em 0;
+  box-shadow: 
+    inset 0 .12em 0 0,
+    -.1em 0,
+    .2em -.31em;
+  transform: skewX(-10deg) rotate(15deg);
+  top: .38em;
+  left: -.18em;
+}
+i.icss-car-air-up:after {
+}

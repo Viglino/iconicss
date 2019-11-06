@@ -4,7 +4,6 @@ i.icss-ban {
   border: 0.13em solid currentColor;
   background-color: transparent;
   border-radius: 100%;
-  background0: linear-gradient(45deg, transparent 43%, currentcolor 43%, currentcolor 57%, transparent 57%);
 }
 i.icss-ban:before {
   width: .9em;

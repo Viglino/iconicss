@@ -1,0 +1,32 @@
+i.icss-sword {
+  width: .2em;
+  background-color: transparent;
+  border: 0 solid transparent;
+  border-top-color: currentColor;
+  border-width: .8em .05em 0;
+  box-shadow: 0 .2em 0 -.05em;
+  transform: rotate(45deg);
+  margin: .1em .4em;
+}
+.icss-stack i.icss-sword {
+  transform: translate(-.5em, -.5em) rotate(45deg);
+}
+i.icss-sword:before {
+  border-radius: 50%;
+  border: .14em solid transparent;
+  border-bottom-color: currentColor;
+  box-shadow: 0 .1em 0 -.04em, 0 .74em 0 -.04em, 0 1em 0 -.06em;
+  transform: translateX(-50%);
+  top: -1.035em;
+  left: 50%;
+}
+i.icss-sword:after {
+  width: .5em;
+  height: .2em;
+  border: .1em solid currentColor;
+  border-top-color: transparent;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  top: -.3em;
+  left:50%;
+}

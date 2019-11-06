@@ -1,0 +1,35 @@
+i.icss-car-cooling {
+  width: .08em;
+  height: .7em;
+  border-radius: .05em;
+  background-color: transparent;
+  border: .065em solid currentColor;
+  margin: 0 .46em .3em;
+}
+i.icss-car-cooling:before {
+  width: .3em;
+  height: .3em;
+  background-color: currentColor;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  top: .5em;
+  left: 50%;
+}
+i.icss-car-cooling:after {
+  width: .9em;
+  height: .8em;
+  background: 
+    radial-gradient(circle at 50% .24em, transparent .05em, currentColor .05em,
+      currentColor .11em, transparent .11em, transparent),
+    radial-gradient(circle at 50% -.03em, transparent .05em, currentColor .05em, 
+      currentColor .11em, transparent .11em, transparent) 0 -50px;
+  background-size: .3em .22em;
+  background-position: 0 -.1em, .15em -.1em;
+  box-shadow: .09em -.52em 0 -.36em,
+    .09em -.67em 0 -.36em,
+    .09em -.82em 0 -.36em;
+  transform: translateX(-50%);
+  clip: rect(-.6em 1em .43em 0);
+  left: 50%;
+  top: .52em
+}

@@ -1,0 +1,39 @@
+i.icss-scroll {
+  width: .2em;
+  height: .25em;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 .065em,
+    .03em -.005em,
+    0 -.5em 0 -.04em,
+    .25em -.22em 0 -.04em,
+    .39em -.05em 0 -.03em,
+    -.2em -.57em 0 -.03em;
+  border-radius: 50%;
+  margin: .65em .45em .1em .35em;
+}
+i.icss-scroll:before {
+  width: .6em;
+  height: .7em;
+  box-shadow: 0 0 0 .065em;
+  border-radius: 0 .05em .02em .05em;
+  transform: perspective(1em) rotateY(15deg) rotateX(10deg);
+  transform-origin: -.5em 0;
+  top: -.48em;
+  left: .05em;
+}
+i.icss-scroll:after {
+  width: .3em;
+  height: .25em;
+  border: 0 solid transparent;
+  border-left-color: currentColor;
+  border-width: 0 0 .07em .35em;
+  transform: rotate(-3deg);
+  box-shadow: -.18em -.5em 0 -.1em,
+    -.0em -.5em 0 -.1em,
+    -.17em -.4em 0 -.1em,
+    -.05em -.4em 0 -.1em,
+    -.15em -.3em 0 -.1em,
+    -.01em -.3em 0 -.1em;
+  top: -.015em;
+  left: .15em;
+}

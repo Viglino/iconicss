@@ -32,6 +32,20 @@ var wapp = {
     return url;
   },
 
+  /** Enlarge font
+   * @param {boolean}
+   */
+  enlarge: function(b) {
+    var fs = parseInt($('i .icons').css('font-size'));
+    if (b) {
+      if (fs>40) return;
+      $('i .icons').css('font-size', (fs+5)+'px');
+    } else {
+      if (fs<12) return;
+      $('i .icons').css('font-size', (fs-5)+'px');
+    }
+  },
+
   /** Set debug mode 
    * @param {boolean} b true/false
    */
@@ -40,6 +54,46 @@ var wapp = {
     var icon = $(".icon i").first().attr("class").replace(/icss-anim|icss-|\ /g,"");
     var s = "?" + (this.debug?"debug&":"") + "icon=" + icon;
     document.location = document.location.href.split("?")[0] + s;
+  },
+
+  // Search function
+  search: function (val) {
+    var n = 0;
+    var rex = new RegExp(val,"i");
+    $("#icons .icons i").each(function(){
+        if (rex.test($(this).data('icss'))) {
+          $(this).parent().show();
+          n++;
+        }
+        else {
+          $(this).parent().hide();
+        }
+    });
+    $(".search .nb").text(n);
+  },
+
+  // Search function
+  recent: function (val) {
+    var n = 0;
+    var date = 0;
+    $("#icons .icons i").each(function() {
+      var d = wapp.iconData[$(this).data('icss')].date;
+      if (!d) return;
+      d = new Date(d);
+      if (d > date) date = d;
+    });
+    var date = new Date(date-24*30*1000*60*60);
+    $("#icons .icons i").each(function() {
+      var d = wapp.iconData[$(this).data('icss')].date;
+      if (d && new Date(d) > date) {
+        $(this).parent().show();
+        n++;
+      }
+      else {
+        $(this).parent().hide();
+      }
+    });
+    $(".search .nb").text(n);
   },
 
   /** Copy CSS to clipboard 
@@ -75,19 +129,7 @@ if (wapp.debug) {
 
 // Search function
 $(".search input").on("keyup", function() {
-  var n = 0;
-	var val = $(this).val();
-    var rex = new RegExp(val,"i");
-    $("#icons .icons i").each(function(){
-        if (rex.test($(this).data('icss'))) {
-          $(this).parent().show();
-           n++;
-        }
-        else {
-          $(this).parent().hide();
-        }
-    });
-    $(".search .nb").text(n);
+    wapp.search($(this).val());
 });
 
 // Color menu
@@ -105,17 +147,7 @@ $(".color li").click(function(e) {
  */
 function showICSS(icon) {
   // Get icon in url
-  if (!icon) {
-    icon = "home";
-    var hash = document.location.search;
-    if (hash) {
-      hash = hash.replace(/(^#|^\?)/,"").split("&");
-      for (var i=0; i<hash.length;  i++) {
-        var t = hash[i].split("=");
-        if(t[0]=='icon') icon = t[1];
-      }
-    }
-  }
+  if (!icon || !wapp.icons[icon]) icon = "home";
 
   $(".icons > div").removeClass("selected");
   $(".icss-"+icon,".icons div").parent().addClass("selected");
@@ -129,7 +161,9 @@ function showICSS(icon) {
 };
 
 function loadIcon(i) {
-  $.ajax("css/"+i+".css", {
+  wapp.icons[i] = 'loding';
+  $.ajax({
+    url: "css/"+i+".css",
     dataType: "text",
     success:function(r) {
       wapp.icons[i] = r;
@@ -159,10 +193,11 @@ wapp.initialize = function() {
     dataType: "json",
     cache: false,
     success:function(r) {
+      wapp.iconData = r.icons;
       if (!wapp.debug) $('<link/>', { rel: 'stylesheet', href: "dist/iconicss.css" }).appendTo('head');
       var n=0;
       for(i in r.icons) {
-        console.log(i);
+        // console.log(i);
         n++;
         if (wapp.debug) $('<link/>', { rel: 'stylesheet', href: "css/"+i+".css" }).appendTo('head');
         loadIcon(i);                
@@ -183,14 +218,19 @@ wapp.initialize = function() {
       $(".nb").text(n);
 
       var page="home";
-      if (/page\=/.test(document.location.search)) {
-        page = document.location.search.replace(/(.*)page=(.*)(.*)/,"$2")||"home";
-      }
+      var locSearch = {};
+      document.location.search.replace(/^\?/,'').split('&').forEach(function(e) {
+        e = e.split('=');
+        locSearch[e[0]] = e[1];
+      });
 
-      // Select current icon
-      showICSS();
       // Show current page
+      page = locSearch.page||"home";
       wapp.showPage(page);
+      // Select current icon
+      $('.search input[type=search]').val(locSearch.icon||'');
+      showICSS(locSearch.icon);
+      wapp.search(locSearch.icon)
 
       // Start carousel
       carousel();

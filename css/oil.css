@@ -1,0 +1,28 @@
+i.icss-oil {
+  width: .4em;
+  height: .2em;
+  border: .1em solid red;
+  background-color: transparent;
+  border-width: 0 .2em .12em .08em;
+  border-color: transparent transparent currentColor currentColor;
+  border-radius: .01em; 
+  box-shadow: -.05em .135em 0 .05em;
+  margin: .4em .3em .4em;
+}
+i.icss-oil:before {
+  width: .23em;
+  height: .28em;
+  border: .065em solid currentColor;
+  border-radius: 50%;
+  box-shadow: .81em .1em 0 -.095em;
+  top: .03em;
+  left: -.35em;
+}
+i.icss-oil:after {
+  border: .2em solid transparent;
+  border-color: currentColor transparent transparent currentColor;
+  border-width: .11em .15em;
+  box-shadow: -.53em -.31em 0 -.07em, -.39em -.31em 0 -.07em;
+  top: .17em;
+  left: .28em;
+}
