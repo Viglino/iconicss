@@ -1,0 +1,23 @@
+i.icss-shield-cross {
+  width: .9em;
+  height: 1em;
+  background-color: transparent;
+  border-radius: .1em .1em 70% 70% / .1em .1em 100% 100%;
+  border: .07em solid currentColor;
+  overflow: hidden;
+  margin: 0 .05em;
+}
+i.icss-shield-cross:before {
+  width: .45em;
+  height: .5em;
+  background-color: currentColor;
+  left: -.07em;
+  top: -.07em;
+}
+i.icss-shield-cross:after {
+  width: .45em;
+  height: .5em;
+  background-color: currentColor;
+  left: .38em;
+  top: .42em;
+}

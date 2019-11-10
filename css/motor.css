@@ -6,7 +6,7 @@ i.icss-motor {
   background-color: transparent;
   border-width: .12em .1em;
   box-shadow: inset .1em 0, inset -.28em 0;
-  margin: .35em .2em .25em;
+  margin: .3em .2em .25em;
 }
 i.icss-motor:before {
   width: .8em;

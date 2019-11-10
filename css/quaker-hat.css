@@ -1,0 +1,27 @@
+i.icss-quaker-hat {
+  width: .4em;
+  height: .35em;
+  background-color: currentColor;
+  border-radius: 50% / .1em;
+  margin: .3em .3em .35em;
+}
+i.icss-quaker-hat:before {
+  width: .9em;
+  height: .4em;
+  border-radius: 35% 35% 50% 50% / 50% 50% 50% 50%;
+  border: .065em solid currentColor;
+  border-width: 0 .245em .1em;
+  box-shadow: inset 0 -.05em;
+  transform: translate(-50%);
+  top: .2em;
+  left: 50%;
+}
+i.icss-quaker-hat:after {
+  width: .2em;
+  height: .2em;
+  background-color: transparent;
+  border: .07em solid currentColor;
+  transform: translateX(-50%);
+  top: .3em;
+  left: 50%;
+}

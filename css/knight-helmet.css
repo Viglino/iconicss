@@ -1,0 +1,38 @@
+i.icss-knight-helmet {
+  width: .55em;
+  height: .25em;
+  background-color: transparent;
+  border-radius: 50% 50% 0 0 / .05em .05em 0 0;
+  border: .05em solid transparent;
+  border-width: .05em 0 0;
+  box-shadow: inset .18em 0, 
+    inset -.18em 0, 
+    -.035em -.035em 0 .035em,
+    .035em -.035em 0 .035em;
+  margin: .1em .225em .65em;
+}
+i.icss-knight-helmet:before {
+  width: .69em;
+  height: .75em;
+  border-radius: 0 0 50% 50% / 0 0 .45em .45em ;
+  border: .1em solid currentColor;
+  border-width: .28em .1em 0;
+  border-top-color: transparent;
+  box-shadow: inset -.25em .1em 0 -.1em,
+    inset .25em .1em 0 -.1em,
+    inset 0 -.05em;
+  transform: translate(-50%);
+  top: .1em;
+  left: 50%;
+}
+i.icss-knight-helmet:after {
+  width: .4em;
+  height: .07em;
+  border-radius: .05em;
+  background-color: currentColor;
+  border-width: .1em .05em;
+  transform: translate(-50%);
+  top: .25em;
+  left: 50%;
+
+}

@@ -1,0 +1,36 @@
+i.icss-flower-hat {
+  width: .4em;
+  height: .35em;
+  background-color: transparent;
+  border-radius: 50% / 50% 50% .15em .15em;
+  border: 0 solid transparent;
+  border-bottom-width: .05em;
+  box-shadow: inset .2em .07em;
+  margin: .325em .3em;
+}
+i.icss-flower-hat:before {
+  width: .9em;
+  height: .35em;
+  0background: red;
+  border-radius: 50% / 40% 40% 60% 60%;
+  box-shadow: inset .2em -.05em, inset .14em -.07em, inset -.02em -.04em;
+  transform: translate(-50%) rotate(10deg);
+  top: .11em;
+  left: 50%;
+}
+i.icss-flower-hat:after {
+  width: .2em;
+  height: .2em;
+  border-radius: 50%;
+  background-color: transparent;
+  border: .05em solid transparent;
+  box-shadow: inset .1em .1em, 
+    .06em .1em 0 -.045em,
+    -.06em .1em 0 -.045em,
+    .06em -.1em 0 -.045em,
+    -.06em -.1em 0 -.045em,
+    .12em 0 0 -.045em,
+    -.12em 0 0 -.045em;
+  top: .15em;
+  left: .3em;
+}

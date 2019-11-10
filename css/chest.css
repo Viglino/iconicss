@@ -1,0 +1,47 @@
+i.icss-chest {
+  width: .8em;
+  height: .45em;
+  background-color: transparent;
+  border: .05em solid transparent;
+  border-width: 0 .15em;
+  box-shadow: inset .04em -.06em 0 .12em, 
+    inset -.04em -.06em 0 .12em, 
+    .035em 0 0 .065em, 
+    -.035em 0 0 .065em;
+  margin: .435em .1em .065em;
+}
+i.icss-chest:before {
+  width: .8em;
+  height: .3em;
+  border-radius: .1em .1em 0 0;
+  border: .05em solid transparent;
+  border-width: 0 .15em;
+  box-shadow: inset -.12em .19em, inset .12em 0,
+    .065em -.035em 0 0.035em,
+    -.065em -.035em 0 0.035em;
+  transform: translateX(-50%);
+  top: -.3em;
+  left: 50%;
+}
+i.icss-chest:after {
+  width: .2em;
+  height: .2em;
+  border: .05em solid transparent;
+  border-bottom-color: currentColor; 
+  border-radius: 50%;
+  box-shadow: inset .2em 0, inset -.2em 0,
+    0 .07em 0 -.05em,
+    .33em .09em 0 -.05em,
+    .33em -.29em 0 -.05em,
+    .31em -.43em 0 -.05em,
+    .33em -.06em 0 -.05em,
+    .33em .23em 0 -.05em,
+    -.33em .09em 0 -.05em,
+    -.33em -.29em 0 -.05em,
+    -.31em -.43em 0 -.05em,
+    -.33em -.06em 0 -.05em,
+    -.33em .23em 0 -.05em;
+  transform: translateX(-50%);
+  top: .04em;
+  left: 50%;
+}

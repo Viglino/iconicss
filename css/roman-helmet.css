@@ -1,0 +1,34 @@
+i.icss-roman-helmet {
+  width: .2em;
+  height: .4em;
+  background-color: transparent;
+  border: .1em solid transparent;
+  border-width: 0 0 .25em .1em;
+  border-bottom-color: currentColor;
+  box-shadow: inset 0 0 0 .1em;
+  margin: .6em .58em 0 .22em;
+}
+i.icss-roman-helmet:before {
+  width: .75em;
+  height: .7em;
+  border-radius: 50%;
+  border: .1em solid transparent;
+  border-width: .06em .1em .1em;
+  box-shadow: inset 0 0 0 .3em, -.05em -.1em 0 0.1em;
+  clip: rect(-.5em .4em 1em -.5em);
+  transform: rotate(45deg);
+  top: -.35em;
+  left: -.2em;
+}
+i.icss-roman-helmet:after {
+  width: .38em;
+  height: .38em;
+  border-radius: 50%;
+  transform: rotate(15deg);
+  box-shadow: inset .12em -.01em 0 .07em, 
+    inset .15em .1em 0 .04em, 
+    .02em .1em 0 -.05em,
+    .06em .18em 0 -.07em;
+  top: -.23em;
+  left: .08em;
+}

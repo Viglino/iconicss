@@ -1,0 +1,35 @@
+i.icss-viking-hat {
+  width: .65em;
+  height: .6em;
+  background-color: transparent;
+  border-radius: 50% 50% 50% 50% / 70% 70% 30% 30%;
+  border: 0 solid transparent;
+  border-width: 0 .05em .0em;
+  box-shadow: inset .45em -.05em 0 -.25em, 
+    inset -.45em -.05em 0 -.25em, 
+    inset 0 .08em,
+    inset 0 -.075em;
+  margin: .2em .175em .15em;
+}
+i.icss-viking-hat:before {
+  width: .8em;
+  height: .7em;
+  background: transparent;
+  border-radius: 50%;
+  border-bottom: .1em solid transparent;
+  box-shadow: inset 0 -.09em, 0 .04em 0 .04em;
+  transform: translate(-50%);
+  clip: rect(.3em 1em 1em -.1em);
+  top: -.34em;
+  left: 50%;
+}
+i.icss-viking-hat:after {
+  width: .2em;
+  height: .2em;
+  border-radius: 50%;
+  background-color: transparent;
+  border: .05em solid currentColor;
+  transform: translateX(-50%);
+  top: .21em;
+  left: 50%;
+}

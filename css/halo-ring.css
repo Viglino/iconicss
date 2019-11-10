@@ -1,0 +1,34 @@
+i.icss-halo-ring {
+  width: .35em;
+  height: .35em;
+  border-radius: 50%;
+  border: .05em solid transparent;
+  border-radius: 60% 40% 60% 40%;
+  background-color: transparent;
+  box-shadow: inset -.02em -.02em 0 .08em, 
+    .16em -.13em 0 -.09em,
+    .015em .015em 0 .055em;
+  margin: .1em .55em .55em .1em;
+}
+i.icss-halo-ring:before {
+  width: .7em;
+  height: .8em;
+  background-color: transparent;
+  border-radius: 50%;
+  border: .065em solid transparent;
+  box-shadow: inset -.1em -.1em, -.06em -.06em 0 .06em;
+  clip: rect(.29em 1em 1em -.5em);
+  top: .02em;
+  left: .1em;  
+}
+i.icss-halo-ring:after {
+  width: .7em;
+  height: .8em;
+  background-color: transparent;
+  border-radius: 50%;
+  border: .065em solid transparent;
+  box-shadow: inset -.1em -.1em, -.06em -.06em 0 .06em;
+  clip: rect(-.5em 1em 1em .2em);
+  top: .02em;
+  left: .1em;
+}

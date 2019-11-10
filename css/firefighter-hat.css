@@ -1,0 +1,35 @@
+i.icss-firefighter-hat {
+  width: .65em;
+  height: .6em;
+  background-color: transparent;
+  border-radius: 50% 50% 50% 50% / 70% 70% 20% 20%;
+  border: 0 solid transparent;
+  border-width: 0 0 .09em;
+  box-shadow: inset .06em 0 0 .08em, 
+    inset -.06em 0 0 .08em,
+    0 -.3em 0 -.23em;
+  margin: .25em .175em .15em;
+}
+i.icss-firefighter-hat:before {
+  width: .9em;
+  height: .2em;
+  background: transparent;
+  border-radius: .05em;
+  border: .125em solid transparent;
+  border-top: 0;
+  border-bottom: .1em solid currentColor;
+  transform: translate(-50%);
+  top: .34em;
+  left: 50%;
+}
+i.icss-firefighter-hat:after {
+  width: .28em;
+  height: .28em;
+  border-radius: 50%;
+  background-color: transparent;
+  border: .05em solid transparent;
+  box-shadow: inset -.01em -.01em 0 .06em, 0 0 0 .11em;
+  transform: translateX(-50%);
+  top: .14em;
+  left: 50%;
+}

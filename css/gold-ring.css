@@ -1,0 +1,13 @@
+i.icss-gold-ring {
+  width: .7em;
+  height: .8em;
+  background-color: transparent;
+  border-radius: 50%;
+  border: .065em solid transparent;
+  box-shadow: inset -.1em -.1em, -.06em -.06em 0 .06em;
+  margin: .17em .08em .03em .23em;
+}
+i.icss-gold-ring:before {
+}
+i.icss-gold-ring:after {
+}

@@ -1,0 +1,29 @@
+i.icss-bowler-hat {
+  width: .5em;
+  height: .58em;
+  background-color: transparent;
+  border-radius: 40% 40% 50% 50%;
+  border-bottom: .18em solid transparent;
+  box-shadow: inset .5em .5em;
+  margin: .24em .25em .18em;
+}
+i.icss-bowler-hat:before {
+  width: .1em;
+  height: .1em;
+  border-radius: 50%;
+  box-shadow: .35em .27em, -.35em .27em;
+  transform: translate(-50%);
+  top: 0;
+  left: 50%;
+}
+i.icss-bowler-hat:after {
+  width: .8em;
+  height: .8em;
+  border-radius: 50%;
+  border: .1em solid currentColor;
+  border-color: transparent transparent currentColor currentColor; 
+  transform: scaleY(.6) translate(-50%) rotate(-45deg);
+  box-shadow: -.04em .04em;
+  top: -.08em;
+  left: 50%;
+}

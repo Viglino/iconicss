@@ -1,0 +1,33 @@
+i.icss-helmet {
+  width: .3em;
+  height: .4em;
+  background-color: transparent;
+  border-right: .3em solid currentColor;
+  border-bottom: .25em solid transparent;
+  border-radius: 0 .05em .05em 0;
+  box-shadow: -.1em -.2em 0 -.1em;
+  margin: .6em .5em 0 .1em;
+}
+i.icss-helmet:before {
+  width: .3em;
+  height: .4em;
+  background-color: transparent;
+  border-left: .3em solid currentColor;
+  border-bottom: .25em solid transparent;
+  border-radius: .05em 0 0;
+  box-shadow: .1em -.2em 0 -.1em;
+  top: 0;
+  left: .4em;
+}
+i.icss-helmet:after {
+  width: .54em;
+  height: .28em;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  border: .065em solid transparent;
+  border-width: 0 0 0 .1em;
+  border-bottom: .08em solid currentColor;
+  box-shadow: 0 0 0 .08em, 
+    inset .1em .2em;
+  top: -.44em;
+  left: .08em;
+}

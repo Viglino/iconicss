@@ -5,8 +5,8 @@ i.icss-magic-hat {
   border: 0 solid transparent;
   border-bottom: .5em solid currentColor;
   border-width: 0 .2em .75em;
-  border-radius: 50% / .1em;
-  margin: 0 .35em .25em .35em;
+  border-radius: 50% / 0 0 .1em .1em;
+  margin: 0 .3em .25em .3em;
 }
 i.icss-magic-hat:before {
   width: .9em;

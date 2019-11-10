@@ -1,0 +1,18 @@
+i.icss-shield {
+  width: .9em;
+  height: 1em;
+  background-color: transparent;
+  border-radius: .1em .1em 70% 70% / .1em .1em 100% 100%;
+  border: .07em solid currentColor;
+  overflow: hidden;
+  margin: 0 .05em;
+}
+i.icss-shield:before {
+  width: .45em;
+  height: 1em;
+  background-color: currentColor;
+  top: -.07em;
+  left: -.07em;
+}
+i.icss-shield:after {
+}

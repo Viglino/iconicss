@@ -1,8 +1,8 @@
 i.icss-car-cooling {
-  width: .08em;
+  width: .12em;
   height: .7em;
   border-radius: .05em;
-  background-color: transparent;
+  background-color: currentColor;
   border: .065em solid currentColor;
   margin: 0 .46em .3em;
 }
