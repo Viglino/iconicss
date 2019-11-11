@@ -1,0 +1,33 @@
+i.icss-riffle {
+  width: .32em;
+  height: .3em;
+  border-radius: 50%;
+  border: .06em solid transparent;
+  border-color: transparent currentColor currentColor transparent;
+  background-color: transparent;
+  margin: .5em .44em .2em .24em;
+}
+i.icss-riffle:before {
+  width: .25em;
+  height: .4em;
+  background-color: transparent;
+  border-radius: 0 0 .05em .05em;
+  border-style: solid;
+  border-width: .08em .12em .35em .03em;
+  border-color: currentColor transparent;
+  box-shadow: ;
+  transform: rotate(30deg);
+  top: .03em;
+  left: -.15em;  
+}
+i.icss-riffle:after {
+  width: .1em;
+  height: .8em;
+  background-color: transparent;
+  border: .07em solid currentColor;
+  border-left-color: transparent;
+  box-shadow: .095em .03em 0 -.035em;
+  transform: rotate(45deg);
+  top: -.66em;
+  left: .22em;
+}

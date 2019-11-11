@@ -4,7 +4,7 @@ i.icss-gun {
     border-radius: .01em .01em .03em .02em / 0 0 .07em .07em;
     background-color: currentColor;
     box-shadow: -.03em -.08em, .05em -.08em;
-    margin: .3em .05em .43em .07em;
+    margin: .35em .04em .55em .06em;
 }
 i.icss-gun:before {
     width: .28em;

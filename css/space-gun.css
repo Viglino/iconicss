@@ -1,0 +1,33 @@
+i.icss-space-gun {
+    width: .53em;
+    height: .25em;
+    border-radius: .2em;
+    background-color: transparent;
+    box-shadow: 0 0 0 .065em, 
+        .18em 0 0 .065em,
+        inset .23em 0 0 -.2em,
+        inset -.23em 0 0 -.2em;
+    margin: .2em .39em .45em .08em;
+}
+i.icss-space-gun:before {
+    width: .4em;
+    height: .1em;
+    border-radius: .05em;
+    background: currentColor;
+    box-shadow: -.04em .1em, -.06em .2em, -.12em .3em,
+        .08em -.2em;
+    top: .28em;
+    left: 0;
+}
+i.icss-space-gun:after {
+    width: .26em;
+    height: .26em;
+    border-radius: 50%;
+    box-shadow: inset .13em -.02em,
+        -.5em -.42em 0 -.05em,
+        .27em -.24em 0 -.08em,
+        .63em -.24em 0 .2em;
+    clip: rect(-.5em .54em 1em -.5em);
+    top: .23em;
+    left: .39em;
+}
