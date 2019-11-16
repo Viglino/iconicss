@@ -24,10 +24,10 @@ var wapp = {
 
   /** Retrieve current url */
   getUrl: function() {
-    var url = document.location.href.split("?")[0] 
-      + "?" + (wapp.debug?"debug&":"") 
-      + "icon=" + (wapp.currentIcon || "home")
-      + "&page=" + $("[data-page]:visible").attr("id");
+    var url = document.location.href.split('?')[0] 
+      + '?' + (wapp.debug ? 'debug&' : '') 
+      + (wapp.currentIcon ? "icon=" + wapp.currentIcon : '')
+      + '&page=' + $('[data-page]:visible').attr('id');
     window.history.replaceState (null, null, url);
     return url;
   },
@@ -61,7 +61,12 @@ var wapp = {
     var n = 0;
     var rex = new RegExp(val,"i");
     $("#icons .icons i").each(function(){
-        if (rex.test($(this).data('icss'))) {
+        var keys = (wapp.iconData[$(this).data('icss')].keys || '').split(',');
+        var found = rex.test($(this).data('icss'));
+        keys.forEach(function(k) {
+          found = found || rex.test(k);
+        });
+        if (found) {
           $(this).parent().show();
           n++;
         }
@@ -123,7 +128,7 @@ $(document).ready(function(){ wapp.initialize();});
 if (wapp.debug) {
   $("body").addClass("debug");
   $(window).bind('beforeunload', function(e) {
-      return "Saty on page";
+      return "Stay on page";
   });
 }
 
@@ -154,6 +159,17 @@ function showICSS(icon) {
   
   $(".icon i").removeClass().addClass("icss-anim icss-"+icon);
   $(".icon .title").text(icon);
+
+  var key = $(".icon .keys").html('');
+  (wapp.iconData[icon].keys || '').split(',').forEach(function(k) {
+    if (key.html()) $('<span>').text(' - ').appendTo(key);
+    $('<a>').text(k)
+      .click(function(){ 
+        $('.search input[type=search]').val(k);
+        wapp.search(k);
+      })
+      .appendTo(key);
+  });
 
   // Set icon in permalink
   wapp.currentIcon = (icon!=="home" ? icon:null);
@@ -225,11 +241,11 @@ wapp.initialize = function() {
       });
 
       // Show current page
-      page = locSearch.page||"home";
+      page = locSearch.page || "home";
       wapp.showPage(page);
       // Select current icon
       $('.search input[type=search]').val(locSearch.icon||'');
-      showICSS(locSearch.icon);
+      showICSS(locSearch.icon==='home' ? null : locSearch.icon);
       wapp.search(locSearch.icon)
 
       // Start carousel

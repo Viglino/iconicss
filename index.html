@@ -16,7 +16,7 @@
 
 <body>
     <script type="text/javascript" src="https://cdn.rawgit.com/Viglino/css-page-loader/master/pageloader.js"></script>  
-    <!--
+  <!--
 BUG IE
 		https://connect.microsoft.com/IE/feedback/details/1040120/ie-11-the-color-keyword-currentcolor-doesnt-work-in-the-css-linear-gradient-function
 		https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/1328019/
@@ -36,10 +36,10 @@ Code highlighting
     </p>
         
     <div class="menu">
-        <a class="home" onclick="wapp.showPage('home');"><i class="icss-home"></i> Home</a>
-        <a class="icons" onclick="wapp.showPage('icons');"><i class="icss-mickey"></i> Icons</a>
-        <a class="examples" onclick="wapp.showPage('examples');"><i class="icss-plug"></i> Examples</a>
-        <a class="license" onclick="wapp.showPage('license');"><i class="icss-lightbulb"></i> License</a>
+        <a class="home" onclick="wapp.showPage('home');"><i class="icss-home"></i> <span>Home</span></a>
+        <a class="icons" onclick="wapp.showPage('icons');"><i class="icss-mickey"></i> <span>Icons</span></a>
+        <a class="examples" onclick="wapp.showPage('examples');"><i class="icss-plug"></i> <span>Examples</span></a>
+        <a class="license" onclick="wapp.showPage('license');"><i class="icss-lightbulb"></i> <span>License</span></a>
       </div>
   </div>
   
@@ -505,7 +505,8 @@ Code highlighting
 			<div style="font-size:4em;"><i class="icss"></i></div>
 			<div style="font-size:2em;"><i class="icss"></i></div>
 			<div style="font-size:1em;"><i class="icss"></i></div>
-			<p class="title"></p>
+      <p class="title"></p>
+      <p class="keys"></p>
 			<textarea></textarea>
 			<button onclick="wapp.copy2clipboard();">
 				<span>Copy...</span>

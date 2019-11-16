@@ -162,8 +162,16 @@ input:focus {
 .icon p {
   font-size: 2em;
   margin:0;
-  padding: .2em 0;
+  padding: 0;
   font-weight: bold;
+}
+.icon p.keys {
+  font-size: 1em;
+  margin: 0;
+  padding-bottom: .5em;
+}
+.icon p.keys a {
+  cursor: pointer;
 }
 .icons > div {
   background: #eee;
@@ -200,7 +208,7 @@ input:focus {
 }
 .header > a i {
   vertical-align: middle;
-  margin-right: .5em
+  margin-right: ..5em;
 }
 .debug .header > a {
   background: #ccc;
@@ -209,11 +217,15 @@ input:focus {
 .header .menu a {
   cursor: pointer;
   color: #fff;
-  padding: .5em;
+  padding: .2em .5em;
   display: inline-block;
 }
 .header .menu a.select {
     background: #888;
+}
+.header .menu a span {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 [data-page] {
