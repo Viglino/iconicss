@@ -1,29 +1,28 @@
 i.icss-home {
-    width: .36em;
-    height: .43em;
-    margin: .57em .71em 0 .13em;
+    width: .8em;
+    height: .45em;
+    background-color: transparent;
     border-width: 0;
     border-style: solid;
-    border-radius: 0 0 .05em .05em;
-    box-shadow: 0.575em 0, 0.285em -0.28em 0 -0.06em, 
-        0.55em -0.62em 0 -0.14em,
-        0.6em -0.54em 0 -0.14em,
-        0.6em -0.62em 0 -0.14em;
+    border-radius: 0 0 .02em .02em;
+    box-shadow: inset .285em .1em, inset -.285em .1em;
+    margin: .55em .1em 0;
 }
 i.icss-home:before {
-    border-width: 0 .47em .45em;
+    border-width: 0 .4em .4em;
     border-style: solid;
-    bottom: .425em;
-    left: 0em;
-    border-left-color: transparent;
-    border-right-color: transparent;
+    border-color: currentColor transparent;
+    transform: translateX(-50%);
+    box-shadow: 0 .1em;
+    top: -.4em;
+    left: 50%;
 }
 i.icss-home:after {
-    width:.85em;
-    height: .85em;
+    width:.76em;
+    height: .76em;
     border-width: 0.065em 0 0 0.065em;
     border-style: solid;
-    transform: rotate(45deg);
-    top: -0.43em;
-    left: 0.045em;
+    transform: translateX(-50%) rotate(45deg);
+    top: -0.4em;
+    left: 50%;
 }

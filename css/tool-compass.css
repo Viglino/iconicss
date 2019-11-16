@@ -1,0 +1,29 @@
+i.icss-tool-compass {
+  width: .25em;
+  height: .25em;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 .065em,
+    0 -.15em 0 -.08em,
+    0 .43em 0 -.06em,
+    .3em .43em 0 -.07em,
+    -.3em .43em 0 -.07em;
+  background-color: transparent;
+  margin: .05em .375em .7em;
+}
+i.icss-tool-compass:before {
+  width: 1.1em;
+  height: 1.1em;
+  border-radius: .2em .1em;
+  box-shadow: inset .15em .15em;
+  transform: translateX(-50%) scaleX(.35) rotate(45deg);
+  left: 50%;
+  top: .3em;
+}
+i.icss-tool-compass:after {
+  width: .55em;
+  height: .06em;
+  background-color: currentColor;
+  transform: translateX(-50%);
+  left: 50%;
+  top: .53em;
+}

@@ -1,0 +1,33 @@
+i.icss-equalizer {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-equalizer:before {
+  width: .2em;
+  height: .1em;
+  background-color: currentColor;
+  box-shadow: 
+      0 -.15em,
+      0 -.3em,
+      .3em -.15em,
+      .3em 0,
+      .6em -.15em,
+      .6em -.3em,
+      .6em -.45em,
+      .6em .25em,
+      .6em 0;
+  left: .1em;
+  top: .55em;
+}
+i.icss-equalizer:after {
+  width: .5em;
+  height: .3em;
+  border: 0 solid transparent;
+  border-width: .1em 0;
+  box-shadow: inset 0 0 0 .15em,
+    .1em 0;
+  left: .1em;
+  top: .7em;
+}

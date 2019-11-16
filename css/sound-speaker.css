@@ -1,0 +1,32 @@
+i.icss-sound-speaker {
+  width: .6em;
+  height: 1em;
+  border-radius: .05em;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 .1em;
+  overflow: hidden;
+  margin: 0 .2em;
+}
+i.icss-sound-speaker:before {
+  width: .35em;
+  height: .35em;
+  border-radius: 50%;
+  border: .11em solid transparent;
+  box-shadow: inset 0 0 0 .1em,
+    0 .1em 0 .2em;
+  transform: translateX(-50%);
+  left: 50%;
+  top: .51em;
+}
+i.icss-sound-speaker:after {
+  width: .25em;
+  height: .25em;
+  border-radius: 50%;
+  border: .11em solid transparent;
+  box-shadow:
+    .1em 0 0 .1em,
+    -.1em 0 0 .1em;
+  transform: translateX(-50%);
+  left: 50%;
+  top: .15em;
+}

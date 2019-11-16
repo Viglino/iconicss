@@ -1,0 +1,28 @@
+i.icss-match {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-match:before {
+  width: .38em;
+  height: .22em;
+  background-color: transparent;
+  border-radius: 0 60% 40% / 40% 60% 30% 70%;
+  box-shadow: 
+    -.12em .03em 0 .08em,
+    -.02em -.17em 0 .08em;
+  transform: rotate(40deg);
+  top: .34em;
+  left: .14em;
+}
+i.icss-match:after {
+  width: .70em;
+  height: .2em;
+  border-radius: .05em 0 0 .05em;
+  box-shadow: inset .13em -.065em,
+    inset .13em .065em;
+  transform: rotate(15deg);
+  top: .65em;
+  left: .32em;
+}

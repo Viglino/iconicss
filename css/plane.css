@@ -2,7 +2,7 @@ i.icss-plane {
   width: .2em;
   height: 1em;
   border-radius: 50% / 30% 30% 60% 60%;
-  margin: .05em .4em 0;
+  margin: 0 .4em;
 }
 i.icss-plane:before {
   width:1em;

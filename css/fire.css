@@ -1,0 +1,29 @@
+i.icss-fire {
+  width: .15em;
+  height: .2em;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: .025em .055em 0 .05em;
+  margin: 0 .53em .8em .27em;
+}
+i.icss-fire:before {
+  width: .38em;
+  height: .22em;
+  background-color: transparent;
+  border-radius: 0 60% 40% / 40% 60% 30% 70%;
+  box-shadow: 
+    -.12em .03em 0 .08em,
+    -.02em -.17em 0 .08em;
+  transform: rotate(45deg);
+  top: .6em;
+  left: 0;
+}
+i.icss-fire:after {
+  width: .4em;
+  height: .2em;
+  box-shadow: inset .12em .08em,
+    -.4em .02em 0 -.06em;
+  transform: skewX(-45deg);
+  top: .85em;
+  left: .2em;
+}

@@ -1,0 +1,47 @@
+i.icss-turntable {
+  width: .8em;
+  height: .8em;
+  border-radius: 50%;
+  background-image: 
+    radial-gradient(circle at 50% 50%, 
+			currentColor 0, currentColor .05em, 
+      transparent .05em, transparent .13em,
+      currentColor .13em, currentColor .17em,
+      transparent .17em, transparent .2em,
+      currentColor .2em, currentColor .22em,
+      transparent .22em, transparent .26em,
+      currentColor .26em, currentColor .3em,
+      transparent .3em, transparent .35em,
+      currentColor .35em
+    );
+  background-color: transparent;
+  margin: .1em .2em .1em .0em;
+}
+i.icss-turntable:before {
+  width: .8em;
+  height: .8em;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-image: 
+		linear-gradient(-20deg, currentColor 26%, 
+      transparent 26%, transparent 30%,
+      currentColor 30%, currentColor 35%,
+      transparent 35%, transparent 65%,
+      currentColor 65%, currentColor 68%,
+      transparent 68%, transparent 71%,
+      currentColor 71%
+    );
+  box-shadow: .35em .43em 0 -.32em,
+    .51em -.35em 0 -.31em;
+  left: 50%;
+  top: 50%;
+}
+i.icss-turntable:after {
+  width: .22em;
+  height: .62em;
+  background-color: transparent;
+  box-shadow: inset -.06em -.1em;
+  transform: skewY(-50deg);
+  left: .77em;
+  top: .13em;
+}

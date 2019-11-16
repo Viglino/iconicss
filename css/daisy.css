@@ -1,0 +1,33 @@
+i.icss-daisy {
+  width: .9em;
+  height: 1em;
+  background-color: transparent;
+  border-radius: 0 0 50% 50%; 
+  overflow: hidden;
+  margin: 0 .05em;
+}
+i.icss-daisy:before {
+  width: .2em;
+  height: .2em;
+  border-radius: 50%;
+  box-shadow: 
+    .13em .07em,
+    .13em -.07em,
+    -.13em .07em,
+    -.13em -.07em,
+    .29em .75em 0 .4em,
+    -.7em .65em 0 .4em,
+    0 .15em,
+    0 -.15em;
+  left: .5em;
+  top: .2em
+}
+i.icss-daisy:after {
+  width: 1em;
+  height: 1.3em;
+  border-radius: 50%;
+  border: .065em solid transparent;
+  border-left-color: currentColor;
+  top: .23em;
+  left: .38em;
+}

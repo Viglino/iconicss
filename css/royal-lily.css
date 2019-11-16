@@ -1,0 +1,38 @@
+i.icss-royal-lily {
+  width: .2em;
+  height: .3em;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 
+    inset .01em .05em,
+    -.01em -.1em 0 .01em,
+    -.03em -.05em 0 .035em,
+    -.07em .04em 0 .02em;
+  margin: .55em .1em .15em .7em;
+}
+i.icss-royal-lily:before {
+  width: .2em;
+  height: .3em;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow:
+    inset -.01em .05em,
+    .01em -.1em 0 .01em,
+    .03em -.05em 0 .035em,
+    .07em .04em 0 .02em;
+  top: -.0em;
+  left: -.57em;
+}
+i.icss-royal-lily:after {
+  width: .55em;
+  height: .55em;
+  border-radius: .05em;
+  box-shadow: inset 0 0 0 .3em, 
+    .225em .225em 0 -.11em,
+    .35em .1em 0 -.24em,
+    .1em .35em 0 -.24em,
+    .38em .38em 0 -.14em;
+  transform: scaleX(.5) rotate(45deg);
+  top: -.48em;
+  left: -.46em;
+}

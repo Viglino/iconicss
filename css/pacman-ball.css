@@ -1,0 +1,32 @@
+i.icss-pacman-ball {
+  width: .06em;
+  height: .06em;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: .1em .05em 0 .02em, 
+    .28em .05em 0 .02em,
+    .46em .05em 0 .02em;
+  margin: .47em;
+}
+i.icss-pacman-ball:before {
+  width: .6em;
+  height: .6em;
+  border-radius: 50%;
+  box-shadow: 
+    inset .07em -.15em 0 .25em;
+  transform: translateY(-50%) rotate(-20deg);
+  clip: rect(0 1em .33em 0);
+  top: 50%;
+  left: -.45em;
+}
+i.icss-pacman-ball:after {
+  width: .6em;
+  height: .6em;
+  border-radius: 50%;
+  box-shadow: 
+    inset .15em -.22em 0 .4em;
+  transform: translateY(-50%) rotate(30deg);
+  clip: rect(.33em 1em 1em 0);
+  top: 50%;
+  left: -.45em;
+}

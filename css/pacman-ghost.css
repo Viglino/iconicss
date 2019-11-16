@@ -1,0 +1,44 @@
+i.icss-pacman-ghost {
+  width: .9em;
+  height: .98em;
+  border-radius: 50% 50% 0 0 / 45% 45% 0 0;
+  background-color: transparent;
+  overflow: hidden;
+  margin: 0 .05em .02em;
+}
+i.icss-pacman-ghost:before {
+  width: .35em;
+  height: .4em;
+  border-radius: 50%;
+  border: .05em solid transparent;
+  border-width: .07em .05em;
+  box-shadow: 
+    inset .04em .03em 0 .07em,
+    0 -.25em 0 .1em,
+    -.11em .12em 0 .15em,
+    .2em .32em 0 -.07em,
+    .1em .32em 0 -.07em,
+    .3em .32em 0 -.07em,
+    -.25em .49em 0 -.07em,
+    -.025em .49em 0 -.07em,
+    .2em .49em 0 -.07em,
+    .425em .49em 0 -.07em,
+    .65em .49em 0 -.07em,
+    0 0 0 .04em;
+  top: .16em;
+  left: .08em;
+}
+i.icss-pacman-ghost:after {
+  width: .35em;
+  height: .4em;
+  border-radius: 50%;
+  border: .05em solid transparent;
+  border-width: .07em .05em;
+  box-shadow: 
+    inset .04em .03em 0 .07em,
+    0 -.25em 0 .1em,
+    .11em .12em 0 .15em,
+    0 0 0 .04em;
+  top: .16em;
+  left: .47em;
+}

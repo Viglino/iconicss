@@ -9,7 +9,7 @@ i.icss-viking-hat {
     inset -.45em -.05em 0 -.25em, 
     inset 0 .08em,
     inset 0 -.075em;
-  margin: .2em .175em .15em;
+  margin: .25em .175em .15em;
 }
 i.icss-viking-hat:before {
   width: .8em;

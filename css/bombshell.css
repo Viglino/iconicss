@@ -1,0 +1,32 @@
+i.icss-bombshell {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-bombshell:before {
+  width: .8em;
+  height: .35em;
+  background-color: transparent;
+  border: 0 solid transparent;
+  border-width: .03em 0;
+  border-radius: 60% 50% 50% 60% / 45% 55% 55% 45%;
+  box-shadow: inset -.42em 0 0 -.2em,
+    inset 0 0 0 .065em,
+    inset .5em 0 0 -.1em;
+  transform: rotate(45deg);
+  top: .43em;
+  left: .18em;
+}
+i.icss-bombshell:after {
+  width: .4em;
+  height: .45em;
+  background-color: transparent;
+  border-radius: 0 .15em .15em 0 / 0 50% 50% 0;
+  border: .13em solid currentColor;
+  border-left-color: transparent;
+  box-shadow: .4em 0 0 -.09em;
+  transform: rotate(45deg);
+  top: .1em;
+  left: .1em;
+}

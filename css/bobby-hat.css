@@ -1,0 +1,40 @@
+i.icss-bobby-hat {
+  width: .85em;
+  height: .65em;
+  background-color: transparent;
+  border-radius: 50% 50% .05em .05em / 60% 60% .05em .05em;
+  border: 0 solid transparent;
+  border-width: 0 .15em .15em;
+  border-color: currentColor transparent;
+  box-shadow: 
+    inset .06em .12em 0 0,
+    inset .09em .05em 0 0,
+    inset -.06em .12em 0 0,
+    inset -.09em .05em 0 0,
+    inset 0 .15em 0 0;
+    inset .19em 0 0 -.08em, 
+    inset -.19em 0 0 -.08em;
+  margin: .25em .075em .1em;
+}
+i.icss-bobby-hat:before {
+  width: .13em;
+  height: .13em;
+  background: transparent;
+  border: .04em solid transparent;
+  transform: translate(-50%);
+  box-shadow: 0 0 0 .05em, inset 0 0 0 .05em;
+  top: .27em;
+  left: 50%;
+}
+i.icss-bobby-hat:after {
+  width: .23em;
+  height: .23em;
+  background: transparent;
+  border: .05em solid currentColor;
+  transform: translate(-50%) rotate(45deg);
+  box-shadow: -.22em -.22em 0 -.05em, 
+    -.01em .25em 0 -.05em,
+    .25em -.01em 0 -.05em;
+  top: .22em;
+  left: 50%;
+}

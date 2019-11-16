@@ -1,0 +1,30 @@
+i.icss-icecream {
+  width: .45em;
+  height: .45em;
+  background-color: transparent;
+  border: .07em solid transparent;
+  box-shadow: inset 0 0 0 .2em, 
+    .2em -.2em 0 -.06em,
+    .15em .13em 0 -.1em;
+  border-radius: 50%;
+  margin: .07em .37em .38em .18em;
+}
+i.icss-icecream:before {
+  width: .35em;
+  height: .3em;
+  border: 0 solid transparent;
+  border-top: .3em solid currentColor;
+  border-width: .45em .15em 0;
+  left: .11em;
+  top: .35em;
+}
+i.icss-icecream:after {
+  width: .45em;
+  height: .45em;
+  border-radius: 50%;
+  border: .07em solid transparent;
+  box-shadow: .1em .28em 0 -.06em;
+  clip: rect(0 1em 1em .25em);
+  left: .13em;
+  top: -.265em;
+}

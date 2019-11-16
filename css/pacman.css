@@ -1,0 +1,28 @@
+i.icss-pacman {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-pacman:before {
+  width: .9em;
+  height: .9em;
+  border-radius: 50%;
+  box-shadow: 
+    inset .13em -.19em 0 .371em;
+  transform: translate(-50%, -50%) rotate(-20deg);
+  clip: rect(0 1em .5em 0);
+  top: 50%;
+  left: 50%;
+}
+i.icss-pacman:after {
+  width: .9em;
+  height: .9em;
+  border-radius: 50%;
+  box-shadow: 
+    inset .15em -.22em 0 .4em;
+  transform: translate(-50%, -50%) rotate(30deg);
+  clip: rect(.5em 1em 1em 0);
+  top: 50%;
+  left: 50%;
+}

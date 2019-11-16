@@ -1,0 +1,35 @@
+i.icss-bomb {
+  width: .3em;
+  height: .16em;
+  background-color: transparent;
+  border: .1em solid transparent;
+  border-color: currentColor transparent;
+  border-width: .08em 0 .08em .3em;
+  margin: .02em .15em .83em .55em;
+}
+i.icss-bomb:before {
+  width: .52em;
+  height: .52em;
+  background-color: transparent;
+  border-radius: 50%;
+  border: .065em solid transparent;
+  border-width: .1em 0 0 0;
+  box-shadow: 0 0 0 .1em,
+    inset 1em 0;
+  transform: rotate(-80deg);
+  top: .29em;
+  left: -.7em;
+}
+i.icss-bomb:after {
+  width: .15em;
+  height: .15em;
+  border: .1em solid transparent;
+  border-color: transparent currentColor;
+  border-width: .25em .08em 0;
+  box-shadow:
+    0 .3em 0 -.04em,
+    0 .53em 0 .04em;
+  transform: rotate(40deg);
+  top: -.2em;
+  left: 0;
+}

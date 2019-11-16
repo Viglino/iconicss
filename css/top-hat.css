@@ -3,7 +3,7 @@ i.icss-top-hat {
   height: .5em;
   background-color: currentColor;
   border-radius: 50% / .1em;
-  margin: .17em .31em .35em .31em;
+  margin: .17em .29em .33em;
 }
 i.icss-top-hat:before {
   width: .65em;
