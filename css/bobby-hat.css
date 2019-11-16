@@ -12,8 +12,6 @@ i.icss-bobby-hat {
     inset -.06em .12em 0 0,
     inset -.09em .05em 0 0,
     inset 0 .15em 0 0;
-    inset .19em 0 0 -.08em, 
-    inset -.19em 0 0 -.08em;
   margin: .25em .075em .1em;
 }
 i.icss-bobby-hat:before {
