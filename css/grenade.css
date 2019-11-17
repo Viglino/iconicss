@@ -7,7 +7,7 @@ i.icss-grenade {
   box-shadow: inset 0 -.55em 0 -.3em,
     inset 0 .35em 0 -.2em,
     .1em -.1em 0 -.05em;
-  margin: .25em .175em -.05em;
+  margin: .25em .23em -.05em .12em;
 }
 i.icss-grenade:before {
   width: .3em;

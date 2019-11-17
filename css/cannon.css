@@ -12,8 +12,9 @@ i.icss-cannon:before {
   border-radius: .15em 0 0 .15em;
   border-style: solid;
   border-color: transparent currentColor;
-  border-width: .02em 0 .1em .95em;
+  border-width: .02em 0 .1em .91em;
   transform: rotate(-10deg);
+  box-shadow: .11em -.04em 0 -.04em;
   top: -.27em;
   left: -.3em;
 }

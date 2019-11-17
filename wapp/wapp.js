@@ -61,9 +61,9 @@ var wapp = {
     var n = 0;
     var rex = new RegExp(val,"i");
     $("#icons .icons i").each(function(){
-        var keys = (wapp.iconData[$(this).data('icss')].keys || '').split(',');
+        var tags = (wapp.iconData[$(this).data('icss')].tags || '').split(',');
         var found = rex.test($(this).data('icss'));
-        keys.forEach(function(k) {
+        tags.forEach(function(k) {
           found = found || rex.test(k);
         });
         if (found) {
@@ -157,18 +157,18 @@ function showICSS(icon) {
   $(".icons > div").removeClass("selected");
   $(".icss-"+icon,".icons div").parent().addClass("selected");
   
-  $(".icon i").removeClass().addClass("icss-anim icss-"+icon);
+  $(".icon i.icss").removeClass().addClass("icss icss-anim icss-"+icon);
   $(".icon .title").text(icon);
 
-  var key = $(".icon .keys").html('');
-  (wapp.iconData[icon].keys || '').split(',').forEach(function(k) {
-    if (key.html()) $('<span>').text(' - ').appendTo(key);
+  var tag = $(".icon .tag").html('');
+  (wapp.iconData[icon].tags || '').split(',').forEach(function(k) {
+    if (tag.html()) $('<span>').text(' - ').appendTo(tag);
     $('<a>').text(k)
       .click(function(){ 
         $('.search input[type=search]').val(k);
         wapp.search(k);
       })
-      .appendTo(key);
+      .appendTo(tag);
   });
 
   // Set icon in permalink

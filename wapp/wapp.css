@@ -165,12 +165,12 @@ input:focus {
   padding: 0;
   font-weight: bold;
 }
-.icon p.keys {
-  font-size: 1em;
+.icon p.tags {
+  font-size: 1.3em;
   margin: 0;
   padding-bottom: .5em;
 }
-.icon p.keys a {
+.icon p.tags a {
   cursor: pointer;
 }
 .icons > div {

@@ -1,29 +1,32 @@
 i.icss-fire {
-  width: .15em;
+  width: .1em;
   height: .2em;
   background-color: transparent;
   border-radius: 50%;
-  box-shadow: .025em .055em 0 .05em;
-  margin: 0 .53em .8em .27em;
+  box-shadow: .025em .055em 0 .04em;
+  margin: .35em .47em .35em .43em;
 }
 i.icss-fire:before {
-  width: .38em;
-  height: .22em;
+  width: .5em;
+  height: .35em;
   background-color: transparent;
   border-radius: 0 60% 40% / 40% 60% 30% 70%;
-  box-shadow: 
-    -.12em .03em 0 .08em,
-    -.02em -.17em 0 .08em;
+  box-shadow:
+    -.25em -.19em 0 -.05em,
+    -.24em -.16em 0 -.05em,
+    -.15em .14em 0 .02em,
+    .05em -.2em 0 .04em;
   transform: rotate(45deg);
-  top: .6em;
-  left: 0;
+  top: -.06em;
+  left: -.21em;
 }
 i.icss-fire:after {
   width: .4em;
   height: .2em;
-  box-shadow: inset .12em .08em,
-    -.4em .02em 0 -.06em;
+  box-shadow: 
+    -.12em -.08em,
+    -.53em -.07em 0 -.06em;
   transform: skewX(-45deg);
-  top: .85em;
-  left: .2em;
+  top: .43em;
+  left: .11em;
 }
