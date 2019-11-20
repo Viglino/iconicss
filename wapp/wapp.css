@@ -437,7 +437,7 @@ ul.inline li {
   margin: 0.25em 0.4em;
   color: #666;
   font-size: 1.2em;
-  left: .8em;
+  left: 0;
 }
 .search .new,
 .search .font-size {
