@@ -1,0 +1,24 @@
+i.icss-pade {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    margin: 0;
+}
+i.icss-pade:before {
+    width: .6em;
+    height: .1em;
+    background-color: currentColor;
+    transform: rotate(-45deg);
+    top: .47em;
+    left: .2em;    
+}
+i.icss-pade:after {
+    width: .25em;
+    height: .3em;
+    border-radius: 0 50% 50% 0;
+    box-shadow: inset 0 0 0 .08em, 
+        .75em 0 0 .07em;
+    transform: rotate(-45deg);
+    top: .64em;
+    left: .1em;
+}

@@ -1,5 +1,5 @@
 i.icss-monospace-car {
-    height: 0.17em;
+    height: .17em;
     width: .91em;
     border-style:solid;
     border-color: transparent;
@@ -11,7 +11,7 @@ i.icss-monospace-car {
         .12em .27em 0 -.05em,
         .36em .25em 0 -.05em,
         .24em .1em 0 -.013em;
-    margin: .25em .31em .34em -.16em;
+    margin: .33em .31em .5em -.16em;
 }
 i.icss-monospace-car:before {
     width: 1em;

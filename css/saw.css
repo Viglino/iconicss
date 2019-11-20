@@ -1,0 +1,33 @@
+i.icss-saw {
+    width: .7em;
+    height: .3em;
+    background-color: transparent;
+    border: 0 solid transparent;
+    border-width: 0 0 .1em .7em;
+    border-left: .7em solid currentColor;
+    margin: .35em 0 .35em .3em;
+}
+i.icss-saw:before {
+    width: .15em;
+    height: .15em;
+    background-color: currentColor;
+    transform: scaleX(.5) rotate(45deg);
+    box-shadow: 
+        .125em -.145em,
+        .25em -.29em,
+        .375em -.435em,
+        .5em -.58em,
+        .625em -.725em,
+        .75em -.87em;
+    top: .21em;
+    left: -.71em;
+}
+i.icss-saw:after {
+    width: .25em;
+    height: .38em;
+    border-radius: .05em 0 .1em .05em;
+    border: .1em solid currentColor;
+    border-left-width: .09em;
+    top: 0;
+    left: -1em
+}

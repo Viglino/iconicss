@@ -2,6 +2,7 @@ i.icss-flashlight {
     width: 1em;
     height: 1em;
     background-color: transparent;
+    margin: 0;
 }
 i.icss-flashlight:before {
     width: .45em;

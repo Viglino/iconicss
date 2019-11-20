@@ -1,0 +1,26 @@
+i.icss-screwdriver {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    margin: 0;
+}
+i.icss-screwdriver:before {
+    width: .2em;
+    height: .5em;
+    border-radius: .05em;
+    background-color: currentColor;
+    box-shadow: 0 -.4em 0 -.05em;
+    transform: rotate(45deg);
+    top: .445em;
+    left: .22em
+}
+i.icss-screwdriver:after {
+    width: .25em;
+    height: 0;
+    border-radius: .1em;
+    border: .08em solid transparent;
+    border-bottom: .25em solid currentColor;
+    transform: rotate(45deg);
+    top: 0;
+    left: .72em
+}
