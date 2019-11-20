@@ -1,5 +1,5 @@
 i.icss-backhoe {
-    height: 0.35em;
+    height: .35em;
     width: .42em;
     background: transparent;
     border-right: .1em solid transparent;
@@ -7,7 +7,7 @@ i.icss-backhoe {
     box-shadow: inset 0 0 0 .065em, 
         -.34em .25em 0 -.03em,
         -.03em .18em;
-    margin: .15em .02em .4em .8em;
+    margin: .15em .02em .5em .8em;
 }
 .icss-stack i.icss-backhoe {
     transform: translate(-.65em, -.5em);

@@ -7,7 +7,7 @@ i.icss-bulldozer {
     box-shadow: inset 0 0 0 .065em,
         -.35em .22em 0 -.035em,
         -.02em .185em;
-    margin: .2em -.02em .37em .64em;
+    margin: .2em -.02em .48em .64em;
 }
 .icss-stack i.icss-bulldozer {
     transform: translate(-.55em, -.5em);

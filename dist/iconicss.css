@@ -466,7 +466,7 @@ i.icss-airplane {
 		inset 0 .01em 0 .04em;
 	        box-shadow: inset 0 -.8em 0 -.05em, 
 		inset 0 .01em 0 .04em;
-	margin: 0 .4em;
+	margin: 0 .43em;
 	-webkit-transform: rotate(45deg);
 	    -ms-transform: rotate(45deg);
 	        transform: rotate(45deg);
@@ -569,7 +569,7 @@ i.icss-ambulance {
     -webkit-transform:  rotate(0deg);
         -ms-transform:  rotate(0deg);
             transform:  rotate(0deg);
-    margin: .15em .62em .35em .12em;
+    margin: .2em .62em .5em .12em;
 }
 i.icss-ambulance:before {
     width: 1em;
@@ -1050,7 +1050,7 @@ i.icss-associate:after {
           transform: rotate(45deg);
 }
 i.icss-autobus {
-    height: 0.2em;
+    height: .2em;
     width: .6em;
     border-style:solid;
     border-color: transparent;
@@ -1070,7 +1070,7 @@ i.icss-autobus {
         .25em .16em,
         -.065em .16em,
         -.35em .22em 0 -.06em;
-    margin: .2em .28em .44em .38em;
+    margin: .2em .28em .6em .38em;
 }
 .icss-stack i.icss-autobus {
     -webkit-transform: translate(-.6em, -.5em);
@@ -1230,7 +1230,7 @@ i.icss-baby-face:after {
 }
 
 i.icss-backhoe {
-    height: 0.35em;
+    height: .35em;
     width: .42em;
     background: transparent;
     border-right: .1em solid transparent;
@@ -1241,7 +1241,7 @@ i.icss-backhoe {
             box-shadow: inset 0 0 0 .065em, 
         -.34em .25em 0 -.03em,
         -.03em .18em;
-    margin: .15em .02em .4em .8em;
+    margin: .15em .02em .5em .8em;
 }
 .icss-stack i.icss-backhoe {
     -webkit-transform: translate(-.65em, -.5em);
@@ -1687,7 +1687,7 @@ i.icss-beer:after {
 }
 
 i.icss-beetle-car {
-    height: 0.2em;
+    height: .2em;
     width: 1.22em;
     border-style:solid;
     border-color: transparent;
@@ -1696,7 +1696,7 @@ i.icss-beetle-car {
     border-radius: 0.1em;
     -webkit-box-shadow: inset 0 0 0 1em, -.05em .32em 0 -.065em;
             box-shadow: inset 0 0 0 1em, -.05em .32em 0 -.065em;
-    margin: .25em -.1em .38em 0;
+    margin: .32em -.1em .48em 0;
 }
 i.icss-beetle-car:before {
     width: .78em;
@@ -1763,8 +1763,8 @@ i.icss-bell:after {
 
 }
 i.icss-bicycle {
-  width: 0.4em;
-  height: 0.4em;
+  width: .4em;
+  height: .4em;
   border-radius: 50%; 
   -webkit-box-shadow: 0.55em 0, 
     0.435em -0.286em 0 -0.156em,
@@ -1772,7 +1772,7 @@ i.icss-bicycle {
           box-shadow: 0.55em 0, 
     0.435em -0.286em 0 -0.156em,
     0.33em -0.57em 0 -0.118em;
-  margin: .5em .55em 0 0;
+  margin: .6em .575em 0 .025em;
 }
 i.icss-bicycle:before {
   width: 0.33em;
@@ -1796,8 +1796,8 @@ i.icss-bicycle:after {
   top: 0.015em;
 }
 i.icss-bike {
-  width: 0.4em;
-  height: 0.4em;
+  width: .4em;
+  height: .4em;
   border-radius: 50%; 
   -webkit-box-shadow: 
     0.45em -0.46em 0 -0.156em,
@@ -1811,7 +1811,7 @@ i.icss-bike {
     .14em -0.62em 0 -0.156em,
     0.55em -.2em, 
     0.35em -0.7em 0 -0.118em;
-  margin: 0.6em .55em 0 0;
+  margin: 0.6em .575em 0 .025em;
 }
 i.icss-bike:before {
   width: 0.30em;
@@ -2481,7 +2481,7 @@ i.icss-bowling {
             currentColor 45%, transparent 45%),
         linear-gradient(37deg, 
             currentColor 42%, transparent 42%);
-    margin: .42em .3em 0 .1em;
+    margin: .5em .35em 0 .15em;
 }
 i.icss-bowling:before { 
     width: .3em;
@@ -3087,7 +3087,7 @@ i.icss-bulldozer {
             box-shadow: inset 0 0 0 .065em,
         -.35em .22em 0 -.035em,
         -.02em .185em;
-    margin: .2em -.02em .37em .64em;
+    margin: .2em -.02em .48em .64em;
 }
 .icss-stack i.icss-bulldozer {
     -webkit-transform: translate(-.55em, -.5em);
@@ -3161,11 +3161,11 @@ i.icss-bullhorn:after {
   left: .09em;
 }
 i.icss-bus {
-    width: 0.88em;
-    height: 0.36em;
-    border-radius: 0.03em;
+    width: .88em;
+    height: .36em;
+    border-radius: .03em;
     background-color: transparent;
-    border: 0.065em solid currentColor;
+    border: .065em solid currentColor;
     background-image: 
         -o-radial-gradient(.15em .1em, 
             circle, 
@@ -3188,7 +3188,7 @@ i.icss-bus {
             transparent .1em, currentColor .1em, 
             currentColor .3em, transparent .3em)
         ;    
-    margin: 0.51em .06em 0.16em;
+    margin: .48em .06em .16em;
 }
 i.icss-bus:before {
     width: 0.88em;
@@ -3541,7 +3541,7 @@ i.icss-camper {
     border-radius: .1em .1em 0 0;
     -webkit-box-shadow: inset .3em 0, 0 0 0 .1em;
             box-shadow: inset .3em 0, 0 0 0 .1em;
-    margin: .2em .15em .5em .1em;
+    margin: .2em .15em .6em .1em;
 }
 i.icss-camper:before {
     width: .4em;
@@ -6372,7 +6372,7 @@ i.icss-download:after {
 
 }
 i.icss-dumper {
-    height: 0.25em;
+    height: .25em;
     width: .3em;
     background: transparent;
     border-radius: .1em .05em 0 0 / 100% .05em 0 0;
@@ -6385,7 +6385,7 @@ i.icss-dumper {
         -.12em .2em,
         -.23em .288em 0 -.05em,
         -.03em .208em 0 .03em;
-    margin: .2em .75em .37em .18em;
+    margin: .25em .75em .5em .18em;
 }
 .icss-stack i.icss-dumper {
     -webkit-transform: translate(-.65em, -.5em);
@@ -6648,14 +6648,14 @@ i.icss-equalizer:after {
   top: .7em;
 }
 i.icss-excavator {
-    height: 0.4em;
+    height: .4em;
     width: .59em;
     background: transparent;
     border-right: .24em solid transparent;
     border-radius: 50% .03em .0em / 100% .03em .0em;
     -webkit-box-shadow: inset 0 0 0 .065em, 0 .15em;
             box-shadow: inset 0 0 0 .065em, 0 .15em;
-    margin: .15em .08em .33em .58em;
+    margin: .15em .08em .45em .58em;
 }
 .icss-stack i.icss-excavator {
     -webkit-transform: translate(-.65em, -.5em);
@@ -6984,13 +6984,13 @@ i.icss-eyes:before {
 i.icss-eyes:after {
 }
 i.icss-f1-car {
-    height: 0.15em;
+    height: .15em;
     width: 1.1em;
     background: transparent;
     border-radius: 100% 0% 15% 10% / 100% 10% 80% 50%;
     -webkit-box-shadow: inset 0 0 0 .065em;
             box-shadow: inset 0 0 0 .065em;
-    margin: .45em 0 .09em 0;
+    margin: .57em 0 .28em 0;
 }
 .icss-stack i.icss-f1-car {
     -webkit-transform: translate(-.55em, -.5em);
@@ -8169,7 +8169,7 @@ i.icss-forklift {
             box-shadow: inset 0 0 0 .065em,
         inset 0 -.15em 0 .065em,
         .2em .15em 0 -.15em;
-    margin: .14em .05em .2em .5em;
+    margin: .15em .05em .3em .5em;
 }
 i.icss-forklift:before {
     width: .25em;
@@ -10093,7 +10093,7 @@ i.icss-helicopter {
           box-shadow: inset 0 0 0 .08em, 
     inset -.6em .17em 0 -.1em,
     inset -.4em 0;
-  margin: .16em .38em .1em .2em;
+  margin: .3em .38em .1em .2em;
 }
 .icss-stack i.icss-helicopter {
     -webkit-transform: translate(-.75em, -.5em);
@@ -12383,7 +12383,7 @@ i.icss-milk-carton:after {
   left: .39em;
 }
 i.icss-mixer-truck {
-    height: 0.38em;
+    height: .38em;
     width: 1em;
     background: transparent;
     border-radius: .13em .05em 0 0 / 100% .05em 0 0;
@@ -12397,7 +12397,7 @@ i.icss-mixer-truck {
         inset 0 0 0 .065em,
         inset 0 -.12em 0 .065em,
         -.18em .15em 0 -.05em;
-    margin: .2em .05em .22em .2em;
+    margin: .27em .05em .35em .2em;
 }
 .icss-stack i.icss-mixer-truck {
     -webkit-transform: translate(-.6em, -.5em);
@@ -12603,14 +12603,14 @@ i.icss-motor:after {
   left: .08em;
 }
 i.icss-motorcycle {
-  width: 0.5em;
-  height: 0.5em;
+  width: .5em;
+  height: .5em;
   border-radius: 50%; 
   background-color: transparent; 
   -webkit-box-shadow: inset 0 0 0 0.065em, -0.04em -0.05em 0 -0.02em; 
           box-shadow: inset 0 0 0 0.065em, -0.04em -0.05em 0 -0.02em;
-  border: 0.05em solid transparent;
-  margin: 0.45em 0 0 .55em;
+  border: .05em solid transparent;
+  margin: .45em 0 .05em .5em;
 }
 i.icss-motorcycle:before {
   width: 0.5em;
@@ -17215,7 +17215,7 @@ i.icss-sun:after {
     0 -.45em, 0 -.38em;
 }
 i.icss-suv-car {
-    height: 0.21em;
+    height: .21em;
     width: .55em;
     border-style:solid;
     border-color: transparent;
@@ -17228,7 +17228,7 @@ i.icss-suv-car {
             box-shadow: inset 0 0 0 1em, 
         .23em -.16em 0 -.075em,
         .03em .37em 0 -.075em;
-    margin: .2em .38em .39em .28em;
+    margin: .2em .38em .59em .28em;
     -webkit-transform-origin: 60% 100%;
         -ms-transform-origin: 60% 100%;
             transform-origin: 60% 100%;
@@ -17525,7 +17525,7 @@ i.icss-tags:after {
           transform: translateX(-50%);
 }
 i.icss-tank-truck {
-    height: 0.38em;
+    height: .38em;
     width: 1.1em;
     background: transparent;
     border-radius: .13em .05em 0 0 / 100% .05em 0 0;
@@ -17541,7 +17541,7 @@ i.icss-tank-truck {
         inset 0 -.12em 0 .065em,
         -.18em .15em 0 -.05em,
         .05em .15em 0 -.05em;
-    margin: .2em .05em .22em .2em;
+    margin: .27em .05em .35em .2em;
 }
 .icss-stack i.icss-tank-truck {
     -webkit-transform: translate(-.65em, -.5em);
@@ -17888,7 +17888,7 @@ i.icss-tennis {
     background-color: transparent;
     -webkit-box-shadow: inset 0 0 0 .08em;
             box-shadow: inset 0 0 0 .08em;
-    margin: .05em .38em .32em .1em;
+    margin: .05em .38em .35em .12em;
     -webkit-transform: rotate(-40deg);
         -ms-transform: rotate(-40deg);
             transform: rotate(-40deg)
@@ -19067,13 +19067,13 @@ i.icss-triangle:before {
     left: 50%;
 }
 i.icss-truck {
-    height: 0.4em;
+    height: .4em;
     width: .3em;
     background: transparent;
     border-radius: .15em .05em 0 0 / 70% .05em 0 0;
     border: .065em solid currentColor;
     border-bottom: .2em solid currentColor;
-    margin: .3em .63em .15em .03em;
+    margin: .32em .63em .28em .03em;
 }
 i.icss-truck:before {
     width: .6em;

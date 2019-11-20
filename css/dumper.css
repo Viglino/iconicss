@@ -1,5 +1,5 @@
 i.icss-dumper {
-    height: 0.25em;
+    height: .25em;
     width: .3em;
     background: transparent;
     border-radius: .1em .05em 0 0 / 100% .05em 0 0;
@@ -8,7 +8,7 @@ i.icss-dumper {
         -.12em .2em,
         -.23em .288em 0 -.05em,
         -.03em .208em 0 .03em;
-    margin: .2em .75em .37em .18em;
+    margin: .25em .75em .5em .18em;
 }
 .icss-stack i.icss-dumper {
     transform: translate(-.65em, -.5em);

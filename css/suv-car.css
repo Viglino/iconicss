@@ -1,5 +1,5 @@
 i.icss-suv-car {
-    height: 0.21em;
+    height: .21em;
     width: .55em;
     border-style:solid;
     border-color: transparent;
@@ -9,7 +9,7 @@ i.icss-suv-car {
     box-shadow: inset 0 0 0 1em, 
         .23em -.16em 0 -.075em,
         .03em .37em 0 -.075em;
-    margin: .2em .38em .39em .28em;
+    margin: .2em .38em .59em .28em;
     transform-origin: 60% 100%;
 }
 .icss-stack i.icss-suv-car {

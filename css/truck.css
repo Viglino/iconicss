@@ -1,11 +1,11 @@
 i.icss-truck {
-    height: 0.4em;
+    height: .4em;
     width: .3em;
     background: transparent;
     border-radius: .15em .05em 0 0 / 70% .05em 0 0;
     border: .065em solid currentColor;
     border-bottom: .2em solid currentColor;
-    margin: .3em .63em .15em .03em;
+    margin: .32em .63em .28em .03em;
 }
 i.icss-truck:before {
     width: .6em;

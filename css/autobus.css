@@ -1,5 +1,5 @@
 i.icss-autobus {
-    height: 0.2em;
+    height: .2em;
     width: .6em;
     border-style:solid;
     border-color: transparent;
@@ -12,7 +12,7 @@ i.icss-autobus {
         .25em .16em,
         -.065em .16em,
         -.35em .22em 0 -.06em;
-    margin: .2em .28em .44em .38em;
+    margin: .2em .28em .6em .38em;
 }
 .icss-stack i.icss-autobus {
     transform: translate(-.6em, -.5em);

@@ -1,11 +1,11 @@
 i.icss-motorcycle {
-  width: 0.5em;
-  height: 0.5em;
+  width: .5em;
+  height: .5em;
   border-radius: 50%; 
   background-color: transparent; 
   box-shadow: inset 0 0 0 0.065em, -0.04em -0.05em 0 -0.02em;
-  border: 0.05em solid transparent;
-  margin: 0.45em 0 0 .55em;
+  border: .05em solid transparent;
+  margin: .45em 0 .05em .5em;
 }
 i.icss-motorcycle:before {
   width: 0.5em;

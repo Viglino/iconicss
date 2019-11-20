@@ -1,6 +1,6 @@
 i.icss-bike {
-  width: 0.4em;
-  height: 0.4em;
+  width: .4em;
+  height: .4em;
   border-radius: 50%; 
   box-shadow: 
     0.45em -0.46em 0 -0.156em,
@@ -8,7 +8,7 @@ i.icss-bike {
     .14em -0.62em 0 -0.156em,
     0.55em -.2em, 
     0.35em -0.7em 0 -0.118em;
-  margin: 0.6em .55em 0 0;
+  margin: 0.6em .575em 0 .025em;
 }
 i.icss-bike:before {
   width: 0.30em;

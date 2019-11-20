@@ -1,11 +1,11 @@
 i.icss-excavator {
-    height: 0.4em;
+    height: .4em;
     width: .59em;
     background: transparent;
     border-right: .24em solid transparent;
     border-radius: 50% .03em .0em / 100% .03em .0em;
     box-shadow: inset 0 0 0 .065em, 0 .15em;
-    margin: .15em .08em .33em .58em;
+    margin: .15em .08em .45em .58em;
 }
 .icss-stack i.icss-excavator {
     transform: translate(-.65em, -.5em);

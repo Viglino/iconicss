@@ -1,11 +1,11 @@
 i.icss-bicycle {
-  width: 0.4em;
-  height: 0.4em;
+  width: .4em;
+  height: .4em;
   border-radius: 50%; 
   box-shadow: 0.55em 0, 
     0.435em -0.286em 0 -0.156em,
     0.33em -0.57em 0 -0.118em;
-  margin: .5em .55em 0 0;
+  margin: .6em .575em 0 .025em;
 }
 i.icss-bicycle:before {
   width: 0.33em;

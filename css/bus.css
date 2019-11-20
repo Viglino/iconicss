@@ -1,9 +1,9 @@
 i.icss-bus {
-    width: 0.88em;
-    height: 0.36em;
-    border-radius: 0.03em;
+    width: .88em;
+    height: .36em;
+    border-radius: .03em;
     background-color: transparent;
-    border: 0.065em solid currentColor;
+    border: .065em solid currentColor;
     background-image: 
         radial-gradient(circle at .15em .1em, 
             transparent 0, 
@@ -14,7 +14,7 @@ i.icss-bus {
             transparent .1em, currentColor .1em, 
             currentColor .3em, transparent .3em)
         ;    
-    margin: 0.51em .06em 0.16em;
+    margin: .48em .06em .16em;
 }
 i.icss-bus:before {
     width: 0.88em;
