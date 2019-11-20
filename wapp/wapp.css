@@ -11,6 +11,16 @@ body {
 .page-loader .loader p::before {
   content: "loading";
 }
+* {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+textarea, input {
+  -moz-user-select: text;
+  -webkit-user-select: text;
+  user-select: text;
+}
 a {	
   color: #963;
   text-decoration: none;
@@ -184,7 +194,8 @@ input:focus {
   height: 1em;
   cursor: pointer;
 }
-.icons > div.selected {
+.icons > div.selected,
+.icons > div:hover {
     border-color: orange;
 }
 .icons > div > i {	
@@ -423,9 +434,10 @@ ul.inline li {
 }
 .search .icss-search {
   position: absolute;
-  margin: 0.2em 0.4em;
+  margin: 0.25em 0.4em;
   color: #666;
-  font-size: 1.2em
+  font-size: 1.2em;
+  left: .8em;
 }
 .search .new,
 .search .font-size {

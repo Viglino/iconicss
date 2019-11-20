@@ -1,0 +1,30 @@
+i.icss-gesture-pinch {
+  width: .15em;
+  height: .55em;
+  border-radius: .1em;
+  margin: .15em .5em .3em .4em;
+}
+i.icss-gesture-pinch:before {
+  width: .45em;
+  height: .5em;
+  border-radius: .3em .12em 0 .2em;
+  border: .1em solid transparent;
+  border-width: 0 0 .35em 0;
+  box-shadow: inset 0 0 0 .2em, 
+    -.1em 0,
+    -.3em -.35em;
+  transform: rotate(-45deg);
+  clip: rect(-.5em .5em .15em -.5em);
+  left: .15em;
+  top: .35em;
+}
+i.icss-gesture-pinch:after {
+  width: .45em;
+  border: .12em solid transparent;
+  border-color: transparent currentColor;
+  border-width: .14em .18em;
+  transform: rotate(45deg);
+  box-shadow: .2em 0 0 -.075em, -.2em 0 0 -.075em;
+  top: -.05em;
+  left: .2em;
+}

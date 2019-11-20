@@ -1,0 +1,33 @@
+i.icss-gesture-double-tap {
+  width: .15em;
+  height: .55em;
+  border-radius: .1em;
+  margin: .12em .4em .33em .45em;
+}
+i.icss-gesture-double-tap:before {
+  width: .45em;
+  height: .5em;
+  border-radius: .3em .12em 0 .2em;
+  border: .1em solid transparent;
+  border-width: 0 0 .35em 0;
+  box-shadow: inset 0 0 0 .2em, 
+    -.1em 0,
+    -.3em -.35em;
+  transform: rotate(-45deg);
+  clip: rect(-.5em .5em .15em -.5em);
+  left: .15em;
+  top: .35em;
+}
+i.icss-gesture-double-tap:after {
+  width: .6em;
+  height: .45em;
+  border-radius: 50%;
+  border: .07em solid transparent;
+  box-shadow: 
+    inset .16em 0 0 -.1em, 
+    inset -.16em 0 0 -.1em, 
+    .11em 0 0 -.05em,
+    -.11em 0 0 -.05em;
+  top: -.18em;
+  left: -.225em;
+}

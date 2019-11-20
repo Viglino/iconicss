@@ -1,0 +1,26 @@
+i.icss-barrel {
+  background: transparent;
+  border-radius: .12em / 50%;
+  width: .78em;
+  height: 1em;
+  box-shadow: inset 0 0 0 .065em;
+  overflow: hidden;
+  margin: .0 .11em;
+}
+i.icss-barrel:before {
+  width: 0.07em;
+  height: 1em;
+ background-color: currentColor;
+  box-shadow: .2em 0, -.2em 0;
+  transform: translateX(-50%);
+  left: 50%;
+  top: 0;
+}
+i.icss-barrel:after {
+  width: 1em;
+  height: .15em;
+  transform: translateY(-50%);
+  box-shadow: 0 .23em, 0 -.23em;
+  top: 50%;
+  left: 0;
+}
