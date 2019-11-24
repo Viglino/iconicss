@@ -1,0 +1,20 @@
+i.icss-mars-c {
+  width: .6em;
+  height: .6em;
+  border-radius: 50%;
+  background-color: #c64;
+  box-shadow: inset -.05em -.05em .05em #a43;
+  margin: .2em;
+}
+i.icss-mars-c:before {
+  width: .12em;
+  height: .12em;
+  border-radius: 50%;
+  box-shadow: 
+    0 .15em .05em #a43,
+    .2em .4em .05em .01em #a43;
+  top: 0;
+  left: .12em;
+}
+i.icss-mars-c:after {
+}

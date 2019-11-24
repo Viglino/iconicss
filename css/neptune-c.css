@@ -1,0 +1,21 @@
+i.icss-neptune-c {
+  width: .75em;
+  height: .75em;
+  border-radius: 50%;
+  background-color: #8ad;
+  background-image: linear-gradient(
+    #248 5%, #359 10%, #57b 25%, #46a 40%, #8ad 55%, #ace 65%, #248 85%, #8ad 95%
+  );
+  box-shadow: inset -.05em -.05em .05em #248;
+  margin: .125em;
+}
+i.icss-neptune-c:before {
+  width: .25em;
+  height: .1em;
+  box-shadow: 0 .45em .08em #cef;
+  border-radius: 50%;
+  top: 0;
+  left: .2em
+}
+i.icss-neptune-c:after {
+}

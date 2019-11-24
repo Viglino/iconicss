@@ -1,0 +1,28 @@
+i.icss-pluto-c {
+  width: .5em;
+  height: .5em;
+  border-radius: 50%;
+  background-color: #ba9;
+  box-shadow: inset -.05em -.05em .05em #987;
+  overflow: hidden;
+  margin: .25em;
+}
+i.icss-pluto-c:before {
+  width: .25em;
+  height: .3em;
+  border-radius: 50%;
+  background-color: #dcb;
+  box-shadow: 0 0 .05em .02em #dcb;
+  transform: rotate(-20deg);
+  top: .2em;
+  left: -.07em;
+}
+i.icss-pluto-c:after {
+  width: .1em;
+  height: .1em;
+  border-radius: 50%;
+  background-color: #dcb;
+  box-shadow: 0 0 .05em .02em #dcb;
+  top: .1em;
+  left: .3em;
+}

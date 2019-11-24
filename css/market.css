@@ -1,0 +1,32 @@
+i.icss-market {
+  width: .8em;
+  height: .6em;
+  background-color: transparent;
+  border-bottom: .05em solid transparent;
+  box-shadow: inset 0 -.065em 0 .065em, 0 .13em;
+  margin: .27em .1em .13em;
+}
+i.icss-market:before {
+  width: .2em;
+  height: .35em;
+  border-radius: 0 0 .1em .1em;
+  background-color: currentColor;
+  box-shadow: .21em 0, -.21em 0, .42em 0, -.42em 0;
+  transform: translateX(-50%) perspective(.1em) rotateX(2deg);
+  left: 50%;
+  top: -.28em;
+}
+i.icss-market:after {
+  width: .25em;
+  height: .25em;
+  border-radius: 50%;
+  border: .05em solid transparent;
+  box-shadow:
+    inset 0 .2em,
+    0 .2em, 
+    -.38em .2em 0 -.06em,
+    -.34em .15em 0 -.06em,
+    -.25em .2em 0 -.06em;
+  left: .43em;
+  top: .06em;
+}

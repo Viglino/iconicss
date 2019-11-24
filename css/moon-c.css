@@ -1,0 +1,58 @@
+i.icss-moon-c {
+  width: .75em;
+  height: .75em;
+  border-radius: 50%;
+  background-color: #ccc;
+  background-image: 
+    radial-gradient(.05em .035em at .38em .65em, #ddd, #ccc 20%, #e0e0e0, transparent),
+    
+    radial-gradient(.12em .12em at .3em .25em, #999 90%, transparent),
+
+    radial-gradient(.12em .12em at .32em .22em, #eee 90%, transparent),
+    radial-gradient(.13em .13em at .29em .22em, #ccc 90%, transparent),
+    radial-gradient(.18em .20em at .25em .27em, #999 90%, transparent),
+
+    radial-gradient(.09em .08em at .5em .21em, #eee 80%, transparent),
+    
+    radial-gradient(.17em .22em at .2em .32em, #999 90%, transparent),
+    radial-gradient(.09em .07em at .39em .35em, #999 80%, transparent),
+    radial-gradient(.08em .07em at .34em .45em, #999 80%, transparent),
+    radial-gradient(.08em .07em at .36em .5em, #999 80%, transparent),
+
+    radial-gradient(.17em .12em at .29em .16em, #bbb 90%, transparent),
+
+    radial-gradient(.22em .4em at .36em .25em, #ccc 98%, transparent),
+    radial-gradient(.22em .4em at .37em .28em, #fff 80%, transparent),
+
+    radial-gradient(.3em .4em at .36em .24em, #ccc 98%, transparent),
+    radial-gradient(.3em .4em at .38em .25em, #fff 80%, transparent),
+    
+    radial-gradient(.75em .75em at 40% 40%, transparent 50%, #999 70%),
+    radial-gradient(.35em .4em at .4em .26em, transparent 95%, rgba(255,255,255,.3) 97%, transparent)
+    ;
+  box-shadow: 0 0 .5em .05em rgba(255,255,255,.5);
+  overflow: hidden;
+  margin: .125em;
+}
+i.icss-moon-c:before {
+  width: .75em;
+  height: .75em;
+  border-radius: 50%;
+  background-image: 
+    radial-gradient(.04em .02em at .4em .7em, #eee, transparent),
+    radial-gradient(.03em .02em at .25em .5em, #eee, transparent),
+    radial-gradient(.02em .02em at .565em .14em, #eee, transparent),
+
+    radial-gradient(.08em .07em at .37em .18em, #999 80%, transparent),
+    radial-gradient(.075em .065em at .52em .18em, #999 70%, transparent),
+    radial-gradient(.05em .04em at .45em .07em, #999 70%, transparent),
+
+    radial-gradient(.055em .045em at .44em .59em, #999 70%, transparent),
+    radial-gradient(.03em .025em at .28em .68em, #999 50%, transparent)
+    ;
+  transform: rotate(45deg);
+  top: 0;
+  left: 0;
+}
+i.icss-moon-c:after {
+}

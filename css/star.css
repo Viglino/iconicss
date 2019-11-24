@@ -1,9 +1,9 @@
 i.icss-star {
 	background-color: transparent;
-	margin: 0 .36em .55em;
 	border: 0 solid transparent;
 	border-width: 0 .15em .35em;
-	border-bottom-color: currentColor;	
+	border-bottom-color: currentColor;
+	margin: .05em .36em .6em;
 }
 i.icss-star:before {
 	top: .3em;

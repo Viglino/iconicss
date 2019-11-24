@@ -1,0 +1,26 @@
+i.icss-jupiter-c {
+  width: .9em;
+  height: .9em;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    #eb6 3%, #fc8 12%, 
+    #c94 40%, #fc8 63%, 
+    #da5 70%, #fc8 87%, #eb6 94%
+  );
+  box-shadow: inset -.05em -.05em .05em #da5;
+  overflow: hidden;
+  margin: .05em;
+}
+i.icss-jupiter-c:before {
+  width: .25em;
+  height: .12em;
+  background-image: radial-gradient(#c94, #fc8 30%, #c94 80%);
+  box-shadow: 0 0 .05em .02em #c94, 
+    .1em -.3em .05em -.03em #fc8,
+    .35em -.28em .05em -.035em #fc8;
+  border-radius: 50%;
+  top: .58em;
+  left: .2em
+}
+i.icss-jupiter-c:after {
+}

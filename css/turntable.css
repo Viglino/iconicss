@@ -7,32 +7,25 @@ i.icss-turntable {
 			currentColor 0, currentColor .05em, 
       transparent .05em, transparent .13em,
       currentColor .13em, currentColor .17em,
-      transparent .17em, transparent .2em,
-      currentColor .2em, currentColor .22em,
-      transparent .22em, transparent .26em,
-      currentColor .26em, currentColor .3em,
+      transparent .17em, transparent .22em,
+      currentColor .22em, currentColor .24em,
+      transparent .24em, transparent .28em,
+      currentColor .28em, currentColor .3em,
       transparent .3em, transparent .35em,
       currentColor .35em
     );
+  box-shadow: .55em -.35em 0 -.34em;
   background-color: transparent;
   margin: .1em .2em .1em .0em;
 }
 i.icss-turntable:before {
-  width: .8em;
-  height: .8em;
+  width: .85em;
+  height: .75em;
   border-radius: 50%;
-  transform: translate(-50%, -50%);
-  background-image: 
-		linear-gradient(-20deg, currentColor 26%, 
-      transparent 26%, transparent 30%,
-      currentColor 30%, currentColor 35%,
-      transparent 35%, transparent 65%,
-      currentColor 65%, currentColor 68%,
-      transparent 68%, transparent 71%,
-      currentColor 71%
-    );
-  box-shadow: .35em .43em 0 -.32em,
-    .51em -.35em 0 -.31em;
+  transform: translate(-50%, -50%) rotate(-40deg);
+  border: .24em solid transparent;
+  border-color: currentColor transparent;
+  box-shadow: .03em .55em 0 -.3em;
   left: 50%;
   top: 50%;
 }

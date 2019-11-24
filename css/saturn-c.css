@@ -1,0 +1,30 @@
+i.icss-saturn-c {
+  width: .75em;
+  height: .75em;
+  border-radius: 50%;
+  background-color: #ca5;
+  background-image: linear-gradient(-30deg, #ca5, #ca5 30%, #b94 55%, #ca5 75%);
+  box-shadow: inset -.05em -.05em .05em #b94;
+  transform-style: preserve-3d;
+  margin: .125em;
+}
+i.icss-saturn-c:after,
+i.icss-saturn-c:before {
+  height: .3em;
+  width: 1.3em;
+  background: transparent;
+  box-shadow: 
+    0 .005em 0 .02em #a83,
+    inset -.07em -.01em 0 .04em #a83,
+    inset .07em -.01em 0 .04em #a83;
+  border-radius: 50%;
+  border: .02em solid transparent;
+  border-width: .015em .03em;
+  transform: translateZ(-1px) translate(-50%, -50%) rotate(-35deg);
+  top: 50%;
+  left: 50%;
+}
+i.icss-saturn-c:after {
+  transform: translate(-50%, -50%) rotate(-35deg);
+  clip: rect(.12em 1.5em 1em 0);
+}

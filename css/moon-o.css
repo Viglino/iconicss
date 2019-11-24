@@ -1,0 +1,41 @@
+i.icss-moon-o {
+  width: .75em;
+  height: .75em;
+  border-radius: 50%;
+  background-color: transparent;
+  border:.05em solid transparent;
+  box-shadow: inset .12em .13em 0 -.1em, 0 0 0 .065em;
+  margin: .125em;
+}
+i.icss-moon-o:before {
+  width: .18em;
+  height: .15em;
+  transform: rotate(45deg);
+  border-radius: 50%;
+  border: .05em solid transparent;
+  border-width: .04em .03em .02em .04em;
+  box-shadow:
+    inset 0 0 0 .1em,
+    -.01em -.02em 0 .02em,
+    .18em 0 0 -.01em, 
+    .1em -.13em 0 -.04em,
+    -.12em .25em 0 .02em,
+    .07em .45em 0 -.02em,
+    .08em .29em 0 .01em,
+    -.05em .5em 0 -.045em;
+  top: .1em;
+  left: .35em;
+}
+i.icss-moon-o:after {
+  width: .2em;
+  height: .29em;
+  border-radius: 50%;
+  border: .06em solid transparent;
+  border-width: .06em 0 0 .02em;
+  box-shadow: inset .2em 0,
+    .13em .1em 0 -.03em,
+    -.04em .08em 0 .07em;
+  transform: rotate(30deg);
+  left: .16em;
+  top: .06em;
+}

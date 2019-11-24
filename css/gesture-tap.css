@@ -10,7 +10,8 @@ i.icss-gesture-tap:before {
   border-radius: .3em .12em 0 .2em;
   border: .1em solid transparent;
   border-width: 0 0 .35em 0;
-  box-shadow: inset 0 0 0 .2em, 
+  background-color: currentColor;
+  box-shadow: 
     -.1em 0,
     -.3em -.35em;
   transform: rotate(-45deg);
@@ -19,13 +20,14 @@ i.icss-gesture-tap:before {
   top: .35em;
 }
 i.icss-gesture-tap:after {
-  width: .6em;
+  width: .62em;
   height: .45em;
   border-radius: 50%;
   border: .07em solid transparent;
   box-shadow: 
-    inset .16em 0 0 -.1em, 
-    inset -.16em 0 0 -.1em;
+    inset .18em 0 0 -.1em, 
+    inset -.18em 0 0 -.1em;
+  transform: translateX(-50%);
   top: -.18em;
-  left: -.225em;
+  left: 50%;
 }

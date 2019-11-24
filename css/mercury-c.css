@@ -1,0 +1,22 @@
+i.icss-mercury-c {
+  width: .5em;
+  height: .5em;
+  border-radius: 50%;
+  background-color: #777;
+  box-shadow: 
+    inset .04em .04em .05em #888,
+    inset -.05em -.05em .05em #666;
+  margin: .25em;
+}
+i.icss-mercury-c:before {
+  width: .13em;
+  height: .13em;
+  border-radius: 50%;
+  box-shadow: 
+    .1em .27em .04em #999,
+    .28em .05em .04em -.01em #999;
+  top: 0;
+  left: 0;
+}
+i.icss-mercury-c:after {
+}

@@ -1,0 +1,26 @@
+i.icss-saturn {
+  width: .75em;
+  height: .75em;
+  border-radius: 50%;
+  background-color: transparent;
+  box-shadow: inset -.01em -.01em 0 .07em;
+  margin: .125em;
+}
+i.icss-saturn:before {
+  height: .3em;
+  width: 1.3em;
+  background: transparent;
+  box-shadow: 
+    0 .006em 0 .01em,
+    inset -.05em -.02em 0 .04em,
+    inset .05em -.02em 0 .04em;
+  border-radius: 50%;
+  border: .02em solid transparent;
+  border-width: .015em .03em;
+  transform: translate(-50%, -50%) rotate(-35deg);
+  clip: rect(.05em 1.5em 1em -.05em);
+  top: 50%;
+  left: 50%;
+}
+i.icss-saturn:after {
+}

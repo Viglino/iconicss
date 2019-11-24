@@ -445,6 +445,7 @@ ul.inline li {
   font-size: 1.5em;
   position: relative;
   padding: 0 0 0 .5em;
+  z-index: 1;
 }
 .search .font-size i {
   cursor: pointer;
@@ -462,6 +463,12 @@ ul.inline li {
   position: relative;
   cursor: pointer;
   padding: 0 0 0 1em;
+  z-index: 1;
+}
+.search .new:hover,
+.search .color:hover,
+.search .font-size i:hover {
+  color: orange;
 }
 .search .color ul {
     display: none;

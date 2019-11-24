@@ -1,0 +1,12 @@
+i.icss-uranus-c {
+  width: .75em;
+  height: .75em;
+  border-radius: 50%;
+  background-color: #9ab;
+  box-shadow: inset -.05em -.05em .05em #89a;
+  margin: .125em;
+}
+i.icss-uranus-c:before {
+}
+i.icss-uranus-c:after {
+}

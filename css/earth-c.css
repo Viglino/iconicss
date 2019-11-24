@@ -1,0 +1,36 @@
+i.icss-earth-c {
+  width: .65em;
+  height: .65em;
+  border-radius: 50%;
+  background-color: #469;
+  box-shadow: inset -.05em -.05em .05em #358;
+  overflow: hidden;
+  margin: .175em;
+}
+i.icss-earth-c:before {
+  height: .4em;
+  width: .23em;
+  background-color:#585;
+  border-radius: 50%;
+  transform: rotate(-15deg);
+  box-shadow: .47em -.3em 0 #585;
+  top: .23em;
+  left: 0;
+}
+i.icss-earth-c:after {
+  height: .15em;
+  width: .25em;
+  box-shadow: 
+    .4em -.1em .08em .05em rgba(255,255,255,.4),
+    .35em -.1em .08em .05em rgba(255,255,255,.4),
+    .5em .3em .1em rgba(255,255,255,.4),
+    .4em .25em .08em rgba(255,255,255,.4),
+    .2em .25em .08em rgba(255,255,255,.4),
+    .1em .3em .08em rgba(255,255,255,.4),
+    .68em .28em .08em rgba(255,255,255,.4),
+    .4em .35em .1em rgba(255,255,255,.4)
+    ;
+  border-radius: 50%;
+  top: 0;
+  left: -.2em;
+}
