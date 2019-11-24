@@ -5289,7 +5289,7 @@ i.icss-cloud {
   height: .35em;
   -webkit-box-shadow: .34em 0;
           box-shadow: .34em 0;
-  margin: .4em .5em 0 .15em;
+  margin: .4em .5em .25em .15em;
 }
 i.icss-cloud:before {
   width: .35em;
@@ -7902,7 +7902,7 @@ i.icss-flash {
   -webkit-transform: skew(-30deg);
       -ms-transform: skew(-30deg);
           transform: skew(-30deg);
-  margin: .45em .26em 0;
+  margin: .45em .32em 0;
 }
 .icss-stack i.icss-flash {
     -webkit-transform: translate(-.5em, -.5em) skew(-30deg);
@@ -14994,7 +14994,7 @@ i.icss-rain {
   height: .35em;
   -webkit-box-shadow: .34em 0;
           box-shadow: .34em 0;
-  margin: .3em .5em .39em .15em;
+  margin: .3em .5em .35em .15em;
 }
 i.icss-rain:before {
   width: .35em;
@@ -17780,7 +17780,7 @@ i.icss-storm {
   height: .35em;
   -webkit-box-shadow: .34em 0;
           box-shadow: .34em 0;
-  margin: .3em .5em .39em .15em;
+  margin: .3em .5em .35em .15em;
 }
 i.icss-storm:before {
   width: .35em;
@@ -17909,7 +17909,7 @@ i.icss-sun-cloud {
     -.35em -.48em 0 -.14em,
     -.41em -.3em 0 -.14em,
     -.35em -.12em 0 -.14em;
-  margin: .45em .4em 0 .28em;
+  margin: .55em .4em .1em .28em;
 }
 i.icss-sun-cloud:before {
   width: .35em;
