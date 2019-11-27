@@ -1,0 +1,10 @@
+i.icss-minus {
+  width: 1em;
+  height: .18em;
+  border-radius: .06em;
+  background-color: currentColor;
+}
+
+i.icss-minus {
+  margin: .41em 0;
+}
