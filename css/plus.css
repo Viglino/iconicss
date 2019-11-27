@@ -1,0 +1,20 @@
+i.icss-plus {
+  width: 1em;
+  height: .18em;
+  border-radius: .06em;
+  background-color: currentColor;
+}
+
+i.icss-plus {
+  margin: .41em 0;
+}
+
+i.icss-plus:after {
+  width: .18em;
+  height: 1em;
+  border-radius: .06em;
+  background-color: currentColor;
+  -webkit-transform: translate(0.41em, -0.41em);
+      -ms-transform: translate(0.41em, -0.41em);
+          transform: translate(0.41em, -0.41em);
+}
