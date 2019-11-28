@@ -1,0 +1,29 @@
+i.icss-disk {
+  width: 1em;
+  height: 1em;
+  border-radius: .1em .3em .1em .1em;
+  border: .1em solid currentColor;
+  background-color: transparent;
+  margin: 0;
+}
+
+i.icss-disk:before {
+  height: .4em;
+  width: .6em;
+  border: .1em solid currentColor;
+  border-color: transparent currentColor currentColor currentColor;
+  border-radius: .1em .1em .1em .1em;
+  top: -0.1em;
+  left: 0.05em;
+  background-color: transparent;
+}
+
+i.icss-disk:after {
+  height: .40em;
+  width: .40em;
+  border: .1em solid currentColor;
+  border-radius: 50%;
+  top: 0.35em;
+  left: 0.16em;
+  background-color: transparent;
+}
