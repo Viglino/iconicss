@@ -1,0 +1,41 @@
+i.icss-floppy {
+    width: .9em;
+    height: .6em;
+    background-color: transparent;
+    border-radius: .05em;
+    box-shadow: 
+        inset .1em .1em,
+        inset .1em -.1em,
+        inset -.1em .1em,
+        inset -.1em -.1em;
+    margin: .4em .05em 0;
+}
+i.icss-floppy:before {
+    width: 0;
+    height: 0;
+    background-color: transparent;
+    border: .1em solid transparent;
+    border-bottom: .1em solid currentColor;
+    border-width: .1em .2em .2em 0;
+    box-shadow: 0 .25em;
+    top: -.5em;
+    left: .7em
+}
+i.icss-floppy:after {
+    width: .5em;
+    height: .3em;
+    border-radius: 0 0 .03em .03em;
+    border: 0 solid transparent;
+    border-width: .05em .1em .1em;
+    box-shadow: inset .12em 0, 
+        -.15em .05em 0 .05em,
+        -.2em .2em,
+        .2em .2em,
+        .1em .5em 0 -.12em,
+        .1em .65em 0 -.12em,
+        -.1em .5em 0 -.12em,
+        -.1em .65em 0 -.12em
+        ;
+    top: -.4em;
+    left: .2em;
+}
