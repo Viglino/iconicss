@@ -1,13 +1,13 @@
 i.icss-gift {
   width: .8em;
-  height: 0.6em;
+  height: .6em;
   background-color: transparent;
   border-radius: .02em;
   border:.07em solid currentColor;
   border-width: 0 0.3em ;
   box-shadow: .25em -.15em 0 -.15em, -.25em -.15em 0 -.15em,
     0 0.08em;
-  margin: .25em .1em .08em;
+  margin: .32em .1em .08em;
 }
 i.icss-gift:before {
   width: .28em;

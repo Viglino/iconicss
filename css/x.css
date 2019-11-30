@@ -1,8 +1,8 @@
 i.icss-x{
-    width: 0em;
-    height: .18em;
+    width: 1em;
+    height: 1em;
     background-color: transparent;
-    margin: .41em 0.5em;
+    margin: 0;
 }
 i.icss-x:before,
 i.icss-x:after {

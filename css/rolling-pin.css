@@ -14,10 +14,10 @@ i.icss-rolling-pin:before {
   top: 50%;
 }
 i.icss-rolling-pin:after {
-  width: 1.2em;
+  width: .75em;
   height: .15em;
   border-radius: .05em;
-  box-shadow: inset -.45em 0 0 -.2em, inset .45em 0 0 -.2em;
+  box-shadow: -.25em 0, .25em 0;
   transform: translate(-50%, -50%) rotate(45deg);
   left: 50%;
   top: 50%;

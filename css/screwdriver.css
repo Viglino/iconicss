@@ -17,7 +17,7 @@ i.icss-screwdriver:before {
 i.icss-screwdriver:after {
     width: .25em;
     height: 0;
-    border-radius: .1em;
+    border-radius: 0 0 .1em .1em;
     border: .08em solid transparent;
     border-bottom: .25em solid currentColor;
     transform: rotate(45deg);

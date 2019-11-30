@@ -11,7 +11,7 @@ i.icss-electric-drill {
         -.45em 0 0 -.052em,
         -.5em 0 0 -.052em; 
     border-radius: 0 .05em .05em 0;
-    margin: .22em .17em .6em .48em;
+    margin: .22em .15em .6em .5em;
 }
 i.icss-electric-drill:before {
     width: .4em;
@@ -30,13 +30,11 @@ i.icss-electric-drill:before {
 i.icss-electric-drill:after {
     width: 0;
     height: .38em;
-    border-radius: 100% 0 0 100% / 50% 0 0 50%;
     border: .1em solid transparent;
-    border-right: .15em solid currentColor;
-    border-left-width: .18em;
-    box-shadow: .1em 0, 
-        -.35em 0 0 -.14em;
+    border-right: .16em solid currentColor;
+    border-left-width: .22em;
+    box-shadow: .1em 0, -.37em 0 0 -.16em;
     transform: translateY(-50%);
     top: 50%;
-    left: -.28em
+    left: -.33em
 }

@@ -1,13 +1,13 @@
 i.icss-pen {
   width: .5em;
-  height: 0.2em;
+  height: .2em;
   background-color: transparent;
-  margin: .4em .28em .35em .19em;
   transform: rotate(-45deg);
   border-radius: 0 .05em .05em 0;
   box-shadow: 
     inset .4em .02em 0 1em,
     .4em .02em, .4em -.02em, .48em 0em 0 -0.03em;
+  margin: .45em .3em .35em .2em;
 }
 .icss-stack i.icss-pen {
     transform: translate(-.5em, -.5em) rotate(-45deg);

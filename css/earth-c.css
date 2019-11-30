@@ -8,21 +8,30 @@ i.icss-earth-c {
   margin: .175em;
 }
 i.icss-earth-c:before {
-  height: .4em;
-  width: .23em;
-  background-color:#585;
+  height: .2em;
+  width: .2em;
   border-radius: 50%;
   transform: rotate(-15deg);
-  box-shadow: .47em -.3em 0 #585;
-  top: .23em;
-  left: 0;
+  border: .04em solid transparent;
+  box-shadow: 
+    inset -.01em -.02em .02em rgba(255,255,255,.3),
+    .04em .01em .03em rgba(255,255,255,.3),
+    -.02em -.01em .02em rgba(255,255,255,.3),
+    -.2em .1em 0 .04em #585,
+    -.25em -.05em 0  #585,
+    -.25em -.3em 0 .02em #585,
+    .35em -.2em 0 #585,
+    .4em .08em 0 .03em #585
+    ;
+  top: .3em;
+  left: .2em;
 }
 i.icss-earth-c:after {
   height: .15em;
   width: .25em;
   box-shadow: 
-    .4em -.1em .08em .05em rgba(255,255,255,.4),
-    .35em -.1em .08em .05em rgba(255,255,255,.4),
+    .4em -.15em .08em .05em rgba(255,255,255,.4),
+    .35em -.12em .08em .05em rgba(255,255,255,.4),
     .5em .3em .1em rgba(255,255,255,.4),
     .4em .25em .08em rgba(255,255,255,.4),
     .2em .25em .08em rgba(255,255,255,.4),
@@ -31,6 +40,6 @@ i.icss-earth-c:after {
     .4em .35em .1em rgba(255,255,255,.4)
     ;
   border-radius: 50%;
-  top: 0;
+  top: .05em;
   left: -.2em;
 }

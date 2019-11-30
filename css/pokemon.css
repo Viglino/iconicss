@@ -1,0 +1,18 @@
+i.icss-pokemon {
+    width: .84em;
+    height: .84em;
+    border-radius: 50%;
+	background-color: transparent;
+	border: .22em solid transparent;
+    box-shadow: inset 0 0 0 .08em, 0 0 0 .08em;
+    margin: .08em;
+}
+i.icss-pokemon:before {
+    width: .3em;
+    height: .18em;
+    background-color: currentColor;
+    box-shadow: .6em 0;
+    transform: translateY(-50%);
+    top: 50%;
+    left: -.25em;
+}

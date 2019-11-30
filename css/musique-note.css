@@ -2,6 +2,7 @@ i.icss-musique-note {
   width: 1em;
   height: 1em;
   background-color: transparent;
+  margin: 0;
 }
 i.icss-musique-note:before {
   width: .4em;

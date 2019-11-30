@@ -4,7 +4,7 @@ i.icss-question-circle {
     border-radius: 50%;
     border: .1em solid currentColor;
     background-color: transparent;
-        
+    margin: 0;
 }
 i.icss-question-circle:before {
     width: .4em;

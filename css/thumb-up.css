@@ -4,7 +4,7 @@ i.icss-thumb-up{
     background:currentColor;
     border-radius: .2em;
     box-shadow: .01em .13em, -.03em .26em, -.08em .38em;
-    margin: .3em .11em .45em .42em;
+    margin: .42em .11em .45em .42em;
     transform: rotate(-5deg)
 }
 .icss-stack i.icss-thumb-up {

@@ -1,0 +1,29 @@
+i.icss-science-beaker {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-science-beaker:before {
+  width: .4em;
+  height: .65em;
+  border: .05em solid transparent;
+  border-width: .03em;
+  border-radius: 0 0 .03em .03em;
+  box-shadow: inset 0 -.22em, .05em .03em, -.05em .03em;
+  transform: translate(-50%, -50%)  scaleY(.7) perspective(.1em) rotateX(7deg);
+  left: 50%;
+  top: 50%;
+}
+i.icss-science-beaker:after {
+  width: .38em;
+  height: .35em;
+  border: 0 solid currentColor;
+  border-width: 0 .07em .15em;
+  border-color: transparent currentColor;
+  transform: translateX(-50%);
+  box-shadow: .19em -.13em 0 -.13em,
+    -.19em -.13em 0 -.13em;
+  left: 50%;
+  top: .13em;
+}

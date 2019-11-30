@@ -1,8 +1,9 @@
 i.icss-pencil {
   width: .8em;
-  height: 0.25em;
-  background-color: currentColor;
-  margin: .35em .05em .35em;
+  height: .25em;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 .065em;
+  margin: .4em .1em .35em;
   transform: rotate(-45deg);
 }
 .icss-stack i.icss-pencil {

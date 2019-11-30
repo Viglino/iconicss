@@ -1,0 +1,23 @@
+i.icss-headphone {
+  width: .7em;
+  height: .5em;
+  border-radius: 25% / 50%;
+  background-color: transparent;
+  box-shadow: .2em 0 0 -.05em, -.2em 0 0 -.05em;
+  border: .1em solid transparent;
+  margin: .27em .15em .23em;
+}
+i.icss-headphone:before {
+  width: .6em;
+  height: .65em;
+  border:  .05em solid transparent;
+  border-bottom: 0;
+  border-top: .25em solid transparent;
+  border-radius: .3em .3em 0 0 / .25em .25em 0 0;
+  box-shadow: -.03em -.03em 0 .03em,
+    .03em -.03em 0 .03em,
+    inset .08em 0, inset -.08em 0;
+  transform: translateX(-50%);
+  top: -.3em;
+  left: 50%;
+}

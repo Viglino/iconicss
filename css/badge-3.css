@@ -1,0 +1,42 @@
+i.icss-badge-3 {
+  width: .55em;
+  height: .55em;
+  border-radius: 50%;
+  background-color: transparent;
+  border: .05em solid transparent;
+	box-shadow: inset 0 0 0 .065em, 
+    .19em .19em 0 -.15em,
+    -.19em .19em 0 -.15em,
+    -.19em -.19em 0 -.15em,
+    .19em -.19em 0 -.15em,
+    -.25em 0 0 -.15em,
+    .25em 0 0 -.15em,
+    0 -.25em 0 -.15em,
+    0 .25em 0 -.15em;
+  margin: .07em .225em .38em;
+}
+i.icss-badge-3:before {
+  content: "3";
+  width: 2em;
+  height: 1em;
+  line-height: 1em;
+  font-size: .28em;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+i.icss-badge-3:after {
+  width: .24em;
+  height: .27em;
+  border: .12em solid currentColor;
+  border-bottom: .07em solid transparent;
+  box-shadow: inset .1em 0;
+  transform: translateX(-50%) rotate(10deg) perspective(.1em) rotateX(7deg);
+    transform-origin: 50% 0;
+  box-shadow: inset .1em 0;
+  top: .5em;
+  left: 45%;
+}

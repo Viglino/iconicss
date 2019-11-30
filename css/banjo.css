@@ -1,0 +1,35 @@
+i.icss-banjo {
+    width: .4em;
+    height: .4em;
+    background-color: transparent;
+    border-radius: 50%;
+    border: .06em solid transparent;
+    box-shadow: inset 0 0 0 .065em, 0 0 0 .065em,
+        .2em .2em 0 -.15em,
+        -.2em .2em 0 -.15em,
+        -.2em -.2em 0 -.15em,
+        0 .28em 0 -.15em,
+        0 -.28em 0 -.15em,
+        .28em 0 0 -.15em,
+        -.28em 0 0 -.15em; 
+    margin: .47em .47em .13em .13em;
+}
+i.icss-banjo:before {
+    width: .15em;
+    height: .9em;
+    border-radius: .02em .02em .4em .4em;
+    box-shadow: 
+        inset 0 0 0 .065em;
+    transform: rotate(45deg);
+    top: -.62em;
+    left: .38em;
+}
+i.icss-banjo:after {
+    width: .25em;
+    height: .05em;
+    border-radius: .02em;
+    box-shadow: inset 0 .2em, 0 .075em, 0 .15em;
+    transform: rotate(45deg);
+    top: -.42em;
+    left: .56em;
+}

@@ -2,6 +2,7 @@ i.icss-success {
     width: 1em;
     height: 1em;
     background-color: transparent;
+    margin: 0;
 }
 i.icss-success:after,
 i.icss-success:before {

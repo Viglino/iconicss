@@ -1,0 +1,27 @@
+i.icss-pill {
+    width: 1em;
+    height: 1em;
+	background-color: transparent;
+    margin: 0;
+}
+i.icss-pill:before {
+    width: .4em;
+    height: .3em;
+    border-radius: .15em 0 0 .15em;
+    background-color: currentColor;
+    transform: translateY(-50%) rotate(-45deg);
+    transform-origin: .38em 50%;
+    top: 50%;
+    left: .12em;
+}
+i.icss-pill:after {
+    width: .4em;
+    height: .3em;
+    border-radius: .15em 0 0 .15em;
+    box-shadow: inset 0 0 0 .065em;
+    transform: translateY(-50%) rotate(135deg);
+    transform-origin: .38em 50%;
+    top: 50%;
+    left: .12em;
+}
+

@@ -9,23 +9,31 @@ i.icss-whatsapp {
 i.icss-whatsapp:before {
     width: .44em;
     height: .39em;
-    border-radius: 0 .0em;
+    border-radius: 10% 0 0 0;
     border-style: solid;
     border-width: .1em .11em;
     border-color: transparent currentColor currentColor transparent;
+    box-shadow: inset -.1em -.1em, 
+        -.19em -.33em 0 -.1em,
+        -.24em -.24em 0 -.08em;
     transform: rotate(93deg) skew(30deg);
     top: .44em;
     left: -.055em;
 }
 i.icss-whatsapp:after {
-    width: .28em;
-    height: .55em;
+    width: .32em;
+    height: .6em;
     background-color: transparent;
     border-width: .18em .12em;
     border-style: solid;
+    border-color: transparent;
     border-radius: .3em / .6em .2em .2em .6em;
-    border-right-color: transparent;
-    transform: rotate(-36deg);
-    top: .08em;
-    left: .2em
+    border-right-color: currentColor;
+    box-shadow: inset 0 0 0 .05em, 
+        .27em 0 0 -.05em,
+        -.27em 0 0 -.05em,
+        0 0 0 .15em;
+    transform: translate(-50%, -50%) rotate(-36deg);
+    top: 50%;
+    left: 50%;
 }

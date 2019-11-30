@@ -3,6 +3,7 @@ i.icss-question {
     height: 1em;
     background-color: transparent;
     border: .1em solid transparent;
+    margin: 0;
 }
 i.icss-question:before {
     width: .45em;

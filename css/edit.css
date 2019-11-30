@@ -1,0 +1,32 @@
+i.icss-edit {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  border-radius: 50% 45% 50% 35% ;
+  overflow: hidden;
+  margin: 0;
+}
+i.icss-edit:before {
+  width: .3em;
+  height: .8em;
+  border: .15em solid transparent;
+  border-top: .24em solid currentColor; 
+  transform: rotate(45deg) translate(-50%);
+  transform-origin: 0 0;
+  box-shadow: 
+    0 -.05em, 
+    .24em -.8em, 
+    -.24em -.8em, 
+    0 -1.5em;
+  clip: rect(-.9em .3em 1em 0);
+  left: .25em;
+  top: .75em;
+}
+i.icss-edit:after {
+  width: .1em;
+  height: 0;
+  background-color: transparent;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}

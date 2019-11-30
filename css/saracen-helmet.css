@@ -1,0 +1,31 @@
+i.icss-saracen-helmet {
+  width: .5em;
+  height: .45em;
+  background-color: transparent;
+  border-radius: 70% 70% 70% 70% / 100% 100% .15em .15em;
+  border: .05em solid transparent;
+  border-width: 0 .05em .05em;
+  box-shadow: inset .5em .5em, 0 0 0 .065em;
+  margin: .15em .25em .4em;
+}
+i.icss-saracen-helmet:before {
+  width: .63em;
+  height: .5em;
+  border-radius: 0 0 .18em .18em / 0 0 .2em .2em ;
+  border: .1em solid currentColor;
+  border-width: .1em .14em 0;
+  border-top-color: transparent;
+  transform: translate(-50%);
+  top: .35em;
+  left: 50%;
+}
+i.icss-saracen-helmet:after {
+  width: .3em;
+  height: .3em;
+  border-radius: .05em;
+  background-color: currentColor;
+  transform: translate(-50%) scaleX(.5) rotate(-45deg);
+  box-shadow: .38em -.38em 0 -.05em;
+  top: .33em;
+  left: 50%;
+}

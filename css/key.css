@@ -4,7 +4,7 @@ i.icss-key {
     background: transparent;
     border-radius: 50% / 47%;
     box-shadow: inset -.05em 0 0 .18em;
-    margin: .25em .5em .25em 0;
+    margin: .225em .45em .225em .05em;
     transform: rotate(45deg);
     transform-origin: .5em 50%;
 }

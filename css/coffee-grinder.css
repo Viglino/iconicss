@@ -1,0 +1,36 @@
+i.icss-coffee-grinder {
+  width: .6em;
+  height: .4em;
+  background-color: transparent;
+  border: .1em solid transparent;
+  border-width: .07em .1em;
+  box-shadow: inset 0 0 0 .065em, 0 0 0 .065em;
+  margin: .535em .2em .065em;
+}
+i.icss-coffee-grinder:before {
+  width: .6em;
+  height: .6em;
+  border-radius: 50%;
+  border: .23em solid currentColor;
+  border-color: transparent transparent currentColor currentColor;
+  box-shadow: inset 0 0 0 .1em, 
+    .42em .18em 0 -.24em,
+    -.37em .37em 0 -.25em;
+  transform: translateX(-50%) rotate(-45deg);
+  top: -.69em;
+  left: 50%;
+}
+i.icss-coffee-grinder:after {
+  width: .5em;
+  height: .08em;
+  border-radius: .05em;
+  background-color: currentColor;
+  box-shadow: 
+    -.03em .38em,
+    -.37em .38em,
+    -.03em .84em,
+    -.37em .84em;
+  top: -.52em;
+  left: .15em
+
+}

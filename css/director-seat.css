@@ -1,0 +1,37 @@
+i.icss-director-seat {
+  width: .8em;
+  height: .2em;
+  background-color: transparent;
+  border: .15em solid transparent;
+  border-top: 0;
+  border-bottom: .2em solid currentColor;
+  margin: .45em .1em .35em;
+}
+i.icss-director-seat:before {
+  width: .66em;
+  height: .5em;
+  background-color: transparent;
+  border: .08em solid transparent;
+  border-width: 0 .07em;
+  box-shadow: 
+    inset .065em 0,
+    inset -.065em 0,
+    .32em -.28em 0 -.215em,
+    -.32em -.28em 0 -.215em,
+    .07em 0, 
+    -.07em 0,
+    0 -.35em 0 -.07em;
+  clip: rect(-.5em 1em .35em -.2em);
+  left: -.08em;
+  top: -.15em
+}
+i.icss-director-seat:after {
+  width: 1em;
+  height: .48em;
+  border: 0 solid transparent;
+  border-width: .2em 0;
+  box-shadow: inset .2em 0, -.08em 0, -.48em 0 0 -.2em;
+  transform: scaleX(1.5) rotate(45deg);
+  top: .49em;
+  left: .32em;
+}

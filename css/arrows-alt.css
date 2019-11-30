@@ -3,6 +3,7 @@ i.icss-arrows-alt {
     height: 1em;
     background-color: transparent;
     overflow: hidden;
+    margin: 0;
 }
 i.icss-arrows-alt:before {
     height: 1.5em;

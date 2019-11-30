@@ -8,8 +8,8 @@ i.icss-bug {
     margin: .14em .3em 0 .25em;
     box-shadow: 0 -.32em 0 -0.18em, 
         inset 0 0 0 .065em, 
-        inset 1.29em .3em 0 -1em, 
-        inset -1.29em .3em 0 -1em;
+        inset 1.29em .29em 0 -1em, 
+        inset -1.29em .29em 0 -1em;
     transform: rotate(20deg);
 }
 .icss-stack i.icss-bug {

@@ -4,6 +4,7 @@ i.icss-info-circle {
     border-radius: 50%;
     border: .1em solid currentColor;
     background-color: transparent;
+    margin:0;
 }
 i.icss-info-circle:before {
     width: .15em;

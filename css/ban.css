@@ -4,6 +4,7 @@ i.icss-ban {
   border: 0.13em solid currentColor;
   background-color: transparent;
   border-radius: 100%;
+  margin: 0;
 }
 i.icss-ban:before {
   width: .9em;

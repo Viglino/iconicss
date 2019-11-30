@@ -1,8 +1,8 @@
 i.icss-circle-o {
-    width: 1em;
-    height: 1em;
-    border-radius: 50%;
-	background-color: transparent;
-	border: .1em solid currentColor;
-    margin: 0;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: transparent;
+  border: .1em solid currentColor;
+  margin: 0;
 }

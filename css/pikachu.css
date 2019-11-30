@@ -1,0 +1,35 @@
+i.icss-pikachu {
+    width: .8em;
+    height: .7em;
+    border-radius: 50% / 55% 55% 45% 45%;
+	background-color: transparent;
+    box-shadow: inset 0 0 0 .065em;
+    margin: .3em .15em 0;
+}
+i.icss-pikachu:before {
+    width: .45em;
+    height: .45em;
+    border-radius: 50%;
+    border: 0 solid transparent;
+    border-width: .1em 0;
+    box-shadow: inset 0 0 0 .07em,
+        inset .15em 0,
+        .4em .05em 0 -.16em,
+        .6em -.01em 0 -.17em;
+    transform: rotate(60deg);
+    top: -.29em;
+    left: -.13em;
+}
+i.icss-pikachu:after {
+    width: .45em;
+    height: .45em;
+    border-radius: 50%;
+    border: 0 solid transparent;
+    border-width: .1em 0;
+    box-shadow: inset 0 0 0 .07em,
+        inset .15em 0,
+        .4em -.05em 0 -.16em;
+    transform: rotate(120deg);
+    top: -.29em;
+    left: .48em;
+}

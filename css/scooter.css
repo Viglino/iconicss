@@ -4,7 +4,7 @@ i.icss-scooter {
   border-radius: 50%;
   border: .065em solid transparent;
   background-color: transparent;
-  box-shadow: inset .25em .25em, 
+  box-shadow: inset .4em 0, 
     -.1em -.1em 0 -.03em,
     -.08em -.13em 0 -.03em,
     -.69em 0 0 -.065em,
