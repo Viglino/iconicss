@@ -4,7 +4,6 @@ i.icss-headset {
   border-radius: 25% / 50%;
   background-color: transparent;
   box-shadow: .2em 0 0 -.05em, -.2em 0 0 -.05em;
-    inset .3em 0 0 -.2em;
   border: .1em solid transparent;
   margin: .27em .15em .23em;
 }
