@@ -1,0 +1,37 @@
+i.icss-pinterest {
+  width: .38em;
+  height: .48em;
+  border-radius: 60% 40% 60% 40%; 
+  background-color: transparent;
+  box-shadow: 
+    .01em .01em 0 -.0em,
+    -.155em -.015em 0 -.13em,
+    inset -.09em -.01em 0,
+    inset -.1em .04em,
+    inset -.035em -.034em 0 .04em,
+    inset -.01em -.07em 0 .03em;
+  margin: .12em .2em .3em .42em
+}
+i.icss-pinterest:before {
+  width: .1em;
+  height: .5em;
+  border-radius: .1em .1em .1em .1em / .1em .1em 70% 70%;
+  background-color: currentColor;
+  box-shadow: 0 -.08em, -.015em -.07em;
+  transform: rotate(15deg);
+  top: .18em;
+  left: -.04em;
+}
+i.icss-pinterest:after {
+  width: .56em;
+  height: .56em;
+  border-radius: 50%;
+  border: .08em solid currentColor;
+  border-color: currentColor transparent transparent currentColor;
+  transform: rotate(8deg);
+  box-shadow: inset -.01em .01em,
+    .01em -.01em;
+  top: -.048em;
+  left: -.175em;
+
+}

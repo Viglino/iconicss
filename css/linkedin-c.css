@@ -1,0 +1,33 @@
+i.icss-linkedin-c {
+  width: 1em;
+  height: 1em;
+  border-radius: .08em; 
+  border-color: #2867b2;
+  border-style: solid;
+  border-width: .37em .4em .15em .12em;
+  background-color: #fff;
+  margin: 0;
+}
+i.icss-linkedin-c:before {
+  width: .3em;
+  height: .485em;
+  border-radius: .15em .15em 0 0;
+  background-color: #2867b2;
+  box-shadow: 
+    inset -.1em .065em 0 .04em #fff, 
+    0 -.15em #2867b2,
+    0 .1em #2867b2,
+    -.385em -.14em 0 -.07em #2867b2,
+    -.385em .12em 0 -.07em #2867b2;;
+  top: 0;
+  left: .47em
+}
+i.icss-linkedin-c:after {
+  width: .2em;
+  height: .2em;
+  border-radius: 50%;
+  background-color: #fff;
+  top: -.27em;
+  left: -.02em;
+
+}
