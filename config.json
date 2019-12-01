@@ -591,6 +591,10 @@
     "x-wing-fighter": { "tags": "starwars" },
     "tie-fighter": { "tags": "starwars" },
     "tie-bomber": { "tags": "starwars" },
-    "vador-tie-fighter": { "tags": "starwars" }
+    "vador-tie-fighter": { "tags": "starwars" },
+    "avengers": { "date":"2019-12-01", "tags":"comics"},
+    "spiderman": { "date":"2019-12-01", "tags":"comics"},
+    "captain-america": { "date":"2019-12-01", "tags":"comics"},
+    "batman": { "date":"2019-12-01", "tags":"comics"}
  }
 }

@@ -12,7 +12,8 @@ i.icss-pet-bottle:before {
   width: .35em;
   height: .1em;
   border-radius: .05em;
-  box-shadow: inset 0 .2em, 0 .13em , 0 .26em;
+  background-color: currentColor;
+  box-shadow: 0 .13em , 0 .26em;
   top: .14em;
   left: 50%;
   transform: translateX(-50%);
@@ -21,7 +22,8 @@ i.icss-pet-bottle:after {
   width: .35em;
   height: .3em;
   border-radius: .05em;
-  box-shadow: inset 0 .3em, 0 -.75em 0 -.11em;
+  background-color: currentColor;
+  box-shadow: 0 -.75em 0 -.11em;
   top: .53em;
   left: 50%;
   transform: translateX(-50%);

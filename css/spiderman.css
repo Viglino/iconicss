@@ -1,0 +1,32 @@
+i.icss-spiderman {
+	width: .8em; 
+	height: 1em; 
+	border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 .07em;
+  background-image: linear-gradient( 90deg, 
+      transparent 48%, currentColor 48%, 
+      currentColor 52%, transparent 50%),
+    radial-gradient(circle at 50% 55%, 
+      transparent 5%, currentColor 5%,
+      currentColor 8%, transparent 8%);
+  margin: 0 .15em;
+}
+i.icss-spiderman:before {
+  width: .3em;
+  height: .2em;
+  border-radius: .05em 0 60% 40% / .05em 0 85% 70%;
+  box-shadow: inset 0 0 0 .065em;
+  transform: translate(-50%, -50%) rotate(-20deg);
+  left: 74%;
+  top: 55%;
+}
+i.icss-spiderman:after {
+  width: .3em;
+  height: .2em;
+  border-radius:  0 .05em 40% 60% / 0 .05em 70% 85%;
+  box-shadow: inset 0 0 0 .065em;
+  transform: translate(-50%, -50%) rotate(20deg);
+  left: 26%;
+  top: 55%;
+}
