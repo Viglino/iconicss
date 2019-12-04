@@ -4,8 +4,8 @@ i.icss-antman {
 	border-radius: 45% 45% / 28% 28% 55% 55%;
   background-color: transparent;
   box-shadow: 
-    inset .21em 0 0 -.1em,
-    inset -.21em 0 0 -.1em,
+    inset .13em .07em,
+    inset -.13em .07em,
     .35em -.02em 0 -.32em,
     -.35em -.02em 0 -.32em;
   background-image: 
