@@ -5,6 +5,7 @@ i.icss-facebook-c {
   background-color: #fff;
   color: #3C5A99;
   overflow: hidden;
+  margin: 0;
 }
 i.icss-facebook-c:before {
   border-radius: .2em 0 0 0;

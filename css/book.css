@@ -1,8 +1,8 @@
 i.icss-book {
-    width:1em;
+    width: 1em;
     height:.8em;
     background-color: transparent; 
-    margin: 0 .03em .08em 0;
+    margin: .1em .02em .1em -.02em;
 }
 i.icss-book:before {
     height: .8em;

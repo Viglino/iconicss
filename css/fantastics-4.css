@@ -1,0 +1,24 @@
+i.icss-fantastics-4 {
+  width: .82em;
+  height: .82em;
+  background-color: transparent;
+  box-shadow: 0 0 0 .09em;
+  border-radius: 50%;
+  border-left:.16em solid transparent;
+  overflow: hidden;
+  margin: .09em;
+}
+i.icss-fantastics-4:before {
+  width: .12em;
+  height: 1em;
+  background-color: currentColor;
+  left: .4em
+}
+i.icss-fantastics-4:after {
+  width: 1em;
+  height: .6em;
+  border: .1em solid currentColor;
+  border-width: 0 0 .12em .15em ;
+  transform: skewX(-40deg);
+  left: .15em
+}

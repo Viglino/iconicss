@@ -1,0 +1,35 @@
+i.icss-batman-logo-c {
+  width: 1em;
+  height: .7em;
+  border-radius: 50%;
+  background-color: #fdff00;
+  border: .065em solid #222;
+  box-shadow: 0 0 0 .05em #fF0;
+  overflow: hidden;
+  margin: .15em .05em;
+}
+i.icss-batman-logo-c:before {
+  width: .22em;
+  height: .2em;
+  border-radius: 50%;
+  box-shadow: .17em .14em #222, -.17em .14em #222,
+    -.23em .49em 0 -.05em #222,
+    -.2em .55em 0 -.05em #222,
+    .2em .55em 0 -.05em #222,
+    .23em .49em 0 -.05em #222;
+  transform: translateX(-50%);
+  left: 50%;
+  top: -.12em;
+}
+i.icss-batman-logo-c:after {
+  width: .1em;
+  height: .35em;
+  border-radius: .05em / 50%;
+  background-color: #222;
+  box-shadow: .1em .13em #222, -.1em .13em #222,
+    -.095em .69em 0 .04em #222,
+    .095em .69em 0 .04em #222;
+  transform: translateX(-50%);
+  left: 50%;
+  top: -.3em;
+}

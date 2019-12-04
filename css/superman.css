@@ -1,0 +1,51 @@
+i.icss-superman {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  box-shadow: inset 0 .14em;
+  background-image: 
+    linear-gradient(
+      transparent 16%, currentColor 16%,
+      currentColor 19%, transparent 19%
+    ),
+    linear-gradient(45deg,
+      currentColor 25%, transparent 25%,
+      transparent 27%, currentColor 27%,
+      currentColor 30%, transparent 30%,
+      transparent 80%, currentColor 80%,
+      currentColor 83%, transparent 83%,
+      transparent 85%, currentColor 85%
+    ),
+    linear-gradient(-45deg,
+      currentColor 25%, transparent 25%,
+      transparent 27%, currentColor 27%,
+      currentColor 30%, transparent 30%,
+      transparent 80%, currentColor 80%,
+      currentColor 83%, transparent 83%,
+      transparent 85%, currentColor 85%
+    ),
+    radial-gradient(circle at .36em .69em, currentColor .07em, transparent .07em);
+  overflow: hidden;
+  margin: 0;
+}
+i.icss-superman:before {
+  width: .26em;
+  height: .16em;
+  border-radius: 80% 0 0 80% / 50%;
+  box-shadow: -.1em .02em 0 .08em,
+    .15em -.07em 0 -.03em;
+  transform: skewX(-40deg);
+  left: .33em;
+  top: .26em;
+}
+i.icss-superman:after {
+  width: .25em;
+  height: .18em;
+  border: 0 solid transparent;
+  border-radius: 0 90% 60% 10% / 50%;
+  box-shadow: .08em -.02em 0 .08em, 
+    .01em -.38em 0 -.06em;
+  transform: skewX(-30deg);
+  left: .37em;
+  top: .52em;
+}

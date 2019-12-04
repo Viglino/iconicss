@@ -1,0 +1,59 @@
+i.icss-cyclops-c {
+	width: .72em; 
+	height: 1em; 
+	border-radius: 50% 50% 40% 40% / 30% 30% 60% 60%;
+  background-color: #fda;
+  box-shadow0: 
+    inset 0 0 0 .065em #19f, 
+    inset .12em .065em #19f, 
+    inset -.12em .065em #19f;
+  background-image: 
+    radial-gradient(circle at .38em -.18em, 
+      #520 30%, transparent 30%),
+    radial-gradient(circle at .15em -.065em, 
+      #520 30%, transparent 30%),
+    radial-gradient(circle at .85em 0, 
+      #520 30%, transparent 30%),
+    radial-gradient(circle at -.0em 0, 
+      #520 27%, transparent 27%),
+    linear-gradient(90deg, 
+      #06c, #19f 20%, transparent 20%,
+      transparent 80%, #19f 80%, #06c);
+  margin: 0 .14em;
+}
+i.icss-cyclops-c:after {
+  width: .6em;
+  height: .16em;
+  border-radius: 30%;
+  border: 0 solid #fe0;
+  background-color: #fe0;
+  border-width: .05em .06em .04em;
+  box-shadow: inset 0 1em #f00, 
+    .03em 0 0 .02em #fe0,
+    -.03em 0 0 .02em #fe0,
+    0 0 0 .065em #fa0,
+    .07em 0 0 .065em #19f,
+    -.07em 0 0 .065em #19f
+    ;
+  transform: translateX(-50%);
+  left: 50%;
+  top: .4em;
+}
+i.icss-cyclops-c:before {
+  width: .18em;
+  height: .1em;
+  border-radius: 0 0 50% 50%;
+  box-shadow: 
+    -.3em -.18em 0 .01em #520,
+    -.15em .21em #19f, 
+    -.2em .21em #19f, 
+    .15em .21em #19f, 
+    .2em .21em #19f, 
+    .03em .38em 0 -.034em #a80,
+    -.03em .38em 0 -.034em #a80,
+    -0 .45em 0 -.038em #a80,
+    0 .29em 0 -.034em #a80;
+  transform: translateX(-50%);
+  top: .35em;
+  left: 50%;
+}

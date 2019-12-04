@@ -1,0 +1,32 @@
+i.icss-food-processor {
+  width: .8em;
+  height: .93em;
+  border-radius: .05em .2em .1em .05em;
+  background-color: transparent;
+  border-bottom: .065em solid transparent;
+  box-shadow: inset -.09em .25em, 
+    inset 0 -.07em,
+    0 .07em;
+  margin: 0 0 .07em .2em;
+}
+i.icss-food-processor:before {
+  width: .6em;
+  height: .4em;
+  border-radius: .05em .05em 40% 40% / .05em .05em 90% 90%;
+  box-shadow: inset 0 0 0 .065em, 0 -.4em 0 -.12em;
+  top: .43em;
+  left: -.1em;
+}
+i.icss-food-processor:after {
+  width: .2em;
+  height: .45em;
+  box-shadow: 
+    inset .07em .28em,
+    inset 0 -.07em,
+    0 .55em,
+    -.07em .2em 0 -.07em,
+    -.45em -.15em 0 -.05em;
+  clip: rect(0 1em .6em -.5em);
+  left: .55em;
+  top: .2em;
+}

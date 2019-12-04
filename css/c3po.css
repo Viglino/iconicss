@@ -4,7 +4,7 @@ i.icss-c3po {
   border-radius: 50% / 40% 40% 60% 60%;
   background: transparent;
   box-shadow: .04em -.06em, -.04em -.06em, 0 -.08em;
-  margin: .1em .2em 0;
+  margin: .1em .125em -.05em;
 }
 
 i.icss-c3po:before {

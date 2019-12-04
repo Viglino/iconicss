@@ -1,0 +1,37 @@
+i.icss-kilo-ren-saber-c {
+    width: 1em;
+    height: 1em;
+    background-color: transparent;
+    margin: 0;
+  }
+  i.icss-kilo-ren-saber-c:before {
+    width: .9em;
+    height: .08em;
+    border-radius: 0 .1em .1em 0;
+    transform: translate(-50%, -50%) rotate(-45deg) translateX(.19em);
+    background-color: #fff;
+    box-shadow: 
+      inset 0 0 .02em .02em #f00,
+      0 0 .04em #f00,
+      -1.1em 0 0 .01em #333,
+      -1em 0 0 .01em #666,
+      -.9em 0 0 .01em #333;
+    clip: rect(-.1em 1em 1em -.3em);
+    top: 50%;
+    left: 50%;
+  }
+  i.icss-kilo-ren-saber-c:after {
+    width: .08em;
+    height: .2em;
+    border-radius: .02em;
+    background-color: #333;
+    box-shadow: 
+      0 .18em .013em -.015em #fff,
+      0 .18em .04em #f00,
+      0 -.18em .013em -.015em #fff,
+      0 -.18em .04em #f00,
+      -.32em 0 0 -.02em #333;
+    transform: translate(-50%,-50%) rotate(-45deg) translateX(-.25em);
+    top: 50%;
+    left: 50%;
+  }

@@ -1,0 +1,49 @@
+i.icss-spiderman-c {
+	width: .8em; 
+	height: 1em; 
+	border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+  background-color: #b11;
+  box-shadow: inset -.01em -.01em .1em .03em #348;
+  background-image: linear-gradient( 90deg, 
+      transparent 48.5%, #348 48.5%, 
+      #348 51.5%, transparent 51.5%),
+    linear-gradient( 60deg, 
+      transparent 47%, #348 47%, 
+      #348 49%, transparent 49%),
+    linear-gradient( -60deg, 
+      transparent 47%, #348 47%, 
+      #348 49%, transparent 49%),
+    linear-gradient( 32deg, 
+      transparent 46%, #348 46%, 
+      #348 48%, transparent 48%),
+    linear-gradient( -32deg, 
+      transparent 46%, #348 46%, 
+      #348 48%, transparent 48%),
+    radial-gradient(ellipse 170% 80% at 50% 52%, 
+      transparent 28%, #348 28%,
+      #348 31%, transparent 31%),
+    radial-gradient(ellipse 120% 100% at 50% 50%, 
+      transparent 37%, #348 37%,
+      #348 40%, transparent 40%);
+  margin: 0 .1em;
+}
+i.icss-spiderman-c:before {
+  width: .32em;
+  height: .2em;
+  border-radius: .05em 0 70% 30% / .05em 0 100% 70%;
+  background-color: #fff;
+  border: .065em solid #000;
+  transform: translate(-50%, -50%) rotate(-20deg);
+  left: 75%;
+  top: 55%;
+}
+i.icss-spiderman-c:after {
+  width: .32em;
+  height: .2em;
+  border-radius:  0 .05em 30% 70% / 0 .05em 70% 100%;
+  background-color: #fff;
+  border: .065em solid #000;
+  transform: translate(-50%, -50%) rotate(20deg);
+  left: 25%;
+  top: 55%;
+}

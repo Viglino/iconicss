@@ -1,0 +1,48 @@
+i.icss-cyclops {
+	width: .76em; 
+	height: 1em; 
+	border-radius: 50% 50% 40% 40% / 30% 30% 60% 60%;
+  background-color: transparent;
+  box-shadow: 
+    inset 0 0 0 .065em, 
+    inset .12em .065em, 
+    inset -.12em .065em;
+  background-image: 
+    radial-gradient(circle at .38em -.18em, 
+      currentColor 30%, transparent 30%),
+    radial-gradient(circle at .15em -.065em, 
+      currentColor 30%, transparent 30%),
+    radial-gradient(circle at .85em 0, 
+      currentColor 30%, transparent 30%);
+  margin: 0 .12em;
+}
+i.icss-cyclops:after {
+  width: .75em;
+  height: .16em;
+  border-radius: 30%;
+  border: 0 solid transparent;
+  border-width: .05em .18em;
+  box-shadow: inset 0 1em, 
+    0 0 0 .065em;
+  transform: translateX(-50%);
+  left: 50%;
+  top: .4em;
+}
+i.icss-cyclops:before {
+  width: .18em;
+  height: .1em;
+  border-radius: 0 0 50% 50%;
+  box-shadow: 
+    -.3em -.18em 0 .01em,
+    -.15em .21em, 
+    -.2em .21em, 
+    .15em .21em, 
+    .2em .21em, 
+    .03em .38em 0 -.034em,
+    -.03em .38em 0 -.034em,
+    -0 .45em 0 -.038em,
+    0 .29em 0 -.034em;
+  transform: translateX(-50%);
+  top: .35em;
+  left: 50%;
+}

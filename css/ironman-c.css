@@ -1,0 +1,54 @@
+i.icss-ironman-c {
+	width: .76em; 
+	height: 1em; 
+	border-radius: 40% / 30% 30% 60% 60%;
+  background-color: #fc0;
+  box-shadow: inset 0 .065em #800, 
+    inset -.02em -.06em #800,
+    inset .02em -.06em #800,
+    .38em 0 0 -.33em #800,
+    -.38em 0 0 -.33em #800;
+  background-image: 
+    radial-gradient(ellipse 170% 80% at 50% 0, 
+      transparent 54%, #800 54%,
+      #800 62%, transparent 62%),
+    radial-gradient(circle at 110% 18%, 
+      #800 20%, transparent 20%),
+    radial-gradient(circle at -10% 18%, 
+      #800 20%, transparent 20%),
+    radial-gradient(ellipse 100% 100% at 100% 94%, 
+      #800 35%, transparent 35%),
+    radial-gradient(ellipse 100% 100% at 0% 94%, 
+      #800 35%, transparent 35%);
+  margin: 0 .12em;
+}
+i.icss-ironman-c:before {
+  width: .25em;
+  height: .7em;
+  border-style: solid;
+  border-radius: 40%;
+  border-color: #800 transparent;
+  border-width: .3em .05em 0;
+  box-shadow: 0 .85em 0 -.07em #800;
+  transform: translateX(-50%);
+  clip: rect(.05em 1em 1em -1em);
+  left: 50%;
+  top: -.06em;
+}
+i.icss-ironman-c:after {
+  width: .22em;
+  height: .13em;
+  border-radius: 0 0 50% 50%;
+  transform: translateX(-50%);
+  box-shadow: 
+    -.17em .1em .01em -.055em #fff, 
+    -.17em .1em .02em -.03em #aaf, 
+    .17em .1em .01em -.055em #fff, 
+    .17em .1em .02em -.03em #aaf, 
+    -.17em .1em #800, 
+    .17em .1em #800, 
+    0 .45em 0 -.045em #800,
+    0 .3em 0 -.045em #800;
+  top: .35em;
+  left: 50%;
+}

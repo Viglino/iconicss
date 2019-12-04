@@ -1,14 +1,8 @@
 i.icss-war-hammer {
-  width: .2em;
+  width: 1em;
   height: 1em;
   background-color: transparent;
-  box-shadow: inset 0 0 0 .065em, inset 0 -.3em;
-  border-radius: .06em;
-  transform: rotate(30deg);
-  margin: 0 .45em 0 .35em;
-}
-.icss-stack i.icss-war-hammer {
-  transform: translate(-.5em, -.5em) rotate(30deg);
+  margin: 0;
 }
 i.icss-war-hammer:before {
   width: .5em;
@@ -17,19 +11,20 @@ i.icss-war-hammer:before {
   border: .065em solid transparent;
   border-width: 0 .08em;
   box-shadow: inset .5em .5em,
+    0 .42em 0 -.095em,
+    0 .72em 0 -.095em,
     -.05em 0 0 .065em,
     .05em 0 0 .065em;
-  transform: translate(-50%);
-  top: .15em;
+  transform: translate(-50%, -50%) rotate(30deg) translateY(-.22em);
+  top: 50%;
   left: 50%;
 }
 i.icss-war-hammer:after {
-  width: .3em;
-  height: .1em;
-  border-radius: .05em;
-  background-color: currentColor;
-  box-shadow: 0 .28em;
-  transform: translateX(-50%);
-  top: .65em;
+  width: .2em;
+  height: 1em;
+  box-shadow: inset 0 0 0 .065em, inset 0 -.3em;
+  border-radius: .06em;
+  transform: translate(-50%, -50%) rotate(30deg);
+  top: 50%;
   left: 50%;
 }

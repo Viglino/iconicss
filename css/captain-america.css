@@ -1,6 +1,51 @@
 i.icss-captain-america {
+	width: .75em; 
+	height: 1em; 
+	border-radius: 50% 50% 45% 45% / 35% 35% 55% 55%;
+  background-color: transparent;
+  box-shadow: 
+    inset .21em .14em 0 -.1em,
+    inset -.21em .14em 0 -.1em;
+  background-image: 
+    linear-gradient( 
+      currentColor 10%, transparent 10%,
+      transparent 34%, currentColor 34%,
+      currentColor 43%, transparent 43%
+    ),
+    linear-gradient(120deg, 
+      currentColor 30%, transparent 30%),
+    linear-gradient(-120deg, 
+      currentColor 30%, transparent 30%),
+    radial-gradient(ellipse 100% 45% at 50% 100%, 
+      currentColor 30%, transparent 30%),
+    radial-gradient(ellipse 110% 60% at 28% 49%, 
+      transparent 12%, currentColor 12%,
+      currentColor 25%, transparent 25%),
+    radial-gradient(ellipse 110% 60% at 72% 49%, 
+      transparent 12%, currentColor 12%,
+      currentColor 25%, transparent 25%)
+    ;
+  margin: 0 .125em;
+}
+i.icss-captain-america:before {
+  border: .05em solid transparent;
+  border-bottom: .09em solid currentColor;
+  border-top: 0;
+  box-shadow: 0 .17em 0 .03em, 
+    0 .54em 0 .02em;
+  clip: rect(0 1em .56em -.5em);
+  transform: translateX(-50%);
+  left: 50%;
+  top: .15em;
+}
+i.icss-captain-america:after {
   width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  margin: 0;
+  height: .38em;
+  border-style: solid;
+  border-width: .22em .1em 0;
+  border-color: transparent currentColor;
+  border-radius: .1em .1em .05em .05em;
+  transform: translateX(-50%);
+  left: 50%;
+  top: .18em;  
 }

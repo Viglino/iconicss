@@ -1,0 +1,38 @@
+i.icss-deadpool {
+	width: .76em; 
+	height: 1em; 
+	border-radius: 50% 50% 43% 43% / 25% 25% 60% 60%;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 .065em;
+  background-image: 
+    radial-gradient(ellipse 69% 110% at 100% 50%, 
+      transparent 50%, currentColor 50%,
+      currentColor 56%, transparent 56%),
+    radial-gradient(ellipse 68% 110% at 0% 50%, 
+      transparent 50%, currentColor 50%,
+      currentColor 56%, transparent 56%)
+  ;
+  margin: 0 .12em;
+}
+i.icss-deadpool:after {
+  width: .29em;
+  height: .5em;
+  border-radius: 25% 70% 40% 60% / 40% 60%;
+  box-shadow: 
+    inset .02em .22em 0 .04em,
+    inset 0 -.1em 0 .05em;
+  transform: translateX(-.18em) translate(-50%, -50%);
+  left: 50%;
+  top: 45%;
+}
+i.icss-deadpool:before {
+  width: .29em;
+  height: .5em;
+  border-radius: 70% 25% 60% 40% / 60% 40%;
+  box-shadow: 
+    inset -.02em .22em 0 .04em,
+    inset 0 -.1em 0 .05em;
+  transform: translateX(.18em) translate(-50%, -50%);
+  left: 50%;
+  top: 45%;
+}

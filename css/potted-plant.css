@@ -1,0 +1,33 @@
+i.icss-potted-plant {
+  width: .17em;
+  height: .17em;
+  border-radius: 50%;
+  box-shadow: 
+    .13em .07em,
+    .13em -.07em,
+    -.13em .07em,
+    -.13em -.07em,
+    0 .15em,
+    0 -.15em;
+  background-color: transparent;
+  margin: .15em .38em .68em .45em;
+}
+
+i.icss-potted-plant:before {
+  width: .38em;
+  height: .7em;
+  border-style: solid;
+  border-width: .27em .09em;
+  border-color: currentColor transparent transparent;
+  box-shadow: 0 -.08em, 0 -.5em 0 -.165em;
+  left: -.15em;
+  top: .58em
+}
+i.icss-potted-plant:after {
+  width: .22em;
+  height: .22em;
+  border-radius: 0 1em 0;
+  background-color: currentColor;
+  top: .25em;
+  left: -.23em;
+}

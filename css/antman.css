@@ -1,0 +1,49 @@
+i.icss-antman {
+	width: .7em; 
+	height: .95em; 
+	border-radius: 45% 45% / 28% 28% 55% 55%;
+  background-color: transparent;
+  box-shadow: 
+    inset .21em 0 0 -.1em,
+    inset -.21em 0 0 -.1em,
+    .35em -.02em 0 -.32em,
+    -.35em -.02em 0 -.32em;
+  background-image: 
+    radial-gradient(circle at 50% 0, 
+      currentColor 52%, transparent 52%),
+    radial-gradient(ellipse 100% 100% at 28% 46%, 
+      transparent 12%, currentColor 12%,
+      currentColor 23%, transparent 23%),
+    radial-gradient(ellipse 100% 100% at 72% 46%, 
+      transparent 12%, currentColor 12%,
+      currentColor 23%, transparent 23%)
+    ;
+  margin: .02em .15em .03em;
+}
+i.icss-antman:before {
+  width: .73em;
+  height: .55em;
+  box-shadow: 
+    .05em 0, -.05em 0;
+  transform: translateX(-50%) perspective(.1em) rotateX(-2deg);
+  left: 50%;
+  top: 0;
+}
+i.icss-antman:after {
+  width: .12em;
+  height: .15em;
+  border-style: solid;
+  border-width: 0 .03em .08em;
+  border-color: currentColor  transparent ;
+  border-radius: 40%;
+  box-shadow: 
+    inset 0 .1em,
+    0 0 0 .05em,
+    .425em -.91em 0 -.02em,
+    -.425em -.91em 0 -.02em;
+  transform: translateX(-50%);
+  clip: rect(-1em 1em .15em -1em);
+  left: 50%;
+  top: .85em;  
+
+}

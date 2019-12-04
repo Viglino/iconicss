@@ -3,7 +3,7 @@ i.icss-boba-feet {
   height: .55em;
   border-radius: .04em .04em .3em .3em / 100% 100% .2em .2em;
   background: transparent;
-  margin: .35em .2em 0;
+  margin: .4em .16em .05em .2em;
   background-image: 
     radial-gradient(circle at .32em -.48em, 
       currentcolor 0em, currentcolor .6em, transparent .061em),

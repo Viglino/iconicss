@@ -1,29 +1,29 @@
 i.icss-avengers {
-  width: .13em;
+  width: .15em;
   height: .35em;
   background-color: transparent;
   border-style: solid;
   border-color: currentColor transparent;
-  border-width: .13em 0 .13em .13em;
+  border-width: .15em 0 .15em .15em;
   box-shadow: 0 .03em, 0 -.24em, 0 -.4em;
   margin: .45em .25em .2em .62em;
 }
 i.icss-avengers:before {
   width: .16em;
-  height: .9em;
+  height: .91em;
   background-color: currentColor;
   transform: skewX(-26deg);
   transform-origin: 0 0;
-  left: -.16em;
-  top: -.53em
+  left: -.17em;
+  top: -.55em
 }
 i.icss-avengers:after {
   width: .3em;
-  border: .11em solid transparent;
-  border-left: .11em solid currentColor;
+  border: .12em solid transparent;
+  border-left: .12em solid currentColor;
   box-shadow: -.25em 0 0 -.045em;
   transform: translateY(-50%);
   top: 50%;
-  left: -.13em;
+  left: -.15em;
 }
 

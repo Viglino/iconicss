@@ -1,0 +1,33 @@
+i.icss-lightsaber-c-0 {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-lightsaber-c-0:before {
+  width: .1em;
+  height: .07em;
+  border-radius: 0 .1em .1em 0;
+  transform: translate(-50%, -50%) rotate(-45deg) translateX(-.3em);
+  top: 50%;
+  left: 50%;
+}
+i.icss-lightsaber-c-0:after {
+  width: .5em;
+  height: .2em;
+  border: 0 solid transparent;
+  border-width: .2em .1em 0;
+  border-left-color: #333;
+  box-shadow: 
+    -.03em 0 0 -.005em #333, 
+    -.4em -.04em 0 -.08em #333,
+    -.1em 0 0 -.04em #666,
+    -.4em .04em 0 -.08em #999,
+    -.7em 0 0 -.06em #333,
+    -.6em 0 0 -.06em #666,
+    -.2em 0 0 -.04em #aaa;
+  transform: translate(-50%,-50%) rotate(-45deg) translateX(-.02em);
+  clip: rect(0 1em 1em -.36em);
+  top: 50%;
+  left: 50%;
+}

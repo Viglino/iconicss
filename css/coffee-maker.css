@@ -1,0 +1,31 @@
+i.icss-coffee-maker {
+  width: .8em;
+  height: .93em;
+  border-radius: .1em .2em .1em .05em;
+  background-color: transparent;
+  border-bottom: .065em solid transparent;
+  box-shadow: inset -.2em .27em, 
+    inset 0 -.07em,
+    0 .07em;
+  margin: 0 0 .07em .2em;
+}
+i.icss-coffee-maker:before {
+  width: .45em;
+  height: .45em;
+  border-radius: 50% 50% .08em .08em / 80% 80% 20% 20%;
+  box-shadow: inset 0 0 0 .065em, 
+    inset 0 -.15em,
+    0 -.18em 0 -.15em,
+    0 -.39em 0 -.1em;
+  top: .35em;
+  left: .02em;
+}
+i.icss-coffee-maker:after {
+  width: .24em;
+  height: .3em;
+  border: .07em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 70% 20%;
+  left: -.1em;
+  top: .42em;
+}

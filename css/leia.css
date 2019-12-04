@@ -6,7 +6,7 @@ i.icss-leia {
     box-shadow: inset 0 0 0 .07em, 
         inset 0 .3em 0 -.05em,
         .4em 0 0 -.25em, -.4em 0 0 -.25em;
-    margin: 0 .15em;
+    margin: 0 .13em;
 }
 .icss-stack i.icss-leia {
     transform: translate(-.55em, -.5em);

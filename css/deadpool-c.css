@@ -1,0 +1,39 @@
+i.icss-deadpool-c {
+	width: .76em; 
+	height: 1em; 
+	border-radius: 50% 50% 43% 43% / 25% 25% 60% 60%;
+  background-color: #c23;
+  background-image: 
+    radial-gradient(ellipse 69% 110% at 100% 50%, 
+      #a23 50%, #333 50%,
+      #333 56%, transparent 56%),
+    radial-gradient(ellipse 68% 110% at 0% 50%, 
+      #a23 50%, #333 50%,
+      #333 56%, transparent 56%)
+  ;
+  margin: 0 .12em;
+}
+i.icss-deadpool-c:after {
+  width: .29em;
+  height: .5em;
+  border-radius: 25% 70% 40% 60% / 40% 60%;
+  background-color: #fff;
+  box-shadow: 
+    inset .02em .22em 0 .04em #333,
+    inset 0 -.1em 0 .05em #333;
+  transform: translateX(-.18em) translate(-50%, -50%);
+  left: 50%;
+  top: 45%;
+}
+i.icss-deadpool-c:before {
+  width: .29em;
+  height: .5em;
+  border-radius: 70% 25% 60% 40% / 60% 40%;
+  background-color: #fff;
+  box-shadow: 
+    inset -.02em .22em 0 .04em #333,
+    inset 0 -.1em 0 .05em #333;
+  transform: translateX(.18em) translate(-50%, -50%);
+  left: 50%;
+  top: 45%;
+}

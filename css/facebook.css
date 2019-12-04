@@ -4,6 +4,7 @@ i.icss-facebook {
   border-radius: .08em; 
   background-color: transparent;
   overflow: hidden;
+  margin: 0;
 }
 i.icss-facebook:before {
   border-radius: .2em 0 0 0;

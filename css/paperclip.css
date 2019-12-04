@@ -1,32 +1,30 @@
 i.icss-paperclip {
-  width: .21em;
-  height: 0.7em;
+  width: 1em;
+  height: 1em;
   background-color: transparent;
-  border-radius: .2em .2em 0 0;
-  border:.07em solid currentColor;
-  border-bottom: 0;
-  transform: rotate(45deg);
-  margin: .1em .35em .15em .5em;
-}
-.icss-stack i.icss-paperclip {
-    transform: translate(-.5em, -.5em) rotate(45deg);
+  margin: 0;
 }
 i.icss-paperclip:before {
   width: .35em;
-  height: .7em;
-  top: .3em;
-  left: -.21em;
-  border-radius: 0 0 .2em .2em;
-  border:.07em solid currentColor;
-  border-top: 0;
+  height: 1em;
+  border-radius: .17em;
+  border:.07em solid transparent;
+  box-shadow: inset 0 0 0 .07em, 
+    0 0 0 .07em;
+  transform: translate(-50%, -50%) rotate(45deg);
+  clip: rect(-.1em 1em .75em -.1em);
+  top: 53%;
+  left: 53%;
 }
 i.icss-paperclip:after {
-  width: .5em;
-  height: .83em;
-  left: -.21em;
-  top: -.2em;
-  border-radius: .2em .2em 0 0;
-  border: solid .07em currentColor;
-  border-bottom: 0;
+  width: .21em;
+  height: 1.1em;
+  border-radius: .2em;
+  border:.07em solid transparent;
+  box-shadow: 0 0 0 .07em;
+  transform: translate(-50%, -50%) rotate(45deg) translateX(-.07em);
+  clip: rect(.5em 1em 1.5em -.1em);
+  top: 53%;
+  left: 53%;
 }
 

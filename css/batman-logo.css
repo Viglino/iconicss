@@ -1,0 +1,34 @@
+i.icss-batman-logo {
+  width: 1em;
+  height: .7em;
+  border-radius: 50%;
+  background-color: transparent;
+  border: .065em solid currentColor;
+  overflow: hidden;
+  margin: .15em 0;
+}
+i.icss-batman-logo:before {
+  width: .22em;
+  height: .2em;
+  border-radius: 50%;
+  box-shadow: .17em .14em, -.17em .14em,
+    -.23em .49em 0 -.05em,
+    -.2em .55em 0 -.05em,
+    .2em .55em 0 -.05em,
+    .23em .49em 0 -.05em;
+  transform: translateX(-50%);
+  left: 50%;
+  top: -.12em;
+}
+i.icss-batman-logo:after {
+  width: .1em;
+  height: .35em;
+  border-radius: .05em / 50%;
+  background-color: currentColor;
+  box-shadow: .1em .13em, -.1em .13em,
+    -.095em .69em 0 .04em,
+    .095em .69em 0 .04em;
+  transform: translateX(-50%);
+  left: 50%;
+  top: -.3em;
+}

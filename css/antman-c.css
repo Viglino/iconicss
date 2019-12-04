@@ -1,0 +1,54 @@
+i.icss-antman-c {
+	width: .7em; 
+	height: .95em; 
+	border-radius: 45% 45% / 28% 28% 55% 55%;
+  background-color: #fda;
+  box-shadow: 
+    inset .21em 0 0 -.1em #889,
+    inset -.21em 0 0 -.1em #778,
+    .35em -.02em 0 -.32em #778,
+    -.35em -.02em 0 -.32em #778;
+  background-image: 
+    radial-gradient(circle at 50% 0, 
+      #889 52%, transparent 52%),
+    radial-gradient(ellipse 100% 100% at 28% 46%, 
+      #f03 13%, #889 13%,
+      #889 19%, #778 19%,
+      #778 23%, transparent 23%),
+    radial-gradient(ellipse 100% 100% at 72% 46%, 
+      #f03 13%, #889 13%,
+      #889 19%, #778 19%,
+      #778 23%, transparent 23%)
+    ;
+  margin: .02em .15em .03em;
+}
+i.icss-antman-c:before {
+  width: .73em;
+  height: .55em;
+  border: 0 solid transparent;
+  border-width: .07em .17em .13em;
+  box-shadow: 
+    inset .08em 0 #f03, 
+    inset -.08em 0 #f03, 
+    .05em 0 #778, -.05em 0 #778;
+  transform: translateX(-50%) perspective(.1em) rotateX(-2deg);
+  left: 50%;
+  top: 0;
+}
+i.icss-antman-c:after {
+  width: .12em;
+  height: .15em;
+  background-color: #778;
+  border-style: solid;
+  border-width: 0 .03em .08em;
+  border-color: #99a #99a #778;
+  border-radius: 40%;
+  box-shadow: 
+    0 0 0 .05em #778,
+    .425em -.91em 0 -.02em #778,
+    -.425em -.91em 0 -.02em #778;
+  transform: translateX(-50%);
+  clip: rect(-1em 1em .15em -1em);
+  left: 50%;
+  top: .85em;  
+}

@@ -13,7 +13,7 @@ i.icss-contact-book:before {
   box-shadow: 0 .34em 0 .11em;
   clip: rect(0em .29em .41em -.04em);        
   transform: translateX(-50%);
-  top: .2em;
+  top: .25em;
   left: 50%;
 }
 i.icss-contact-book:after {

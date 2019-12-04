@@ -1,0 +1,35 @@
+i.icss-deadpool-logo-c {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: #c23;
+  margin: 0;
+}
+i.icss-deadpool-logo-c:before {
+  width: .80em;
+  height: .80em;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 
+    inset -.38em .35em #333,
+    inset -.19em -.02em 0 .28em #333
+    ;
+  clip: rect(0 .34em 1em 0);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+i.icss-deadpool-logo-c:after {
+  width: .8em;
+  height: .8em;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow:
+    inset .36em .35em #333,
+    inset .19em -.02em 0 .28em #333
+    ;
+  clip: rect(0 1em 1em .45em);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}

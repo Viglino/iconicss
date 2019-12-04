@@ -1,0 +1,34 @@
+i.icss-projector {
+  width: .4em;
+  height: .4em;
+  background-color: transparent;
+  border-radius: 50%;
+  border: .1em solid currentColor;
+  margin: .2em .18em .4em .42em;
+}
+i.icss-projector:before {
+  width: .22em;
+  height: .2em;
+  border: 0 solid transparent;
+  border-radius: .005em;
+  border-width: .065em 0;
+  box-shadow: 
+    -.07em -.02em 0 .05em, 
+    .1em -.02em 0 .05em, 
+    -.07em .02em 0 .05em, 
+    .15em .02em 0 .05em, 
+    inset 0 .2em;
+  left: -.4em;
+  top: .2em;
+}
+i.icss-projector:after {
+  width: .45em;
+  height: .34em;
+  border-radius: .05em;
+  box-shadow: inset -.15em -.25em, 
+    .14em 0,
+    .2em .2em 0 -.13em,
+    -.45em .2em 0 -.13em;
+  left: -.1em;
+  top: .13em;
+}

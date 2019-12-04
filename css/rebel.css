@@ -7,7 +7,7 @@ i.icss-rebel {
   box-shadow: inset -.15em -.15em 0 .15em, .02em .02em 0 .02em;
   transform: scaleY(.9) rotate(45deg);
   overflow: hidden;
-  margin: .15em .02em 0;
+  margin: .15em .075em 0;
 }
 .icss-stack i.icss-rebel {
     transform: translate(-.5em, -.5em) scaleY(.9) rotate(45deg);

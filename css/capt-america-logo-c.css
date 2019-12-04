@@ -1,0 +1,21 @@
+i.icss-capt-america-logo-c {
+  width: .9em;
+  height: .9em;
+  background-color: #035;
+  border-radius: 50%;
+  border: .11em solid #fff;
+  box-shadow: inset 0 0 0 .11em #900, 0 0 0 .06em #900;
+  margin: .05em;
+}
+i.icss-capt-america-logo-c:before {
+  content: "\2605";
+  height: 1.4em;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 1.35em;
+  font-size: .6em;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
