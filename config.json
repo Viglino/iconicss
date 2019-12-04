@@ -4,6 +4,7 @@
   "icons": {
     "home": { "tags":"menu" },
     "bars": { "tags":"menu" },
+    "bars-4": { "tags":"menu" },
     "menus": { "tags":"menu" },
     "x": { "tags":"menu" },
     "plus": { "date":"2019-11-30", "tags":"menu" },
