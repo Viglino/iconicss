@@ -1,0 +1,24 @@
+i.icss-spinner-half {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-spinner-half:before {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  border: .1em solid currentColor;
+  border-color: currentColor currentColor transparent transparent;
+  transform: rotate(45deg);
+  top: 0;
+  left: 0;
+}
+i.icss-spinner-half:after {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+}
+

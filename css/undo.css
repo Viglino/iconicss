@@ -1,10 +1,10 @@
-i.icss-redo {
+i.icss-undo {
   width: 1em;
   height: 1em;
   background-color: transparent;
   margin: 0;
 }
-i.icss-redo:before {
+i.icss-undo:before {
   width: .8em;
   height: .8em;
   top: 50%;
@@ -12,11 +12,11 @@ i.icss-redo:before {
   border-radius: 50%;
   border: .1em solid currentColor;
   border-bottom-color: transparent;
-  transform: translate(-50%, -50%) rotate(-45deg);
+  transform: translate(-50%, -50%) rotate(45deg);
 }
-i.icss-redo:after {
+i.icss-undo:after {
   top: .43em;
-  left: .67em;
+  left: -.02em;
   border: .17em solid transparent;
   border-top: .24em solid currentColor;
 }

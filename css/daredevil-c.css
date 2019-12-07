@@ -7,6 +7,8 @@ i.icss-daredevil-c {
     inset -.11em -.065em 0 -.065em #c03, 
     inset .11em -.065em 0 -.065em  #c03;
   background-image: 
+    radial-gradient(ellipse 50% 55% at 50% 25%, 
+       #633, transparent 50%),
     radial-gradient(ellipse 100% 60% at 50% 0, 
        #c03 35%, transparent 35%,
       transparent 52%,  #c03 52%,
@@ -18,11 +20,7 @@ i.icss-daredevil-c {
       #fff 12%,  #c03 12%,
        #c03 28%, transparent 28%),
     radial-gradient(ellipse 100% 60% at 50% 0, 
-       transparent 79%, #fda 79%),
-    radial-gradient(circle at 110% 35%, 
-      currentColor 20%, transparent 20%),
-    radial-gradient(circle at -10% 35%, 
-      currentColor 20%, transparent 20%);
+       transparent 79%, #fda 79%);
   margin: 0 .12em;
 }
 i.icss-daredevil-c:before {
@@ -34,8 +32,6 @@ i.icss-daredevil-c:before {
       transparent 40%, #903),
     radial-gradient(circle at 70% 50%,
       #e03 20%, #c03, #903);
-  box-shadow:
-    .22em -.07em 0 .02em #c03;
   transform: scaleX(.7) rotate(40deg);
   left: .03em;
   top: .08em
@@ -49,8 +45,6 @@ i.icss-daredevil-c:after {
       transparent 40%, #903),
     radial-gradient(circle at 30% 50%,
       #e03 20%, #c03, #903);
-  box-shadow: 
-    -.22em -.07em 0 .02em #c03;
   transform: scaleX(.7) rotate(320deg);
   left: .5em;
   top: .08em;

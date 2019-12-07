@@ -1,0 +1,23 @@
+i.icss-spinner-third {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-spinner-third:before {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  border: .1em solid currentColor;
+  border-color: currentColor transparent transparent transparent;
+  transform: rotate(45deg);
+  top: 0;
+  left: 0;
+}
+i.icss-spinner-third:after {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+}
