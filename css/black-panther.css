@@ -1,0 +1,50 @@
+i.icss-black-panther {
+	width: .76em; 
+	height: 1em; 
+	border-radius: 50% / 35% 34% 60% 60%;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 .065em;
+  background-image: 
+    radial-gradient(ellipse 110% 50% at 28% 49%, 
+      transparent 12%, currentColor 12%,
+      currentColor 28%, transparent 28%),
+    radial-gradient(ellipse 110% 50% at 72% 49%, 
+      transparent 12%, currentColor 12%,
+      currentColor 28%, transparent 28%),
+    radial-gradient(ellipse 90% 100% at 50% 85%, 
+      currentColor 20%, transparent 20%,
+      transparent 23%, currentColor 23%,
+      currentColor 30%, transparent 30%),
+    radial-gradient(ellipse 100% 95% at 50% 0, 
+      currentColor 20%, transparent 20%,
+      transparent 23%, currentColor 23%,
+      currentColor 30%, transparent 30%,
+      transparent 33%, currentColor 33%,
+      currentColor 53%, transparent 53%),
+    radial-gradient(circle at 110% 35%, 
+      currentColor 20%, transparent 20%),
+    radial-gradient(circle at -10% 35%, 
+      currentColor 20%, transparent 20%),
+    radial-gradient(ellipse 100% 100% at 100% 94%, 
+      currentColor 30%, transparent 30%,
+      transparent 33%, currentColor 33%,
+      currentColor 45%, transparent 45%),
+    radial-gradient(ellipse 100% 100% at 0% 94%, 
+      currentColor 30%, transparent 30%,
+      transparent 33%, currentColor 33%,
+      currentColor 45%, transparent 45%);
+  margin: 0 .12em;
+}
+i.icss-black-panther:before {
+  width: .74em;
+  height: .4em;
+  border-radius: 10%/ 50%;
+  border: 0 solid currentColor;
+  border-color: transparent currentColor;
+  border-width: .15em .1em;
+  transform: translateX(-50%);
+  left: 50%;
+  top: -.05em;
+}
+i.icss-black-panther:after {
+}

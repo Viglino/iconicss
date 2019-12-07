@@ -1,0 +1,59 @@
+i.icss-black-panther-c {
+	width: .76em; 
+	height: 1em; 
+	border-radius: 50% / 35% 34% 60% 60%;
+  background-color: #666;
+  background-image: 
+    radial-gradient(ellipse 100% 95% at 50% 0, 
+      #333 20%, transparent 20%,
+      transparent 23%, #333 23%,
+      #333 30%, transparent 30%,
+      transparent 33%, #333 33%,
+      #333 53%, transparent 53%),
+    radial-gradient(circle at 110% 35%, 
+      #333 20%, transparent 20%),
+    radial-gradient(circle at -10% 35%, 
+      #333 20%, transparent 20%),
+    radial-gradient(ellipse 100% 100% at 100% 94%, 
+      #333 30%, transparent 30%,
+      transparent 33%, #333 33%,
+      #333 45%, transparent 45%),
+    radial-gradient(ellipse 100% 100% at 0% 94%, 
+      #333 30%, transparent 30%,
+      transparent 33%, #333 33%,
+      #333 45%, transparent 45%),
+    radial-gradient(ellipse 90% 100% at 50% 85%, 
+      #333 20%, transparent 20%,
+      transparent 23%, #333 23%,
+      #333 27%, #666 27%,
+      #666 30%, red 30%,
+      #333 30%, transparent 30%),
+    radial-gradient(ellipse 110% 50% at 28% 49%, 
+      #fff 12%, #333 12%,
+      #333 28%, transparent 28%),
+    radial-gradient(ellipse 110% 50% at 72% 49%, 
+      #fff 12%, #333 12%,
+      #333 28%, transparent 28%);
+  margin: 0 .12em;
+}
+i.icss-black-panther-c:before {
+  width: .74em;
+  height: .4em;
+  border-radius: 10%/ 50%;
+  border: 0 solid currentColor;
+  border-color: transparent #333;
+  border-width: .15em .1em;
+  transform: translateX(-50%);
+  left: 50%;
+  top: -.05em;
+}
+i.0icss-black-panther-c:after {
+  width: .4em;
+  height: .3em;
+  border: .03em solid #666;
+  border-color: #666 transparent transparent;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  left: 50%;
+  top: .55em;
+}

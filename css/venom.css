@@ -1,0 +1,58 @@
+i.icss-venom {
+  width: 0.7em; 
+  height:.65em;
+  border-radius: 40% 40% 6% 6% / 50%;
+  background-color: transparent; 
+  box-shadow: 
+    inset .065em 0, 
+    inset -.065em 0,
+    inset 0 .065em;
+  background-image: 
+    radial-gradient(circle at 50% 90%,
+      currentColor 8%, transparent 0),
+    radial-gradient(ellipse 100% 60% at 100% 72%,
+      transparent 43%, currentColor 43%,
+      currentColor 57%, transparent 57%),
+    radial-gradient(ellipse 100% 60% at 0% 72%,
+      transparent 43%, currentColor 43%,
+      currentColor 57%, transparent 57%),
+    radial-gradient(ellipse 70% 133% at 50% 0%,
+      transparent 70%, currentColor 70%),
+    radial-gradient(ellipse 100% 60% at 50% 44%,
+      currentColor 40%, transparent 40%),
+    radial-gradient(ellipse 100% 60% at 50% 25%,
+      currentColor 50%, transparent 40%);
+  margin: 0 .1em .35em .2em;
+}
+i.icss-venom:before {
+  width: 0.7em; 
+  height: 1em;
+  border-radius: 50% / 40% 40% 60% 60%;
+  box-shadow: inset 0 0 0 .065em;
+  background-image: 
+    linear-gradient(120deg, currentcolor 25%, transparent 25%), 
+    linear-gradient(240deg, currentcolor 25%, transparent 25%), 
+    linear-gradient(300deg, currentcolor 25%, transparent 25%), 
+    linear-gradient(60deg, currentcolor 25%, transparent 25%);
+  background-size: .15em .32em;
+  background-position: 
+    .05em -.0em, 
+    .05em -.0em, 
+    -.03em -.0em, 
+    -.03em -.0em;
+  clip: rect(.60em 1em 1em 0);
+  left: 0;
+  top: 0;
+}
+i.icss-venom:after {
+	width: .6em;
+	height: .28em;
+	border-radius: 0 0 50% 50% / 0 0 100% 100%;
+	border: .05em solid transparent;
+	border-width: 0 0 0 .12em;
+	box-shadow: 
+		.25em -.18em 0 -.1em,
+		.0em .065em 0 -.02em, 
+		inset .08em -.2em 0 -.15em;
+	top: .7em;
+	left: -.2em;}

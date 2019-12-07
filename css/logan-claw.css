@@ -1,0 +1,26 @@
+i.icss-logan-claw {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-logan-claw:before {
+  width: 1em;
+  height: .055em;
+  border-radius: 100% / 0;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  background-color: currentColor;
+  top: 50%;
+  left: 50%;
+}
+i.icss-logan-claw:after {
+  width: 1em;
+  height: .3em;
+  border-radius: 0 100% 100% 0 / 0 .08em .08em 0;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  box-shadow: 
+    0 -.06em 0 -.01em,
+    0 .06em 0 -.01em;
+  top: 50%;
+  left: 50%;
+}

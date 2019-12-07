@@ -4,8 +4,8 @@ i.icss-captain-america {
 	border-radius: 50% 50% 45% 45% / 35% 35% 55% 55%;
   background-color: transparent;
   box-shadow: 
-    inset .22em .14em 0 -.1em,
-    inset -.22em .14em 0 -.1em;
+    inset .22em .13em 0 -.1em,
+    inset -.22em .13em 0 -.1em;
   background-image: 
     linear-gradient( 
       currentColor 10%, transparent 10%,

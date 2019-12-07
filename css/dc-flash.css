@@ -1,0 +1,46 @@
+i.icss-dc-flash {
+	width: .72em; 
+	height: 1em; 
+	border-radius: 50% 50% 40% 40% / 35% 35% 55% 55%;
+  background-color: transparent;
+  box-shadow: 
+    inset .22em .13em 0 -.1em,
+    inset -.22em .13em 0 -.1em,
+    .37em -.05em 0 -.34em,
+    -.37em -.05em 0 -.34em;
+  background-image: 
+    radial-gradient(ellipse 90% 70% at 50% 0%, 
+      currentColor 70%, transparent 30%),
+    radial-gradient(ellipse 100% 30% at 50% 100%, 
+      currentColor 35%, transparent 35%),
+    radial-gradient(ellipse 110% 60% at 28% 49%, 
+      transparent 12%, currentColor 12%,
+      currentColor 25%, transparent 25%),
+    radial-gradient(ellipse 110% 60% at 72% 49%, 
+      transparent 12%, currentColor 12%,
+      currentColor 25%, transparent 25%)
+    ;
+  margin: 0 .14em;
+}
+i.icss-dc-flash:before {
+  border-style: solid;
+  border-color: transparent currentColor;
+  border-width: 0 0 .08em .25em;
+  border-top: 0;
+  box-shadow: -.12em -.07em, 
+    -.78em -.41em 0 .05em;
+  transform: rotate(-80deg);
+  clip: rect(-1em 1em 1em -.52em);
+  left: .75em;
+  top: .2em;
+}
+i.icss-dc-flash:after {
+  border-style: solid;
+  border-color: currentColor transparent;
+  border-width: 0 .25em .08em 0;
+  border-top: 0;
+  box-shadow: -.12em .07em;
+  transform: rotate(-100deg);
+  left: -.28em;
+  top: .2em;
+}

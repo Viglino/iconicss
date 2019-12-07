@@ -1,0 +1,56 @@
+i.icss-wolverine-c {
+	width: .75em; 
+	height: .6em; 
+	border-radius: 50% 50% 45% 45%;
+  background-color: #fb0;
+  border: .065em solid #000;
+  border-bottom-color: transparent;
+  box-shadow: 
+    0 .215em 0 -.12em #fb0,
+    0 .53em 0 -.28em #a80,
+    0 .3em 0 -.05em #fda,
+    0 .53em 0 -.12em #fda;
+  margin: 0 .125em .4em;
+}
+i.icss-wolverine-c:before {
+  width: .45em;
+  height: .5em;
+  border-radius: 0 0 0 50% / 0 0 0 100%;
+  background-image: 
+    radial-gradient(ellipse 100% 100% at 20% 110%, 
+      #000 39%, transparent 38%),
+    radial-gradient(ellipse 50% 100% at 100% 115%, 
+      #000 37%, transparent 37%),
+    radial-gradient(ellipse 150% 100% at 100% 0%, 
+      transparent 65%, #000 65%,
+      #000 93%, #fff 93%);
+  box-shadow: 
+    0 .42em 0 -.17em #420,
+    .05em .53em 0 -.15em #420,
+    -.02em 0 #000,
+    0 .1em #000;
+  transform: rotate(-1deg) skewY(15deg);
+  left: -.195em;
+  top: -.02em;
+}
+i.icss-wolverine-c:after {
+  width: .45em;
+  height: .5em;
+  border-radius: 0 0 50% 0 / 0 0 100% 0;
+  background-image: 
+    radial-gradient(ellipse 100% 100% at 80% 110%, 
+      #000 39%, transparent 38%),
+    radial-gradient(ellipse 50% 100% at 0% 115%, 
+      #000 37%, transparent 37%),
+    radial-gradient(ellipse 150% 100% at 0% 0%, 
+      transparent 65%, #000 65%,
+      #000 93%, #fff 93%);
+  box-shadow: 
+    0 .42em 0 -.17em #420,
+    -.05em .53em 0 -.15em #420,
+    .02em 0 #000,
+    0 .1em #000;
+  transform: rotate(1deg) skewY(-15deg);
+  left: .37em;
+  top: -.02em;
+}

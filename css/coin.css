@@ -1,0 +1,34 @@
+i.icss-coin {
+  width: .8em;
+  height: .8em;
+  background-color: transparent;
+  overflow: hidden;
+  margin: .05em .1em .15em;
+}
+i.icss-coin:before {
+  width: .8em;
+  height: .8em;
+  border-radius: 50%;
+  border: 0 solid transparent;
+  border-width: .06em 0;
+  box-shadow: inset 0 0 0 .065em, 
+    .4em .06em 0 -.3em,
+    -.4em .06em 0 -.3em,
+    0 .15em;
+  transform: translate(-50%, -50%) scaleY(.7);
+  left: 50%;
+  top: 50%;
+}
+i.icss-coin:after {
+  border-style: solid;
+  border-width: .13em;
+  border-radius: 100%;
+  top: .07em;
+  left: .08em;
+  box-shadow: 0 .34em 0 .11em;
+  clip: rect(0em .32em .41em -.07em);
+  opacity: .7;
+  transform: translate(-50%, -50%) scaleY(.65);
+  left: 50%;
+  top: 43%;
+}

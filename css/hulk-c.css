@@ -1,0 +1,53 @@
+i.icss-hulk-c {
+  width: 1em;
+  height: 1em;
+  border-radius: 80% 20% 70% 50% / 20% 80% 20% 80% ;
+  background-color: #9c6;
+  background-image: 
+    radial-gradient(ellipse 80% 58% at 47% 56%,
+      transparent 65%, #462 50%),
+    radial-gradient(ellipse 80% 100% at 27% 43%,
+      #333 4%, transparent 4%),
+    radial-gradient(ellipse 80% 100% at 69% 39%,
+      #333 4%, transparent 4%)
+    ;
+  margin: 0;
+}
+i.icss-hulk-c:before {
+  width: .45em;
+  height: .38em;
+  border: 0 solid transparent;
+  border-width: .1em .03em .07em;
+  border-radius: 70% 70% 100% 30% / 60% 80% 50% 80% ;
+  box-shadow: 
+    inset .065em 0 #682,
+    inset .01em .04em #682,
+    inset 0 -.02em #682,
+    inset .08em .27em 0 -.2em #fff,
+    inset -.03em -.06em #fff,
+    inset 0 .15em #333,
+    -.07em -.05em 0 -.05em #682,
+    .07em -.02em 0 -.03em #682,
+    -.22em -.28em 0 -.17em #453,
+    .2em -.32em 0 -.17em #453,
+    0 -.18em 0 -.12em #462,
+    0 .1em 0 -.05em #462;
+  transform: translateX(-50%);
+  left: 49%;
+  top: .5em;
+}
+i.icss-hulk-c:after {
+  width: .25em;
+  height: .25em;
+  background-color:  #453;
+  transform: rotate(45deg);
+  box-shadow: .5em -.53em #453, 
+    .06em .15em 0 -.03em #453,
+    .69em -.45em 0 -.03em #453,
+    .6em -.51em 0 -.02em #453,
+    .3em -.48em #453,
+    .21em -.38em #453,
+    .08em -.18em #453;
+  top: .1em;
+  left: 0;
+}
