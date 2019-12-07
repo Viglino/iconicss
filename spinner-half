@@ -1,0 +1,13 @@
+i.icss-spinner-half {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: transparent;
+  border: .1em solid currentColor;
+  border-color: currentColor currentColor transparent transparent;
+  margin: 0;
+
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
