@@ -45,14 +45,13 @@ i.icss-venom:before {
   top: 0;
 }
 i.icss-venom:after {
-	width: .6em;
-	height: .28em;
-	border-radius: 0 0 50% 50% / 0 0 100% 100%;
-	border: .05em solid transparent;
-	border-width: 0 0 0 .12em;
+	width: .55em;
+	height: .4em;
+	border-radius: 50%;
 	box-shadow: 
-		.25em -.18em 0 -.1em,
-		.0em .065em 0 -.02em, 
-		inset .08em -.2em 0 -.15em;
-	top: .7em;
-	left: -.2em;}
+		.255em -.23em 0 -.12em,
+		inset .05em -.06em,
+    -.05em .01em  0 -.02em;
+	top: .645em;
+	left: -.18em;
+}

@@ -1,0 +1,35 @@
+i.icss-chess-rook {
+  width: .35em;
+  height: .08em;
+  border-radius: .1em;
+  box-shadow: .055em .39em, -.055em .39em;
+  margin: .43em .325em .49em;
+}
+i.icss-chess-rook:before {
+  width: .35em;
+  height: .5em;
+  border-style: solid;
+  border-color: transparent transparent currentColor transparent;
+  border-width: .4em .05em;
+  border-radius: .1em .1em 0 0;
+  box-shadow: 0 .87em 0 .1em;
+  clip: rect(0 1em .9em -.2em);
+  transform: translateX(-50%);
+  top: -.33em;
+  left: 50%;
+}
+i.icss-chess-rook:after {
+  width: .4em;
+  height: .45em;
+  border: .1em solid transparent;
+  border-top: .12em solid currentColor;
+  box-shadow: 
+    0 -.08em,
+    -.17em -.33em 0 -.14em,
+    .17em -.33em 0 -.14em,
+    0 -.33em 0 -.14em;
+  clip: rect(-.3em .4em 1em 0);
+  transform: translateX(-50%);
+  top: -.1em;
+  left: 50%;
+}  

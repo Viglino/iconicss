@@ -1,0 +1,29 @@
+i.icss-chess-pawn {
+  width: .3em;
+  height: .08em;
+  border-radius: .1em;
+  box-shadow: .08em .35em, -.08em .35em;
+  margin: .47em .35em .45em;
+}
+i.icss-chess-pawn:before {
+  width: .35em;
+  height: .5em;
+  border-style: solid;
+  border-color: transparent transparent currentColor transparent;
+  border-width: .4em .1em;
+  border-radius: .1em .1em 0 0;
+  box-shadow: 0 .87em 0 .1em;
+  clip: rect(0 1em .9em -.2em);
+  transform: translateX(-50%);
+  top: -.37em;
+  left: 50%;
+}
+i.icss-chess-pawn:after {
+  width: .27em;
+  height: .27em;
+  background-color: currentColor;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  top: -.25em;
+  left: 50%;
+}  

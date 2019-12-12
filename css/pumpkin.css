@@ -1,0 +1,30 @@
+i.icss-pumpkin {
+  width: .6em;
+  height: .7em;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 0 solid transparent;
+  border-width: 0 .1em;
+  box-shadow: inset 1em 0, 
+    .2em 0,
+    -.2em 0;
+  margin: .3em .2em 0;
+}
+i.icss-pumpkin:before {
+  width: .2em;
+  height: .25em;
+  border-left: .07em solid transparent;
+  border-radius: 50%;
+  box-shadow: inset .02em .06em, .025em .025em 0 .035em;
+  top: -.3em;
+  left: .1em;
+}
+i.icss-pumpkin:after {
+  width: .3em;
+  height: .2em;
+  border-radius: 0 100% 0 100%;
+  background-color: currentColor;
+  box-shadow: .5em .05em;
+  top: -.25em;
+  left: -.15em;
+}

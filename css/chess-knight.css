@@ -1,0 +1,31 @@
+i.icss-chess-knight {
+  width: .1em;
+  height: .1em;
+  border-radius: 50%;
+  background: currentColor;
+  box-shadow: -.2em -.03em 0 .03em,
+    -.39em .36em;
+  margin: .41em .18em .49em .72em;
+}
+i.icss-chess-knight:before {
+  width: .63em;
+  height: .63em;
+  border-radius: 50%;
+  box-shadow: 
+    inset .18em -.05em,
+    -.05em .09em 0 .07em,
+    -.16em .7em 0 -.02em;
+  clip: rect(0 .43em .91em -.3em);
+  transform: rotate(0deg);
+  top: -.32em;
+  left: -.36em;
+}
+i.icss-chess-knight:after {
+  width: .37em;
+  height: .24em;
+  background-color: currentColor;
+  border-radius: 50% .05em 100% 30% / 50% .05em 100% 50%;
+  transform: rotate(50deg);
+  top: -.17em;
+  left: -.24em;
+}  

@@ -1,0 +1,35 @@
+i.icss-angry-bird {
+  width: .85em;
+  height: .9em;
+  box-shadow: inset 0 0 0 .065em, 
+    .03em -.45em 0 -.34em,
+    -.09em -.44em 0 -.36em,
+    -.3em 0 0 -.25em;
+  border-radius: 50% 50% 50% 50% / 55% 55% 45% 45%;
+  background-color: transparent;
+  margin: .1em .075em 0;
+}
+i.icss-angry-bird:before {
+  width: .35em;
+  height: .35em;
+  border-radius: 0% 50% 0% 0;
+  box-shadow: -.14em 0 0 -.02em, 0 .14em 0 -.02em;
+  transform: scaleY(.4) translateX(-50%) rotate(-45deg);
+  top: .06em;
+  left: 50%;
+}
+i.icss-angry-bird:after {
+  width: .18em;
+  height: .22em;
+  border-radius: 50% / 60% 60% 40% 40%;
+  transform: translateX(-50%);
+  border: 0 solid transparent;
+  border-width: .08em 0;
+  box-shadow: 0 0 0 .05em, inset 0 .1em,
+    -.45em -.2em 0 -.03em,
+    -.41em -.3em 0 -.04em,
+    -.12em -.27em 0 -.05em,
+    .12em -.27em 0 -.05em;
+  top: .52em;
+  left: 50%;
+}

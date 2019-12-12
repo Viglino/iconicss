@@ -1,0 +1,29 @@
+i.icss-chess-bishop {
+  width: .3em;
+  height: .08em;
+  border-radius: .1em;
+  box-shadow: .08em .42em, -.08em .42em;
+  margin: .4em .35em .52em;
+}
+i.icss-chess-bishop:before {
+  width: .35em;
+  height: .5em;
+  border-style: solid;
+  border-color: transparent transparent currentColor transparent;
+  border-width: .4em .1em .45em;
+  border-radius: .1em .1em 0 0;
+  box-shadow: 0 .92em 0 .1em;
+  clip: rect(0 1em .95em -.2em);
+  transform: translateX(-50%);
+  top: -.35em;
+  left: 50%;
+}
+i.icss-chess-bishop:after {
+  width: .25em;
+  height: .3em;
+  transform: translateX(-50%);
+  box-shadow: inset .05em -.07em 0 .09em, 0 -.15em 0 -.07em;
+  border-radius: 50%;
+  top: -.27em;
+  left: 50%;
+}  

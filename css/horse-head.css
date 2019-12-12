@@ -1,0 +1,32 @@
+i.icss-horse-head {
+  width: .12em;
+  height: .12em;
+  border-radius: 50%;
+  background: transparent;
+  border: .06em solid transparent;
+  border-color: transparent transparent currentColor currentColor;
+  box-shadow: -.22em -.05em 0 .03em;
+  margin: .48em .2em .4em .68em;
+}
+i.icss-horse-head:before {
+  width: .7em;
+  height: .7em;
+  border-radius: 50%;
+  box-shadow: 
+    inset .18em -.05em,
+    -.06em .14em 0 .1em;
+  clip: rect(0 .33em .8em -.2em);
+  transform: rotate(15deg);
+  top: -.38em;
+  left: -.41em;
+}
+i.icss-horse-head:after {
+  width: .4em;
+  height: .27em;
+  box-shadow: inset -.01em -.03em 0 .12em,
+    inset -.21em 0;
+  border-radius: 50% .05em 100% 30% / 50% .05em 100% 50%;
+  transform: rotate(50deg);
+  top: -.24em;
+  left: -.28em;
+}  

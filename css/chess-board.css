@@ -1,0 +1,30 @@
+i.icss-chess-board {
+  width: 1em;
+  height: .8em;
+  background-color: transparent;
+  overflow: hidden;
+  margin: .05em 0 .15em;
+}
+i.icss-chess-board:before {
+  width: .1em;
+  height: .1em;
+  background-color: currentColor;
+  box-shadow: 
+    -.1em .3em, .1em .3em,
+    .1em -.1em, .3em -.1em,
+    -.1em -.1em, -.3em -.1em,
+    -.5em -.1em, .5em -.1em,
+    .1em .1em, .3em .1em,
+    -.1em .1em, -.3em .1em,
+    .2em -.2em, 0 -.2em,
+    -.4em -.2em, .4em -.2em, 
+    -.6em -.2em, .6em -.2em, 
+    -.2em -.2em, 
+    .2em .2em, 0 .2em,
+    -.2em .2em, 
+    .2em 0, .4em 0,
+    -.2em 0, -.4em 0;
+  transform: scaleY(.5) translate(-50%, -50%) perspective(.1em) rotateX(10deg);
+  top: 50%;
+  left: 50%;
+}
