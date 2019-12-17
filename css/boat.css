@@ -1,25 +1,35 @@
 i.icss-boat {
-    width: 1em;
-    height: .2em;
-    background-color: transparent;
-    border: .2em solid transparent;
-    border-width: .2em .1em 0 .15em;
-    border-top-color: currentColor;
-    margin: .8em 0 0;
+  width: 1em;
+  height: .26em;
+  background-color: transparent;
+  background-image: 
+    radial-gradient(
+      circle at .1em -.05em,
+      transparent .1em, currentColor .1em, 
+      currentColor .2em, transparent .2em);
+  background-size: .2em .17em;
+  background-position: .1em -.17em;
+  margin: .74em 0 0;
 }
 i.icss-boat:before {
-    background-color: transparent;
-    border: .2em solid transparent;
-    border-width: .62em 0 0 .45em;
-    border-left-color: currentColor;
-    left: .4em;
-    top: -.9em;
+  width: .55em;
+  height: .5em;
+  border-style: solid;
+  border-color: currentColor transparent;
+  border-width: .5em .12em 0;
+  border-radius: 50% 50% 0 0;
+  transform: translateX(-50%);
+  top: -.4em;
+  left: 50%;
 }
 i.icss-boat:after {
-    background-color: transparent;
-    border: .2em solid transparent;
-    border-width: .72em .48em 0 0;
-    border-right-color: currentColor;
-    left: -.15em;
-    top: -1em;
+  width: .37em;
+  height: .35em;
+  border: .065em solid currentColor;
+  border-radius: .05em;
+  transform: translateX(-50%);
+  box-shadow: 0 -.16em 0 -.11em;
+  top: -.55em;
+  left: 50%;
+
 }

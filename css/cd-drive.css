@@ -1,0 +1,32 @@
+i.icss-cd-drive {
+  width: .8em;
+  height: .3em;
+  border-radius: .05em;
+  box-shadow: 
+    inset -.1em .05em,
+    inset .1em .05em,
+    inset 0 .12em;
+  background-color: transparent;
+  margin: .45em .1em .25em;
+}
+i.icss-cd-drive:before {
+  width: .3em;
+  height: .3em;
+  border-radius: 50%;
+  border: .05em solid transparent;
+  box-shadow: inset 0 0 0 .05em, 
+    0 0 0 .13em;
+  clip: rect(.05em 1em 1em -.5em);
+  transform: translateX(-50%) perspective(1em) rotateX(45deg);
+  top: .08em;
+  left: 50%;
+}
+i.icss-cd-drive:after {
+  width: .68em;
+  height: .35em;
+  background: currentColor;
+  border-radius: .05em .05em 0 0;
+  transform: translateX(-50%) perspective(1em) rotateX(40deg);
+  top: -.35em;
+  left: 50%;
+}

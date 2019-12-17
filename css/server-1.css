@@ -1,4 +1,4 @@
-i.icss-server {
+i.icss-server-1 {
     width: .3em;
     height: .1em;
     background-color: transparent;
@@ -12,9 +12,9 @@ i.icss-server {
         .54em .04em 0 .04em, 
         .54em -.04em 0 .04em, 
         .25em 0 0 .08em;
-    margin: .14em .6em .76em .1em;
+    margin: .15em .6em .75em .1em;
 }
-i.icss-server:before {
+i.icss-server-1:before {
     width: .3em;
     height: .1em;
     background-color: transparent;
@@ -29,20 +29,16 @@ i.icss-server:before {
         .54em -.04em 0 .04em, 
         .25em 0 0 .08em;
     left: -.1em;
-    top: .33em;}
-i.icss-server:after {
-    width: .3em;
-    height: .1em;
-    background-color: transparent;
-    border-radius: .01em;
-    border: .1em solid transparent;
-    border-width: 0 .1em;
-    box-shadow: 
-        inset .1em 0,
-        -.04em .04em 0 .04em, 
-        -.04em -.04em 0 .04em, 
-        .54em .04em 0 .04em, 
-        .54em -.04em 0 .04em, 
-        .25em 0 0 .08em;
-    left: -.1em;
-    top: .65em;}
+    top: .33em;
+}
+i.icss-server-1:after {
+    width: .65em;
+    height: .2em;
+    border: 0 solid transparent;
+    border-width: 0 .275em;
+    box-shadow: inset .2em 0, 0 .1em, 
+        .72em .2em, -.72em .2em;
+    clip: rect(0 .8em .3em -.15em);
+    left: -.025em;
+    top: .5em;
+}

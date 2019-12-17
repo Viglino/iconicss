@@ -1,0 +1,27 @@
+i.icss-ping-pong {
+  width: .9em;
+  height: .9em;
+  background-color: transparent;
+  margin: 0 .1em .1em 0;
+}
+i.icss-ping-pong:before {
+  width: .7em;
+  height: .7em;
+  border-radius: 50%;
+  box-shadow: inset -.1em -.03em 0 .27em;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  clip: rect(0 1em .59em 0);
+  top: 50%;
+  left: 50%;
+}
+i.icss-ping-pong:after {
+  width: .15em;
+  height: .37em;
+  background: currentColor;
+  border-radius: .1em;
+  box-shadow: 0 -.51em 0 .22em;
+  clip: rect(-.02em 1em 1em -1em);
+  transform: translate(-50%, -50%) rotate(-45deg) translateY(.47em);
+  top: 50%;
+  left: 50%;
+}

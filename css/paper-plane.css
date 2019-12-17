@@ -1,0 +1,31 @@
+i.icss-paper-plane {
+    width: .25em;
+    height: .25em;
+    background-color: transparent;
+    border-style: solid;
+    border-color: currentColor transparent; 
+    border-width: .25em .23em 0 0;
+    margin: .62em .37em .13em .38em;
+  }
+  i.icss-paper-plane:before {
+    width: .2em;
+    height: .67em;
+    border-style: solid;
+    border-color: currentColor transparent; 
+    border-width: 0 .38em .68em 0;
+    transform: rotate(30deg) skewX(-25deg);
+    transform-origin: 0 0;
+    top: -.68em;
+    left: .61em;
+  }
+  i.icss-paper-plane:after {
+    width: .2em;
+    height: .67em;
+    border-style: solid;
+    border-color: currentColor transparent; 
+    border-width: 0 0 .68em .25em ;
+    transform:  rotate(30deg) skewX(-35deg);
+    transform-origin: .25em 0;
+    top: -.68em;
+    left: .36em;
+  }

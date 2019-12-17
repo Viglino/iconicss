@@ -1,0 +1,33 @@
+i.icss-ink-bottle {
+  width: .8em;
+  height: .5em;
+  border-radius: .15em .15em 0 0;
+  background-color: transparent;
+  box-shadow: 
+    inset 0 -.01em 0 .15em,
+    inset .2em 0,
+    inset -.2em 0,
+    0 -.29em 0 -.2em;
+  margin: .5em .1em 0;
+}
+i.icss-ink-bottle:before {
+  width: .4em;
+  height: .1em;
+  border: .1em solid transparent;
+  border-radius: .005em;
+  border-width: 0 .08em;
+  box-shadow: 0 0 0 .07em, 
+    inset .085em 0, inset -.085em 0;
+  transform: translateX(-50%);
+  top: -.25em;
+  left: 50%;
+}
+i.icss-ink-bottle0:after {
+  width: .3em;
+  height: .1em;
+  border-radius: .05em .05em 0 0;
+  background-color: currentColor;
+  transform: translateX(-50%);
+  left: 50%;
+  top: -.09em;
+}

@@ -1,0 +1,29 @@
+i.icss-book-open {
+  width: .65em;
+  height: .8em;
+  box-shadow: 
+    inset .03em .06em,
+    inset -.06em .05em;
+  border-radius: .1em .03em .03em;
+  background-color: transparent;
+  margin: .05em .175em .15em;
+}
+i.icss-book-open:before {
+  width: .45em;
+  height: .75em;
+  border-radius: .03em;
+  box-shadow: inset 0 .05em 0 .14em, inset 0 -.43em;
+  transform: skewY(20deg);
+  top: .15em;
+  left: 0;
+}
+i.icss-book-open:after {
+  width: .5em;
+  height: .72em;
+  border-top: .05em solid currentColor;
+  border-radius: .1em 0 0 0;
+  box-shadow: .05em 0;
+  transform: skewY(14deg);
+  top: .093em;
+  left: 0;
+}

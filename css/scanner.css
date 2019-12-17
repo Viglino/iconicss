@@ -1,0 +1,31 @@
+i.icss-scanner {
+  width: .8em;
+  height: .05em;
+  background-color: transparent;
+  border-radius: 0 0 .03em .03em;
+  border-right: .1em solid transparent;
+  box-shadow: 0 0 0 .07em,
+    inset .58em .05em 0 -.05em,
+    inset -.1em 0;
+  margin: .85em .1em .1em;
+}
+i.icss-scanner:before {
+  width: .78em;
+  height: .3em;
+  border: .065em solid currentColor;
+  border-width: .065em .065em .045em;
+  border-radius: .05em;
+  transform: perspective(.1em) rotateX(7deg);
+  top: -.43em;
+  left: .01em;
+}
+i.icss-scanner:after {
+  width: .76em;
+  height: .35em;
+  background-color: currentColor;
+  border-width: .065em .065em .045em;
+  border-radius: .05em;
+  transform: perspective(.1em) rotateX(-7deg);
+  top: -.71em;
+  left: .02em;
+}

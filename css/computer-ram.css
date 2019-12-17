@@ -1,0 +1,31 @@
+i.icss-computer-ram {
+  width: .95em;
+  height: .95em;
+  background-color: transparent;
+  margin: 0 .05em .05em 0;
+}
+i.icss-computer-ram:before {
+  width: .72em;
+  height: .35em;
+  border: 0 solid transparent;
+  border-width: .14em .15em 0;
+  box-shadow: 
+    0 -.05em 0,
+    -.13em .065em,
+    .13em .065em,
+    inset .5em 0;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  top: 50%;
+  left: 50%;
+}
+i.icss-computer-ram:after {
+  width: .16em;
+  height: .065em;
+  background: currentColor;
+  box-shadow: 
+    0 -.13em, 0 -.26em, 0 -.39em,
+    0 .13em, 0 .26em, 0 .39em;
+  transform: translate(-50%, -50%) rotate(45deg) translateX(-.145em);
+  top: 50%;
+  left: 50%;
+}

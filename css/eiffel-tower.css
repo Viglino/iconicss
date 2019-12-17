@@ -1,0 +1,33 @@
+i.icss-eiffel-tower {
+  width: .26em;
+  height: .07em;
+  background-color: currentColor;
+  border-radius: .1em;
+  box-shadow: 
+    -.12em .1em, .12em .1em, 
+    -.1em 0, .1em 0, 
+    -.05em -.18em, .05em -.18em, 
+    0 -.35em;
+  margin: .69em .37em .24em;
+}
+i.icss-eiffel-tower:before {
+  width: 1.2em;
+  height: 1.2em;
+  background: transparent;
+  border: .26em solid currentColor;
+  border-color: currentColor currentColor transparent transparent;
+  transform: translateX(-50%) scaleX(.23) rotate(-45deg);
+  top: -.44em;
+  left: 50%;
+}
+i.icss-eiffel-tower:after {
+  width: .43em;
+  height: .43em;
+  border: .11em solid currentColor;
+  border-color: currentColor currentColor transparent transparent;
+  border-radius: 50%;
+  transform: translateX(-50%) scaleX(1.3) rotate(-45deg);
+  box-shadow: .69em -.69em 0 -.19em;
+  top: .095em;
+  left: 50%;
+}

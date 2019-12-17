@@ -1,0 +1,34 @@
+i.icss-router {
+  width: .8em;
+  height: .22em;
+  background-color: transparent;
+  border-radius: .05em;
+  box-shadow: 
+    inset 0 0 0 .07em, 
+    inset 0 .075em, 
+    inset 0 -.075em, 
+    inset -.51em 0;
+  margin: .7em .1em .08em;
+}
+i.icss-router:before {
+  width: .3em;
+  height: .3em;
+  border-radius: 0 100% 0 0;
+  border: .05em solid transparent;
+  border-width: .07em .07em 0 0;
+  box-shadow: inset -.035em .035em 0 .034em, 
+    .035em -.035em 0 .034em;
+  transform: rotate(-45deg);
+  top: -.56em;
+  left: .4em;
+}
+i.icss-router:after {
+  width: .1em;
+  height: .29em;
+  background-color: currentColor;
+  border-radius: .1em;
+  box-shadow: .45em 0, 
+    .38em -.2em, .38em -.3em;
+  top: 0;
+  left: .12em;
+}

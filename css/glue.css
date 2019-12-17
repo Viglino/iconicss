@@ -1,0 +1,30 @@
+i.icss-glue {
+  width: .6em;
+  height: .38em;
+  border-radius: .15em .15em 0 0;
+  background-color: transparent;
+  box-shadow: 
+    inset 0 -.01em 0 .12em,
+    inset .15em -.05em,
+    inset -.15em -.05em;
+  margin: .63em .2em 0;
+}
+i.icss-glue:before {
+  width: .2em;
+  height: .28em;
+  border-style: solid;
+  border-color: currentColor transparent;
+  border-width: 0 .075em .5em;
+  transform: translateX(-50%);
+  top: -.63em;
+  left: 50%;
+}
+i.icss-glue:after {
+  width: .3em;
+  height: .1em;
+  border-radius: .05em .05em 0 0;
+  background-color: currentColor;
+  transform: translateX(-50%);
+  left: 50%;
+  top: -.09em;
+}

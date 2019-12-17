@@ -1,0 +1,30 @@
+i.icss-laptop-lock {
+  width: .7em;
+  height: .52em;
+  background-color: transparent;
+  border-radius: .05em;
+  box-shadow: inset 0 0 0  .065em;
+  margin: .13em .15em .35em;
+}
+i.icss-laptop-lock:before {
+  width: .8em;
+  height: .25em;
+  border-radius: .05em;
+  box-shadow: inset 0 0 0 .065em,
+    inset .25em .09em 0 .05em,
+    inset -.25em .09em 0 .05em;
+  transform: translateX(-50%) perspective(.1em) rotateX(10deg);
+  top: .52em;
+  left: 50%;
+}
+i.icss-laptop-lock:after {
+
+  width: .23em;
+  height: .3em;
+  border-radius: .1em .1em 0 0;
+  box-shadow: inset 0 0 0 .065em,
+    inset 0 -.165em;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}

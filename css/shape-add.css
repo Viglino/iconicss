@@ -1,0 +1,27 @@
+i.icss-shape-add {
+  width: .7em;
+  height: .7em;
+  background-color: transparent;
+  border: .08em solid transparent;
+  border-radius: .05em;
+  border-color: currentColor transparent transparent currentColor;
+  margin: .1em .2em .2em .1em;
+}
+i.icss-shape-add:before {
+  width: .4em;
+  height: .08em;
+  border-radius: .05em;
+  background-color: currentColor;
+  box-shadow: .45em 0;
+  top: .54em;
+  left: -.075em;
+}
+i.icss-shape-add:after {
+  width: .08em;
+  height: .4em;
+  border-radius: .05em;
+  background-color: currentColor;
+  box-shadow: 0 .45em;
+  top: -.075em;
+  left: .54em;
+}

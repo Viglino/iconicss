@@ -1,0 +1,23 @@
+i.icss-align-right {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-align-right:before {
+  width: .08em;
+  height: .9em;
+  background-color: currentColor;
+  transform: translateY(-50%);
+  top: 50%;
+  left: .82em;
+}
+i.icss-align-right:after {
+  width: .4em;
+  height: .25em;
+  background-color: currentColor;
+  border-radius: .05em;
+  box-shadow: 0 .35em, -.2em .35em;
+  top: .2em;
+  left: .36em;
+}

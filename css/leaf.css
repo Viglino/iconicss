@@ -1,0 +1,26 @@
+i.icss-leaf {
+  width: 1em;
+  height: .9em;
+  background-color: transparent;
+  margin: 0 0 .1em;
+}
+i.icss-leaf:before {
+  width: .7em;
+  height: .8em;
+  box-shadow: inset 0 0 0 .065em,
+    inset -1.32em -1.24em 0 -1.5em;
+  border-radius: 100% 0 50% 50% / 50% 0 60% 50%;
+  transform: translate(-50%, -50%) rotate(10deg);
+  top: 50%;
+  left: 50%;
+}
+i.icss-leaf:after {
+  width: .3em;
+  height: .35em;
+  border-radius: 100% 0 0 0;
+  border-left: .085em solid currentColor;
+  clip: rect(0 .15em 1em 0);
+  transform: rotate(15deg);
+  left: .12em;
+  top: .6em;
+}

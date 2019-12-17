@@ -1,0 +1,25 @@
+i.icss-sailboat {
+    width: 1em;
+    height: .2em;
+    background-color: transparent;
+    border: .2em solid transparent;
+    border-width: .2em .1em 0 .15em;
+    border-top-color: currentColor;
+    margin: .8em 0 0;
+}
+i.icss-sailboat:before {
+    background-color: transparent;
+    border: .2em solid transparent;
+    border-width: .62em 0 0 .45em;
+    border-left-color: currentColor;
+    left: .4em;
+    top: -.9em;
+}
+i.icss-sailboat:after {
+    background-color: transparent;
+    border: .2em solid transparent;
+    border-width: .72em .48em 0 0;
+    border-right-color: currentColor;
+    left: -.15em;
+    top: -1em;
+}

@@ -1,0 +1,23 @@
+i.icss-align-bottom {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-align-bottom:before {
+  width: .9em;
+  height: .08em;
+  background-color: currentColor;
+  transform: translateX(-50%);
+  top: .82em;
+  left: 50%;
+}
+i.icss-align-bottom:after {
+  width: .25em;
+  height: .4em;
+  background-color: currentColor;
+  border-radius: .05em;
+  box-shadow: .35em 0, .35em -.2em;
+  top: .36em;
+  left: .2em;
+}

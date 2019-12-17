@@ -1,0 +1,22 @@
+i.icss-bring2back {
+  width: .7em;
+  height: .7em;
+  background-color: transparent;
+  border: .08em solid currentColor;
+  border-color: transparent currentColor currentColor transparent;
+  border-radius: .03em;
+  margin: .25em .05em .05em .25em;
+}
+i.icss-bring2back:before {
+  width: .71em;
+  height: .71em;
+  background-color: currentColor;
+  border-radius: .02em;
+  box-shadow: 
+    .48em -.11em 0 -.31em,
+    .45em -.11em 0 -.31em,
+    -.11em .45em 0 -.31em,
+    -.11em .48em 0 -.31em;
+  top: -.27em;
+  left: -.27em
+}

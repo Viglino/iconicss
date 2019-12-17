@@ -1,0 +1,26 @@
+i.icss-tape-roll {
+  width: .83em;
+  height: .4em;
+  border-radius: 0 0 .2em .25em;
+  border: .15em solid currentColor;
+  border-right: 0;
+  border-top-color: transparent;
+  background-color: transparent;
+  margin: .5em .12em .1em .05em;
+}
+i.icss-tape-roll:before {
+  width: .6em;
+  height: .6em;
+  border-radius: 50%;
+  border: .2em solid currentColor;
+  top: -.38em;
+  left: .15em;
+}
+i.icss-tape-roll:after {
+  width: .2em;
+  height: .05em;
+  background-color: currentColor;
+  transform: rotate(-10deg);
+  top: -.17em;
+  left: -.07em
+}

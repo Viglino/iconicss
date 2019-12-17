@@ -1,0 +1,42 @@
+i.icss-hard-drive {
+  width: .8em;
+  height: 1em;
+  background-color: transparent;
+  box-shadow: 
+    inset -.075em 0,
+    inset 0 -.08em;
+  border-radius: .05em;
+  overflow: hidden;
+  margin: 0 .1em;
+}
+i.icss-hard-drive:before {
+  width: .6em;
+  height: .6em;
+  border-radius: 50%;
+  border: .17em solid transparent;
+  box-shadow: 
+    0 -.3em 0 .18em, 
+    .1em .12em, 
+    -.52em .19em,
+    inset .3em 0;
+  clip: rect(-.2em 1em .69em -.5em);
+  transform: translateX(-50%);
+  top: .15em;
+  left: 50%;
+}
+i.icss-hard-drive:after {
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-width:  0 0 .2em .18em;
+  border-color: currentColor transparent;
+  box-shadow: 
+    .28em .185em 0 -.05em,
+    .41em .185em 0 -.05em,
+    .5em .04em,
+    0 .04em,
+    -.14em .15em,
+    .1em .15em;
+  top: .6em;
+  left: .13em;
+}

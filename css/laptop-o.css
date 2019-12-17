@@ -1,0 +1,26 @@
+i.icss-laptop-o {
+  width: .7em;
+  height: .5em;
+  background-color: transparent;
+  border-radius: .05em;
+  box-shadow: inset 0 0 0  .065em;
+  margin: .15em .15em .35em;
+}
+i.icss-laptop-o:before {
+  width: .8em;
+  height: .25em;
+  border-radius: .05em;
+  box-shadow: inset 0 0 0 .065em;
+  transform: translateX(-50%) perspective(.1em) rotateX(10deg);
+  top: .5em;
+  left: 50%;
+}
+i.icss-laptop-o:after {
+  width: .2em;
+  height: .08em;
+  background: currentColor;
+  box-shadow: inset 0 0 0 .065em;
+  transform: translateX(-50%) perspective(.1em) rotateX(10deg);
+  top: .63em;
+  left: 50%;
+}

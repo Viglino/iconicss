@@ -7,7 +7,7 @@ i.icss-print {
 	border-width: .07em;
 	border-radius: .05em;
 	background-color: transparent;
-	margin: 0 .17em;
+	margin: 0 .16em;
 }
 i.icss-print:before {
 	width: 1em;

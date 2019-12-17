@@ -1,0 +1,30 @@
+i.icss-firewall {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  overflow: hidden;
+  margin: 0;
+}
+i.icss-firewall:before {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  border-radius: 0 60% 60% / 0 60% 60% 70%;
+  box-shadow:
+    -.5em -.45em 0 -.3em,
+    -.65em -.3em 0 -.34em,
+    -.3em -.65em 0 -.35em;
+  transform: translateX(-50%) rotate(45deg);
+  top: .5em;
+  left: 50%;
+}
+i.icss-firewall:after {
+  width: .38em;
+  height: .2em;
+  background-color: currentColor;
+  box-shadow: .45em 0, .9em 0,
+    -.2em .25em, .25em .25em, .7em .25em;
+  clip: rect(0 1em 1em 0);
+  top: .53em;
+  left: 0;
+}

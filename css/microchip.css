@@ -1,27 +1,38 @@
 i.icss-microchip {
-    height: 1em;
-    border-width: .3em;
-    border-style: solid;
-    border-radius: .05em;
-    margin: 0 .2em;
+    height: .87em;
+    width: .5em;
+    background-color: transparent;
+    border: .065em solid transparent;
+    border-width: .03em .065em;
+    box-shadow: 
+        inset .5em 0,
+        0 0 0 .065em;
+    border-radius: .02em;
+    margin: .065em .25em;
 }
 i.icss-microchip:before {
-    border-style: solid;
-    border-width: .03em;
-    border-radius: .03em;
-    top: -.1em;
-    width: .9em;
+    width: .15em;
+    height: .05em;
+    border-radius: .02em;
+    box-shadow: 
+        -.35em -.1em, .35em -.1em, 
+        -.35em -.3em, .35em -.3em, 
+        -.35em .1em, .35em .1em, 
+        -.35em .3em, .35em .3em;
+    transform: translate(-50%, -50%);
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
-    box-shadow: 0 .2em, 0 .4em, 0 .6em;
 }
 i.icss-microchip:after {
-    border-style: solid;
-    border-width: .06em;
+    width: .12em;
+    height: .11em;
     border-radius: .03em;
-    top: -.12em;
-    width: .75em;
+    box-shadow: 
+        -.31em -.1em, .31em -.1em, 
+        -.31em -.3em, .31em -.3em, 
+        -.31em .1em, .31em .1em, 
+        -.31em .3em, .31em .3em;
+    transform: translate(-50%, -50%);
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
-    box-shadow: 0 .2em, 0 .4em, 0 .6em;
 }

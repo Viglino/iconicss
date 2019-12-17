@@ -1,0 +1,27 @@
+i.icss-cube {
+  width: .7em;
+  height: .7em;
+  background-color: currentColor;
+  border-radius: .03em;
+  margin: .3em .3em 0 0;
+}
+i.icss-cube:before {
+  width: .7em;
+  height: .25em;
+  background-color: currentColor;
+  border-radius: .03em;
+  transform: skewX(-45deg);
+  transform-origin: 0 100%;
+  top: -.3em;
+  left: .01em;
+}
+i.icss-cube:after {
+  width: .25em;
+  height: .7em;
+  background-color: currentColor;
+  border-radius: .03em;
+  transform: skewY(-45deg);
+  transform-origin: 0 100%;
+  top: -.01em;
+  left: .75em;
+}

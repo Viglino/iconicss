@@ -1,0 +1,30 @@
+i.icss-cone {
+  width: .8em;
+  height: .35em;
+  border: .05em solid transparent;
+  background-color: transparent;
+  box-shadow: inset 0 .3em, 
+    0 -.15em 0 -.1em;
+  border-radius: 50%;
+  margin: .65em .1em 0;
+}
+i.icss-cone:before {
+  width: .9em;
+  height: .9em;
+  border: .1em solid currentColor;
+  border-color: currentColor currentColor transparent transparent;
+  border-width: .1em .1em .2em .2em;
+  transform: translateX(-50%) scaleX(.53) rotate(-45deg);
+  top: -.41em;
+  left: 50%;
+}
+i.icss-cone:after {
+  width: .0em;
+  height: .35em;
+  border: .28em solid transparent;
+  border-top: 0;
+  border-bottom: .45em solid currentColor;
+  transform: translateX(-50%);
+  top: -.5em;
+  left: 50%;
+}

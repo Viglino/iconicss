@@ -1,0 +1,9 @@
+i.icss-bring2front {
+  width: .8em;
+  height: .8em;
+  background-color: transparent;
+  border: .05em solid transparent;
+  border-radius: .03em;
+  box-shadow: inset 0 0 0 .065em, .2em .2em 0 -.04em;
+  margin: 0 .2em .2em 0;
+}

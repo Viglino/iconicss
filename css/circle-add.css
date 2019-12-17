@@ -1,0 +1,26 @@
+i.icss-circle-add {
+  width: .08em;
+  height: .4em;
+  border-radius: .05em;
+  margin: .55em .2em .05em .72em;
+}
+i.icss-circle-add:before {
+  width: .7em;
+  height: .7em;
+  background-color: transparent;
+  border-radius: 50%;
+  border: .08em solid currentColor;
+  border-right-color: transparent;
+  transform: rotate(45deg);
+  top: -.47em;
+  left: -.62em;
+}
+i.icss-circle-add:after {
+  width: .4em;
+  height: .08em;
+  background-color: currentColor;
+  border-radius: .05em;
+  transform: translateX(-50%);
+  left: 50%;
+  top: .15em
+}

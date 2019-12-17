@@ -1,0 +1,24 @@
+i.icss-cone-o {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-cone-o:before {
+  width: 1em;
+  height: 1em;
+  border: .1em solid currentColor;
+  border-color: currentColor currentColor transparent transparent;
+  transform: translateX(-50%) scaleX(.53) rotate(-45deg);
+  top: .3em;
+  left: 50%;
+}
+i.icss-cone-o:after {
+  width: .75em;
+  height: .3em;
+  box-shadow: inset 0 0 0 .07em;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  top: .67em;
+  left: 50%;
+}

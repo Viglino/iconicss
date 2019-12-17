@@ -1,0 +1,32 @@
+i.icss-ninja {
+  width: .8em;
+  height: 1em;
+  background-color: transparent;
+  border-radius: 50% 50% 50% 50% / 40% 40% 60% 60%;
+  box-shadow: 
+    inset .06em .2em, 
+    inset -.06em .25em, 
+    inset 0 -.25em, 
+    inset 0 .89em 0 -.5em,
+    inset 0 -1.38em 0 -1em;
+  margin: 0 .1em;
+}
+i.icss-ninja:before {
+  width: .13em;
+  height: .13em;
+  border-radius: 0 90%;
+  transform: translateY(-50%) rotate(-45deg);
+  box-shadow: .2em .2em;
+  background-color: currentColor;
+  top: 50%;
+  left: .2em;
+}
+i.icss-ninja:after {
+  width: .2em;
+  height: .2em;
+  border: .1em solid currentColor;
+  border-right: .05em solid transparent;
+  transform: rotate(25deg);
+  top: .55em;
+  left: .73em;
+}

@@ -1,0 +1,25 @@
+i.icss-lego {
+  width: .2em;
+  height: .1em;
+  border-radius: 50%;
+  box-shadow: 0 -.2em, 
+    .25em -.1em,
+    -.25em -.1em;
+  margin: .35em .4em .55em;
+}
+i.icss-lego:before {
+  width: .42em;
+  height: .38em;
+  background-color: currentColor;
+  transform: skewY(25deg);
+  top: .1em;
+  left: -.35em;
+}
+i.icss-lego:after {
+  width: .42em;
+  height: .38em;
+  background-color: currentColor;
+  transform: skewY(-25deg);
+  top: .1em;
+  left: .13em;
+}

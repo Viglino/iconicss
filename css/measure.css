@@ -1,0 +1,24 @@
+i.icss-measure {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-measure:before {
+  width: 1em;
+  height: .3em;
+  border: .065em solid currentColor;
+  border-radius: .03em;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  top: 50%;
+  left: 50%;
+}
+i.icss-measure:after {
+  width: .15em;
+  height: .065em;
+  background-color: currentColor;
+  transform: translate(-50%, -50%) rotate(45deg) translateX(-.05em);
+  box-shadow: 0 .15em, 0 .3em, 0 -.15em, 0 -.3em;
+  top: 50%;
+  left: 50%;
+}

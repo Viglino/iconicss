@@ -1,0 +1,39 @@
+i.icss-chip-64 {
+  width: .15em;
+  height: .06em;
+  background-color: transparent;
+  box-shadow: 
+    -.38em 0, .38em 0, 
+    -.38em -.2em, .38em -.2em, 
+    -.38em .2em, .38em .2em;
+  border-radius: .02em;
+  margin: .475em .425em;
+}
+i.icss-chip-64:before {
+  content: "64";
+  font-size: .4em;
+  border: .16em solid currentColor;
+  width: 1.7em;
+  height: 1.7em;
+  line-height: 1.5em;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  border-radius: .1em;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+i.icss-chip-64:after {
+  width: .06em;
+  height: .15em;
+  background-color: transparent;
+  box-shadow: 
+    0 -.38em 0, 0 .38em , 
+    -.2em -.38em, -.2em .38em , 
+    .2em -.38em, .2em .38em;
+  border-radius: .02em;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
