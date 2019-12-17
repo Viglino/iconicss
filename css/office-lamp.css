@@ -1,20 +1,22 @@
 i.icss-office-lamp {
-  width: .4em;
-  height: .5em;
+  width: .22em;
+  height: .22em;
   background-color: transparent;
-  margin: .1em 0 .4em .6em;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 .05em;
+  margin: .3em .13em .48em .65em;
 }
 i.icss-office-lamp:before {
-  width: .42em;
-  height: .42em;
-  border: .21em solid transparent;
+  width: .46em;
+  height: .46em;
+  border: .23em solid transparent;
   border-color:currentColor transparent transparent currentColor;
   border-radius: 50%;
   box-shadow: 
-    -.1em -.09em 0 -.09em, 
-    -.175em -.16em 0 -.15em,
-    -.6em .08em 0 -.12em,
-    -.37em .48em 0 -.1em,
+    -.1em -.09em 0 -.1em, 
+    -.175em -.16em 0 -.17em,
+    -.6em .08em 0 -.14em,
+    -.37em .48em 0 -.12em,
     -.37em .7em 0 .04em;
   clip: rect(-.5em 1em .8em -.5em);
   transform: translate(-50%, -50%);
@@ -27,6 +29,6 @@ i.icss-office-lamp:after {
   border: .1em solid currentColor;
   border-width: .07em 0 0 .07em;
   transform: scaleY(.8) rotate(-30deg);
-  top: .14em;
-  left: -.36em;
+  top: -.01em;
+  left: -.45em;
 }
