@@ -76,6 +76,9 @@ pre {
   float: right;
   box-sizing: border-box;
 }
+pre, pre * {
+  user-select: all;
+}
 h1 {
   color: #fff;
   padding:1em 1em 0;
@@ -219,7 +222,7 @@ input:focus {
 }
 .header > a i {
   vertical-align: middle;
-  margin-right: ..5em;
+  margin-right: .5em;
 }
 .debug .header > a {
   background: #ccc;
@@ -269,6 +272,7 @@ h2, .header > *, .footer > *, .search > *, .icons, .page {
     display: block;
 }
 #examples h2,
+#helper h2,
 #license h2 {
   position: relative;
   background: #a82;
@@ -282,8 +286,15 @@ h2, .header > *, .footer > *, .search > *, .icons, .page {
 #examples h2{
   background-color: #8a2;
 }
+#helper h2{
+  background-color: #09E;
+}
+#helper pre {
+  width: 100%;
+}
 
 #examples h2:before,
+#helper h2:before,
 #license h2:before {
   content:"";
   background: #000;
@@ -297,6 +308,7 @@ h2, .header > *, .footer > *, .search > *, .icons, .page {
   bottom: -2.4em;
 }
 #examples h2:after,
+#helper h2:after,
 #license h2:after {
   content:"";
   background: #fff;

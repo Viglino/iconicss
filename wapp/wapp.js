@@ -13,12 +13,14 @@ var wapp = {
   /** Show a page */
   showPage: function(id) {
     if (!$("#"+(id||"none")).length) id="home";
+    if (id==='home') wapp.carousel.start();
+    else wapp.carousel.pause();
     $("[data-page]").hide();
     $("#"+id).show();
     $(".menu a").removeClass("select");
     $(".menu a."+id).addClass("select");
     $(window).scrollTop(0);
-    wapp.currentPage=id;
+    wapp.currentPage = id;
     wapp.getUrl();
   },
 
@@ -177,86 +179,76 @@ function showICSS(icon) {
 };
 
 function loadIcon(i) {
-  wapp.icons[i] = 'loding';
-  $.ajax({
-    url: "css/"+i+".css",
-    dataType: "text",
-    success:function(r) {
-      wapp.icons[i] = r;
-    }
-  });
-}
-
-function carousel() {
-  if (wapp.currentPage === "home") {
-    var icons = Object.keys(wapp.icons);
-    if (icons.length) {
-      var newIcon = icons[Math.round(Math.random()*icons.length)];
-      $(".title .left i").removeClass()
-        .addClass("icss-anim icss-"+newIcon);
-      $(".title .left p").text(newIcon);
-    }
-  }
-  setTimeout(carousel, 5000);
-}
+  wapp.icons[i] = 'loading';
+  var xhr = new XMLHttpRequest();
+  xhr.onload = function() {
+    wapp.icons[i] = xhr.responseText;
+  };
+  xhr.open('GET', 'css/'+i+'.css');
+  xhr.send();
+};
 
 /** Initialize function.
  * Runs when document is ready.
  */
 wapp.initialize = function() {
   // Load config
-  $.ajax("config.json",{
-    dataType: "json",
-    cache: false,
-    success:function(r) {
-      wapp.iconData = r.icons;
-      if (!wapp.debug) $('<link/>', { rel: 'stylesheet', href: "dist/iconicss.css" }).appendTo('head');
-      var n=0;
-      for(i in r.icons) {
-        // console.log(i);
-        n++;
-        if (wapp.debug) $('<link/>', { rel: 'stylesheet', href: "css/"+i+".css" }).appendTo('head');
-        loadIcon(i);                
-        var div = $("<div>")
-          .addClass("icss-stack")
-          .data('icon',i)
-          .click(function() {
-            showICSS($(this).data('icon')) 
-          });
-        if (r.icons[i].color) div.appendTo(".icons.color");
-        else div.appendTo(".icons.standard");
-        $("<i>").attr('title',i)
-          .data("icss",i)
-          .addClass('icss-'+i)
-          .appendTo(div);
-      }
-      // Nb icons
-      $(".nb").text(n);
-
-      var page="home";
-      var locSearch = {};
-      document.location.search.replace(/^\?/,'').split('&').forEach(function(e) {
-        e = e.split('=');
-        locSearch[e[0]] = e[1];
-      });
-
-      // Show current page
-      page = locSearch.page || "home";
-      wapp.showPage(page);
-      // Select current icon
-      $('.search input[type=search]').val(locSearch.icon||'');
-      showICSS(locSearch.icon==='home' ? null : locSearch.icon);
-      wapp.search(locSearch.icon)
-
-      // Start carousel
-      carousel();
-      
-      // Show page
-      pageLoader.hide();
-    },
-    error: function(){
+  var xhr = new XMLHttpRequest();
+  xhr.onload = function() {
+    var r = JSON.parse(xhr.responseText);
+    wapp.iconData = r.icons;
+    if (!wapp.debug) $('<link/>', { rel: 'stylesheet', href: "dist/iconicss.css" }).appendTo('head');
+    var n=0;
+    for(i in r.icons) {
+      // console.log(i);
+      n++;
+      if (wapp.debug) $('<link/>', { rel: 'stylesheet', href: "css/"+i+".css" }).appendTo('head');
+      loadIcon(i);                
+      var div = $("<div>")
+        .addClass("icss-stack")
+        .data('icon',i)
+        .click(function() {
+          showICSS($(this).data('icon')) 
+        });
+      if (r.icons[i].color) div.appendTo(".icons.color");
+      else div.appendTo(".icons.standard");
+      $("<i>").attr('title',i)
+        .data("icss",i)
+        .addClass('icss-'+i)
+        .appendTo(div);
     }
-  });
+    // Nb icons
+    $(".nb").text(n);
+
+    var page="home";
+    var locSearch = {};
+    document.location.search.replace(/^\?/,'').split('&').forEach(function(e) {
+      e = e.split('=');
+      locSearch[e[0]] = e[1];
+    });
+
+    wapp.carousel = icss.animate('.title .left i', {
+      random: true,
+      start: false,
+      icssName: Object.keys(wapp.iconData),
+      onchange: function(newIcon) {
+        $(".title .left p").text(newIcon);
+      } 
+    });
+
+    // Show current page
+    page = locSearch.page || "home";
+    wapp.showPage(page);
+    // Select current icon
+    $('.search input[type=search]').val(locSearch.icon||'');
+    showICSS(locSearch.icon==='home' ? null : locSearch.icon);
+    wapp.search(locSearch.icon)
+
+    // Show page
+    pageLoader.hide();
+  };
+  xhr.open('GET', 'config.json');
+  xhr.send();
 };
 
 })();

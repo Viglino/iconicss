@@ -15,7 +15,6 @@ i.icss-riffle:before {
   border-style: solid;
   border-width: .08em .12em .35em .03em;
   border-color: currentColor transparent;
-  box-shadow: ;
   transform: rotate(30deg);
   top: .03em;
   left: -.15em;  

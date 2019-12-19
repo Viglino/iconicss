@@ -47,13 +47,3 @@ i.icss-black-panther-c:before {
   left: 50%;
   top: -.05em;
 }
-i.0icss-black-panther-c:after {
-  width: .4em;
-  height: .3em;
-  border: .03em solid #666;
-  border-color: #666 transparent transparent;
-  border-radius: 50%;
-  transform: translateX(-50%);
-  left: 50%;
-  top: .55em;
-}

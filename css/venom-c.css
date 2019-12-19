@@ -3,10 +3,6 @@ i.icss-venom-c {
 	height:.65em;
 	border-radius: 40% 40% 6% 6% / 50%;
 	background-color: #fff; 
-	box-shadow: 
-		inset .065em #333, 
-		inset -.065em #333,
-		inset 0 .065em #333;
 	background-image: 
 		radial-gradient(ellipse 100% 50% at 45% 22%,
 			#339 0%, transparent 40%),

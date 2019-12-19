@@ -2935,18 +2935,7 @@ i.icss-black-panther-c:before {
   left: 50%;
   top: -.05em;
 }
-i.0icss-black-panther-c:after {
-  width: .4em;
-  height: .3em;
-  border: .03em solid #666;
-  border-color: #666 transparent transparent;
-  border-radius: 50%;
-  -webkit-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-          transform: translateX(-50%);
-  left: 50%;
-  top: .55em;
-}
+
 i.icss-black-panther {
 	width: .76em; 
 	height: 1em; 
@@ -8537,10 +8526,6 @@ i.icss-cyclops-c {
 	height: 1em; 
 	border-radius: 50% 50% 40% 40% / 30% 30% 60% 60%;
   background-color: #fda;
-  box-shadow0: 
-    inset 0 0 0 .065em #19f, 
-    inset .12em .065em #19f, 
-    inset -.12em .065em #19f;
   background-image: 
     radial-gradient(circle at .38em -.18em, 
       #520 30%, transparent 30%),
@@ -9600,7 +9585,6 @@ i.icss-desktop-pc:before {
     inset 0 -.33em 0  .065em;
           box-shadow: inset 0 .02em 0  .065em,
     inset 0 -.33em 0  .065em;
-  transform0: translate(-50%, -50%);
   top: .2em;
   left: .75em;
 }
@@ -12151,7 +12135,6 @@ i.icss-folder-close:after {
   width: .9em;
   height: .75em;
   border-radius: .05em;
-  background: tr;
   -webkit-box-shadow: inset 0 0 0 .08em;
           box-shadow: inset 0 0 0 .08em;
   top: 0;
@@ -12204,7 +12187,6 @@ i.icss-folder-open:after {
   width: .9em;
   height: .7em;
   border-radius: .05em;
-  background: tr;
   -webkit-box-shadow: inset 0 0 0 .08em;
           box-shadow: inset 0 0 0 .08em;
   -webkit-transform: perspective(4em) rotateX(-35deg);
@@ -17210,7 +17192,6 @@ i.icss-link {
     width: .09em;
     height: .4em;
     border-radius: .1em;
-    transform0: rotate(30deg);
     margin: .3em .455em .3em;
 }
 .icss-stack i.icss-link {
@@ -22101,8 +22082,6 @@ i.icss-riffle:before {
   border-style: solid;
   border-width: .08em .12em .35em .03em;
   border-color: currentColor transparent;
-  -webkit-box-shadow: ;
-          box-shadow: ;
   -webkit-transform: rotate(30deg);
       -ms-transform: rotate(30deg);
           transform: rotate(30deg);
@@ -25411,14 +25390,11 @@ i.icss-success:after {
     width: .43em;
     height: .16em;
 }
-/* https://codepen.io/giuliacardieri/pen/EypPdg */
 i.icss-sun-c {
   width: 1em;
   height: 1em;
   border-radius: 50%;
   background-color: transparent;
-  0box-shadow: inset 0 0 0 .5em rgb(250, 200, 70);
-  0border: .1em solid rgba(250, 200, 70, .5);
   background-image: -o-radial-gradient(center, 
     ellipse, 
     #fd0 1%, #fb0 39%, #fb0 39%, #d61 100%);
@@ -28599,6 +28575,7 @@ i.icss-user-circle {
     background-color: transparent;
     border: 0.068em solid currentColor;
     overflow: hidden;
+    margin: 0;
 }
 i.icss-user-circle:before {
     width: .55em;
@@ -28942,14 +28919,6 @@ i.icss-venom-c {
 	height:.65em;
 	border-radius: 40% 40% 6% 6% / 50%;
 	background-color: #fff; 
-	-webkit-box-shadow: 
-		inset .065em #333, 
-		inset -.065em #333,
-		inset 0 .065em #333; 
-	        box-shadow: 
-		inset .065em #333, 
-		inset -.065em #333,
-		inset 0 .065em #333;
 	background-image: 
 		-o-radial-gradient(45% 22%,
 			ellipse 100% 50%,
@@ -28977,7 +28946,7 @@ i.icss-venom-c {
 			#333 40%, transparent 40%),
 		-o-radial-gradient(50% 25%,
 			ellipse 100% 60%,
-			#333 50%, transparent 40%);
+			#333 50%, transparent 40%); 
 	background-image: 
 		radial-gradient(ellipse 100% 50% at 45% 22%,
 			#339 0%, transparent 40%),
@@ -29264,41 +29233,55 @@ i.icss-viking-hat:after {
 }
 
 i.icss-visual-code {
-   height: .845em;
-   border-radius: .03em; 
-   background-color: transparent;
-   border: .1em solid transparent;
-   border-left: .15em solid currentColor;
-   border-right: 0 solid transparent;
-   margin: .05em .1em 0 .7em;
+  height: .845em;
+  border-radius: .03em; 
+  background-color: transparent;
+  border: .1em solid transparent;
+  border-left: .15em solid currentColor;
+  border-right: 0 solid transparent;
+  margin: .05em .1em 0 .7em;
 }
 i.icss-visual-code:before {
 }  
 i.icss-visual-code:after {
-   width: .55em;
-   height: .48em;
-   border-radius0: 0 .06em .06em 0;
-   background: transparent;
-   background-image: 
-      -o-linear-gradient(49deg, 
-         transparent 0, transparent .36em, currentColor .36em, 
-         currentColor .47em, transparent .47em),
-      -o-linear-gradient(131deg, 
-         transparent 0, transparent .23em, currentColor .23em, 
-         currentColor .34em, transparent .34em)
-      ;
-   background-image: 
-      linear-gradient(41deg, 
-         transparent 0, transparent .36em, currentColor .36em, 
-         currentColor .47em, transparent .47em),
-      linear-gradient(-41deg, 
-         transparent 0, transparent .23em, currentColor .23em, 
-         currentColor .34em, transparent .34em)
-      ;
-   -webkit-transform: perspective(.3em) rotateY(-30deg);
-           transform: perspective(.3em) rotateY(-30deg);
-   top: .05em;
-   left: -.845em;
+  width: .55em;
+  height: .48em;
+  background: transparent;
+  background-image: 
+    -o-linear-gradient(49deg, 
+      transparent 0, transparent .36em, currentColor .36em, 
+      currentColor .47em, transparent .47em),
+    -o-linear-gradient(131deg, 
+      transparent 0, transparent .23em, currentColor .23em, 
+      currentColor .34em, transparent .34em)
+    ;
+  background-image: 
+    linear-gradient(41deg, 
+      transparent 0, transparent .36em, currentColor .36em, 
+      currentColor .47em, transparent .47em),
+    linear-gradient(-41deg, 
+      transparent 0, transparent .23em, currentColor .23em, 
+      currentColor .34em, transparent .34em)
+    ;
+  -webkit-transform: perspective(.3em) rotateY(-30deg);
+          transform: perspective(.3em) rotateY(-30deg);
+  top: .05em;
+  left: -.845em;
+}
+i.icss-volume {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-volume:before {
+  width: 1em;
+  height: 1em;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
 }
 i.icss-walker-man {
     width: .22em;

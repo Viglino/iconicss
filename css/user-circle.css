@@ -5,6 +5,7 @@ i.icss-user-circle {
     background-color: transparent;
     border: 0.068em solid currentColor;
     overflow: hidden;
+    margin: 0;
 }
 i.icss-user-circle:before {
     width: .55em;

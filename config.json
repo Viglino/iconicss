@@ -387,6 +387,7 @@
     "sound-1": {},
     "sound-2": {},
     "sound-3": {},
+    "volume": { "date":"2019-12-17", "tags":"sound,music" },
     "microphone": { "tags":"sound,music" },
     "microphone-off": { "tags":"sound,music" },
     "sound-speaker": { "date": "2019-11-16", "tags":"sound,music" },

@@ -39,6 +39,7 @@ Code highlighting
         <a class="home" onclick="wapp.showPage('home');"><i class="icss-home"></i> <span>Home</span></a>
         <a class="icons" onclick="wapp.showPage('icons');"><i class="icss-mickey"></i> <span>Icons</span></a>
         <a class="examples" onclick="wapp.showPage('examples');"><i class="icss-plug"></i> <span>Examples</span></a>
+        <a class="helper" onclick="wapp.showPage('helper');"><i class="icss-js"></i> <span>Helper</span></a>
         <a class="license" onclick="wapp.showPage('license');"><i class="icss-lightbulb"></i> <span>License</span></a>
       </div>
   </div>
@@ -131,10 +132,10 @@ Code highlighting
         <a href="https://cdn.rawgit.com/Viglino/iconicss/master/dist/iconicss.min.css">iconicss.min.css</a> 
         in your html page:
       </p>
+
       <pre style='width:100%; color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>link</span> <span style='color:#074726; '>rel</span><span style='color:#806030; '>=</span><span style='color:#800000; '>"</span><span style='color:#e60000; '>stylesheet</span><span style='color:#800000; '>"</span> <span style='color:#074726; '>href</span><span style='color:#806030; '>=</span><span style='color:#800000; '>"</span><span style='color:#40015a; '>iconicss.min.css</span><span style='color:#800000; '>"</span><span style='color:#a65700; '>></span></pre>
       <p>
-
-        then just add <code>icss-</code> classes to an <i> elements to add a new icon on your page:
+        Then just add <code>icss-</code> classes to an &lt;i&gt; elements to add a new icon on your page:
       </p>
       <pre style='color:#000000;background:#f1f0f0;'><span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>i</span> <span style='color:#074726; '>class</span><span style='color:#806030; '>=</span><span style='color:#800000; '>"</span><span style='color:#e60000; '>icss-home</span><span style='color:#800000; '>"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>i</span><span style='color:#a65700; '>></span></pre>
       <i class="icss-home"></i>
@@ -425,6 +426,93 @@ Code highlighting
     </div>
   </div>
 
+  <!-- Helper page -->
+	<div id="helper" data-page=true>
+    <h2>
+      <div class="page">
+        <div class="icss-stack x2_5" style="vertical-align: middle;">
+          <i class="icss-js small" style="color: #fff;"></i>
+          <i class="icss-blazon-o" style="color: #fff"></i>
+        </div> Helper
+      </div>
+    </h2>
+    <div class="page">
+      <p>
+        iConicss comes with a set of helpers to let you handle icons classes and animation programmatically.
+      </p>
+      <h3>
+        Getting started
+      </h3>
+      <p>
+        For use in a web page, just include the javascript in your page.
+      </p>
+<pre style='color:#000000;background:#f1f0f0;'><span style='color:#c34e00; '>&lt;!-- iConicss --></span>
+<span style='color:#a65700; '>&lt;</span><span style='color:#400000; font-weight:bold; '>script</span><span style='color:#074726; '> </span><span style='color:#074726; '>src</span><span style='color:#806030; '>=</span><span style='color:#e60000; '>"iconicss.js"</span><span style='color:#a65700; '>></span><span style='color:#a65700; '>&lt;/</span><span style='color:#400000; font-weight:bold; '>script</span><span style='color:#a65700; '>></span></pre>
+      
+      <h3>Changing icons</h3>
+      <p>
+        To change icon of a DOM element use the <code>setClass</code> method.
+      </p>
+<pre style='color:#000000;background:#f1f0f0;'>icss<span style='color:#806030; '>.</span>setClass<span style='color:#806030; '>(</span>element<span style='color:#806030; '>,</span> <span style='color:#008000; '>'home'</span><span style='color:#806030; '>)</span><span style='color:#806030; '>;</span></pre>
+      <p>
+        You can use a selector as first argument.
+      </p>
+<pre style='color:#000000;background:#f1f0f0;'>icss<span style='color:#806030; '>.</span>setClass<span style='color:#806030; '>(</span><span style='color:#800000; '>'</span><span style='color:#e60000; '>#myId</span><span style='color:#800000; '>'</span><span style='color:#806030; '>,</span> <span style='color:#800000; '>'</span><span style='color:#e60000; '>home</span><span style='color:#800000; '>'</span><span style='color:#806030; '>)</span><span style='color:#806030; '>;</span></pre>
+
+      <p>
+        <i id="test1" class="icss-home x2"></i>
+        &nbsp;
+        <button onclick="icss.setClass('#test1','lamp')">lamp</button>
+        <button onclick="icss.setClass('#test1','dolphin')">dolphin</button>
+        <button onclick="icss.setClass('#test1','home')">home</button>
+      </p>
+
+      <h3>Animating icons</h3>
+      <p>
+        Use the <code>animate</code> method to animate a sequence of icons.
+      </p>
+<pre style='color:#000000;background:#f1f0f0;'>icss<span style='color:#806030; '>.</span>animate<span style='color:#806030; '>(</span><span style='color:#800000; '>'</span><span style='color:#e60000; '>#myId</span><span style='color:#800000; '>'</span><span style='color:#806030; '>,</span> <span style='color:#806030; '>{</span>
+  <span style='color:#c34e00; '>// List of icons to animate</span>
+  icssName<span style='color:#806030; '>:</span> <span style='color:#806030; '>[</span><span style='color:#800000; '>'</span><span style='color:#e60000; '>circle</span><span style='color:#800000; '>'</span><span style='color:#806030; '>,</span><span style='color:#800000; '>'</span><span style='color:#e60000; '>triangle</span><span style='color:#800000; '>'</span><span style='color:#806030; '>,</span><span style='color:#800000; '>'</span><span style='color:#e60000; '>square</span><span style='color:#800000; '>'</span><span style='color:#806030; '>,</span><span style='color:#800000; '>'</span><span style='color:#e60000; '>cube</span><span style='color:#800000; '>'</span><span style='color:#806030; '>,</span><span style='color:#800000; '>'</span><span style='color:#e60000; '>cylender</span><span style='color:#800000; '>'</span><span style='color:#806030; '>,</span><span style='color:#800000; '>'</span><span style='color:#e60000; '>cone</span><span style='color:#800000; '>'</span><span style='color:#806030; '>]</span><span style='color:#806030; '>,</span>
+  <span style='color:#c34e00; '>// delay in ms, default 5s</span>
+  delay<span style='color:#806030; '>:</span> <span style='color:#c00000; '>5000</span><span style='color:#806030; '>,</span> 
+  <span style='color:#c34e00; '>// start animating, default true</span>
+  start<span style='color:#806030; '>:</span> <span style='color:#0f4d75; '>true</span><span style='color:#806030; '>,</span> 
+  <span style='color:#c34e00; '>// random choice, default incremental</span>
+  <span style='color:#400000; '>random</span><span style='color:#806030; '>:</span> <span style='color:#0f4d75; '>false</span><span style='color:#806030; '>,</span> 
+  <span style='color:#c34e00; '>// callback function on change, default none</span>
+  onchange<span style='color:#806030; '>:</span> <span style='color:#400000; font-weight:bold; '>function</span><span style='color:#806030; '>(</span><span style='color:#806030; '>)</span> <span style='color:#806030; '>{</span> <span style='color:#c34e00; '>/* do something */</span> <span style='color:#806030; '>}</span> 
+<span style='color:#806030; '>}</span><span style='color:#806030; '>)</span><span style='color:#806030; '>;</span></pre>
+
+      <p>
+        Use the returned value to control animation.
+      </p>
+
+<pre style='color:#000000;background:#f1f0f0;'><span style='color:#400000; font-weight:bold; '>var</span> controler <span style='color:#806030; '>=</span> icss<span style='color:#806030; '>.</span>animate<span style='color:#806030; '>(</span><span style='color:#800000; '>'</span><span style='color:#e60000; '>#myId</span><span style='color:#800000; '>'</span><span style='color:#806030; '>,</span> <span style='color:#806030; '>{</span>
+  icssName<span style='color:#806030; '>:</span> <span style='color:#806030; '>[</span><span style='color:#800000; '>'</span><span style='color:#e60000; '>circle</span><span style='color:#800000; '>'</span><span style='color:#806030; '>,</span><span style='color:#800000; '>'</span><span style='color:#e60000; '>triangle</span><span style='color:#800000; '>'</span><span style='color:#806030; '>,</span><span style='color:#800000; '>'</span><span style='color:#e60000; '>square</span><span style='color:#800000; '>'</span><span style='color:#806030; '>,</span><span style='color:#800000; '>'</span><span style='color:#e60000; '>cube</span><span style='color:#800000; '>'</span><span style='color:#806030; '>,</span><span style='color:#800000; '>'</span><span style='color:#e60000; '>cylender</span><span style='color:#800000; '>'</span><span style='color:#806030; '>,</span><span style='color:#800000; '>'</span><span style='color:#e60000; '>cone</span><span style='color:#800000; '>'</span><span style='color:#806030; '>]</span><span style='color:#806030; '>,</span>
+  start<span style='color:#806030; '>:</span> <span style='color:#0f4d75; '>false</span>
+<span style='color:#806030; '>}</span><span style='color:#806030; '>)</span><span style='color:#806030; '>;</span>
+<span style='color:#c34e00; '>// Start animating</span>
+controler<span style='color:#806030; '>.</span>start<span style='color:#806030; '>(</span><span style='color:#806030; '>)</span><span style='color:#806030; '>;</span>
+<span style='color:#c34e00; '>// Pause animation, use start to restart</span>
+controler<span style='color:#806030; '>.</span>pause<span style='color:#806030; '>(</span><span style='color:#806030; '>)</span><span style='color:#806030; '>;</span>
+<span style='color:#c34e00; '>// Stop animation</span>
+controler<span style='color:#806030; '>.</span>stop<span style='color:#806030; '>(</span><span style='color:#806030; '>)</span><span style='color:#806030; '>;</span></pre>
+
+      <h3>Handle effects</h3>
+      <p>
+        Use <code>setEffect</code>, <code>removeEffect</code> or <code>toggleEffect</code> methods to handle effects on icons.
+      </p>
+<pre style='color:#000000;background:#f1f0f0;'><span style='color:#c34e00; '>// Toggle ring effect to myID</span>
+icss<span style='color:#806030; '>.</span>toggleEffect<span style='color:#806030; '>(</span><span style='color:#800000; '>'</span><span style='color:#e60000; '>#myID</span><span style='color:#800000; '>'</span><span style='color:#806030; '>,</span> <span style='color:#800000; '>'</span><span style='color:#e60000; '>ring</span><span style='color:#800000; '>'</span><span style='color:#806030; '>)</span><span style='color:#806030; '>;</span></pre>
+      <p>
+        <i id="test3" class="icss-bell x2"></i>
+        &nbsp;
+        <button onclick="icss.toggleEffect('#test3','ring')">Ring the bell!</button>
+      </p>
+    </div>
+  </div>
+
   <!-- License page -->
 	<div id="license" data-page=true>
     <h2>
@@ -463,6 +551,7 @@ Code highlighting
 
     </div>
   </div>
+
 
   <!-- Advanced page -->
   <div id="advanced" data-page=true>
@@ -556,7 +645,9 @@ Code highlighting
 
 	<!-- jQuery -->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-	<!-- Web app -->
+  <!-- iConicss -->
+  <script src="iconicss.js"></script>
+  <!-- Web app -->
 	<script src="wapp/wapp.js"></script>
 
 </body>

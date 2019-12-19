@@ -3,10 +3,6 @@ i.icss-cyclops-c {
 	height: 1em; 
 	border-radius: 50% 50% 40% 40% / 30% 30% 60% 60%;
   background-color: #fda;
-  box-shadow0: 
-    inset 0 0 0 .065em #19f, 
-    inset .12em .065em #19f, 
-    inset -.12em .065em #19f;
   background-image: 
     radial-gradient(circle at .38em -.18em, 
       #520 30%, transparent 30%),

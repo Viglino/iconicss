@@ -2,7 +2,6 @@ i.icss-link {
     width: .09em;
     height: .4em;
     border-radius: .1em;
-    transform0: rotate(30deg);
     margin: .3em .455em .3em;
 }
 .icss-stack i.icss-link {
