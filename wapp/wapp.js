@@ -10,9 +10,11 @@ var wapp = {
   /** Initialize function */
   initialize: function(){},
 
-  /** Show a page */
+  /** Show a page 
+   * @param {string] id page id}
+   */
   showPage: function(id) {
-    if (!$("#"+(id||"none")).length) id="home";
+    if (!$("#"+(id||"none")).length) id = "home";
     if (id==='home') wapp.carousel.start();
     else wapp.carousel.pause();
     $("[data-page]").hide();
@@ -24,7 +26,8 @@ var wapp = {
     wapp.getUrl();
   },
 
-  /** Retrieve current url */
+  /** Retrieve current url 
+   */
   getUrl: function() {
     var url = document.location.href.split('?')[0] 
       + '?' + (wapp.debug ? 'debug&' : '') 
@@ -38,13 +41,14 @@ var wapp = {
    * @param {boolean}
    */
   enlarge: function(b) {
-    var fs = parseInt($('i .icons').css('font-size'));
+    var icons = $('#icons .icss-stack');
+    var fs = parseInt(icons.css('font-size'));
     if (b) {
       if (fs>40) return;
-      $('i .icons').css('font-size', (fs+5)+'px');
+      icons.css('font-size', (fs+5)+'px');
     } else {
       if (fs<12) return;
-      $('i .icons').css('font-size', (fs-5)+'px');
+      icons.css('font-size', (fs-5)+'px');
     }
   },
 
@@ -53,8 +57,8 @@ var wapp = {
    */
   setDebug: function(b) {
     this.debug = (b!==false);
-    var icon = $(".icon i").first().attr("class").replace(/icss-anim|icss-|\ /g,"");
-    var s = "?" + (this.debug?"debug&":"") + "icon=" + icon;
+    var icon = $(".icon i").first().attr("class").replace(/icss-anim|icss-|icss\ /g,"").trim();
+    var s = "?" + (this.debug?"debug&":"") + "page=icons&icon=" + icon;
     document.location = document.location.href.split("?")[0] + s;
   },
 
@@ -110,11 +114,11 @@ var wapp = {
     if (wapp.icons[icon]) {
       $(".icon textarea").val(wapp.icons[icon]).select();
         try {
-            var successful = document.execCommand('copy');
-            var msg = successful ? 'successful' : 'unsuccessful';
-            console.log('Copying text command was ' + msg);
+          var successful = document.execCommand('copy');
+          var msg = successful ? 'successful' : 'unsuccessful';
+          console.log('Copying text command was ' + msg);
         } catch (err) {
-            console.log('Oops, unable to copy');
+          console.log('Oops, unable to copy');
         }
     }
     else console.log('Oops, unable to copy');
@@ -130,23 +134,23 @@ $(document).ready(function(){ wapp.initialize();});
 if (wapp.debug) {
   $("body").addClass("debug");
   $(window).bind('beforeunload', function(e) {
-      return "Stay on page";
+    return "Stay on page";
   });
 }
 
 // Search function
-$(".search input").on("keyup", function() {
-    wapp.search($(this).val());
+$(".search input").on("keyup search", function() {
+  wapp.search($(this).val());
 });
 
 // Color menu
 $(".color").on('mouseover', function(){ $("ul",this).show(); })
-    .on('mouseleave', function(){ $("ul", this).hide(); });
+  .on('mouseleave', function(){ $("ul", this).hide(); });
 
 $(".color li").click(function(e) { 
-    $("body").css('color', $(this).css('background-color'));
-    $(this).parent().hide();
-    e.stopPropagation();
+  $("body").css('color', $(this).css('background-color'));
+  $(this).parent().hide();
+  e.stopPropagation();
 });
 
 

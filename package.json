@@ -1,6 +1,6 @@
 {
   "name": "iconicss",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Pure css3 icons",
   "main": "./build/iconicss.css",
   "directories": {
