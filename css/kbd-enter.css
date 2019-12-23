@@ -1,0 +1,28 @@
+i.icss-kbd-enter {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 .08em;
+  border-radius: .05em;
+  margin: 0;
+}
+i.icss-kbd-enter:before {
+  width: .8em;
+  height: .3em;
+  border-style: solid;
+  border-color: transparent currentColor transparent transparent;
+  border-width: .22em;
+  box-shadow: .51em 0 0 -.18em;
+  clip: rect(.02em 1.5em .42em .59em);
+  top: .38em;
+  left: -.4em;
+}
+i.icss-kbd-enter:after {
+  width: .15em;
+  height: .32em;
+  border-radius: 0 .05em .05em 0;
+  border: .075em solid currentColor;
+  border-left: 0;
+  top: .32em;
+  left: .65em;
+}

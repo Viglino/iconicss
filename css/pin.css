@@ -1,0 +1,23 @@
+i.icss-pin {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-pin:before {
+  border: 0.05em solid transparent;
+  border-top: .9em solid currentColor;
+  border-bottom: 0;
+  transform: translate(-50%, -50%) rotate(20deg) translateY(.1em);
+  top: 50%;
+  left: 50%;
+}
+i.icss-pin:after {
+  width: .28em;
+  height: .28em;
+  border-radius: 50%;
+  box-shadow: inset -.03em -.03em 0 .1em;
+  transform: translate(-50%, -50%) rotate(20deg) translateY(-.35em);
+  left: 50%;
+  top: 50%;
+}

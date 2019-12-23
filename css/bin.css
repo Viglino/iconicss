@@ -1,0 +1,32 @@
+i.icss-bin {
+  width: .2em;
+  height: .2em;
+  border-radius: 50%;
+  margin: .03em .4em .77em;
+}
+i.icss-bin:before {
+  width: .4em;
+  height: .55em;
+  border: .1em solid transparent;
+  border-width: 0 .1em;
+  border-radius: 0 0 .05em .05em;
+  box-shadow: 
+    .12em .12em,
+    -.12em .12em,
+    .12em -.08em,
+    -.12em -.08em,
+    inset .5em 0;
+  transform: translateX(-50%) perspective(1em) rotateX(-15deg);
+  top: .35em;
+  left: 50%;
+}
+i.icss-bin:after {
+  width: .78em;
+  height: .1em;
+  background-color: currentColor;
+  border-radius: .05em .05em 0 0;
+  transform: translateX(-50%);
+  top: .1em;
+  left: 50%;
+
+}

@@ -1,11 +1,11 @@
 i.icss-search {
-    margin: 0 .3em .37em 0;
     width: .73em;
     height: .73em;
     background-color: transparent;
     border-width: .12em;
     border-style: solid;
     border-radius: 100%;
+    margin: 0 .27em .27em 0;
 }
 i.icss-search:before {
     top: .635em;

@@ -1,0 +1,28 @@
+i.icss-kbd-return {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 .08em;
+  border-radius: .05em;
+  margin: 0;
+}
+i.icss-kbd-return:before {
+  width: .8em;
+  height: .3em;
+  border-style: solid;
+  border-color: transparent currentColor transparent transparent;
+  border-width: .22em;
+  box-shadow: .45em 0 0 -.17em;
+  clip: rect(.02em 1.5em .42em .59em);
+  transform: translateY(-50%);
+  top: 50%;
+  left: -.25em;
+}
+i.icss-kbd-return:after {
+  width: .1em;
+  height: .45em;
+  background-color: currentColor;
+  transform: translateY(-50%);
+  top: 50%;
+  left: .18em;
+}

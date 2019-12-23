@@ -1,0 +1,31 @@
+i.icss-gesture-touch {
+  width: .15em;
+  height: .55em;
+  border-radius: .1em;
+  margin: .2em .4em .25em .45em;
+}
+i.icss-gesture-touch:before {
+  width: .45em;
+  height: .5em;
+  border-radius: .3em .12em 0 .2em;
+  border: .1em solid transparent;
+  border-width: 0 0 .35em 0;
+  background-color: currentColor;
+  box-shadow: 
+    -.1em 0,
+    -.3em -.35em;
+  transform: rotate(-45deg);
+  clip: rect(-.5em .5em .15em -.5em);
+  left: .15em;
+  top: .35em;
+}
+i.icss-gesture-touch:after {
+  width: .52em;
+  height: .52em;
+  border: .065em solid currentColor;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  top: -.22em;
+  left: 50%;
+}

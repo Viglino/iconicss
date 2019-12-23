@@ -1,0 +1,30 @@
+i.icss-skull-head {
+	height: .7em;
+	width: .75em;
+	border-radius: 100% 100% 80% 80%;
+	background: transparent;
+	box-shadow: inset 0 0 0 .1em, inset 0 .25em;
+	background-image: 
+		radial-gradient(circle at 50% 40%,
+		  currentColor 20%, transparent 20%),
+    radial-gradient(circle at 30% 60%,
+	   transparent 14%, currentColor 14%,
+	   currentColor 24%, transparent 24%),
+		radial-gradient(circle at 70% 60%,
+	   transparent 14%, currentColor 14%,
+	   currentColor 24%, transparent 24%);
+	margin: .07em .125em .23em;
+}
+
+i.icss-skull-head:before {
+	height: .2em;
+	width: .23em;
+	box-shadow: .11em 0, -.11em 0, inset .1em 0, 
+		.17em -.2em 0 -.03em,
+		-.17em -.2em 0 -.03em;
+	border: 0 solid transparent;
+	border-width: 0 .07em;
+	transform: translateX(-50%) perspective(.1em) rotateX(7deg);
+	top: .65em;
+	left: 50%;
+}

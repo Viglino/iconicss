@@ -1,0 +1,38 @@
+i.icss-kylo-ren {
+  width: .9em;
+  height: 1em;
+  border-radius: 47% / 90% 90% 10% 10%;
+  background-color: transparent;
+  box-shadow: inset 0 .68em 0 -.5em,
+    inset 0 .07em 0 .07em,
+    inset 0 0 0 .07em;
+  background-image: radial-gradient(circle at 50% 120%, 
+    currentColor 25%, transparent 25%);
+  overflow: hidden;
+  margin: 0;
+}
+i.icss-kylo-ren:before {
+  width: 1em;
+  height: .6em;
+  background: transparent;
+  border: .3em solid transparent;
+  border-color: transparent currentColor;
+  border-width: .2em .37em 0;
+  transform: translateX(-50%) perspective(.1em) rotateX(-8deg);
+  top: .46em;
+  left: 50%;
+}
+i.icss-kylo-ren:after {
+  width: .52em;
+  height: .25em;
+  border-radius: .12em;
+  border: .065em solid transparent;
+  box-shadow: 
+    inset -.03em .035em 0 .03em,
+    inset .03em .035em 0 .03em,
+    -.03em -.032em 0 .03em,
+    .03em -.032em 0 .032em;
+  transform: translateX(-50%);
+  top: .3em;
+  left: 50%;
+}

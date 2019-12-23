@@ -1,27 +1,27 @@
 i.icss-pushpin {
-  width: .28em;
-  height: .45em;
-  margin: .15em .4em .4em;
-  transform: rotate(20deg);
-}
-.icss-stack i.icss-pushpin {
-    transform: translate(-.5em, -.5em) rotate(20deg);
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
 }
 i.icss-pushpin:before {
   border: 0.05em solid transparent;
   border-top: .5em solid currentColor;
   border-bottom: 0;
-  top: 0.4em;
-  left: .09em;
+  transform: translate(-50%, -50%) rotate(20deg) translateY(.28em);
+  box-shadow: 0 -.65em 0 .09em;
+  clip: rect(-.4em 1em 1em -.5em);
+  top: 50%;
+  left: 50%;
 }
 i.icss-pushpin:after {
   width: .55em;
   height: .4em;
   background-color: currentColor;
   border-radius: 50%;
-  left: 50%;
-  top: .3em;
-  transform: translateX(-50%);
   box-shadow: 0 -.61em;
   clip: rect(-.3em .55em .15em 0);
+  transform: translate(-50%, -50%) rotate(20deg) translateY(.1em);
+  left: 50%;
+  top: 50%;
 }

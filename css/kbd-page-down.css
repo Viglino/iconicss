@@ -1,0 +1,29 @@
+i.icss-kbd-page-down {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 .08em;
+  border-radius: .05em;
+  margin: 0;
+}
+i.icss-kbd-page-down:before {
+  width: .3em;
+  height: .07em;
+  background-color: currentCOlor;
+  box-shadow: 0 -.13em, 0 -.26em;
+  transform: translateX(-50%);
+  top: .47em;
+  left: 50%;
+}
+i.icss-kbd-page-down:after {
+  width: .15em;
+  height: 1em;
+  border: .1em solid  transparent;
+  border-color: currentColor transparent transparent;
+  border-width: .22em;
+  box-shadow: 0 -.65em 0 -.17em;
+  transform: translateX(-50%);
+  clip: rect(-1.2em .415em .21em .02em);
+  left: 50%;
+  top: .64em;
+}

@@ -1,0 +1,32 @@
+i.icss-antena {
+  width: .4em;
+  height: .4em;
+  background-color: transparent;
+  border-radius: 0 .05em 0;
+  border: .05em solid transparent;
+  border-color: currentColor currentColor transparent transparent;
+  margin: .3em;
+}
+i.icss-antena:before {
+  width: .7em;
+  height: .7em;
+  border-radius: 50%;
+  border: .35em solid transparent;
+  border-color: transparent transparent currentColor currentColor;
+  box-shadow: -.25em .55em 0 -.1em;
+  clip: rect(0 1em .85em -.5em);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+i.icss-antena:after {
+  width: .3em;
+  height: .3em;
+  border-radius: 0 100% 0 0;
+  border: .05em solid transparent;
+  border-width: .06em .06em 0 0;
+  box-shadow: inset -.031em .031em 0 .032em, 
+    .031em -.031em 0 .03em;
+  top: -.28em;
+  left: .28em;
+}

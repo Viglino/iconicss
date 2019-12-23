@@ -1,0 +1,33 @@
+i.icss-kbd-delete {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 .08em;
+  border-radius: .05em;
+  margin: 0;
+}
+i.icss-kbd-delete:before {
+  content: "X";
+  width: 1.2em;
+  height: 1.4em;
+  text-align: center;
+  font-size: .35em;
+  font-weight: bold;
+  font-family: sans-serif;
+  line-height: 1em;
+  border: .2em solid currentColor;
+  border-left: 0;
+  transform: translateY(-50%) scaleX(1.2);
+  top: 50%;
+  left: 1.15em;
+}
+i.icss-kbd-delete:after {
+  width: .375em;
+  height: .375em;
+  border: .065em solid currentColor;
+  border-radius: .05em;
+  border-color: currentColor transparent transparent currentColor;
+  transform: translateY(-50%)  rotate(-45deg);
+  top: 50%;
+  left: .18em;
+}

@@ -1,0 +1,40 @@
+i.icss-millenium-falcon {
+  width: .85em;
+  height: .75em;
+  background-color: transparent;
+  border-radius: 50%;
+  background-image: 
+    linear-gradient(45deg, 
+      transparent 37%, currentColor 37%,
+      currentColor 63%,transparent 63%),
+    linear-gradient(-45deg, 
+      transparent 37%, currentColor 37%,
+      currentColor 63%,transparent 63%),
+    radial-gradient(circle at 50% 80%,
+      currentColor .15em, transparent .15em),
+    radial-gradient(circle at .12em 50%,
+      currentColor .1em, transparent .1em),
+    radial-gradient(circle at .73em 50%,
+      currentColor .1em, transparent .1em);
+  margin: .25em .125em 0;
+}
+i.icss-millenium-falcon:before {
+  width: .42em;
+  height: .4em;
+  box-shadow: inset .16em -.15em, inset -.16em 0;
+  transform: translateX(-50%) perspective(.1em) rotateX(10deg);
+  top: -.3em;
+  left: 50%;
+}
+i.icss-millenium-falcon:after {
+  width: .15em;
+  height: .3em;
+  border: .1em solid transparent;
+  border-radius: .15em .15em 0 0 / .1em;
+  border-left-color: currentColor;
+  border-right: 0;
+  border-width: 0 0 .2em .2em;
+  box-shadow: .015em -.1em 0 -.015em;
+  left: .7em;
+  top: .01em
+}

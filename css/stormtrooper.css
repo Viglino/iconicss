@@ -1,0 +1,50 @@
+i.icss-stormtrooper {
+  width: .1em;
+  height: .1em;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 
+    .18em -.03em 0 .04em,
+    .13em -.04em 0 .025em,
+    -.18em -.03em 0 .04em,
+    -.13em -.04em 0 .025em,
+    .32em .28em 0 -.01em,
+    .23em .39em 0 .035em,
+    -.23em .39em 0 .035em;
+  margin: .39em .45em .51em;
+}
+i.icss-stormtrooper:before {
+  width: .75em;
+  height: .8em;
+  border-radius: 48% 48% 52% 52% / 40% 40% 60% 60%;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 .065em, 
+    -.01em .03em 0 -.01em,
+    .01em .03em 0 -.01em;
+  background-image: linear-gradient(transparent 35%, currentColor 35%,
+    currentColor 44%, transparent 44%),
+    radial-gradient(ellipse 90% 100% at 50% 100%, 
+      transparent 34%, currentColor 34%,
+      currentColor 40%, transparent 40%),
+    radial-gradient(ellipse 100% 80% at 50% 100%, 
+      transparent 35%, currentColor 35%,
+      currentColor 43%, transparent 43%);
+  transform: translate(-50%, -50%);
+  clip: rect(0 1em .65em 0);
+  top: 50%;
+  left: 50%;
+}
+i.icss-stormtrooper:after {
+  width: .92em;
+  height: .7em;
+  border-radius:  50% /  60% 60% 40% 40%;
+  box-shadow: 
+    inset 0 0 0 .065em;
+  background-image: radial-gradient(ellipse 90% 100% at 50% 100%,
+    currentColor 32%, transparent 32%),
+    linear-gradient( transparent 77%, currentColor 77%);
+  transform: translateX(-50%);
+  clip: rect(.155em 1em .58em 0);
+  top: .03em;
+  left: 50%;  
+}

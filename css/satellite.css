@@ -1,0 +1,31 @@
+i.icss-satellite {
+  width: .22em;
+  height: .22em;
+  background-color: transparent;
+  border-radius: 50%;
+  border: .05em solid transparent;
+  box-shadow: inset .15em 0, 0 0 0 .065em;
+  margin: .38em;
+}
+i.icss-satellite:before {
+  width: .3em;
+  height: .4em;
+  background-color: currentColor;
+  border-radius: .02em;
+  transform: translate(-50%, -50%) rotate(-45deg) translateY(.4em);
+  box-shadow: 0 -.8em, 
+    0 -.2em 0 -.1em, 0 -.6em 0 -.1em;
+  top: 50%;
+  left: 50%;
+}
+i.icss-satellite:after {
+  width: .3em;
+  height: .3em;
+  border-radius: 0 0 0 100%;
+  border: .05em solid transparent;
+  border-width: 0 0 .07em .07em;
+  box-shadow: inset .035em -.035em 0 .034em, 
+    -.035em .035em 0 .034em;
+  top: .15em;
+  left: -.35em;
+}

@@ -1,0 +1,30 @@
+i.icss-kbd-option {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 .08em;
+  border-radius: .05em;
+  margin: 0;
+}
+i.icss-kbd-option:before {
+  width: .25em;
+  height: .09em;
+  border-radius: .05em;
+
+  box-shadow: 
+    .22em .13em,
+    -.22em -.13em,
+    .22em -.13em;
+  transform: translate(-50%, -50%);
+  top: 55%;
+  left: 50%;
+}
+i.icss-kbd-option:after {
+  width: .09em;
+  height: .44em;
+  background-color: currentColor;
+  border-radius: .05em;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  top: 55%;
+  left: 50%;
+}

@@ -1,21 +1,23 @@
-i.icss-success {
+i.icss-check-circle {
     width: 1em;
     height: 1em;
     background-color: transparent;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 .1em;
     margin: 0;
 }
-i.icss-success:after,
-i.icss-success:before {
+i.icss-check-circle:after,
+i.icss-check-circle:before {
     width: .16em;
     height: .7em;
     background-color: currentColor;
     border-radius: .1em;
-    top: .6em;
+    top: .63em;
     left: .33em;
     transform: rotate(-135deg);
     transform-origin: 0.08em 0.08em;
 }
-i.icss-success:after {
+i.icss-check-circle:after {
     width: .43em;
     height: .16em;
 }
