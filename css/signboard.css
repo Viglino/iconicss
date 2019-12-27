@@ -1,0 +1,31 @@
+i.icss-signboard {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-signboard:before {
+  width: .6em;
+  height: .8em;
+  border: .07em solid currentColor;
+  border-width: .1em .1em .18em;
+  box-shadow: .5em .2em, -.5em .2em;
+  border-radius: .03em .03em 0 0;
+  transform: skewX(-10deg);
+  clip: rect(0 .6em 1em 0);
+  top: 0;
+  left: .15em;
+}
+i.icss-signboard:after {
+  width: .25em;
+  height: .8em;
+  border: .1em solid currentColor;
+  border-color: transparent currentColor currentColor transparent;
+  border-width: .4em .1em .1em .04em;
+  box-shadow: .15em .2em;
+  border-radius: .03em .03em 0 0;
+  transform: skewX(10deg);
+  clip: rect(0 .25em 1em 0);
+  top: 0;
+  left: .65em;
+}

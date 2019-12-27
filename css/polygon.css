@@ -1,0 +1,27 @@
+i.icss-polygon {
+  width: .18em;
+  height: .18em;
+  background-color: currentColor;
+  border-radius: 50%;
+  box-shadow: .83em .07em, .58em -.19em, 
+    .79em -.49em, .15em -.47em;
+  margin: .65em .82em .17em 0;
+}
+i.icss-polygon:before {
+  width: .65em;
+  height: .5em;
+  box-shadow: inset .08em .075em, .1em .6em 0 .1em;
+  transform:  perspective(1em) rotateY(-15deg) skewX(-20deg);
+  clip: rect(0 1em .575em 0);
+  top: -.42em;
+  left: .12em;
+}
+i.icss-polygon:after {
+  width: .47em;
+  height: .45em;
+  border: .08em solid currentColor;
+  border-color:currentColor transparent transparent currentColor;
+  transform: rotate(-50deg);
+  top: -.35em;
+  left: .68em;
+}

@@ -1,0 +1,30 @@
+i.icss-bill-stack {
+  width: .3em;
+  height: .08em;
+  background-color: currentColor;
+  box-shadow: .5em 0,
+    0 .14em, .5em .14em,
+    0 .28em, .5em .28em;
+  margin: .5em .7em .43em 0;
+}
+i.icss-bill-stack:before {
+  width: .8em;
+  height: .23em;
+  box-shadow: 
+    inset .4em 0 0 -.1em,
+    inset -.4em 0 0 -.1em;
+  border-radius: .03em;
+  transform: skewX(-45deg);
+  top: -.3em;
+  left: .1em;
+}
+i.icss-bill-stack:after {
+  width: .2em;
+  height: .08em;
+  background-color: currentColor;
+  transform: skewY(-45deg);
+  transform-origin: 0 100%;
+  box-shadow: 0 .14em, 0 .28em;
+  left: .8em;
+  top: 0;
+}

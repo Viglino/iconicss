@@ -1,0 +1,26 @@
+i.icss-packet-o {
+  width: .8em;
+  height: .7em;
+  border: 0 solid transparent;
+  border-width: .2em .2em 0 0;
+  box-shadow: inset 0 0 0 .065em, .17em -.17em 0 -.1em;
+  background-color: transparent;
+  margin: .3em .1em 0 ;
+}
+i.icss-packet-o:before {
+  width: .25em;
+  height: .41em;
+  background-color: currentColor;
+  transform: rotate(45deg) skewY(10deg);
+  box-shadow: .62em -.47em, .91em -.19em;
+  clip: rect(-1em .98em 1em 0);
+  top: -.41em;
+  left: -.03em;
+}
+i.icss-packet-o:after {
+  width: .35em;
+  height: .22em;
+  box-shadow: -.065em 0, -.13em .28em 0 -.06em;
+  top: -.21em;
+  left: .3em
+}

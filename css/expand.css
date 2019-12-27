@@ -1,0 +1,31 @@
+i.icss-expand {
+    width: .6em;
+    height: .8em;
+    border-width: .1em;
+    border-style: solid;
+    border-color: currentColor transparent transparent currentColor;
+    border-radius: .05em 0 0 .05em;
+    background-color: transparent;
+    margin: .2em .4em 0 0;
+}
+i.icss-expand:before {
+    width: .8em;
+    height: .5em;
+    border-width: .1em;
+    border-style: solid;
+    border-color: transparent currentColor currentColor;
+    border-radius: .05em 0 .05em .05em;
+    background-color: transparent;
+    top: .2em;
+    left: -.1em;
+}
+i.icss-expand:after {
+    background-color: transparent;
+    border:0.2em solid transparent;
+    border-left-color: currentColor;
+    border-right-width: 0.8em;
+    box-shadow: -0.7em 0 0 -0.12em;
+    transform: rotate(-45deg);
+    top:-.65em;
+    left: .6em;
+}

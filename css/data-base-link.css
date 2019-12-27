@@ -1,0 +1,37 @@
+i.icss-data-base-link {
+  width: .8em;
+  height: .3em;
+  background-color: transparent;
+  border:.06em solid transparent;
+  border-radius: 50%;
+  box-shadow: inset 0 .3em;
+  margin: .05em .1em .65em;
+}
+i.icss-data-base-link:before {
+  width: .8em;
+  height: .3em;
+  background-color: transparent;
+  border:.06em solid transparent;
+  border-top: 0;
+  border-radius: 0 0 50% 50%;
+  box-shadow: inset 0 -.15em, 
+    0 .15em 0 -.06em,
+    0 .22em 0 -.06em;
+  transform: translateX(-50%);
+  clip: rect(0 .74em 1em .06em);
+  top: .15em;
+  left: 50%;
+}
+i.icss-data-base-link:after {
+    width: .65em;
+    height: .2em;
+    border: 0 solid transparent;
+    border-width: 0 .275em;
+    box-shadow: inset .2em 0, 0 .1em, 
+        .72em .2em, -.72em .2em;
+    clip: rect(0 .8em .29em -.15em);
+    transform: translateX(-50%);
+    left: 50%;
+    top: .52em;
+
+}

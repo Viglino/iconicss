@@ -1,0 +1,16 @@
+i.icss-point {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-point:before {
+  width: .3em;
+  height: .3em;
+  border-radius: 50%;
+  border: .07em solid transparent;
+  box-shadow: inset .3em 0, 0 0 0 .08em;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}

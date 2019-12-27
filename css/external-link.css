@@ -1,31 +1,24 @@
 i.icss-external-link {
-    width: .6em;
-    height: .8em;
-    border-width: .1em;
-    border-style: solid;
-    border-color: currentColor transparent transparent currentColor;
-    border-radius: .05em 0 0 .05em;
+    width: 1em;
+    height: 1em;
     background-color: transparent;
-    margin: .2em .4em 0 0;
+    margin: 0;
 }
 i.icss-external-link:before {
-    width: .8em;
+    width: .5em;
     height: .5em;
-    border-width: .1em;
-    border-style: solid;
-    border-color: transparent currentColor currentColor;
-    border-radius: .05em 0 .05em .05em;
-    background-color: transparent;
-    top: .2em;
-    left: -.1em;
+    border-radius: .05em;
+    background-color: currentColor;
+    top: .5em;
+    left: 0;
 }
 i.icss-external-link:after {
     background-color: transparent;
-    border:0.2em solid transparent;
+    border: 0.25em solid transparent;
     border-left-color: currentColor;
     border-right-width: 0.8em;
-    box-shadow: -0.7em 0 0 -0.12em;
+    box-shadow: -0.54em 0 0 -0.16em;
     transform: rotate(-45deg);
-    top:-.65em;
-    left: .6em;
+    top: -.44em;
+    left: .67em;
 }

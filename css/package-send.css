@@ -1,0 +1,26 @@
+i.icss-package-send {
+  width: .7em;
+  height: .55em;
+  box-shadow: inset .3em .33em, inset -.14em -.12em;
+  background-color: transparent;
+  margin: .4em 0 .05em .3em;
+}
+i.icss-package-send:before {
+  width: .7em;
+  height: .35em;
+  transform: translateX(-50%) perspective(.1em) rotateX(10deg);
+  transform-origin: 50% 100%;
+  box-shadow: inset .3em 0, inset -.3em 0;
+  top: -.4em;
+  left: 50%;
+}
+i.icss-package-send:after {
+  width: .15em;
+  height: .07em;
+  background-color: currentColor;
+  box-shadow: 
+    0 .15em, -.07em .15em, 
+    0 .3em, -.14em .3em;
+  top: .1em;
+  left: -.2em
+}

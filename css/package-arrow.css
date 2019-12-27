@@ -1,0 +1,25 @@
+i.icss-package-arrow {
+  width: .7em;
+  height: .55em;
+  box-shadow: inset .3em .33em, inset -.14em -.12em;
+  background-color: transparent;
+  margin: .4em .3em .05em 0;
+}
+i.icss-package-arrow:before {
+  width: .7em;
+  height: .35em;
+  transform: translateX(-50%) perspective(.1em) rotateX(10deg);
+  transform-origin: 50% 100%;
+  box-shadow: inset .3em 0, inset -.3em 0;
+  top: -.4em;
+  left: 50%;
+}
+i.icss-package-arrow:after {
+  width: .15em;
+  height: .07em;
+  border: .25em solid transparent;
+  border-left: .2em solid currentColor;
+  box-shadow: -.18em 0 0 -.08em;
+  top: .05em;
+  left: .83em
+}

@@ -1,4 +1,4 @@
-i.icss-x-circle {
+i.icss-plus-circle {
   width: 1em;
   height: 1em;
   background-color: transparent;
@@ -7,10 +7,10 @@ i.icss-x-circle {
   overflow: hidden;
   margin: 0;
 }
-i.icss-x-circle:before {
+i.icss-plus-circle:before {
   width: .1em;
   height: .1em;
-  transform: translate(-50%, -50%) rotate(45deg);
+  transform: translate(-50%, -50%);
   box-shadow: .22em .22em 0 .1em,
     -.22em -.22em 0 .1em,
     -.22em .22em 0 .1em,
@@ -18,5 +18,5 @@ i.icss-x-circle:before {
   top: 50%;
   left: 50%;
 }
-i.icss-x-circle:after {
+i.icss-plus-circle:after {
 }

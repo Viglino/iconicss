@@ -1,0 +1,36 @@
+i.icss-smart-watch-bell {
+  width: .7em;
+  height: .75em;
+  background-color: transparent;
+  border: .05em solid transparent;
+  box-shadow: 
+    inset 0 0 0 .07em,
+    0 0 0 .05em,
+    -.44em -.15em 0 -.31em,
+    .44em -.15em 0 -.31em,
+    .42em .15em 0 -.29em,
+    0 .28em 0 -.15em,
+    0 -.28em 0 -.15em;
+  border-radius: .08em;
+  overflow: hidden;
+  margin: .125em .15em;
+}
+i.icss-smart-watch-bell:before {
+  width: .23em;
+  height: .34em;
+  border-radius: .15em;
+  box-shadow: inset 0 .22em, 0 .11em 0 -.05em, 0 -.12em 0 -.08em;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+i.icss-smart-watch-bell:after {
+  width: .4em;
+  height: .26em;
+  border-radius: .05em;
+  border: .09em solid transparent;
+  border-bottom: .13em solid currentColor;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}

@@ -1,0 +1,25 @@
+i.icss-hierarchy {
+  width: .45em;
+  height: .25em;
+  background-color: currentColor;
+  box-shadow: -.275em .6em, .275em .6em;
+  margin: .05em .275em .7em;
+}
+i.icss-hierarchy:before {
+  width: .63em;
+  height: .3em;
+  border: .07em solid currentColor;
+  border-bottom: 0;
+  transform: translateX(-50%);
+  top: .4em;
+  left: 50%;
+}
+i.icss-hierarchy:after {
+  width: .08em;
+  height: .2em;
+  background-color: currentColor;
+  transform: translateX(-50%);
+  top: .2em;
+  left: 50%;
+
+}

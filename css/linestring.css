@@ -1,0 +1,26 @@
+i.icss-linestring {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-linestring:before {
+  width: .6em;
+  height: .35em;
+  box-shadow: inset -.09em .08em, .51em .35em;
+  transform: rotate(-30deg) skewX(-20deg);
+  clip: rect(0 .9em .43em 0);
+  top: .42em;
+  left: .05em;
+}
+i.icss-linestring:after {
+  width: .18em;
+  height: .18em;
+  background-color: currentColor;
+  border-radius: 50%;
+  box-shadow: .45em -.27em,
+    .51em .1em,
+    .83em -.075em;
+  top: .5em;
+  left: 0;
+}

@@ -1,0 +1,32 @@
+i.icss-shredder {
+	width: .6em;
+	height: .42em;
+	background-color: transparent;
+  box-shadow: 0 0 0 .07em, inset 0 -.065em, inset 0 .065em;
+	border: 0 solid transparent;
+	border-width: .07em .07em .185em .07em;
+	border-radius: .01em .01em 0 0;
+	background-color: transparent;
+	margin: .07em .2em .51em;
+}
+i.icss-shredder:before {
+	width: 1em;
+	height: .4em;
+	border-width: .07em .19em 0;
+	border-style: solid;
+	border-color: currentColor currentcolor transparent;
+	border-radius: .05em .05em 0 0;
+	top: .235em;
+	left: 50%;
+	transform: translateX(-50%);
+}
+i.icss-shredder:after {
+  width: .08em;
+  height: .55em;
+  background-color: currentColor;
+  box-shadow: .12em 0, .24em 0,
+    -.12em 0, -.24em 0;
+  transform: translateX(-50%) perspective(1em) rotateX(40deg);
+  left: 50%;
+  top: .3em;
+}

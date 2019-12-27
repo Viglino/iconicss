@@ -1,0 +1,32 @@
+i.icss-shop-open {
+  width: 1em;
+  height: .9em;
+  background-color: transparent;
+  margin: .1em 0 0;
+}
+i.icss-shop-open:before {
+  content: "open";
+  width: 3em;
+  height: 1.1em;
+  font-size: .4em;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: .13em solid currentColor;
+  border-width: .14em .16em;
+  line-height: .7em;
+  box-shadow: -.08em .08em;
+  transform: translate(-50%, -50%) rotate(-15deg) scaleX(.8);
+  top: 50%;
+  left: 50%;
+}
+i.icss-shop-open:after {
+  width: .4em;
+  height: .4em;
+  border: .065em solid currentColor;
+  border-color:  currentColor transparent transparent currentColor;
+  border-radius: .05em 0;
+  transform: translate(-50%, -50%) rotate(30deg) translate(-.15em, -.15em);
+  top: 50%;
+  left: 50%;
+}

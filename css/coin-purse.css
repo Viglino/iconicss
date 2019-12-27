@@ -1,0 +1,26 @@
+i.icss-coin-purse {
+  width: .8em;
+  height: .55em;
+  background-color: currentColor;
+  border-radius: 50% 50% .1em .1em / 75% 75% 20% 20%;
+  margin: .35em .1em .1em;
+}
+i.icss-coin-purse:before {
+  width: 1em;
+  height: 1em;
+  border: .1em solid transparent;
+  border-color: currentColor transparent transparent;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  top: -.15em;
+  left: 50%;
+}
+i.icss-coin-purse:after {
+  width: .2em;
+  height: .2em;
+  border-radius: 50% 50% 0 0;
+  background-color: currentColor;
+  box-shadow: .15em 0;
+  top: -.25em;
+  left: .23em;
+}

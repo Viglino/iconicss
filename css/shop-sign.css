@@ -1,0 +1,25 @@
+i.icss-shop-sign {
+  width: 1em;
+  height: .9em;
+  background-color: transparent;
+  margin: .1em 0 0;
+}
+i.icss-shop-sign:before {
+  width: .95em;
+  height: .45em;
+  border: .06em solid currentColor;
+  box-shadow: -.03em .03em;
+  transform: translate(-50%, -50%) rotate(-10deg);
+  top: 50%;
+  left: 50%;
+}
+i.icss-shop-sign:after {
+  width: .4em;
+  height: .4em;
+  border: .065em solid currentColor;
+  border-color:  currentColor transparent transparent currentColor;
+  border-radius: .05em 0;
+  transform: translate(-50%, -50%) rotate(35deg) translate(-.15em, -.15em);
+  top: 50%;
+  left: 50%;
+}

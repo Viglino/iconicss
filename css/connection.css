@@ -1,0 +1,31 @@
+i.icss-connection {
+  width: .28em;
+  height: .28em;
+  background-color: currentColor;
+  border-radius: 50%;
+  box-shadow: 
+    -.37em -.24em 0 -.03em,
+    .29em .14em 0 -.03em,
+    -.02em .41em 0 -.03em,
+    .3em -.26em 0 -.03em,
+    -.39em .34em 0 -.03em;
+  margin: .22em .3em .4em .42em;
+}
+i.icss-connection:before {
+  width: .9em;
+  height: .07em;
+  background-color: currentColor;
+  transform: translate(-50%, -50%) rotate(-40deg) translateX(-.05em);
+  top: 50%;
+  left: 50%;
+}
+i.icss-connection:after {
+  width: .75em;
+  height: .35em;
+  border: 0 solid transparent;
+  border-width: 0 0 0 .45em;
+  box-shadow: inset .078em 0, 0-.07em;
+  transform: rotate(30deg) skewX(25deg);
+  top: .11em;
+  left: -.35em;
+}

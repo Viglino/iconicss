@@ -8,7 +8,7 @@ i.icss-bin:before {
   width: .4em;
   height: .55em;
   border: .1em solid transparent;
-  border-width: 0 .1em;
+  border-width: 0 .12em;
   border-radius: 0 0 .05em .05em;
   box-shadow: 
     .12em .12em,

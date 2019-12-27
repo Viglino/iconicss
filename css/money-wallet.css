@@ -1,0 +1,27 @@
+i.icss-money-wallet {
+  width: .9em;
+  height: .6em;
+  background-color: transparent;
+  border-radius: 0 .05em .05em;
+  box-shadow: inset .4em 0 0 .15em;
+  margin: .25em .1em .15em 0;
+}
+i.icss-money-wallet:before {
+  width: .85em;
+  height: .2em;
+  border-radius: .1em 0 0 .1em;
+  border: .07em solid currentColor;
+  border-right: 0;
+  top: -.13em;
+  left: 0;
+}
+i.icss-money-wallet:after {
+  width: .45em;
+  height: .3em;
+  border-radius: .15em;
+  border: .07em solid transparent;
+  box-shadow: inset 0 .2em, -.15em -.1em, -.15em .1em;
+  transform: translateY(-50%);
+  top: 50%;
+  left: .6em;
+}

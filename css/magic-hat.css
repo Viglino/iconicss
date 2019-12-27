@@ -1,30 +1,36 @@
 i.icss-magic-hat {
-  width: .3em;
-  height: .6em;
+  width: 1em;
+  height: 1em;
   background-color: transparent;
-  border: 0 solid transparent;
-  border-bottom: .5em solid currentColor;
-  border-width: 0 .2em .75em;
-  border-radius: 50% / 0 0 .1em .1em;
-  margin: 0 .3em .25em .3em;
+  border-radius: 45% 45% 0 0;
+  background-image: radial-gradient(ellipse 90% 100%  at 50% 44%,
+    currentColor .14em, transparent .14em);
+  margin: 0;
+  overflow: hidden;
 }
 i.icss-magic-hat:before {
-  width: .9em;
-  height: .4em;
-  border-radius: 50%;
-  border: .065em solid currentColor;
-  border-width: 0 .245em .1em;
-  box-shadow: inset 0 -.05em;
-  transform: translate(-50%);
-  top: .6em;
+  width: .65em;
+  height: .65em;
+  border: 0 solid currentColor;
+  border-width: 0 .17em .17em 0;
+  border-radius: .1em;
+  transform: translateX(-50%) scaleX(.6) rotate(45deg);
+  top: -.23em;
   left: 50%;
 }
 i.icss-magic-hat:after {
-  width: .2em;
-  height: .2em;
+  width: .45em;
+  height: .4em;
   background-color: transparent;
-  border: .07em solid currentColor;
+  border: .05em solid transparent;
+  border-bottom: .38em solid currentColor;
+  border-radius: 0 0 .05em .05em;
+  border-top: 0;
+  box-shadow: .12em -.35em 0 -.05em,
+    -.12em -.35em 0 -.05em;
   transform: translateX(-50%);
-  top: .7em;
+  clip: rect(-.08em 1em 1em -.05em);
+  top: .6em;
   left: 50%;
+ 
 }

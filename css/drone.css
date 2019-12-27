@@ -1,0 +1,35 @@
+i.icss-drone {
+  width: .3em;
+  height: .3em;
+  border: .065em solid currentColor;
+  border-radius: 50%;
+  box-shadow: 0 -.11em 0 .03em,
+    .35em -.2em 0 -.08em,
+    -.35em -.2em 0 -.08em;
+  background-color: transparent;
+  margin: .45em .35em .25em;
+}
+i.icss-drone:before {
+  width: .55em;
+  height: .3em;
+  border: .065em solid currentColor;
+  border-bottom: 0;
+  border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+  transform: translateX(-50%);
+  top: -.1em;
+  left: 50%;
+}
+i.icss-drone:after {
+  width: .4em;
+  height: .1em;
+  background-color: currentColor;
+  border-radius: .03em;
+  box-shadow: 
+    .2em 0,
+    -.2em 0,
+    .35em -.15em 0 -.02em,
+    -.35em -.15em 0 -.02em;
+  transform: translateX(-50%);
+  top: -.12em;
+  left: 50%;
+}

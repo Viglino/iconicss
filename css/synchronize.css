@@ -1,0 +1,29 @@
+i.icss-synchronize {
+  width: .2em;
+  height: .35em;
+  border-style: solid;
+  border-color: transparent currentColor  transparent transparent;
+  border-width: .175em .25em .175em 0;
+  background-color: transparent;
+  margin: 0 .5em .65em .3em;
+}
+i.icss-synchronize:before {
+  width: .2em;
+  height: .35em;
+  border-style: solid;
+  border-color: transparent transparent transparent currentColor;
+  border-width: .175em .25em .175em;
+  top: .475em;
+  left: .25em;
+}
+i.icss-synchronize:after {
+  width: .75em;
+  height: .75em;
+  border: .1em solid currentColor;
+  border-color: currentColor transparent;
+  border-radius: 50%;
+  background-color: transparent;
+  transform: rotate(45deg);
+  left: -.125em;
+  top: -.05em;
+}

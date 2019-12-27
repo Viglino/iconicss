@@ -6,7 +6,7 @@ i.icss-pen-list {
     border-style: solid;
     border-radius: .05em;
     box-shadow: 0 -.36em 0 -.27em;
-    margin: .05em .21em 0 0;
+    margin: .1em .21em 0 0;
 }
 i.icss-pen-list:before {
     width: .4em;

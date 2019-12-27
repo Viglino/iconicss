@@ -18,8 +18,8 @@ i.icss-binocular:before {
     -.01em -.04em,
     -.025em -.1em 0 -.02em;
   border-radius: 50%;
-  top: .225em;
-  left: .775em;
+  top: 0;
+  left: .55em;
 }
 i.icss-binocular:after {
   width: .35em;

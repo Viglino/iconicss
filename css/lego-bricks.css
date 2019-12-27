@@ -1,0 +1,41 @@
+i.icss-lego-bricks {
+  width: .8em;
+  height: .55em;
+  border-radius: .1em;
+  background-color: transparent;
+  border: .05em solid transparent;
+  box-shadow: inset 0 0 0 .06em, 
+    -.28em -.23em 0 -.14em,
+    -.28em -.55em 0 -.14em,
+    -.4em -.23em 0 -.14em,
+    -.4em -.55em 0 -.14em,
+    -.4em .09em 0 -.14em;
+  margin: .5em -.05em 0 .25em;
+}
+i.icss-lego-bricks:before {
+  width: .1em;
+  height: .1em;
+  border-radius: 50%;
+  box-shadow: 
+    .2em -.08em, 
+    .34em -.08em, 
+    .48em -.08em, 
+    .62em -.08em,
+    .2em .08em,
+    .48em .08em,
+    .62em .08em,
+    .34em .08em;
+  transform: translateY(-50%);
+  top: 50%;
+  left: -.105em;
+}
+i.icss-lego-bricks:after {
+  width: .1em;
+  height: .1em;
+  background-color: currentColor;
+  box-shadow: .14em 0, 
+    .28em 0,
+    .42em 0;
+  top: -.52em;
+  left: -.25em;
+}
