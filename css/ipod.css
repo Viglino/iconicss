@@ -1,0 +1,30 @@
+i.icss-ipod {
+  width: .6em;
+  height: .9em;
+  box-shadow: inset 0 0 0 .082em;
+  border-radius: .05em;
+  background-color: transparent;
+  overflow: hidden;
+  margin: .05em .2em;
+}
+i.icss-ipod:before {
+  width: .36em;
+  height: .36em;
+  border-radius: 50%;
+  border: .065em solid transparent;
+  box-shadow: inset 0 0 0 .065em, 0 .05em 0 .13em;
+  transform: translate(-50%, -50%);
+  top: 71%;
+  left: 50%;
+}
+i.icss-ipod:after {
+  width: .6em;
+  height: .16em;
+  border: 0 solid transparent;
+  border-width: 0 .3em .12em;
+  border-color: transparent currentColor;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+
+}

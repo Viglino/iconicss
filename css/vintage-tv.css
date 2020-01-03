@@ -1,0 +1,32 @@
+i.icss-vintage-tv {
+  width: .7em;
+  height: .5em;
+  border-radius: .1em;
+  background-color: transparent;
+  box-shadow: 
+    .1em .1em,
+    .1em -.1em,
+    -.1em .1em,
+    -.1em -.1em,
+    0 .15em;
+  margin: .28em .15em .22em;
+}
+i.icss-vintage-tv:before {
+  width: .15em;
+  height: .2em;
+  background-color: currentColor;
+  border-radius: .1em;
+  box-shadow: .65em 0;
+  top: .52em;
+  left: -.05em;
+}
+i.icss-vintage-tv:after {
+  width: .3em;
+  height: .3em;
+  border: .07em solid currentColor;
+  border-color: transparent transparent currentColor currentColor;
+  transform: rotate(-45deg);
+  border-radius: 0 .05em 0 ;
+  top: -.4em;
+  left: .4em;
+}

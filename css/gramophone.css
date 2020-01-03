@@ -1,0 +1,33 @@
+i.icss-gramophone {
+  width: .9em;
+  height: .2em;
+  background-color: currentColor;
+  box-shadow: 0 -.17em 0 -.07em, .1em 0;
+  border-radius: .03em;
+  margin: .75em .1em .05em 0;
+}
+i.icss-gramophone:before {
+  width: .45em;
+  height: .55em;
+  background-color: currentColor;
+  box-shadow: .14em 0 0 -.08em;
+  border-radius: 50%;
+  top: -.75em;
+  left: .3em;
+}
+i.icss-gramophone:after {
+  width: .42em;
+  height: .42em;
+  border: .1em solid transparent;
+  border-width: .17em .08em .16em;
+  border-color: currentColor currentColor transparent transparent;
+  transform: rotate(45deg);
+  border-radius: 50%;
+  box-shadow: 
+    -.05em -.025em 0 .02em,
+    -.0em .43em 0 -.15em,
+    .4em .32em 0 -.15em,
+    -.05em .77em 0 -.15em;
+  top: -.53em;
+  left: .55em;
+}

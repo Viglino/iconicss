@@ -1,7 +1,9 @@
 i.icss-package-arrow {
   width: .7em;
   height: .55em;
-  box-shadow: inset .3em .33em, inset -.14em -.12em;
+  box-shadow: 
+    inset .15em .2em 0 .12em, 
+    inset -.14em -.12em;
   background-color: transparent;
   margin: .4em .3em .05em 0;
 }
@@ -10,7 +12,8 @@ i.icss-package-arrow:before {
   height: .35em;
   transform: translateX(-50%) perspective(.1em) rotateX(10deg);
   transform-origin: 50% 100%;
-  box-shadow: inset .3em 0, inset -.3em 0;
+  border: 0 solid currentColor;
+  border-width: 0 .3em;
   top: -.4em;
   left: 50%;
 }

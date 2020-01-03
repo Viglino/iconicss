@@ -1,4 +1,4 @@
-i.icss-man {
+i.icss-man-heart {
   width: .4em;
   height: .45em;
   background-color: transparent;
@@ -9,17 +9,21 @@ i.icss-man {
     inset -.265em 0 0 -.1em,
     0 .25em 0 -.09em,
     0 .4em 0 -.09em;
-  margin: .23em .3em .32em;
+  margin: .23em .5em .32em .1em;
 }
-i.icss-man:before {
-  width: .3em;
-  height: .3em;
+i.icss-man-heart:before {
+  width: .44em;
+  height: .44em;
   background-color: transparent;
+  border: .22em solid transparent;
+  border-top-color: currentColor;
   box-shadow: 
-    inset 0 .43em 0 -.3em,
-    inset 0 0 0 .065em;
+    -.075em -.245em 0 -.1em,
+    .075em -.245em 0 -.1em,
+    -.47em -.3em 0 -.1em;
   border-radius: 50%;
-  transform: translateX(-50%);
-  top: -.31em;
-  left: 50%;
+  top: -.05em;
+  left: .45em;
+}
+i.icss-man-heart:after {
 }

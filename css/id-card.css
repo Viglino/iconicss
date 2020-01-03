@@ -6,21 +6,23 @@ i.icss-id-card {
     border-style: solid;
     overflow: hidden;
     border-radius: .08em;
-    margin: .1em 0 0;
+    margin: .15em 0 .1em;
 }
 i.icss-id-card:before {
-    border-style: solid;
-    border-width: .13em;
+    width: .26em;
+    height: .26em;
+    background-color: currentColor;
     border-radius: 100%;
-    top: .07em;
-    left: .08em;
     box-shadow: 0 .34em 0 .11em;
     clip:rect(0em .29em .41em -.04em);
+    top: .07em;
+    left: .08em;
 }
 i.icss-id-card:after {
     width: .2em;
     height: .06em;
     top: .05em;
     left: .48em;
-    box-shadow: .15em .125em, 0 .125em, .07em .25em, .15em .25em, 0 .375em, .15em .375em;
+    box-shadow: .15em .125em, 0 .125em, .07em .25em, 
+        .15em .25em, 0 .375em, .15em .375em;
 }

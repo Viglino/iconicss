@@ -1,0 +1,35 @@
+i.icss-bathcloth {
+  width: .46em;
+  height: .45em;
+  background-color: transparent;
+  border-style: solid;
+  border-radius: .1em .1em 0 0;
+  border-color: transparent currentColor currentColor;
+  border-width: .2em .2em 0;
+  margin: .04em .25em .5em;
+}
+i.icss-bathcloth:before {
+  width: .25em;
+  height: .28em;
+  border-radius: 0 .03em 0 0;
+  border: .1em solid transparent;
+  border-top: .1em solid currentColor;
+  box-shadow: 
+    -.17em .56em 0 .05em,
+    .25em .56em 0 .05em;
+  transform: translateX(-50%);
+  clip: rect(0 .35em 1em -.1em);
+  top: -.18em;
+  left: 50%;
+}
+i.icss-bathcloth:after {
+  width: .75em;
+  height: .6em;
+  border: .15em solid currentColor;
+  border-radius: 40% 40% 0 0 / 100% 100% 0 0;
+  border-top-color: transparent;
+  border-bottom: 0;
+  transform: translateX(-50%) perspective(1em) rotateX(35deg);
+  top: -.3em;
+  left: 50%;
+}

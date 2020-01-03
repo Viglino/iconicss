@@ -1,0 +1,33 @@
+i.icss-man-luggage {
+  width: .4em;
+  height: .45em;
+  background-color: transparent;
+  border-radius: .18em .18em 0 0;
+  border-top: .1em solid transparent;
+  box-shadow: 
+    inset .265em 0 0 -.1em,
+    inset -.265em 0 0 -.1em,
+    0 .25em 0 -.09em,
+    0 .4em 0 -.09em;
+  margin: .23em .5em .32em .1em;
+}
+i.icss-man-luggage:before {
+  width: .26em;
+  height: .26em;
+  background-color: currentColor;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  box-shadow: .36em .73em 0 -.05em;
+  top: -.28em;
+  left: 50%;
+}
+i.icss-man-luggage:after {
+  width: .15em;
+  height: .36em;
+  border-radius: 0 .1em 0 0;
+  box-shadow: inset -.1em .2em,
+    -.24em -.25em 0 .1em;
+  clip: rect(-.15em 1em 1em -.07em);
+  left: .63em;
+  top: .26em;
+}

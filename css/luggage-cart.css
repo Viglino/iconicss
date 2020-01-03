@@ -1,0 +1,35 @@
+i.icss-luggage-cart {
+  width: .3em;
+  height: .3em;
+  border-radius: 50%;
+  border-top: .03em solid transparent;
+  box-shadow: inset 0 0 0 .065em, 
+    .27em .71em 0 -.07em,
+    -.33em .71em 0 -.07em;
+  background-color: transparent;
+  margin: .06em .22em .64em .48em;
+}
+i.icss-luggage-cart:before {
+  width: .45em;
+  height: .35em;
+  box-shadow: inset 0 .5em, 
+    0 1.47em 0 1em, 
+    .05em 0 0 .065em,
+    -.05em 0 0 .065em;
+  border: 0 solid transparent;
+  border-width: 0 .08em;
+  border-radius: .01em;
+  transform: translateX(-50%);
+  clip: rect(-.1em .6em .54em -.245em);
+  top: .19em;
+  left: 50%;
+}
+i.icss-luggage-cart:after {
+  width: .18em;
+  height: .7em;
+  border: .08em solid currentColor;
+  border-width: .08em .08em 0 0;
+  transform: skewY(5deg) skewX(5deg);
+  left: -.45em;
+  top: 0;
+}

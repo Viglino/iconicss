@@ -4,7 +4,7 @@ i.icss-fire {
   background-color: transparent;
   border-radius: 50%;
   box-shadow: .025em .055em 0 .04em;
-  margin: .35em .47em .35em .43em;
+  margin: .45em .47em .35em .43em;
 }
 i.icss-fire:before {
   width: .5em;

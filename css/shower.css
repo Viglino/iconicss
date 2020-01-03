@@ -1,0 +1,32 @@
+i.icss-shower {
+  width: .08em;
+  height: .6em;
+  background-color: currentColor;
+  margin: .25em .12em .15em .8em;
+}
+i.icss-shower:before {
+  width: .5em;
+  height: .2em;
+  border: .08em solid currentColor;
+  border-bottom: 0;
+  border-radius: .22em .22em 0 0;
+  box-shadow: 
+    -.212em .2em 0 -.02em;
+  top: -.2em;
+  left: -.42em;
+}
+i.icss-shower:after {
+  width: .13em;
+  height: .13em;
+  border-radius: 0 100% 50% 100%;
+  background-color: currentColor;
+  box-shadow: 
+    -.15em -.35em 0 .02em,
+    .15em -.15em,
+    .2em .05em,
+    .35em -.1em,
+    .05em .2em;
+  transform: rotate(45deg);
+  left: -.58em;
+  top: .3em;
+}

@@ -1,0 +1,32 @@
+i.icss-toaster {
+  width: .8em;
+  height: .45em;
+  border-radius: .15em .15em 0 0;
+  box-shadow: 
+    inset 0 0 0 .1em, 
+    inset -.46em .07em 0 .15em, 
+    -.25em .05em 0 -.18em,
+    0 .1em;
+  border-bottom: .06em solid transparent;
+  background-color: transparent;
+  margin: .45em .1em .1em;
+}
+i.icss-toaster:before {
+  width: .4em;
+  height: .21em;
+  border: .065em solid currentColor;
+  border-top: .03em solid transparent;
+  top: -.27em;
+  left: .25em;
+}
+i.icss-toaster:after {
+  width: .54em;
+  height: .22em;
+  border-radius: .1em;
+  box-shadow: 
+    inset .035em .035em 0 .035em,
+    inset -.035em .035em 0 .035em;
+  border-bottom: 0;
+  top: -.45em;
+  left: .18em;
+}

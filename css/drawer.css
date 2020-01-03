@@ -1,0 +1,31 @@
+i.icss-drawer {
+  width: .3em;
+  height: .07em;
+  background-color: currentColor;
+  box-shadow: 0 .13em, 0 .26em;
+  margin: .2em .35em .73em;
+}
+i.icss-drawer:before {
+  width: .55em;
+  height: .5em;
+  border: .07em solid currentColor;
+  border-bottom: 0;
+  border-radius: .05em .05em 0 0;
+  box-shadow: 
+    -.4em .7em,
+    .4em .7em,
+    0 .8em;
+  transform: translateX(-50%);
+  clip: rect(0 .725em .93em -.175em);
+  top: -.15em;
+  left: 50%;
+}
+i.icss-drawer:after {
+  width: .8em;
+  height: .4em;
+  border: .08em solid currentColor;
+  border-width: 0 .07em;
+  transform: translateX(-50%) perspective(1em) rotateX(35deg);
+  top: .17em;
+  left: 50%;
+}

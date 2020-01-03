@@ -1,0 +1,30 @@
+i.icss-remote-control {
+  width: .6em;
+  height: .9em;
+  background-color: transparent;
+  border-radius: .03em;
+  box-shadow: inset 0 0  0 .065em;
+  margin: .05em .2em;
+}
+i.icss-remote-control:before {
+  width: .12em;
+  height: .3em;
+  box-shadow: 
+    .12em 0 0 .07em, 
+    -.12em 0 0 .07em,
+    .11em .625em;
+  transform: translateX(-50%);
+  clip: rect(.2em 1em 1em -1em);
+  top: -.15em;
+  left: 50%;
+}
+i.icss-remote-control:after {
+  width: .12em;
+  height: .12em;
+  background-color: currentColor;
+  box-shadow: 
+    .2em 0,
+    0 .185em, 0 .37em;
+  top: .29em;
+  left: .15em;
+}

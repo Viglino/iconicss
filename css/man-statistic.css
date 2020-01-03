@@ -1,0 +1,34 @@
+i.icss-man-statistic {
+  width: .4em;
+  height: .45em;
+  background-color: transparent;
+  border-radius: .18em .18em 0 0;
+  border-top: .1em solid transparent;
+  box-shadow: 
+    inset .265em 0 0 -.1em,
+    inset -.265em 0 0 -.1em,
+    0 .25em 0 -.09em,
+    0 .4em 0 -.09em;
+  margin: .23em .55em .32em .05em;
+}
+i.icss-man-statistic:before {
+  width: .26em;
+  height: .26em;
+  background-color: currentColor;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  top: -.28em;
+  left: 50%;
+}
+i.icss-man-statistic:after {
+  width: .1em;
+  height: .2em;
+  background-color: currentColor;
+  box-shadow: .16em 0, .16em -.12em,
+    .54em -.07em 0 .2em,
+    .13em .43em 0 .18em,
+    .08em -.59em 0 .2em;
+  clip: rect(-.27em .42em .33em -.2em);
+  left: .51em;
+  top: .05em;
+}

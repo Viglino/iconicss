@@ -1,0 +1,23 @@
+i.icss-lift {
+  width: .7em;
+  height: .45em;
+  border: 0 solid transparent;
+  border-width: 0 .32em;
+  box-shadow: inset .2em 0, 
+    0 0 0 .065em,
+    0 -.1em 0 .065em;
+  background-color: transparent;
+  margin: .47em .15em .08em;
+}
+i.icss-lift:before {
+  border: .2em solid transparent;
+  border-top: .2em solid currentColor;
+  top: -.45em;
+  left: .02em;
+}
+i.icss-lift:after {
+  border: .2em solid transparent;
+  border-bottom: .2em solid currentColor;
+  top: -.65em;
+  left: -.37em;
+}

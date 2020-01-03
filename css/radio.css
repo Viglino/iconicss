@@ -1,0 +1,34 @@
+i.icss-radio {
+  width: .7em;
+  height: .45em;
+  background-color: transparent;
+  border: 0 solid transparent;
+  border-width: .17em .07em .09em .35em;
+  box-shadow: 0 0 0 .065em, 
+    .22em -.05em 0 -.1em,
+    inset 0 .07em, inset 0 -.07em;
+  border-radius: .02em;
+  margin: .48em .15em .07em;
+}
+i.icss-radio:before {
+  width: .35em;
+  height: .08em;
+  background-color: currentColor;
+  box-shadow: -.33em 0 0 -.01em;
+  transform: rotate(25deg);
+  top: -.36em;
+  left: -.01em;
+}
+i.icss-radio:after {
+  width: .25em;
+  height: .25em;
+  border: .065em solid currentColor;
+  border-radius: 50%;
+  box-shadow: 
+    .5em -.31em 0 -.06em,
+    -.12em -.61em 0 -.07em,
+    .25em -.16em 0 -.07em,
+    .42em -.16em 0 -.07em;
+  left: -.3em;
+  top: -.05em;
+}

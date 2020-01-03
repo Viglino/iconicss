@@ -1,0 +1,34 @@
+i.icss-stereo-radio {
+  width: 1em;
+  height: .55em;
+  background-color: transparent;
+  border-radius: .25em;
+  background-image: 
+    radial-gradient(circle at .25em 50%, 
+      transparent .12em, currentColor .12em,
+      currentColor .22em, transparent .22em),
+    radial-gradient(circle at .75em 50%, 
+      transparent .12em, currentColor .12em,
+      currentColor .22em, transparent .221em);
+  box-shadow: inset 0 0 0 .1em;
+  margin: .4em 0 .05em;
+}
+i.icss-stereo-radio:before {
+  width: .2em;
+  height: .22em;
+  background: currentColor;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+i.icss-stereo-radio:after {
+  width: .5em;
+  height: .25em;
+  border: .09em solid currentColor;
+  border-bottom: 0;
+  border-radius: .1em .1em 0 0;
+  transform: translateX(-50%);
+  top: -.2em;
+  left: 50%;
+
+}

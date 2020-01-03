@@ -1,0 +1,29 @@
+i.icss-towel-holder {
+  width: .8em;
+  height: .3em;
+  border-radius: 50% 50% 10% 10% / 80% 80% 10% 10%;
+  box-shadow: inset 0 0 0 .065em;
+  background-color: transparent;
+  margin: .28em .1em .42em;
+}
+i.icss-towel-holder:before {
+  width: .25em;
+  height: .25em;
+  border: .065em solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  box-shadow: .07em .14em 0 -.07em;
+  transform: translateX(-50%) rotate(33deg);
+  top: -.28em;
+  left: 55%;
+}
+i.icss-towel-holder:after {
+  width: .6em;
+  height: .4em;
+  border-radius: .1em .1em 0 0;
+  border-bottom: .08em solid transparent;
+  box-shadow: inset 0 0 0 .5em, 0 .17em;
+  transform: translateX(-50%);
+  top: .15em;
+  left: 50%;
+}

@@ -32,10 +32,10 @@ i.icss-cash-register:after {
   height: .2em;
   border-radius: .05em;
   box-shadow: 
-    inset .35em .065em,
-    inset -.35em .065em,
-    inset .35em -.065em,
-    inset -.35em -.065em;
+    inset .38em .065em,
+    inset -.38em .065em,
+    inset .38em -.065em,
+    inset -.38em -.065em;
   border-width: 0 .55em 0 .1em;
   left: -.475em;
   top: .6em

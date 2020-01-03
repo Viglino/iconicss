@@ -1,0 +1,27 @@
+i.icss-music-album {
+  width: 1em;
+  height: .9em;
+  border-radius: .03em;
+  box-shadow: inset 0 0 0 .08em, inset .1em 0 0 .08em;
+  background-color: transparent;
+  margin: .05em 0;
+}
+i.icss-music-album:before {
+  width: .25em;
+  height: .45em;
+  border-top: .07em solid transparent;
+  box-shadow: inset 0 .07em, .07em -.07em, -.07em -.07em;
+  top: .25em;
+  left: .48em;
+  transform: skewY(-10deg);
+}
+i.icss-music-album:after {
+  width: .2em;
+  height: .18em;
+  border-radius: 100%;
+  background-color: currentColor;
+  box-shadow: .32em -.02em;
+  top: .6em;
+  left: .28em;
+  transform: skewY(-10deg);
+}

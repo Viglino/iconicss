@@ -1,0 +1,45 @@
+i.icss-threesome {
+  width: .3em;
+  height: .35em;
+  background-color: transparent;
+  border-radius: .1em .1em 0 0 / 90% 90% 0 0;
+  box-shadow: 
+    inset 0 -.15em 0 .11em,
+    0 .21em 0 -.08em,
+    0 .29em 0 -.08em;
+  margin: .43em .69em .22em .01em;
+}
+i.icss-threesome:before {
+  width: .25em;
+  height: .25em;
+  background-color: transparent;
+  box-shadow: 
+    .34em -.2em 0 -.025em,
+    .68em -.02em 0 -.015em,
+    inset 0 .42em 0 -.3em,
+    inset 0 0 0 .03em,
+    inset .09em .03em 0 -.03em,
+    inset -.09em .03em 0 -.03em;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  top: -.26em;
+  left: 50%;
+}
+i.icss-threesome:after {
+  width: .3em;
+  height: .37em;
+  background-color: transparent;
+  border-radius: .18em .18em 0 0;
+  border-top: .08em solid transparent;
+  box-shadow: 
+    -.32em -.14em 0 -.03em,
+    -.36em -.14em 0 -.03em,
+    -.34em 0 0 -.08em,
+    -.34em .16em 0 -.08em,
+    inset .2em 0 0 -.08em,
+    inset -.2em 0 0 -.08em,
+    0 .23em 0 -.08em,
+    0 .38em 0 -.08em;
+  top: -.11em;
+  left: .68em;
+}

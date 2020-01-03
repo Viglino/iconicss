@@ -1,0 +1,34 @@
+i.icss-video-player {
+  width: .7em;
+  height: .08em;
+  background-color: transparent;
+  border-radius: .01em;
+  border: 0 solid transparent;
+  border-width: 0 .08em 0 .4em;
+  box-shadow: 
+    .06em -.04em 0 .03em,
+    -.06em -.04em 0 .03em,
+    -.06em .04em 0 .03em,
+    .06em .04em 0 .03em,
+    inset 0 .1em;
+  margin: .68em .1em .14em;
+}
+i.icss-video-player:before {
+  width: .65em;
+  height: .65em;
+  border-radius: 50%;
+  border: .16em solid currentColor;
+  clip: rect(0 1em .55em 0);
+  top: -.665em;
+  left: -.37em;
+}
+i.icss-video-player:after {
+  border: .15em solid currentColor;
+  border-width: .15em .1em .15em .2em;
+  border-left-color: transparent;
+  box-shadow: -.1em 0 0 .06em, 
+    .25em .48em 0 -.08em,
+    -.44em .48em 0 -.08em;
+  top: -.48em;
+  left: -.105em;
+}

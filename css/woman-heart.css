@@ -1,4 +1,4 @@
-i.icss-woman {
+i.icss-woman-heart {
   width: .4em;
   height: .45em;
   background-color: transparent;
@@ -7,9 +7,22 @@ i.icss-woman {
     inset 0 -.19em 0 .15em,
     0 .22em 0 -.09em,
     0 .3em 0 -.09em;
-  margin: .33em .3em .22em;
+  margin: .33em .5em .22em .1em;
 }
-i.icss-woman:before {
+i.icss-woman-heart:before {
+  width: .44em;
+  height: .44em;
+  background-color: transparent;
+  border: .22em solid transparent;
+  border-top-color: currentColor;
+  box-shadow: 
+    -.075em -.245em 0 -.1em,
+    .075em -.245em 0 -.1em;
+  border-radius: 50%;
+  top: -.05em;
+  left: .45em;
+}
+i.icss-woman-heart:after {
   width: .3em;
   height: .3em;
   background-color: transparent;
@@ -22,4 +35,5 @@ i.icss-woman:before {
   transform: translateX(-50%);
   top: -.31em;
   left: 50%;
+
 }

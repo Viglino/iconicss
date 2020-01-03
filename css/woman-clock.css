@@ -1,0 +1,32 @@
+i.icss-woman-clock {
+  width: .4em;
+  height: .45em;
+  background-color: transparent;
+  border-radius: .15em .15em 0 0 / 90% 90% 0 0;
+  box-shadow: 
+    inset 0 -.19em 0 .15em,
+    0 .22em 0 -.09em,
+    0 .3em 0 -.09em;
+  margin: .33em .5em .22em .1em;
+}
+i.icss-woman-clock:before {
+  width: .4em;
+  height: .4em;
+  background-color: transparent;
+  box-shadow: 
+    inset 0 0 0 .065em,
+    -.48em -.06em 0 -.12em,
+    -.48em -.12em 0 -.07em;
+  border-radius: 50%;
+  top: -.22em;
+  left: .48em;
+}
+i.icss-woman-clock:after {
+  width: .12em;
+  height: .15em;
+  border: .05em solid currentColor;
+  border-width: 0 0 .065em .065em;
+  transform: rotate(20deg);
+  top: -.12em;
+  left: .66em;
+}

@@ -1,0 +1,31 @@
+i.icss-vintage-radio {
+  width: .86em;
+  height: .55em;
+  background-color: transparent;
+  border: 0 solid transparent;
+  border-width: .1em .07em .25em;
+  box-shadow: 0 0 0 .065em, 
+    inset 0 .07em, inset 0 -.07em;
+  border-radius: .02em;
+  margin: .32em .07em .12em;
+}
+i.icss-vintage-radio:before {
+  width: .16em;
+  height: .16em;
+  border-radius: 50%;
+  box-shadow: -.25em 0, .25em 0,
+    -.28em .2em, .28em .2em;
+  transform: translateX(-50%);
+  clip: rect(0 1em .32em -1em);
+  top: .25em;
+  left: 50%;
+}
+i.icss-vintage-radio:after {
+  width: .9em;
+  height: .07em;
+  background-color: currentColor;
+  border-radius: .05em;
+  transform: rotate(-18deg);
+  top: -.295em;
+  left: -.11em;
+}

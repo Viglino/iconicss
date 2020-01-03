@@ -1,0 +1,19 @@
+i.icss-tv-screen {
+  width: .9em;
+  height: .6em;
+  border-radius: .02em;
+  background-color: transparent;
+  border: .07em solid currentColor;
+  box-shadow: 0 .37em 0 -.27em;
+  margin: .25em .05em .15em .05em;
+}
+i.icss-tv-screen:before {
+  width: .15em;
+  height: .1em;
+  background-color: currentColor;
+  transform: translateX(-50%);
+  left: 50%;
+  top: .5em;
+}
+i.icss-tv-screen:after {
+}

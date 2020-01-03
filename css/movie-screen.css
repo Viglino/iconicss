@@ -1,0 +1,36 @@
+i.icss-movie-screen {
+  width: 1em;
+  height: .67em;
+  border: .065em solid currentColor;
+  border-bottom-color: transparent;
+  border-radius: .03em;
+  background-color: transparent;
+  margin: 0 0 .33em;
+}
+i.icss-movie-screen:before {
+  width: .22em;
+  height: .22em;
+  background-color: currentColor;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  box-shadow: 
+    -.35em 0, -.35em .25em 0 .05em,
+    .35em 0, .35em .25em 0 .05em,
+    0 .25em 0 .05em;
+  clip: rect(-1em .61em .37em -.38em);
+  top: .57em;
+  left: 50%;
+}
+i.icss-movie-screen:after {
+  width: .32em;
+  height: .32em;
+  border: .05em solid transparent;
+  border-radius: 50%;
+  transform: translateX(-50%) rotate(-45deg);
+  box-shadow: 
+    -.01em -.25em 0 -.044em,
+    .25em .01em 0 -.044em;
+  clip: rect(-1em .62em .27em .05em);
+  top: .52em;
+  left: 50%;
+}

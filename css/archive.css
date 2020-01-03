@@ -1,0 +1,17 @@
+i.icss-archive {
+  width: .9em;
+  height: .6em;
+  background-color: transparent;
+  box-shadow: inset 0 -.1em 0 .25em;
+  border-radius: 0 0 .05em .05em;
+  margin: .3em .05em .1em;
+}
+i.icss-archive:before {
+  width: 1em;
+  height: .15em;
+  background-color: currentColor;
+  border-radius: .05em .05em 0 0;
+  transform: translateX(-50%);
+  top: -.2em;
+  left: 50%;
+}

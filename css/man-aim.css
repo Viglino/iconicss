@@ -1,0 +1,34 @@
+i.icss-man-aim {
+  width: .8em;
+  height: .8em;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 
+    inset 0 0 0 .08em;
+  margin: .1em;
+}
+i.icss-man-aim:before {
+  border-style: solid;
+  border-width: .13em;
+  border-radius: 100%;
+  box-shadow: 0 .34em 0 .11em;
+  clip:rect(0em .29em .41em -.04em);
+  transform: translate(-50%, -50%);
+  top: 40%;
+  left: 50%;
+}
+i.icss-man-aim:after {
+  width: 1.5em;
+  height: 1em;
+  border: 0 solid transparent;
+  border-width: .47em 0 0 .23em; 
+  box-shadow: 
+    inset 0 .07em,
+    -1.35em 0 0 -.46em,
+    -.07em .78em,
+    -.07em -.78em;
+  transform: translate(.035em, -50%);
+  clip: rect(0 .465em 1em -.54em);
+  top: 50%;
+  left: 50%;
+}

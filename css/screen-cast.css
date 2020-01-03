@@ -1,0 +1,28 @@
+i.icss-screen-cast {
+  width: .86em;
+  height: .6em;
+  background-color: transparent;
+  box-shadow: .07em -.07em,
+    -.27em -.27em  0 -.2em,
+    .27em .27em  0 -.2em;
+  margin: .2em .07em;
+}
+i.icss-screen-cast:before {
+  width: .35em;
+  height: .35em;
+  border-radius: 0 100% 0 0;
+  border: 0 solid transparent;
+  border-width: .07em .07em 0 0;
+  box-shadow: inset -.04em .04em 0 .04em,
+    .04em -.04em 0 .035em;
+  top: .31em;
+  left: -.07em;
+}
+i.icss-screen-cast:after {
+  width: .12em;
+  height: .12em;
+  border-radius: 0 100% 0 0;
+  background-color: currentColor;
+  top: .54em;
+  left: -.07em;
+}

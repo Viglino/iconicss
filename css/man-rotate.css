@@ -1,0 +1,33 @@
+i.icss-man-rotate {
+    width: .37em;
+    height: .43em;
+    background-color: transparent;
+    border-radius: .18em .18em 0 0;
+    border-top: .1em solid transparent;
+    box-shadow: 
+      inset .265em 0 0 -.1em,
+      inset -.265em 0 0 -.1em,
+      0 .25em 0 -.08em,
+      0 .38em 0 -.08em;
+    margin: .12em .315em .45em;
+  }
+  i.icss-man-rotate:before {
+    width: .7em;
+    height: .7em;
+    background-color: transparent;
+    border: .07em solid currentColor;
+    border-color: transparent currentColor;
+    border-radius: 50%;
+    transform: translateX(-50%) perspective(1em) rotateX(60deg);
+    top: .22em;
+    left: 50%;
+  }
+  i.icss-man-rotate:after {
+    border: .18em solid transparent;
+    border-radius: 50%;
+    border-left-color: currentColor;
+    box-shadow: -.48em -.78em 0 -.065em;
+    transform: rotate(40deg);
+    top: .62em;
+    left: -.13em;
+  }

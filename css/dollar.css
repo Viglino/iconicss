@@ -29,8 +29,9 @@ i.icss-dollar:before {
 }
 
 i.icss-dollar:after {
-  border-style: solid;
-  border-width: .09em;
+  width: .18em;
+  height: .18em;
+  background-color: currentColor;
   border-radius: 100%;
   box-shadow: 0 .27em 0 .11em;
   clip: rect(0em .2em .33em -.025em);

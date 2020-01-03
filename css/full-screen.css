@@ -1,0 +1,30 @@
+i.icss-full-screen {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-full-screen:before {
+  width: .28em;
+  height: .08em;
+  box-shadow: 
+    -.32em -.32em,
+    .32em -.32em,
+    .32em .32em,
+    -.32em .32em;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+i.icss-full-screen:after {
+  width: .08em;
+  height: .28em;
+  box-shadow: 
+    -.42em -.22em,
+    .42em -.22em,
+    .42em .22em,
+    -.42em .22em;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}

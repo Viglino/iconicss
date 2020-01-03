@@ -1,4 +1,4 @@
-i.icss-woman {
+i.icss-woman-luggage {
   width: .4em;
   height: .45em;
   background-color: transparent;
@@ -7,9 +7,9 @@ i.icss-woman {
     inset 0 -.19em 0 .15em,
     0 .22em 0 -.09em,
     0 .3em 0 -.09em;
-  margin: .33em .3em .22em;
+  margin: .33em .5em .22em .1em;
 }
-i.icss-woman:before {
+i.icss-woman-luggage:before {
   width: .3em;
   height: .3em;
   background-color: transparent;
@@ -17,9 +17,20 @@ i.icss-woman:before {
     inset 0 .43em 0 -.3em,
     inset 0 0 0 .03em,
     inset .1em .03em 0 -.03em,
-    inset -.1em .03em 0 -.03em;
+    inset -.1em .03em 0 -.03em,
+    .36em .74em 0 -.07em;
   border-radius: 50%;
   transform: translateX(-50%);
   top: -.31em;
   left: 50%;
+}
+i.icss-woman-luggage:after {
+  width: .15em;
+  height: .36em;
+  border-radius: 0 .1em 0 0;
+  box-shadow: inset -.1em .2em,
+    -.24em -.25em 0 .1em;
+  clip: rect(-.15em 1em 1em -.07em);
+  left: .63em;
+  top: .26em;
 }

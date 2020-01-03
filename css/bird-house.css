@@ -11,7 +11,7 @@ i.icss-bird-house:before {
   height: .7em;
   border: .06em solid transparent;
   border-width: .06em .12em .12em .06em;
-  box-shadow: inset 0 .15em, inset .15em 0, 
+  box-shadow: inset .175em .175em,
     -.065em -.065em, -.065em -.065em;
   transform: translateX(-50%) rotate(45deg);
   top: -.25em;
@@ -22,7 +22,7 @@ i.icss-bird-house:after {
   height: .46em;
   border-radius: 0 0 .035em .05em;
   transform: translateX(-50%) perspective(.1em) rotateX(-4deg);
-  box-shadow: inset .15em -.2em, inset -.15em -.2em;
+  box-shadow: inset 0 -.14em 0 .14em;
   top: .1em;
   left: 50%;
 }

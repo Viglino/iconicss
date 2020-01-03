@@ -1,0 +1,26 @@
+i.icss-sun-glasses {
+  width: .5em;
+  height: .4em;
+  border-radius: 50% .1em 100% 50%;
+  margin: .4em .5em .1em 0;
+}
+i.icss-sun-glasses:before {
+  width: .5em;
+  height: .4em;
+  border-radius: .1em 50% 50% 100%;
+  background-color: currentColor;
+  top: 0;
+  left: .5em;
+}
+i.icss-sun-glasses:after {
+  width: 1em;
+  height: .85em;
+  border: .14em solid transparent;
+  border-color: transparent currentColor;
+  border-width: .08em .14em .05em;
+  border-radius: 50% 50% 0 0;
+  transform: perspective(.1em) rotateX(7deg);
+  transform-origin: 50% 100%;
+  top: -.77em;
+  left: 0;
+}

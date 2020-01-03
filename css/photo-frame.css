@@ -1,0 +1,28 @@
+i.icss-photo-frame {
+  width: .18em;
+  height: .18em;
+  border-radius: 50%;
+  background-color: currentColor;
+  margin: .3em .48em .52em .34em;
+}
+i.icss-photo-frame:before {
+  width: .5em;
+  height: .63em;
+  box-shadow: 0 0 0 .07em, 0 .1em 0 .07em;
+  border: .225em solid transparent;
+  border-bottom: .3em solid currentColor;
+  border-width: 0 .15em .3em .33em;
+  transform: skewX(10deg);
+  top: -.1em;
+  left: -.05em;
+}
+i.icss-photo-frame:after {
+  width: .1em;
+  height: .7em;
+  border: .1em solid transparent;
+  border-left-color: currentColor;
+  border-width: .2em 0 0 .12em; 
+  transform: skewX(-18deg);
+  left: -.22em;
+  top: 0;
+}

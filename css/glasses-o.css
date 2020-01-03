@@ -1,0 +1,31 @@
+i.icss-glasses-o {
+  width: .48em;
+  height: .48em;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 .065em;
+  background-color: transparent;
+  margin: .41em .5em .11em 0;
+}
+i.icss-glasses-o:before {
+  width: .48em;
+  height: .48em;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 .065em;
+  background-color: transparent;
+  top: 0;
+  left: .52em;
+}
+i.icss-glasses-o:after {
+  width: 1em;
+  height: .9em;
+  border: .14em solid transparent;
+  border-color: transparent currentColor;
+  border-width: .1em .14em .15em;
+  border-radius: 50% 50% 0 0;
+  box-shadow: 0 .49em 0 -.41em;
+  transform: perspective(.1em) rotateX(7deg);
+  transform-origin: 50% 100%;
+  clip: rect(0 1em .97em 0);
+  top: -.81em;
+  left: 0;
+}

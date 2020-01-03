@@ -1,0 +1,25 @@
+i.icss-travelator {
+  width: 1em;
+  height: .4em;
+  background-color: currentColor;
+  border-radius: .2em 0 0 .2em;
+  margin: .6em 0 0;
+}
+i.icss-travelator:before {
+  width: .25em;
+  height: .25em;
+  background-color: currentColor;
+  border-radius: 50%;
+  box-shadow: .4em 0;
+  top: -.5em;
+  left: .3em;
+}
+i.icss-travelator:after {
+  width: .2em;
+  height: .2em;
+  border-radius: 50% 50% 0 0;
+  background-color: currentColor;
+  box-shadow: .4em 0;
+  top: -.23em;
+  left: .32em;
+}

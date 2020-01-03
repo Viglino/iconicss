@@ -1,4 +1,4 @@
-i.icss-woman {
+i.icss-twosome {
   width: .4em;
   height: .45em;
   background-color: transparent;
@@ -7,13 +7,14 @@ i.icss-woman {
     inset 0 -.19em 0 .15em,
     0 .22em 0 -.09em,
     0 .3em 0 -.09em;
-  margin: .33em .3em .22em;
+  margin: .33em .54em .22em .06em;
 }
-i.icss-woman:before {
+i.icss-twosome:before {
   width: .3em;
   height: .3em;
   background-color: transparent;
   box-shadow: 
+    .48em -.02em 0 -.015em,
     inset 0 .43em 0 -.3em,
     inset 0 0 0 .03em,
     inset .1em .03em 0 -.03em,
@@ -22,4 +23,18 @@ i.icss-woman:before {
   transform: translateX(-50%);
   top: -.31em;
   left: 50%;
+}
+i.icss-twosome:after {
+  width: .4em;
+  height: .46em;
+  background-color: transparent;
+  border-radius: .18em .18em 0 0;
+  border-top: .1em solid transparent;
+  box-shadow: 
+    inset .265em 0 0 -.1em,
+    inset -.265em 0 0 -.1em,
+    0 .25em 0 -.09em,
+    0 .42em 0 -.09em;
+  top: -.13em;
+  left: .48em;
 }

@@ -1,0 +1,37 @@
+i.icss-man-locate {
+  width: .4em;
+  height: .45em;
+  background-color: transparent;
+  border-radius: .18em .18em 0 0;
+  border-top: .1em solid transparent;
+  box-shadow: 
+    inset .265em 0 0 -.1em,
+    inset -.265em 0 0 -.1em,
+    0 .25em 0 -.09em,
+    0 .4em 0 -.09em;
+  margin: .23em .5em .32em .1em;
+}
+i.icss-man-locate:before {
+  width: .34em;
+  height: .34em;
+  background-color: transparent;
+  box-shadow: 
+    inset 0 0 0 .065em,
+    -.47em -.1em 0 -.04em;
+  border-radius: 50%;
+  top: -.22em;
+  left: .5em;
+}
+i.icss-man-locate:after {
+  width: .46em;
+  height: .4em;
+  border: 0 solid transparent;
+  border-width: .165em .03em; 
+  box-shadow: 
+    inset .13em 0,
+    -.41em 0 0 -.16em,
+    -.21em .13em 0 -.13em,
+    -.21em -.13em 0 -.13em;
+  top: -.25em;
+  left: .71em;
+}

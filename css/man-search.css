@@ -1,0 +1,30 @@
+i.icss-man-search {
+  width: .75em;
+  height: .75em;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 
+    inset 0 0 0 .09em;
+  margin: 0 .25em .25em 0;
+}
+i.icss-man-search:before {
+  width: .26em; 
+  height: .26em;
+  background-color: currentColor;
+  border-radius: 100%;
+  box-shadow: 0 .34em 0 .11em;
+  clip:rect(0em .29em .41em -.04em);
+  transform: translate(-50%, -50%);
+  top: 38%;
+  left: 50%;
+}
+i.icss-man-search:after {
+  width: .15em;
+  height: .45em;
+  border-radius: .05em;
+  background-color: currentColor;
+  box-shadow: 0 -.1em 0 -.02em;
+  transform: rotate(-45deg);
+  top: .59em;
+  left: .74em;
+}

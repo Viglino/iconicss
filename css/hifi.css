@@ -1,0 +1,40 @@
+i.icss-hifi {
+  width: 1em;
+  height: .3em;
+  background-color: transparent;
+  box-shadow: 
+    inset .11em 0 0 .11em,
+    inset -.11em 0 0 .11em;
+  border-radius: .03em;
+  margin: .7em 0 0;
+}
+i.icss-hifi:before {
+  width: .3em;
+  height: .55em;
+  border-radius: .03em .03em 0 0;
+  box-shadow: inset 0 -.01em 0 .07em, inset 0 -.12em;
+  background-image: 
+    radial-gradient(circle at 50% .13em,
+      transparent .07em, currentColor .07em,
+      currentColor .13em, transparent .13em),
+    radial-gradient(circle at 50% .33em,
+      transparent .07em, currentColor .07em,
+      currentColor .13em, transparent .13em);
+  top: -.6em;
+  left: .05em;
+}
+i.icss-hifi:after {
+  width: .3em;
+  height: .55em;
+  border-radius: .03em .03em 0 0;
+  box-shadow: inset 0 -.01em 0 .07em, inset 0 -.12em;
+  background-image: 
+    radial-gradient(circle at 50% .13em,
+      transparent .07em, currentColor .07em,
+      currentColor .13em, transparent .13em),
+    radial-gradient(circle at 50% .33em,
+      transparent .07em, currentColor .07em,
+      currentColor .13em, transparent .13em);
+  top: -.6em;
+  left: .65em;
+}

@@ -1,0 +1,30 @@
+i.icss-man-2 {
+    width: .25em;
+    height: .25em;
+    border-style: solid;
+    border-width: .13em;
+    border-radius: .13em;
+    margin: 0 .35em .7em;
+}
+i.icss-man-2:before {
+    width: .54em;
+    height: .4em;
+    border-width: .15em .1em 0;
+    border-style: solid;
+    border-radius: 60% 60% 10% 10% / 100%;
+    border-bottom-color: transparent;
+    top: .13em;
+    left: 50%;
+    transform: translateX(-50%);
+}
+i.icss-man-2:after {
+    width: .27em;
+    height: .7em;
+    border-width: .38em .12em 0;
+    border-style: solid;
+    border-radius: .1em .1em 0 0;
+    border-bottom-color: transparent;
+    top: .15em;
+    left: 50%;
+    transform: translateX(-50%);
+}

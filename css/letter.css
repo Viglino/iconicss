@@ -1,0 +1,26 @@
+i.icss-letter {
+    width: 1em;
+    height: .75em;
+    background-color: transparent;
+    border-width: .065em;
+    border-style: solid;
+    overflow: hidden;
+    border-radius: .05em;
+    margin: .125em 0;
+}
+i.icss-letter:before {
+  width: .18em;
+  height: .23em;
+  background-color: currentColor;
+  top: .08em;
+  left: .62em;
+}
+i.icss-letter:after {
+  width: .5em;
+  height: .07em;
+  background-color: currentColor;
+  box-shadow: -.2em -.15em;
+  clip: rect(-.5em 1em 1em 0);
+  top: .45em;
+  left: .1em;
+}

@@ -1,0 +1,17 @@
+i.icss-cd-album {
+  width: 1em;
+  height: .9em;
+  border-radius: .03em;
+  box-shadow: inset 0 0 0 .08em, inset .1em 0 0 .08em;
+  background-color: transparent;
+  margin: .05em 0;
+}
+i.icss-cd-album:before {
+  width: .62em;
+  height: .62em;
+  border: .24em solid currentColor;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 55%;
+}

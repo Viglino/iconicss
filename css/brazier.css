@@ -1,0 +1,37 @@
+i.icss-brazier {
+  width: .24em;
+  height: .33em;
+  background-color: transparent;
+  border: .1em solid transparent;
+  border-top: .33em solid currentColor;
+  border-bottom: 0;
+  margin: .57em .38em .1em;
+}
+i.icss-brazier:before {
+  width: .9em;
+  height: .9em;
+  background-color: transparent;
+  border-radius: 0 60% 60% / 0 60% 60% 70%;
+  box-shadow:
+    -.45em -.4em 0 -.3em,
+    -.57em -.26em 0 -.32em,
+    -.27em -.55em 0 -.32em;
+  transform: translateX(-50%) rotate(45deg);
+  clip: rect(-1em .5em .5em -1em);
+  top: -.55em;
+  left: 50%;
+}
+i.icss-brazier:after {
+  width: .8em;
+  height: .8em;
+  background-color: currentColor;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  box-shadow: 
+    -.1em .41em 0 -.35em,
+    .1em .41em 0 -.35em,
+    0 1em 0 -.2em;
+  clip: rect(.65em 1em 1.29em 0);
+  top: -1.18em;
+  left: 50%;
+}

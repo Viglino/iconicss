@@ -1,0 +1,33 @@
+i.icss-man-clock {
+  width: .4em;
+  height: .45em;
+  background-color: transparent;
+  border-radius: .18em .18em 0 0;
+  border-top: .1em solid transparent;
+  box-shadow: 
+    inset .265em 0 0 -.1em,
+    inset -.265em 0 0 -.1em,
+    0 .25em 0 -.09em,
+    0 .4em 0 -.09em;
+  margin: .23em .5em .32em .1em;
+}
+i.icss-man-clock:before {
+  width: .4em;
+  height: .4em;
+  background-color: transparent;
+  box-shadow: 
+    inset 0 0 0 .065em,
+    -.48em -.12em 0 -.08em;
+  border-radius: 50%;
+  top: -.22em;
+  left: .48em;
+}
+i.icss-man-clock:after {
+  width: .12em;
+  height: .15em;
+  border: .05em solid currentColor;
+  border-width: 0 0 .065em .065em;
+  transform: rotate(20deg);
+  top: -.12em;
+  left: .66em;
+}

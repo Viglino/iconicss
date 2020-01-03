@@ -1,33 +1,45 @@
 i.icss-toilets {
-  width: .2em;
-  height: .43em;
-  border-radius: .1em;
-  margin: .22em .72em .3em .15em;
+  width: .4em;
+  height: .45em;
+  background-color: transparent;
+  border-radius: .15em .15em 0 0 / 90% 90% 0 0;
   box-shadow: 
-    -.05em .35em 0 -.06em,
-    -.05em .25em 0 -.06em,
-    .05em .35em 0 -.06em,
-    .05em .25em 0 -.06em,
-    .25em .1em 0 -.06em,
-    .25em -.15em 0 -.06em,
-    .25em .3em 0 -.06em,
-    .47em .35em 0 -.06em,
-    .59em .35em 0 -.06em
+    inset 0 -.19em 0 .15em,
+    0 .22em 0 -.09em,
+    0 .3em 0 -.09em;
+  margin: .33em .6em .22em 0;
 }
 i.icss-toilets:before {
-  width: .2em;
-  height: .2em;
-  border-radius: .1em;
-  background-color: currentColor;
-  top: -.22em;
-  left: 0;
-  box-shadow: .53em 0;
+  width: .3em;
+  height: .3em;
+  background-color: transparent;
+  box-shadow: 
+    .6em -.02em 0 -.015em,
+    inset 0 .43em 0 -.3em,
+    inset 0 0 0 .03em,
+    inset .1em .03em 0 -.03em,
+    inset -.1em .03em 0 -.03em;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  top: -.31em;
+  left: 50%;
 }
 i.icss-toilets:after {
-    border: 0.4em solid currentColor;
-    border-color: currentColor currentColor transparent transparent;
-    border-radius: 0.2em .3em .2em 1em;
-    transform: scaleX(0.35) rotate(-45deg);
-    top: .1em;
-    left: .23em;
+  width: .4em;
+  height: .48em;
+  background-color: transparent;
+  border-radius: .18em .18em 0 0;
+  border-top: .1em solid transparent;
+  box-shadow: 
+    -.3em -.03em 0 -.16em,
+    -.3em -.17em 0 -.16em,
+    -.3em .11em 0 -.16em,
+    -.3em .25em 0 -.16em,
+    -.3em .39em 0 -.16em,
+    inset .265em 0 0 -.1em,
+    inset -.265em 0 0 -.1em,
+    0 .25em 0 -.09em,
+    0 .4em 0 -.09em;
+  top: -.13em;
+  left: .6em;
 }

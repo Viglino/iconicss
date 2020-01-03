@@ -1,4 +1,4 @@
-i.icss-woman {
+i.icss-woman-statistic {
   width: .4em;
   height: .45em;
   background-color: transparent;
@@ -7,9 +7,9 @@ i.icss-woman {
     inset 0 -.19em 0 .15em,
     0 .22em 0 -.09em,
     0 .3em 0 -.09em;
-  margin: .33em .3em .22em;
+  margin: .33em .55em .22em .05em;
 }
-i.icss-woman:before {
+i.icss-woman-statistic:before {
   width: .3em;
   height: .3em;
   background-color: transparent;
@@ -22,4 +22,16 @@ i.icss-woman:before {
   transform: translateX(-50%);
   top: -.31em;
   left: 50%;
+}
+i.icss-woman-statistic:after {
+  width: .1em;
+  height: .2em;
+  background-color: currentColor;
+  box-shadow: .16em 0, .16em -.12em,
+    .54em -.07em 0 .2em,
+    .13em .43em 0 .18em,
+    .08em -.59em 0 .2em;
+  clip: rect(-.27em .42em .33em -.2em);
+  left: .51em;
+  top: .05em;
 }

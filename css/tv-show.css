@@ -21,7 +21,7 @@ i.icss-tv-show:before {
 i.icss-tv-show:after {
   width: .3em;
   height: .3em;
-  border: .06em solid currentColor;
+  border: .07em solid currentColor;
   border-color: transparent transparent currentColor currentColor;
   transform: translateX(-50%) rotate(-45deg);
   border-radius: 0 .05em 0 ;
