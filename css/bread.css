@@ -1,0 +1,33 @@
+i.icss-bread {
+  width: .9em;
+  height: .5em;
+  border-radius: 80% 20%;
+  background-color: transparent;
+  box-shadow: inset -.41em .04em  0 -.2em,
+    inset 0 -.15em;
+  overflow: hidden;
+  margin: .3em .05em .2em;
+}
+i.icss-bread:before {
+  width: .4em;
+  height: .5em;
+  box-shadow: .05em .12em 0 .03em, 
+    inset -.1em -.1em;
+  border: 0 solid transparent;
+  border-width: 0 .08em 0 0;
+  border-radius: 50%;
+  transform: rotate(-50deg);
+  top: -.1em;
+  left: .09em;
+}
+i.icss-bread:after {
+  width: .4em;
+  height: .5em;
+  box-shadow: .02em .1em 0 .03em, inset -.25em -.1em;
+  border: 0 solid transparent;
+  border-width: 0 .08em 0 0;
+  border-radius: 50%;
+  transform: rotate(-50deg);
+  top: -.05em;
+  left: -.12em;
+}

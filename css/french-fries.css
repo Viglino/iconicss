@@ -1,0 +1,33 @@
+i.icss-french-fries {
+  width: .3em;
+  height: .45em;
+  border: 0 solid currentColor;
+  border-width: 0 .125em;
+  border-radius: 0 0 .08em .08em / 0 0 .2em .2em;
+  background-color: transparent;
+  margin: 0 .35em .55em;
+}
+i.icss-french-fries:before {
+  width: .5em;
+  height: .7em;
+  background-color: transparent;
+  border-radius: .1em .1em 0 0 ;
+  box-shadow: 
+    inset 0 .04em 0 .08em,
+    inset 0 -.43em ,
+    .41em -.13em,
+    -.41em -.13em;
+  transform: translateX(-50%) perspective(1em) rotateX(-18deg);
+  clip: rect(-.2em .6em .45em -.1em);
+  top: .53em;
+  left: 50%;
+}
+i.icss-french-fries:after {
+  width: .68em;
+  height: .3em;
+  border: 0 solid currentColor;
+  border-width: 0 .11em;
+  transform: translateX(-50%) perspective(1em) rotateX(-30deg);
+  top: .03em;
+  left: 50%;
+}

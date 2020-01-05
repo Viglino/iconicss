@@ -18,8 +18,8 @@ i.icss-whiskey-jug:before {
 i.icss-whiskey-jug:after {
   width: .3em;
   height: .3em;
+  background-color: currentColor;
   box-shadow: 
-    inset 0 .2em, 
     .18em -.1em 0 -.1em,
     0 -.36em ;
   clip: rect(-.15em 1em 1em -.1em);

@@ -1,0 +1,33 @@
+i.icss-croissant {
+  width: .5em;
+  height: .5em;
+  border: 0 solid transparent;
+  border-top-color: currentColor;
+  border-width: .4em .2em 0;
+  border-radius: .1em;
+  background-color: transparent;
+  margin: .2em .25em .3em;
+}
+i.icss-croissant:before {
+  width: .9em;
+  height: .8em;
+  border: 0 solid transparent;
+  border-color: transparent currentColor;
+  border-width: .4em .3em .3em;
+  border-radius: 50%;
+  clip: rect(0 1em .45em 0);
+  transform: translateX(-50%) perspective(1em) rotateX(30deg);
+  top: -.47em;
+  left: 50%;
+}
+i.icss-croissant:after {
+  width: .5em;
+  height: .4em;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  box-shadow: .3em .02em 0 -.09em,
+    -.3em .02em 0 -.09em;
+  transform: translateX(-50%);
+  top: -.08em;
+  left: 50%;
+
+}

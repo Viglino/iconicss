@@ -1,0 +1,28 @@
+i.icss-bretzel {
+  width: .9em;
+  height: .8em;
+  background-color: transparent;
+  box-shadow: 0 .07em, 
+    inset 0 -.07em 0 -.04em;
+  border-bottom-color: currentColor;
+  border-radius: 50%;
+  margin: .05em .05em .15em;
+}
+i.icss-bretzel:before {
+  width: .6em;
+  height: .6em;
+  border: .1em solid currentColor;
+  box-shadow: .19em .23em 0 -.19em;
+  border-radius: 45% 55%;
+  top: .11em;
+  left: .31em;
+}
+i.icss-bretzel:after {
+  width: .6em;
+  height: .6em;
+  border: .1em solid currentColor;
+  box-shadow: -.19em .23em 0 -.19em;
+  border-radius: 55% 45%;
+  top: .11em;
+  left: -.01em;
+}
