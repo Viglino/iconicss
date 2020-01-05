@@ -4195,6 +4195,48 @@ i.icss-brazier:after {
   top: -1.18em;
   left: 50%;
 }
+i.icss-bread {
+  width: .9em;
+  height: .5em;
+  border-radius: 80% 20%;
+  background-color: transparent;
+  -webkit-box-shadow: inset -.41em .04em  0 -.2em,
+    inset 0 -.15em;
+          box-shadow: inset -.41em .04em  0 -.2em,
+    inset 0 -.15em;
+  overflow: hidden;
+  margin: .3em .05em .2em;
+}
+i.icss-bread:before {
+  width: .4em;
+  height: .5em;
+  -webkit-box-shadow: .05em .12em 0 .03em, 
+    inset -.1em -.1em;
+          box-shadow: .05em .12em 0 .03em, 
+    inset -.1em -.1em;
+  border: 0 solid transparent;
+  border-width: 0 .08em 0 0;
+  border-radius: 50%;
+  -webkit-transform: rotate(-50deg);
+      -ms-transform: rotate(-50deg);
+          transform: rotate(-50deg);
+  top: -.1em;
+  left: .09em;
+}
+i.icss-bread:after {
+  width: .4em;
+  height: .5em;
+  -webkit-box-shadow: .02em .1em 0 .03em, inset -.25em -.1em;
+          box-shadow: .02em .1em 0 .03em, inset -.25em -.1em;
+  border: 0 solid transparent;
+  border-width: 0 .08em 0 0;
+  border-radius: 50%;
+  -webkit-transform: rotate(-50deg);
+      -ms-transform: rotate(-50deg);
+          transform: rotate(-50deg);
+  top: -.05em;
+  left: -.12em;
+}
 i.icss-breake {
   width: .75em;
   height: .75em;
@@ -4226,6 +4268,38 @@ i.icss-breake:after {
           transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
+}
+i.icss-bretzel {
+  width: .9em;
+  height: .8em;
+  background-color: transparent;
+  -webkit-box-shadow: 0 .07em, 
+    inset 0 -.07em 0 -.04em;
+          box-shadow: 0 .07em, 
+    inset 0 -.07em 0 -.04em;
+  border-bottom-color: currentColor;
+  border-radius: 50%;
+  margin: .05em .05em .15em;
+}
+i.icss-bretzel:before {
+  width: .6em;
+  height: .6em;
+  border: .1em solid currentColor;
+  -webkit-box-shadow: .19em .23em 0 -.19em;
+          box-shadow: .19em .23em 0 -.19em;
+  border-radius: 45% 55%;
+  top: .11em;
+  left: .31em;
+}
+i.icss-bretzel:after {
+  width: .6em;
+  height: .6em;
+  border: .1em solid currentColor;
+  -webkit-box-shadow: -.19em .23em 0 -.19em;
+          box-shadow: -.19em .23em 0 -.19em;
+  border-radius: 55% 45%;
+  top: .11em;
+  left: -.01em;
 }
 i.icss-briefcase {
   width: 1em;
@@ -9058,6 +9132,44 @@ i.icss-cristal-ball:after {
     left: .21em;
 }
 
+i.icss-croissant {
+  width: .5em;
+  height: .5em;
+  border: 0 solid transparent;
+  border-top-color: currentColor;
+  border-width: .4em .2em 0;
+  border-radius: .1em;
+  background-color: transparent;
+  margin: .2em .25em .3em;
+}
+i.icss-croissant:before {
+  width: .9em;
+  height: .8em;
+  border: 0 solid transparent;
+  border-color: transparent currentColor;
+  border-width: .4em .3em .3em;
+  border-radius: 50%;
+  clip: rect(0 1em .45em 0);
+  -webkit-transform: translateX(-50%) perspective(1em) rotateX(30deg);
+          transform: translateX(-50%) perspective(1em) rotateX(30deg);
+  top: -.47em;
+  left: 50%;
+}
+i.icss-croissant:after {
+  width: .5em;
+  height: .4em;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  -webkit-box-shadow: .3em .02em 0 -.09em,
+    -.3em .02em 0 -.09em;
+          box-shadow: .3em .02em 0 -.09em,
+    -.3em .02em 0 -.09em;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: -.08em;
+  left: 50%;
+
+}
 i.icss-crown {
   width: 1em;
   height: .23em;
@@ -13430,6 +13542,46 @@ i.icss-forklift:after {
             box-shadow: inset 0 1em, .23em 0, .23em -.33em 0 .03em;
     top: .58em;
     left: .03em;
+}
+i.icss-french-fries {
+  width: .3em;
+  height: .45em;
+  border: 0 solid currentColor;
+  border-width: 0 .125em;
+  border-radius: 0 0 .08em .08em / 0 0 .2em .2em;
+  background-color: transparent;
+  margin: 0 .35em .55em;
+}
+i.icss-french-fries:before {
+  width: .5em;
+  height: .7em;
+  background-color: transparent;
+  border-radius: .1em .1em 0 0 ;
+  -webkit-box-shadow: 
+    inset 0 .04em 0 .08em,
+    inset 0 -.43em ,
+    .41em -.13em,
+    -.41em -.13em;
+          box-shadow: 
+    inset 0 .04em 0 .08em,
+    inset 0 -.43em ,
+    .41em -.13em,
+    -.41em -.13em;
+  -webkit-transform: translateX(-50%) perspective(1em) rotateX(-18deg);
+          transform: translateX(-50%) perspective(1em) rotateX(-18deg);
+  clip: rect(-.2em .6em .45em -.1em);
+  top: .53em;
+  left: 50%;
+}
+i.icss-french-fries:after {
+  width: .68em;
+  height: .3em;
+  border: 0 solid currentColor;
+  border-width: 0 .11em;
+  -webkit-transform: translateX(-50%) perspective(1em) rotateX(-30deg);
+          transform: translateX(-50%) perspective(1em) rotateX(-30deg);
+  top: .03em;
+  left: 50%;
 }
 i.icss-frog {
   width: .8em; 
@@ -23186,6 +23338,28 @@ i.icss-pencil:after {
 }
 
 
+i.icss-pepper {
+  width: .15em;
+  height: .15em;
+  background-color: currentColor;
+  border-radius: 50%;
+  margin: .12em .425em .73em;
+}
+i.icss-pepper:before {
+  width: .3em;
+  height: .5em;
+  border-style: solid;
+  border-color: currentColor transparent;
+  border-width: .2em .05em .3em;
+  -webkit-box-shadow: 0 .1em, 0 -.58em 0 .03em;
+          box-shadow: 0 .1em, 0 -.58em 0 .03em;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  clip: rect(-.15em 1em 1em -.1em);
+  top: .28em;
+  left: 50%;
+}
 i.icss-pet-bottle {
   width: .35em;
   height: .18em;
@@ -26045,6 +26219,95 @@ i.icss-sailboat:after {
     top: -1em;
 }
 
+i.icss-salt-pepper {
+  width: .15em;
+  height: .15em;
+  background-color: currentColor;
+  border-radius: 50%;
+  margin: .12em .15em .73em .7em;
+}
+i.icss-salt-pepper:before {
+  width: .3em;
+  height: .5em;
+  border-style: solid;
+  border-color: currentColor transparent;
+  border-width: .2em .05em .3em;
+  -webkit-box-shadow: 0 .1em, 0 -.58em 0 .03em;
+          box-shadow: 0 .1em, 0 -.58em 0 .03em;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  clip: rect(-.15em 1em 1em -.1em);
+  top: .28em;
+  left: 50%;
+}
+i.icss-salt-pepper:after {
+  width: .4em;
+  height: .5em;
+  border-radius: .2em .2em 0 0;
+  background-image: -o-radial-gradient(30% 30%,
+    circle,
+    transparent .05em, currentColor .05em,
+    currentColor .11em, transparent .11em),
+    -o-radial-gradient(70% 30%,
+    circle,
+    transparent .05em, currentColor .05em,
+    currentColor .11em, transparent .11em);
+  background-image: radial-gradient(circle at 30% 30%,
+    transparent .05em, currentColor .05em,
+    currentColor .11em, transparent .11em),
+    radial-gradient(circle at 70% 30%,
+    transparent .05em, currentColor .05em,
+    currentColor .11em, transparent .11em);
+  -webkit-box-shadow: 
+    inset 0 0 0 .05em,
+    inset 0 .28em 0 -.2em,
+    inset 0 -.3em;
+          box-shadow: 
+    inset 0 0 0 .05em,
+    inset 0 .28em 0 -.2em,
+    inset 0 -.3em;
+  top: .38em;
+  left: -.63em;
+}
+i.icss-salt {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-salt:before {
+  width: .4em;
+  height: .5em;
+  border-radius: .2em .2em 0 0;
+  background-image: -o-radial-gradient(30% 30%,
+    circle,
+    transparent .05em, currentColor .05em,
+    currentColor .11em, transparent .11em),
+    -o-radial-gradient(70% 30%,
+    circle,
+    transparent .05em, currentColor .05em,
+    currentColor .11em, transparent .11em);
+  background-image: radial-gradient(circle at 30% 30%,
+    transparent .05em, currentColor .05em,
+    currentColor .11em, transparent .11em),
+    radial-gradient(circle at 70% 30%,
+    transparent .05em, currentColor .05em,
+    currentColor .11em, transparent .11em);
+  -webkit-box-shadow: 
+    inset 0 0 0 .05em,
+    inset 0 .28em 0 -.2em,
+    inset 0 -.3em;
+          box-shadow: 
+    inset 0 0 0 .05em,
+    inset 0 .28em 0 -.2em,
+    inset 0 -.3em;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: .5em;
+  left: 50%;
+}
 i.icss-saracen-helmet {
   width: .5em;
   height: .45em;
@@ -35231,12 +35494,11 @@ i.icss-whiskey-jug:before {
 i.icss-whiskey-jug:after {
   width: .3em;
   height: .3em;
+  background-color: currentColor;
   -webkit-box-shadow: 
-    inset 0 .2em, 
     .18em -.1em 0 -.1em,
     0 -.36em ;
           box-shadow: 
-    inset 0 .2em, 
     .18em -.1em 0 -.1em,
     0 -.36em ;
   clip: rect(-.15em 1em 1em -.1em);
