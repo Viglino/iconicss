@@ -7,7 +7,7 @@ i.icss-icecream {
     .2em -.2em 0 -.06em,
     .15em .13em 0 -.1em;
   border-radius: 50%;
-  margin: .17em .37em .38em .18em;
+  margin: .15em .37em .4em .18em;
 }
 i.icss-icecream:before {
   width: .35em;

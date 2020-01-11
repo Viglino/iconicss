@@ -4,7 +4,7 @@ i.icss-lunch {
    border-radius: 50%;
    background: transparent;
    box-shadow: inset 0 0 0 .13em;
-   margin: .12em .15em 0 .23em;
+   margin: .15em .15em .1em .23em;
 }
 .icss-stack i.icss-lunch {
     transform: translate(-.6em, -.5em);

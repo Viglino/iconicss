@@ -1,0 +1,31 @@
+i.icss-orange {
+  width: .8em;
+  height: .4em;
+  border: .32em solid transparent;
+  border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  border-top: 0;
+  box-shadow: 0 0 0 .065em, inset 0 .1em;
+  background-color: transparent;
+  margin: .4em .1em .2em;
+}
+i.icss-orange:before {
+  width: .3em;
+  height: .3em;
+  border-radius: 0 .15em 0 100%;
+  background-image: 
+    linear-gradient(-45deg, currentColor 42%, transparent 40%),
+    linear-gradient(135deg, currentColor 42%, transparent 40%);
+  transform: rotate(-90deg);
+  top: .04em;
+  left: .12em;
+}
+i.icss-orange:after {
+  width: .3em;
+  height: .3em;
+  border-radius: 0 .15em 0 100%;
+  background-image: 
+    linear-gradient(-45deg, currentColor 42%, transparent 40%),
+    linear-gradient(135deg, currentColor 42%, transparent 40%);
+  top: .04em;
+  left: -.25em;
+}

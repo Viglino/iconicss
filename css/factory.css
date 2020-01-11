@@ -10,7 +10,7 @@ i.icss-factory {
     -.12em 0 0 -.04em,
     .12em 0 0 -.04em,
     .2em 0 0 -.07em;
-  margin: 0 .3em .7em .42em;
+  margin: .04em .28em .66em .44em;
 }
 i.icss-factory:before {
   width: .2em;
@@ -18,18 +18,18 @@ i.icss-factory:before {
   border: 0 solid transparent;
   border-bottom: .5em solid currentColor;
   border-width: 0 .05em .5em;
-  box-shadow: 0 .6em 0 .12em, 
-    .48em .84em 0 .2em;
-  clip: rect(0 1em .84em -.2em);
+  box-shadow: 0 .65em 0 .15em, 
+    .45em .8em 0 .2em;
+  clip: rect(0 1em .8em -.2em);
   top: .16em;
-  left: -.3em;
+  left: -.29em;
 }
 i.icss-factory:after {
-  width: .28em;
+  width: .25em;
   height: .2em;
   background: currentColor;
   transform: skewY(-35deg);
-  box-shadow: .28em .2em;
-  top: .7em;
-  left: .02em;
+  box-shadow: .25em .19em;
+  top: .66em;
+  left: .06em;
 }

@@ -1,0 +1,27 @@
+i.icss-carrot {
+  width: .3em;
+  height: .1em;
+  background-color: currentColor;
+  border-radius: 0 100% 0 100%;
+  box-shadow: .09em .12em;
+  margin: .27em .65em .63em .05em;
+}
+i.icss-carrot:before {
+  width: .65em;
+  height: .25em;
+  background: currentColor;
+  border-radius: 20% 80% 80% 20% / 50%;
+  box-shadow: -.3em 0 0 -.1em;
+  transform: rotate(45deg);;
+  top: .3em;
+  left: .315em;
+}
+i.icss-carrot:after {
+  width: .1em;
+  height: .3em;
+  background-color: currentColor;
+  border-radius: 0 100% 0 100%;
+  box-shadow: .12em .09em;
+  left: .22em;
+  top: -.21em;
+}

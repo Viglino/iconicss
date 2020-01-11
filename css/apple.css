@@ -2,6 +2,7 @@ i.icss-apple {
     width: 1em;
     height: 1em;
     background: transparent;
+    margin: 0;
 }
 i.icss-apple:before {
     width: .7em;

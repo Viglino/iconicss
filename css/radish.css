@@ -1,0 +1,31 @@
+i.icss-radish {
+  width: .5em;
+  height: .5em;
+  box-shadow: inset 0 0 0 .065em, inset -.15em .15em;
+  border-radius: 50% 50% 50% 0;
+  background-color: transparent;
+  margin: .35em .35em .15em .15em;
+}
+i.icss-radish:before {
+  width: .5em;
+  height: .4em;
+  border: 0 solid transparent;
+  border-width: .07em .1em .07em 0;
+  box-shadow: 
+    inset .07em .08em 0 -.05em, 
+    inset .07em -.08em 0 -.05em,
+    -.07em 0 0 .01em;
+  border-radius: 50%;
+  transform: rotate(-45deg);
+  top: -.4em;
+  left: .4em;
+}
+i.icss-radish:after {
+  width: .25em;
+  height: .3em;
+  border-radius: 50%;
+  box-shadow: -.05em 0 currentColor;
+  transform: rotate(45deg);
+  clip: rect(.1em 1em 1em -.1em);
+  top: .46em;
+  left: -.04em;

@@ -1,0 +1,30 @@
+i.icss-bottle-glass {
+  width: .3em;
+  height: .4em;
+  box-shadow: inset 0 0 0 .065em, inset 0 -.28em 0 -.1em;
+  border-radius: .1em .1em 50% 50% / 80% 80% 50% 50%;
+  background-color: transparent;
+  margin: .35em .1em .25em .6em;
+}
+i.icss-bottle-glass:before {
+  width: .35em;
+  height: .7em;
+  box-shadow: inset 0 0 0 .065em, 
+    inset 0 .4em 0 -.2em, 
+    inset 0 -.28em,
+    0 -.35em 0 -.11em,
+    .48em .2em 0 -.14em,
+    .48em .63em;
+  border-radius: .15em .15em 0 0;
+  clip: rect(-1em 1em  .7em 0);
+  top: -.05em;
+  left: -.5em;
+}
+i.icss-bottle-glass:after {
+  width: .17em;
+  height: .08em;
+  background-color: currentColor;
+  border-radius: .02em;
+  left: -.41em;
+  top: -.24em;
+}

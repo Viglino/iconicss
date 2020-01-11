@@ -1,0 +1,15 @@
+i.icss-lemon {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-lemon:before {
+  width: .7em;
+  height: .7em;
+  background-color: currentColor;
+  border-radius: 60% 20% 60% 20%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
