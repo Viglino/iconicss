@@ -1,0 +1,21 @@
+i.icss-composite-source-in {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-composite-source-in:before {
+  width: .7em;
+  height: .7em;
+  background-color: currentColor;
+  border-radius: 50%;
+  clip: rect(0 .4em .4em 0);
+  top: .3em;
+  left: .3em;
+}
+i.icss-composite-source-in:after {
+  width: .7em;
+  height: .7em;
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,39 @@
+i.icss-drums {
+  width: .9em;
+  height: .7em;
+  background-color: transparent;
+  box-shadow: inset .065em 0, inset -.065em 0;
+  margin: .3em .05em 0;
+}
+i.icss-drums:before {
+  width: .5em;
+  height: .5em;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 .065em, 
+    .28em -.6em 0 -.2em,
+    .4em -.48em 0 -.19em,
+    -.28em -.6em 0 -.2em,
+    -.4em -.48em 0 -.19em,
+    .28em -.6em 0 -.2em,
+    -.2em -.2em 0 -.11em,
+    .2em -.2em 0 -.11em,
+    .42em .47em, -.42em .47em,
+    0 .36em;
+  clip: rect(-1em .75em .5em -.25em);
+  top: .2em;
+  left: 50%;
+}
+i.icss-drums:after {
+  width: .8em;
+  height: .8em;
+  box-shadow: ;
+  box-shadow: 
+    .26em 0 0 -.19em,
+    .5em 0 0 -.36em,
+    0 .26em 0 -.19em,
+    0 .5em 0 -.36em;
+  transform: translateX(-50%) rotate(45deg);
+  top: -.83em;
+  left: 50%;
+}

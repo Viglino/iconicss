@@ -1,0 +1,26 @@
+i.icss-composite-lighter {
+  width: .7em;
+  height: .7em;
+  box-shadow: inset 0 0 0 .065em;
+  background-color: transparent;
+  margin: 0 .3em .3em 0;
+}
+i.icss-composite-lighter:before {
+  width: .7em;
+  height: .7em;
+  background-color: currentColor;
+  border-radius: 50%;
+  opacity: 50%;
+  top: .3em;
+  left: .3em;
+}
+i.icss-composite-lighter:after {
+  width: .7em;
+  height: .7em;
+  border-radius: 50%;
+  background-image: 
+    linear-gradient(transparent 50%, currentColor 50%),
+    linear-gradient(90deg, transparent 50%, currentColor 50%);
+  top: .3em;
+  left: .3em;
+}

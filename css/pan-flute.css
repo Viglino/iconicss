@@ -1,0 +1,23 @@
+i.icss-pan-flute {
+  width: .1em;
+  height: .15em;
+  border-radius: .03em .03em 0 0;
+  box-shadow: .15em 0, .3em 0, .45em 0;;
+  margin: .05em .675em .8em .225em;
+}
+i.icss-pan-flute:before {
+  width: .65em;
+  height: .1em;
+  background: currentColor;
+  top: .2em;
+  left: -.05em;
+}
+i.icss-pan-flute:after {
+  width: .1em;
+  height: .6em;
+  background: currentColor;
+  box-shadow: .15em -.12em, .3em -.24em, .45em -.36em;
+  clip:rect(0 1em 1em 0);
+  top: .35em;
+  left: 0;
+}

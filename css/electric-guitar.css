@@ -1,0 +1,32 @@
+i.icss-electric-guitar {
+    width: .6em;
+    height: .6em;
+    background-color: transparent;
+    border-radius: 40% 60%;
+    box-shadow: 
+        inset -.01em .01em 0 .18em; 
+    margin: .4em .4em 0 0;
+}
+i.icss-electric-guitar:before {
+    width: .15em;
+    height: 1em;
+    border-radius: .02em;
+    box-shadow: 
+        inset 0 0 0 .065em;
+    transform: rotate(45deg);
+    top: -.4em;
+    left: .43em;
+}
+i.icss-electric-guitar:after {
+    width: .45em;
+    height: .4em;
+    border-radius: 100% 30% 80% 40% / 70% 30% 100% 40%;
+    0background: red;
+    box-shadow:
+        inset .1em -.1em 0 -.05em,
+        .26em -.28em 0 -.07em,
+        -.2em .09em,
+        -.09em .12em 0 .05em;
+    top: -.21em;
+    left: .42em;
+}

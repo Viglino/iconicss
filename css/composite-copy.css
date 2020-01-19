@@ -1,0 +1,20 @@
+i.icss-composite-copy {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-composite-copy:before {
+  width: .7em;
+  height: .7em;
+  background-color: currentColor;
+  border-radius: 50%;
+  top: .3em;
+  left: .3em;
+}
+i.icss-composite-copy:after {
+  width: .7em;
+  height: .7em;
+  top: 0;
+  left: 0;
+}
