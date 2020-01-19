@@ -4,7 +4,7 @@ i.icss-bird-house {
   background-color: transparent;
   border-radius: 50%;
   box-shadow: 0 0 0 .15em;
-  margin: .48em .4em .26em;
+  margin: .48em .37em .26em;
 }
 i.icss-bird-house:before {
   width: .7em;

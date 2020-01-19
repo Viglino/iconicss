@@ -1,0 +1,36 @@
+i.icss-beer-tap {
+  width: .7em;
+  height: .7em;
+  background-color: transparent;
+  border: 0 solid transparent;
+  border-width: .2em .1em .2em .45em;
+  border-radius: 0 .05em;
+  box-shadow: 
+    inset -.07em .07em,
+    inset -.07em -.07em,
+    .1em -.1em;
+  margin: .3em .2em -.1em .1em;
+}
+i.icss-beer-tap:before {
+  width: .35em;
+  height: .7em;
+  border-bottom: .22em solid transparent;
+  border-radius: 0 0 10% 10% / 0 0 38% 38%;
+  box-shadow: inset 0 0 0 .065em,
+    inset 0 -.3em,
+    -.08em -.6em 0 -.14em,
+    .08em -.6em 0 -.14em;
+  top: -.08em;
+  left: -.35em;
+}
+i.icss-beer-tap:after {
+  width: .13em;
+  height: .18em;
+  background-color: currentColor;
+  border-radius: 50% / 40%;
+  box-shadow: .16em 0, 
+    .55em 1.35em 0 .4em;
+  clip: rect(0 .75em 1em 0);
+  top:  -.6em;
+  left: -.32em;
+}

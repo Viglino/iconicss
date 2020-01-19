@@ -4,7 +4,7 @@ i.icss-dolphin {
   border-radius: 50%;
   background-color: transparent;
   box-shadow: .2em -.2em 0 -.02em, -.085em -.38em 0 -.33em, .08em -.38em 0 -.2em;
-  margin: .25em .2em -.05em -.2em;
+  margin: .25em .3em -.05em -.1em;
 }
 i.icss-dolphin:before {
   width:0.5em;

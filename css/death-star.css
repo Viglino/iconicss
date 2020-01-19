@@ -4,6 +4,7 @@ i.icss-death-star {
   border-radius: 50%;
   background-color: transparent;
   overflow: hidden;
+  margin: 0;
 }
 i.icss-death-star:before {
   width: .32em;

@@ -1,12 +1,12 @@
 i.icss-coffee {
     height: .7em;
-    width: .8em;
+    width: .75em;
     border-radius: 0 0 .3em .3em;
-    margin: .14em .2em .16em 0;
+    margin: .14em .2em .16em .05em;
 }
 i.icss-coffee:before {
     height: .11em;
-    width: 1em;
+    width: .9em;
     background-color: currentColor;
     border-radius: 0 0 .1em .1em;
     left:-0.05em;
@@ -19,5 +19,5 @@ i.icss-coffee:after {
     border-style: solid;
     border-radius: .1em;
     top: .1em;
-    left: .6em;
+    left: .55em;
 }

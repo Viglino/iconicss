@@ -1,0 +1,34 @@
+i.icss-tea-cup {
+    height: .7em;
+    width: .75em;
+    border-radius: 0 0 .3em .3em;
+    background-color: transparent;
+    box-shadow: inset 0 0 0 .065em;
+    margin: .14em .2em .16em .05em;
+}
+i.icss-tea-cup:before {
+    height: .28em;
+    width: .3em;
+    border: .13em solid transparent;
+    border-color: currentColor transparent;
+    transform: translateX(-50%);
+    border-top: 0;
+    box-shadow: inset .1em 0, 0 .2em,
+        0 1.03em 0 .28em;
+    clip: rect(0 1em .83em -1em);
+    left:50%;
+    top: 0;
+}
+i.icss-tea-cup:after {
+    height: .35em;
+    width: .15em;
+    border-radius: 0 .1em .1em 0;
+    border: .05em solid transparent;
+    border-left: 0;
+    box-shadow: 
+        inset -.03em .03em 0 .03em,
+        inset -.03em -.03em 0 .03em,
+        0 0 0 .065em;
+    top: .065em;
+    left: .75em;
+}

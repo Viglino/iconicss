@@ -4,7 +4,7 @@ i.icss-pikachu {
     border-radius: 50% / 55% 55% 45% 45%;
 	background-color: transparent;
     box-shadow: inset 0 0 0 .065em;
-    margin: .3em .15em 0;
+    margin: .3em .1em 0;
 }
 i.icss-pikachu:before {
     width: .45em;
