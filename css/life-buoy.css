@@ -1,0 +1,27 @@
+i.icss-life-buoy {
+  width: .8em;
+  height: .8em;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 0 0 0 .065em;
+  background-image: radial-gradient(circle at 50% 50%,
+    transparent .16em, currentColor .16em,
+    currentColor .22em, transparent .22em);
+  overflow: hidden;
+  margin: .1em;
+}
+i.icss-life-buoy:after,
+i.icss-life-buoy:before {
+  width: 1.3em;
+  height: .4em;
+  border: .3em solid transparent;
+  border-color: transparent currentColor;
+  border-width: .12em .45em;
+  border-radius: 45%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  top: 50%;
+  left: 50%;
+}
+i.icss-life-buoy:after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}

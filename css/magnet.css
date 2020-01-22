@@ -1,0 +1,27 @@
+i.icss-magnet {
+  width: .7em;
+  height: .7em;
+  background-color: transparent;
+  border: .24em solid transparent;
+  border-color: transparent transparent currentColor currentColor;
+  border-radius: 50%;
+  margin: .25em .25em .05em .05em;
+}
+i.icss-magnet:before {
+  width: .24em;
+  height: .4em;
+  border-top: .15em solid transparent;
+  box-shadow: inset 0 0 0 .065em, 0 .2em;
+  transform: translate(-50%, -50%) translate(.1em, -.43em) rotate(45deg);
+  top: 50%;
+  left: 50%;
+}
+i.icss-magnet:after {
+  width: .24em;
+  height: .4em;
+  border-top: .15em solid transparent;
+  box-shadow: inset 0 0 0 .065em, 0 .2em;
+  transform: translate(-50%, -50%) translate(.43em, -.1em) rotate(45deg);
+  top: 50%;
+  left: 50%;
+}

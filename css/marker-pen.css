@@ -1,0 +1,30 @@
+i.icss-marker-pen {
+  width: .8em;
+  height: .06em;
+  background-color: transparent;
+  border: 0 solid transparent;
+  border-top: .06em solid currentColor;
+  border-left: .1em solid transparent;
+  margin: .9em .05em .04em .15em;
+}
+i.icss-marker-pen:before {
+  width: .45em;
+  height: .9em;
+  border-radius: .3em .3em .25em .25em/ .3em .3em 70% 70%;
+  border-top: .2em solid transparent;
+  box-shadow: inset 0 0 0 .1em, 
+    0 -.28em 0 -.15em;
+  transform: rotate(220deg) translateY(.05em);
+  top: -.92em;
+  left: .01em;
+}
+i.icss-marker-pen:after {
+  width: .45em;
+  height: .15em;
+  border: .15em solid transparent;
+  border-bottom: .12em solid currentColor;
+  border-top: 0;
+  transform: rotate(220deg) translateY(-.33em);
+  top: -.54em;
+  left: .01em;
+}

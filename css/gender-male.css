@@ -1,0 +1,21 @@
+i.icss-gender-male {
+  width: .5em;
+  height: .5em;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 .1em;
+  background-color: transparent;
+  margin: .35em .35em .15em .15em;
+}
+i.icss-gender-male:before {
+  border: 0 solid transparent;
+}
+i.icss-gender-male:after {
+  background-color: transparent;
+  border: .2em solid transparent;
+  border-left-color: currentColor;
+  border-width: .18em .5em .18em .3em;
+  box-shadow: -.4em 0 0 -.11em;
+  transform: translate(-50%, -50%) rotate(-45deg) translateX(.88em);
+  top: 50%;
+  left: 50%;
+}

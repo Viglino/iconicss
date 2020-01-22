@@ -1,0 +1,27 @@
+i.icss-timer-4 {
+  background-color: transparent;
+  width: .8em;
+  height: .8em;
+  border-style: solid;
+  border-width: .08em;
+  border-radius: 50%;
+  box-shadow: .29em -.29em 0 -.32em, 0 -.38em 0 -.28em;
+  margin: .1em;
+}
+i.icss-timer-4:before {
+  border: .28em solid currentColor;
+  border-color: currentColor currentColor currentColor transparent;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  transition: none;
+  top: 50%;
+  left: 50%;
+}
+i.icss-timer-4:after {
+  border: .28em solid currentColor;
+  border-color: currentColor transparent transparent transparent;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) rotate(315deg);
+  top: 50%;
+  left: 50%;
+}

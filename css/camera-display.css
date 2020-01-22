@@ -1,0 +1,28 @@
+i.icss-camera-display {
+  width: 1em;
+  height: .65em;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 .1em;
+  border-radius: .05em;
+  margin: .25em 0 .1em;
+}
+i.icss-camera-display:before {
+  width: .5em;
+  height: 1em;
+  border: .1em solid transparent;
+  border-bottom: .15em solid currentColor;
+  box-shadow: .08em .8em 0 -.19em;
+  top: -1em;
+  left: .4em;
+}
+i.icss-camera-display:after {
+  width: .18em;
+  height: .1em;
+  background-color: currentColor;
+  box-shadow: .65em .18em, 
+    .65em .36em,
+    .65em .54em,
+    .65em .6em;
+  top: -.13em;
+  left: .1em;
+}
