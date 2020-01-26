@@ -1,0 +1,35 @@
+i.icss-people-woman {
+  width: .54em;
+  height: .65em;
+  box-shadow: inset 0 0 0 .065em, 
+    .22em .15em 0 -.2em,
+    -.22em .15em 0 -.2em;
+  background-image: 
+    radial-gradient(circle at .1em -.15em,
+      currentColor .42em, transparent .4em),
+    radial-gradient(circle at .58em -.03em,
+      currentColor .32em, transparent .3em),
+    radial-gradient(circle at 33% 50%,
+      currentColor .045em, transparent .045em),
+    radial-gradient(circle at 67% 50%,
+      currentColor .045em, transparent .045em),
+    radial-gradient(circle at 47% .47em,
+      currentColor .03em, transparent .02em),
+    radial-gradient(circle at 53% .47em,
+      currentColor .03em, transparent .02em),
+    radial-gradient(ellipse .2em .1em at 50% .48em,
+      currentColor .06em, transparent .05em);
+  border-radius: 50% / 40% 40% 60% 60%;
+  background-color: transparent;
+  margin: .1em .23em .25em;
+}
+i.icss-people-woman:before {
+  width: .5em;
+  height: 1em;
+  box-shadow: .1em .95em 0 .2em, -.1em .95em 0 .2em;
+  border-radius: 50%;
+  clip: rect(0 .65em 1.075em -.15em);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
