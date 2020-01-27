@@ -13,6 +13,7 @@
     "x": { "tags":"menu" },
     "plus": { "date":"2019-11-30", "tags":"menu" },
     "minus": { "date":"2019-11-30", "tags":"menu" },
+    "infinity": { "date":"2020-01-27", "tags":"shape" },
     "circle": { "tags":"shape" },
     "circle-o": { "tags":"shape" },
     "circle-point": { "tags":"shape" },
