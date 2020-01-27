@@ -18023,6 +18023,30 @@ i.icss-image:after {
     top: .05em;
     border-radius: 100%;
 }
+i.icss-infinity {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-infinity:before,
+i.icss-infinity:after {
+  width: .5em;
+  height: .5em;
+  -webkit-box-shadow: inset 0 0 0 .15em;
+          box-shadow: inset 0 0 0 .15em;
+  border-radius: 50% 0 50% 50%;
+  -webkit-transform: translate(-50%, -50%) translateX(-.25em) rotate(45deg);
+      -ms-transform: translate(-50%, -50%) translateX(-.25em) rotate(45deg);
+          transform: translate(-50%, -50%) translateX(-.25em) rotate(45deg);
+  top: 50%;
+  left: 50%;
+}
+i.icss-infinity:after {
+  -webkit-transform: translate(-50%, -50%) translateX(.25em) rotate(-135deg);
+      -ms-transform: translate(-50%, -50%) translateX(.25em) rotate(-135deg);
+          transform: translate(-50%, -50%) translateX(.25em) rotate(-135deg);
+}
 i.icss-info-circle {
     width: 1em;
     height: 1em;
