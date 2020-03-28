@@ -1,0 +1,28 @@
+i.icss-file-csv {
+    width: .8em;
+    height: 1em;
+    background-color: transparent;
+    border-width: .065em;
+    border-style: solid;
+    border-radius: .05em .34em .05em .05em;
+    margin: 0 .1em;
+}
+i.icss-file-csv:before {
+    border-style: solid;
+    border-width: .2em;
+    left: .275em;
+    border-radius: .1em;
+    border-color: transparent;
+    border-right-color: currentColor;
+    transform: rotate(-45deg);
+    top: .02em;
+}
+i.icss-file-csv:after {
+    top: 50%;
+    left: 50%;
+    content: "CSV";
+    font-size: .35em;
+    font-weight: bold;
+    transform: translate(-50%,-40%) scale(0.8,1.5);
+    font-family: sans-serif;
+}
