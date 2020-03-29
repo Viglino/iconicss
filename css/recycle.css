@@ -1,0 +1,26 @@
+i.icss-recycle:before,
+i.icss-recycle:after,
+i.icss-recycle {
+  width: .3em;
+  height: .6em;
+  background-color: transparent;
+  background-image: 
+    radial-gradient(circle at -.2em -.2em , 
+      currentColor .5em, transparent .5em),
+    radial-gradient(circle at -.16em .4em , 
+      transparent .35em, currentColor .35em,
+      currentColor .44em, transparent .44em);
+}
+i.icss-recycle {
+  margin: .1em 0 .3em .7em;
+}
+i.icss-recycle:before {
+  transform: rotate(120deg);
+  top: .45em;
+  left: -.41em;
+}
+i.icss-recycle:after {
+  transform: rotate(235deg);
+  top: -.13em;
+  left: -.61em;
+}
