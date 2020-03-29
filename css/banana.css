@@ -1,0 +1,27 @@
+i.icss-banana {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-banana:before {
+  width: .8em;
+  height: .9em;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: 
+    inset -.11em -.09em 0 -.1em,
+    .17em .16em 0 -.03em,
+    .36em -.09em 0 -.3em;
+  transform: rotate(15deg);
+  top: -.17em;
+  left: -.04em;
+}
+i.icss-banana:after {
+  width: .07em;
+  height: .07em;
+  background-color: currentColor;
+  border-radius: .03em;
+  top: .67em;
+  left: .14em;
+}

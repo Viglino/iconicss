@@ -2043,6 +2043,39 @@ i.icss-ban:before {
       -ms-transform: translate(-50%, -50%) rotate(45deg);
           transform: translate(-50%, -50%) rotate(45deg);
 }
+i.icss-banana {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-banana:before {
+  width: .8em;
+  height: .9em;
+  background-color: transparent;
+  border-radius: 50%;
+  -webkit-box-shadow: 
+    inset -.11em -.09em 0 -.1em,
+    .17em .16em 0 -.03em,
+    .36em -.09em 0 -.3em;
+          box-shadow: 
+    inset -.11em -.09em 0 -.1em,
+    .17em .16em 0 -.03em,
+    .36em -.09em 0 -.3em;
+  -webkit-transform: rotate(15deg);
+      -ms-transform: rotate(15deg);
+          transform: rotate(15deg);
+  top: -.17em;
+  left: -.04em;
+}
+i.icss-banana:after {
+  width: .07em;
+  height: .07em;
+  background-color: currentColor;
+  border-radius: .03em;
+  top: .67em;
+  left: .14em;
+}
 i.icss-banjo {
     width: .4em;
     height: .4em;
@@ -19522,6 +19555,53 @@ i.icss-kiss:after {
       -ms-transform: rotate(-35deg);
           transform: rotate(-35deg);
 }
+i.icss-kiwi {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-kiwi:before {
+  width: .7em;
+  height: .8em;
+  -webkit-transform: translate(-50%, -50%) rotate(30deg);
+      -ms-transform: translate(-50%, -50%) rotate(30deg);
+          transform: translate(-50%, -50%) rotate(30deg);
+  border: .05em solid transparent;
+  border-radius: 50%;
+  -webkit-box-shadow: inset  0 0 0 .05em, 
+    0 0 0 .065em,
+    .08em -.05em 0 .04em;
+          box-shadow: inset  0 0 0 .05em, 
+    0 0 0 .065em,
+    .08em -.05em 0 .04em;
+  top: 50%;
+  left: 48%;
+}
+i.icss-kiwi:after {
+  width: .08em;
+  height: .08em;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-shadow: 
+    -.05em -.15em,
+    .05em .15em,
+    .1em -.15em,
+    -.1em .15em,
+    .15em 0,
+    -.15em 0;
+          box-shadow: 
+    -.05em -.15em,
+    .05em .15em,
+    .1em -.15em,
+    -.1em .15em,
+    .15em 0,
+    -.15em 0;
+  top: 50%;
+  left: 48%;
+}
 i.icss-knight-helmet {
   width: .55em;
   height: .25em;
@@ -31448,6 +31528,83 @@ i.icss-stormtrooper:after {
   clip: rect(.155em 1em .58em 0);
   top: .03em;
   left: 50%;  
+}
+i.icss-strawberry {
+  width: .2em;
+  height: .15em;
+  border-radius: 50% 0 50% 0;
+  margin: .18em .16em .67em .64em;
+}
+i.icss-strawberry:before {
+  width: .55em;
+  height: .5em;
+  -webkit-box-shadow: inset 0 0 0 .065em;
+          box-shadow: inset 0 0 0 .065em;
+  border-radius: 50% 60% 50% 30%;
+  background-image: 
+    -o-radial-gradient(50% 50%,
+      circle,
+      transparent .03em, currentColor .03em,
+      currentColor .11em, transparent .11em),
+    -o-radial-gradient(20% 48%,
+      circle,
+      transparent .03em, currentColor .03em,
+      currentColor .11em, transparent .11em),
+    -o-radial-gradient(37% 18%,
+      circle,
+      transparent .03em, currentColor .03em,
+      currentColor .11em, transparent .11em),
+    -o-radial-gradient(55% 80%,
+      circle,
+      transparent .03em, currentColor .03em,
+      currentColor .11em, transparent .11em),
+    -o-radial-gradient(71% 25%,
+      circle,
+      transparent .03em, currentColor .03em,
+      currentColor .11em, transparent .11em),
+    -o-radial-gradient(24% 78%,
+      circle,
+      transparent .03em, currentColor .03em,
+      currentColor .11em, transparent .11em),
+    -o-radial-gradient(77% 60%,
+      circle,
+      transparent .03em, currentColor .03em,
+      currentColor .11em, transparent .11em);
+  background-image: 
+    radial-gradient(circle at 50% 50%,
+      transparent .03em, currentColor .03em,
+      currentColor .11em, transparent .11em),
+    radial-gradient(circle at 20% 48%,
+      transparent .03em, currentColor .03em,
+      currentColor .11em, transparent .11em),
+    radial-gradient(circle at 37% 18%,
+      transparent .03em, currentColor .03em,
+      currentColor .11em, transparent .11em),
+    radial-gradient(circle at 55% 80%,
+      transparent .03em, currentColor .03em,
+      currentColor .11em, transparent .11em),
+    radial-gradient(circle at 71% 25%,
+      transparent .03em, currentColor .03em,
+      currentColor .11em, transparent .11em),
+    radial-gradient(circle at 24% 78%,
+      transparent .03em, currentColor .03em,
+      currentColor .11em, transparent .11em),
+    radial-gradient(circle at 77% 60%,
+      transparent .03em, currentColor .03em,
+      currentColor .11em, transparent .11em);
+  -webkit-transform: rotate(-28deg);
+      -ms-transform: rotate(-28deg);
+          transform: rotate(-28deg);
+  top: .145em;
+  left: -.42em
+}
+i.icss-strawberry:after {
+  width: .15em;
+  height: .2em;
+  background-color: currentColor;
+  border-radius: 0 50% 0 50%;
+  top: -.08em;
+  left: -.2em;
 }
 i.icss-submarine {
   width: .83em; 
