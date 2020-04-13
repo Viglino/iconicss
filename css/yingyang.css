@@ -1,0 +1,31 @@
+i.icss-yingyang {
+  width: 1em;
+  height: 1em;
+  box-shadow: inset 0 0 0 .1em;
+  background-color: transparent;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0;
+}
+i.icss-yingyang:before {
+  width: .42em;
+  height: .42em;
+  box-shadow: inset 0 0 0 .15em,
+    .41em 0 0 -.13em,
+    0 .5em 0 .23em;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  top: 50%;
+  left: .09em;
+}
+i.icss-yingyang:after {
+  width: .7em;
+  height: .7em;
+  border: .15em solid currentColor;
+  border-radius: 50%;
+  border-color: transparent transparent currentColor currentColor;
+  transform: translateY(-50%) rotate(-45deg);
+  box-shadow: -.72em 0 0 .1em;
+  top: 50%;
+  left: .36em;
+}

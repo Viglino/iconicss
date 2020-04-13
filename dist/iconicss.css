@@ -16370,6 +16370,40 @@ i.icss-halo-ring:after {
   left: .1em;
 }
 
+i.icss-hammer-sickle {
+  width: .8em;
+  height: .8em;
+  -webkit-box-shadow: inset -.1em -.042em 0 .06em;
+          box-shadow: inset -.1em -.042em 0 .06em;
+  border-radius: 50%;
+  background-color: transparent;
+  margin: 0 0 .2em .2em;
+}
+i.icss-hammer-sickle:before {
+  width: .45em;
+  border: .1em solid transparent;
+  border-width: 0 .15em .18em 0;
+  border-bottom-color: currentColor;
+  -webkit-box-shadow: 0 .06em;
+          box-shadow: 0 .06em;
+  -webkit-transform: rotate(-41deg);
+      -ms-transform: rotate(-41deg);
+          transform: rotate(-41deg);
+  top: .22em;
+  left: .1em;
+}
+i.icss-hammer-sickle:after {
+  width: .75em;
+  height: .65em;
+  -webkit-transform: scaleX(.8) rotate(-41deg);
+      -ms-transform: scaleX(.8) rotate(-41deg);
+          transform: scaleX(.8) rotate(-41deg);
+  -webkit-box-shadow: -.28em -.16em 0, .16em 0;
+          box-shadow: -.28em -.16em 0, .16em 0;
+  clip: rect(-.2em, 1em, 1em, 0em);
+  top: .65em;
+  left: -.08em;
+}
 i.icss-hammer {
     width: .2em;
     height: .5em;
@@ -24353,6 +24387,36 @@ i.icss-paw-print:after {
         -ms-transform: rotate(10deg); 
             transform: rotate(10deg);
 }
+i.icss-peace {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  -webkit-box-shadow: inset 0 0 0 .1em;
+          box-shadow: inset 0 0 0 .1em;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0;
+}
+i.icss-peace:before {
+  width: .105em;
+  height: 1em;
+  background-color: currentColor;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+i.icss-peace:after {
+  width: 1em;
+  height: 1em;
+  border: .105em solid currentColor;
+  -webkit-transform: translateX(-50%) rotate(45deg);
+      -ms-transform: translateX(-50%) rotate(45deg);
+          transform: translateX(-50%) rotate(45deg);
+  top: .6em;
+  left: 50%;
+}
 i.icss-pen-book {
     width: .6em;
     height: .9em;
@@ -29257,6 +29321,33 @@ i.icss-shredder:after {
           transform: translateX(-50%) perspective(1em) rotateX(40deg);
   left: 50%;
   top: .3em;
+}
+i.icss-sickle {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-sickle:before {
+  width: .8em;
+  height: .8em;
+  -webkit-box-shadow: inset -.13em -.06em 0 .1em;
+          box-shadow: inset -.13em -.06em 0 .1em;
+  border-radius: 50%;
+  clip: rect(0, 1em, 1em, .1em);
+  top: 0;
+  left: .2em;
+}
+i.icss-sickle:after {
+  width: .5em;
+  height: .15em;
+  background-color: currentColor;
+  -webkit-transform: rotate(-50deg);
+      -ms-transform: rotate(-50deg);
+          transform: rotate(-50deg);
+  border-radius: .05em;
+  top: .72em;
+  left: -.05em;
 }
 i.icss-signboard {
   width: 1em;
@@ -38188,6 +38279,46 @@ i.icss-x:after{
     -webkit-transform: translate(-50%, -50%) rotate(225deg);
         -ms-transform: translate(-50%, -50%) rotate(225deg);
             transform: translate(-50%, -50%) rotate(225deg)
+}
+i.icss-yingyang {
+  width: 1em;
+  height: 1em;
+  -webkit-box-shadow: inset 0 0 0 .1em;
+          box-shadow: inset 0 0 0 .1em;
+  background-color: transparent;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0;
+}
+i.icss-yingyang:before {
+  width: .42em;
+  height: .42em;
+  -webkit-box-shadow: inset 0 0 0 .15em,
+    .41em 0 0 -.13em,
+    0 .5em 0 .23em;
+          box-shadow: inset 0 0 0 .15em,
+    .41em 0 0 -.13em,
+    0 .5em 0 .23em;
+  border-radius: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  top: 50%;
+  left: .09em;
+}
+i.icss-yingyang:after {
+  width: .7em;
+  height: .7em;
+  border: .15em solid currentColor;
+  border-radius: 50%;
+  border-color: transparent transparent currentColor currentColor;
+  -webkit-transform: translateY(-50%) rotate(-45deg);
+      -ms-transform: translateY(-50%) rotate(-45deg);
+          transform: translateY(-50%) rotate(-45deg);
+  -webkit-box-shadow: -.72em 0 0 .1em;
+          box-shadow: -.72em 0 0 .1em;
+  top: 50%;
+  left: .36em;
 }
 i.icss-yoda {
   width: .4em;

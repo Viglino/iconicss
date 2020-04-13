@@ -1,0 +1,25 @@
+i.icss-peace {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  box-shadow: inset 0 0 0 .1em;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0;
+}
+i.icss-peace:before {
+  width: .105em;
+  height: 1em;
+  background-color: currentColor;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+i.icss-peace:after {
+  width: 1em;
+  height: 1em;
+  border: .105em solid currentColor;
+  transform: translateX(-50%) rotate(45deg);
+  top: .6em;
+  left: 50%;
+}

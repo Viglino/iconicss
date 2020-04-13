@@ -1,0 +1,24 @@
+i.icss-sickle {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-sickle:before {
+  width: .8em;
+  height: .8em;
+  box-shadow: inset -.13em -.06em 0 .1em;
+  border-radius: 50%;
+  clip: rect(0, 1em, 1em, .1em);
+  top: 0;
+  left: .2em;
+}
+i.icss-sickle:after {
+  width: .5em;
+  height: .15em;
+  background-color: currentColor;
+  transform: rotate(-50deg);
+  border-radius: .05em;
+  top: .72em;
+  left: -.05em;
+}

@@ -1,0 +1,27 @@
+i.icss-hammer-sickle {
+  width: .8em;
+  height: .8em;
+  box-shadow: inset -.1em -.042em 0 .06em;
+  border-radius: 50%;
+  background-color: transparent;
+  margin: 0 0 .2em .2em;
+}
+i.icss-hammer-sickle:before {
+  width: .45em;
+  border: .1em solid transparent;
+  border-width: 0 .15em .18em 0;
+  border-bottom-color: currentColor;
+  box-shadow: 0 .06em;
+  transform: rotate(-41deg);
+  top: .22em;
+  left: .1em;
+}
+i.icss-hammer-sickle:after {
+  width: .75em;
+  height: .65em;
+  transform: scaleX(.8) rotate(-41deg);
+  box-shadow: -.28em -.16em 0, .16em 0;
+  clip: rect(-.2em, 1em, 1em, 0em);
+  top: .65em;
+  left: -.08em;
+}
