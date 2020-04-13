@@ -1,0 +1,13 @@
+i.icss-christian-cross {
+  width: .1em;
+  height: 1em;
+  margin: 0 .45em;
+}
+i.icss-christian-cross:before {
+  width: .65em;
+  height: .1em;
+  background-color: currentColor; 
+  transform: translateX(-50%);
+  top: .27em;
+  left: 50%;
+}

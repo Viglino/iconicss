@@ -1,0 +1,25 @@
+i.icss-ankh-cross {
+  width: .1em;
+  height: .52em;
+  margin: .48em .45em 0;
+}
+i.icss-ankh-cross:before {
+  width: .6em;
+  height: .1em;
+  background-color: currentColor; 
+  transform: translateX(-50%);
+  top: .04em;
+  left: 50%;
+}
+i.icss-ankh-cross:after {
+  width: .55em;
+  height: .55em;
+  box-shadow: 
+    inset .01em -.01em 0 .1em,
+    inset -.01em .01em 0 .1em,
+    inset 0 0 0 .11em;
+  border-radius: 50% 50% 0;
+  transform: translateX(-50%) scaleX(.9) rotate(45deg);
+  top: -.48em;
+  left: 50%;
+}

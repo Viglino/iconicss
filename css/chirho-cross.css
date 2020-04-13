@@ -1,0 +1,23 @@
+i.icss-chirho-cross {
+  width: .1em;
+  height: 1em;
+  margin: 0 .5em 0 .4em;
+}
+i.icss-chirho-cross:before {
+  width: .5em;
+  height: .45em;
+  border-radius: 0 50% 50% 0;
+  box-shadow: inset 0 0 0 .1em;
+  top: 0;
+  left: 0;
+}
+i.icss-chirho-cross:after {
+  width: 1em;
+  height: .66em;
+  border: 0 solid transparent;
+  border-width: .29em 0;
+  box-shadow: inset .29em 0, -.08em 0, -.65em 0 0 -.29em;
+  transform: scaleX(1.3) rotate(45deg);
+  top: .78em;
+  left: .04em;
+}

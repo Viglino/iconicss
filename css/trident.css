@@ -1,0 +1,26 @@
+i.icss-trident {
+  width: .1em;
+  height: .9em;
+  background-color: currentColor;
+  border-radius: .05em;
+  margin: .1em .45em 0;
+}
+i.icss-trident:before {
+  width: .4em;
+  height: .25em;
+  border-radius: 0 0  .15em .15em;
+  box-shadow: 0 0 0 .09em;
+  transform: translateX(-50%);
+  clip: rect(0 1em 1em -.1em);
+  top: .06em;
+  left: 50%;
+}
+i.icss-trident:after {
+  width: .15em;
+  height: .15em;
+  background-color: currentColor;
+  box-shadow: .23em -.12em, -.12em .23em;
+  transform: translateX(-50%) rotate(45deg);
+  top: -.1em;
+  left: 50%;  
+}

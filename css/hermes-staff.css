@@ -1,0 +1,36 @@
+i.icss-hermes-staff {
+  width: .55em;
+  height: .55em;
+  background-color: transparent;
+  border: .1em solid currentColor;
+  box-shadow: 0 -.27em 0 -.175em;
+  border-color: transparent currentColor currentColor currentColor;
+  border-radius: 50%;
+  margin: .1em .25em .4em;
+}
+i.icss-hermes-staff:before {
+  width: .28em;
+  height: .18em;
+  box-shadow: 
+    -.1em 0,
+    -.28em .04em 0 -.04em,
+    -.28em -.065em 0 -.065em,
+    .1em 0,
+    .28em .04em 0 -.04em,
+    .28em -.065em 0 -.065em;
+  background0: red;
+  transform: translateX(-50%) perspective(.1em) rotateX(-20deg);
+  left: 50%;
+  top: -.1em;  
+}
+i.icss-hermes-staff:after {
+  width: .1em;
+  height: .9em;
+  border-radius: 0 0 .1em .1em;
+  box-shadow: 0 -.85em 0 .05em;
+  background-color: currentColor;
+  transform: translateX(-50%);
+  clip: rect(-.01em 1em 1em -.1em);
+  top: -.09em;
+  left: 50%;
+}

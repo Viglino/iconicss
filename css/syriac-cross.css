@@ -1,0 +1,25 @@
+i.icss-syriac-cross {
+  width: .1em;
+  height: .9em;
+  margin: .05em .45em;
+}
+i.icss-syriac-cross:before {
+  width: .65em;
+  height: .1em;
+  background-color: currentColor; 
+  transform: translateX(-50%);
+  top: .3em;
+  left: 50%;
+}
+i.icss-syriac-cross:after {
+  width: .18em;
+  height: .18em;
+  background-color: currentColor;
+  box-shadow: 
+    .4em 0,
+    0 .4em,
+    .55em .55em;
+  transform: translateX(-50%) rotate(45deg);
+  top: -.02em;
+  left: 50%;
+}

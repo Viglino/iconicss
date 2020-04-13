@@ -1,0 +1,35 @@
+i.icss-cross-swords {
+  width: .2em;
+  height: .2em;
+  background-color: transparent;
+  border-radius: 50%;
+  box-shadow: .33em .35em 0 -.04em,
+    -.33em .35em 0 -.04em;
+  margin: .4em;
+}
+i.icss-cross-swords:before {
+  width: .34em;
+  height: .7em;
+  border: 1em solid transparent;
+  border-width: 0 .12em;
+  border-radius: .3em .3em .1em .1em;
+  box-shadow: inset .1em 0, 
+    0 .1em 0 -.02em,
+    0 .43em 0 -.125em;
+  transform: translate(-50%, -50%) rotate(40deg);
+  top: -10%;
+  left: 80%;
+}
+i.icss-cross-swords:after {
+  width: .34em;
+  height: .7em;
+  border: 1em solid transparent;
+  border-width: 0 .12em;
+  border-radius: .3em .3em .1em .1em;
+  box-shadow: inset .1em 0, 
+    0 .1em 0 -.02em,
+    0 .43em 0 -.125em;
+  transform: translate(-50%, -50%) rotate(-40deg);
+  top: -10%;
+  left: 20%;
+}

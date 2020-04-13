@@ -1,0 +1,24 @@
+i.icss-orthodox-cross {
+  width: .1em;
+  height: 1em;
+  margin: 0 .45em;
+}
+i.icss-orthodox-cross:before {
+  width: .4em;
+  height: .1em;
+  background-color: currentColor;
+  box-shadow: 
+    -.1em .18em, 
+    .1em .18em;
+  transform: translateX(-50%);
+  top: .09em;
+  left: 50%;
+}
+i.icss-orthodox-cross:after {
+  width: .36em;
+  height: .13em;
+  background-color: currentColor;
+  transform: translateX(-50%) skewY(35deg);
+  top: .6em;
+  left: 50%;
+}

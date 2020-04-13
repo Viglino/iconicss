@@ -1,0 +1,25 @@
+i.icss-lorraine-cross {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-lorraine-cross:before {
+  width: .1em;
+  height: 1em;
+  background-color: currentColor;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+i.icss-lorraine-cross:after {
+  width: .4em;
+  height: .1em;
+  background-color: currentColor;
+  box-shadow: 
+    -.1em .18em, 
+    .1em .18em;
+  transform: translateX(-50%);
+  top: .1em;
+  left: 50%;
+}
