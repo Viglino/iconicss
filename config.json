@@ -123,6 +123,7 @@
     "connection": { "date":"2019-12-21", "tags":"share" },
     "hierarchy": { "date":"2019-12-21", "tags":"diagram" },
     "print": { "tags":"office,computer" },
+    "fax": { "date":"2020-10-26", "tags":"office,computer" },
     "scanner": { "date":"2019-12-15", "tags":"office,computer" },
     "shredder": { "tags":"office" },
     "link": {},
