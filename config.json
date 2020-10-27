@@ -227,6 +227,7 @@
     "vintage-tv": { "date":"2019-12-25", "tags":"video,slide" },
     "remote-control": { "date":"2019-12-25", "tags":"video,slide" },
     "projection": { "tags":"slide" },
+    "projection-stat": { "date":"2020-10-26", "tags":"slide" },
     "projector": { "date":"2019-12-04", "tags":"slide,video,photo" },
     "video-player": { "date":"2019-12-25", "tags":"video,photo" },
     "calculator": { "date":"2019-12-25", "tags":"tool" },

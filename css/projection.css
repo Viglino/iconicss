@@ -4,7 +4,7 @@ i.icss-projection {
   border-radius: .05em;
   background-color: transparent;
   border: .07em solid currentColor;
-  margin: .16em .05em .2em .05em;
+  margin: .16em .05em .14em .05em;
 }
 i.icss-projection:before {
   width: 1em;
