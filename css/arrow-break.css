@@ -1,0 +1,27 @@
+i.icss-arrow-break {
+  width: .24em;
+  height: .42em;
+  background-color: transparent;
+  box-shadow: inset .07em 0, inset -.07em 0;
+  border-width: .07em solid ;
+  margin: .29em .38em;
+}
+i.icss-arrow-break:before {
+  width: .4em;
+  height: .07em;
+  background-color: currentColor;
+  box-shadow: -.55em 0;
+  top: 50%;
+  left: .2em;
+  transform: translateY(-50%);
+}
+i.icss-arrow-break:after {
+  width: .6em;
+  height: .6em;
+  box-shadow: 
+    .22em .22em 0 -.15em,
+    -.22em -.22em 0 -.15em;;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  top: 50%;
+  left: 50%;
+}
