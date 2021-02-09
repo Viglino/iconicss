@@ -1,0 +1,16 @@
+i.icss-bookmark {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-bookmark:before {
+  width: .5em;
+  height: .8em;
+  transform: translate(-50%, -50%);
+  border: .25em solid currentColor;
+  border-color: currentColor currentColor transparent currentColor;
+  border-radius: .03em;
+  top: 50%;
+  left: 50%;
+}
