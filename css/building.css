@@ -1,0 +1,29 @@
+i.icss-building {
+  width: 1em;
+  height: 1em;
+  background-color: transparent;
+  margin: 0;
+}
+i.icss-building:before {
+  width: .34em;
+  height: .5em;
+  border: 0 solid transparent;
+  border-width: 0 .12em;
+  box-shadow: 0 0 0 .1em currentColor, 
+    .165em .43em 0 -.065em,
+    -.165em .43em 0 -.065em,
+    inset .1em 0 currentColor;
+  transform: translateX(-50%);
+  top: .1em;
+  left: 50%;
+}
+i.icss-building:after {
+  width: .5em;
+  height: .08em;
+  background-color: currentColor;
+  transform: translateX(-50%);
+  box-shadow: 0 .19em, .1em .71em, -.1em .71em;
+  border-radius: .1em .1em 0 0;
+  top: .21em;
+  left: 50%;
+}
